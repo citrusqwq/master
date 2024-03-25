@@ -1,0 +1,3 @@
+Personenbeschreibung (1 Paragraph)
+
+The App is intended to be used by visually impaired persons, such as colorblind, long- or near-sighted and maybe even blind people. A considerable fraction of this group are elderly people, who tend to not be familiar with technical devices, which has to be taken into account. Now if someone for example can't wear their glasses because they forgot or lost them or don't have a helpful tool at all, they can use the App to read texts they wouldn't be able to read otherwise. The App converts the text into a readable form, individually tailored to the users visual impairement.

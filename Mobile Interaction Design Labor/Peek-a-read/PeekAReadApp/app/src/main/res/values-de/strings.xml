@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Peek-A-Read</string>
+    <string name="CameraScreen">Foto machen</string>
+    <string name="ScanScreen">"Textfelder auswählen "</string>
+    <string name="TextScreen">Sichtbarer Text</string>
+    <string name="PreferencesScreen">Präferenzen bearbeiten</string>
+    <string name="BackButtton">Zurück</string>
+    <string name="CameraPermission">Die Kamera ist wichtig für diese App. Bitte erlauben Sie Peek-A-Read den Zugriff darauf.</string>
+    <string name="CameraNotAvailable">Die Kamera ist nicht verfügbar.</string>
+    <string name="GrantAccess">Zugriff erlauben</string>
+    <string name="Understood">Verstanden</string>
+    <string name="ErrorRecommendation">Tipps: <![CDATA[<br/>&#8226; Beleuchtung verbessern<br/>&#8226; Handy stabil halten<br/>&#8226; Falten glätten]]></string>
+    <string name="NoTextRecognised">Kein Text erkannt</string>
+    <string name="DarkModeActivated">Dunkelmodus aktiviert</string>
+    <string name="FontType">Schriftart</string>
+    <string name="FlashOn">Blitz an</string>
+    <string name="FlashOff">Blitz aus</string>
+    <string name="InformationIcon">"Informations-Icon "</string>
+</resources>
