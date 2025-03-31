@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cc1314732ccdc434f80fbf8f899231b5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - wayPoint: {instanceID: 0}
+  - World: {instanceID: 0}
+  - coinPrefab: {fileID: 1498403948531744, guid: 8d0506a16b92f7942987422a80d4f0af, type: 3}
+  - directionsText: {instanceID: 0}
+  - test: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
