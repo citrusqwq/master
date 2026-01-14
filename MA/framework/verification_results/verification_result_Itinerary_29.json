@@ -1,0 +1,58 @@
+[
+  {
+    "place": "Landungsbrücken (St. Pauli Piers)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "– Landungsbrücken (St. Pauli Piers)**  \n- **Address:** Bei den St. Pauli-Landungsbrücken, 20359 Hamburg, Germany  \n- **Activity:** Start your day with a beautiful harbor view, watch ships and ferries, and take stunning photos of the Elbe River and historic piers.  \n- **"
+  },
+  {
+    "place": "Fischmarkt (Fish Market) [Sunday only] / Flohschanze (Schanzenflohmarkt) [otherwise]",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "– Fischmarkt (Fish Market) [Sunday only] / Flohschanze (Schanzenflohmarkt) [otherwise]**  \n- **Address:**  \n   - Fischmarkt: Große Elbstraße 9, 22767 Hamburg, Germany (Sundays, 5:00–9:30 am)  \n   - Flohschanze: Neuer Kamp 30, 20357 Hamburg, Germany (Saturdays, 8:00–4:00 pm)  \n- **Activity:** Explore Hamburg’s most famous vintage/flea market (choose depending on the day). Discover antiques, clothes, records, and local snacks. Great spot for candid photography.  \n- **"
+  },
+  {
+    "place": "Speicherstadt District",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "– Speicherstadt District**  \n- **Address:** -  \n- **Activity:** Stroll through the UNESCO-listed warehouse district. Enjoy the stunning canals, red-brick warehouses, and atmospheric bridges—perfect for urban photography.  \n- **"
+  },
+  {
+    "place": "Fischereihafen Restaurant",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "– Lunch at Fischereihafen Restaurant**  \n- **Address:** Große Elbstraße 143, 22767 Hamburg, Germany  \n- **Activity:** Dine at one of Hamburg's best-rated seafood restaurants, enjoying local specialties with harbor views.  \n- **"
+  },
+  {
+    "place": "Elbphilharmonie Plaza",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "– Elbphilharmonie Plaza**  \n- **Address:** Platz der Deutschen Einheit 1, 20457 Hamburg, Germany  \n- **Activity:** Head up to the plaza for panoramic views over the harbor and city. Excellent spot for photos of Hamburg’s skyline and the Elbe.  \n- **"
+  },
+  {
+    "place": "Old Elbe Tunnel (Alter Elbtunnel)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "– Old Elbe Tunnel (Alter Elbtunnel)**  \n- **Address:** Bei den St. Pauli-Landungsbrücken, 20359 Hamburg, Germany  \n- **Activity:** Walk or cycle through this historic tunnel with its unique tilework and perspectives of the harbor. Photo opportunity at both tunnel entrances.  \n- **"
+  },
+  {
+    "place": "Herr Max",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "– Dessert at Herr Max**  \n- **Address:** Schulterblatt 12, 20357 Hamburg, Germany  \n- **Activity:** Enjoy cakes, pastries, and artisanal desserts at one of Hamburg's beloved confectioneries in the Schanze district.  \n- **"
+  },
+  {
+    "place": "Stintfang Viewpoint / Park",
+    "address_provided": false,
+    "non-specific_location": false,
+    "address_match_place": null,
+    "snippet": "– Stintfang Viewpoint / Park**  \n- **Address:** -  \n- **Activity:** Wrap up your day with sunset and photo ops overlooking the harbor and cityscape from this popular park next to Landungsbrücken.  \n- **"
+  }
+]

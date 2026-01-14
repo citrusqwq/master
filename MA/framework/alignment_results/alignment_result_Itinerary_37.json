@@ -1,0 +1,23 @@
+[
+  {
+    "extracted_requirement_num": 5,
+    "valid_requirements": [
+      "1. Location: Hamburg",
+      "2. Preference: Activities favored by locals on a weekend",
+      "3. Avoid: Tourist-heavy spots, especially TripAdvisor top 10 attractions",
+      "4. Type of trip: Urban day trip with unique, niche, or less obvious places",
+      "5. Focus: Authentic local experiences rather than typical sightseeing"
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "1. 1. Location: Hamburg",
+      "2. 2. Preference: Activities favored by locals on a weekend",
+      "3. 3. Avoid: Tourist-heavy spots, especially TripAdvisor top 10 attractions",
+      "4. 4. Type of trip: Urban day trip with unique, niche, or less obvious places",
+      "5. 5. Focus: Authentic local experiences rather than typical sightseeing "
+    ],
+    "satisfied_requirements_num": 5
+  }
+]

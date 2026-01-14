@@ -1,0 +1,65 @@
+[
+  {
+    "place": "Museum Island (Museumsinsel)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Museum Island (Museumsinsel)  \n- Address: Bodestraße, 10178 Berlin  \n- Activity: Explore world-class museums such as the Pergamon Museum, Altes Museum, and Neues Museum showcasing art, archaeology, and history.  \n- "
+  },
+  {
+    "place": "Berlin Cathedral (Berliner Dom)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Berlin Cathedral (Berliner Dom)  \n- Address: Am Lustgarten, 10178 Berlin  \n- Activity: Visit the stunning cathedral, admire its architecture, and optionally climb to the dome for panoramic city views.  \n- "
+  },
+  {
+    "place": "Unter den Linden / Brandenburg Gate area",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Unter den Linden / Brandenburg Gate area  \n- Address: -  \n- Activity: Walk along the historic boulevard Unter den Linden, see Brandenburg Gate, and enjoy the cultural atmosphere of central Berlin.  \n- "
+  },
+  {
+    "place": "Gendarmenmarkt",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Gendarmenmarkt  \n- Address: Gendarmenmarkt, 10117 Berlin  \n- Activity: Visit this beautiful square with the French and German Cathedrals and the Konzerthaus, soak in the cultural vibe.  \n- "
+  },
+  {
+    "place": "Checkpoint Charlie Museum (Mauermuseum)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Checkpoint Charlie Museum (Mauermuseum)  \n- Address: Friedrichstraße 43-45, 10117 Berlin  \n- Activity: Learn about Berlin Wall history and Cold War stories at this famous museum.  \n- "
+  },
+  {
+    "place": "Topography of Terror",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Topography of Terror  \n- Address: Niederkirchnerstraße 8, 10963 Berlin  \n- Activity: Visit the outdoor and indoor exhibition documenting the history of Nazi institutions and terror during WWII.  \n- "
+  },
+  {
+    "place": "Kreuzberg neighborhood",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Kreuzberg neighborhood  \n- Address: -  \n- Activity: Explore this vibrant district known for street art, galleries, and cultural diversity.  \n- "
+  },
+  {
+    "place": "Dinner at a traditional German restaurant (e.g., Zur letzten Instanz)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Dinner at a traditional German restaurant (e.g., Zur letzten Instanz)  \n- Address: Waisenstraße 14-16, 10179 Berlin  \n- Activity: Enjoy authentic German cuisine in Berlin’s oldest restaurant.  \n- "
+  },
+  {
+    "place": "Travel to Berlin Brandenburg Airport (BER)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Travel to Berlin Brandenburg Airport (BER)  \n- Address: Willy-Brandt-Platz, 12529 Schönefeld  \n- Activity: Transit to airport to arrive by 8:00 PM for check-in and boarding preparations.  \n- "
+  }
+]

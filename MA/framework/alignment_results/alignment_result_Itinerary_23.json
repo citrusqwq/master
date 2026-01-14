@@ -1,0 +1,25 @@
+[
+  {
+    "extracted_requirement_num": 7,
+    "valid_requirements": [
+      "1. Departure city: Berlin",
+      "2. Destination city: Athens",
+      "4. Earliest departure from Berlin Central Station: 8:00",
+      "6. Need to have dinner before the flight"
+    ],
+    "missing_requirements": [
+      "Flight departs from Berlin at 22:00.",
+      "Must be at Berlin airport by 20:00.",
+      "Use the time before the flight to explore Berlin.",
+      "Interested in cultural activities."
+    ]
+  },
+  {
+    "satisfied_requirements": [
+      "1. 1. Departure city: Berlin",
+      "2. 2. Destination city: Athens",
+      "4. 6. Need to have dinner before the flight "
+    ],
+    "satisfied_requirements_num": 3
+  }
+]

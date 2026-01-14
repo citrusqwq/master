@@ -1,0 +1,307 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Acropolis of Athens  
+**Address:** Acropolis, Athens 105 58, Greece  
+**Activity:** Explore the ancient citadel, including the Parthenon, Erechtheion, and the Temple of Athena Nike. Learn about ancient Greek history and architecture.  
+**
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is not a placeholder and refers to a specific site, not a general area. Verification is required.
+
+Action: search("Acropolis, Athens 105 58, Greece")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Acropolis of Athens | History, Monuments, & Visitor Tips",
+    "snippet": "The Acropolis is an ancient citadel perched atop the city of Athens. Home to the iconic Parthenon, dedicated to the Greek goddess Athena, Erechtheion, and ..."
+  },
+  {
+    "title": "Acropolis (2025) - All You Need to Know BEFORE You Go (with ...",
+    "snippet": "Via Dionysiou Areopagitou Str., Athens 105 58 Greece. How to get there. Akropoli • 2 min walk. Monastiraki • 7 min walk. Reach out directly. Full view. Best ..."
+  },
+  {
+    "title": "Acropolis Location in Athens | Directions & How to Reach",
+    "snippet": "The Athens Acropolis is located at Athens 105 58, Greece. What are the different ways to reach the Acropolis of Athens location?"
+  },
+  {
+    "title": "24 Hours: 8 Cool Things To Do In Athens - Jetset Times",
+    "snippet": "May 21, 2021 ... SEE. Acropolis. Athens 105 58, Greece · SHOP. Plaka · Melissinos Art -The Poet Sandal Maker. Tzireon 16, Athina 117 42, Greece · Buy handmade ..."
+  },
+  {
+    "title": "Acropolis Of Athens: How To Plan The Perfect Visit To The Ancient ...",
+    "snippet": "Sep 3, 2021 ... Acropolis Address. Athens 105 58, Greece Get Directions. Why Should You Visit The Acropolis Of Athens? Acropolis of Athens. The world owes much ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Acropolis of Athens",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Acropolis Museum  
+**Address:** Dionysiou Areopagitou 15, Athens 117 42, Greece  
+**Activity:** Visit the museum housing artifacts found on the Acropolis site, including sculptures, pottery, and historical exhibits.  
+**
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Acropolis Museum" and Address is "Dionysiou Areopagitou 15, Athens 117 42, Greece".
+- Both fields are present and specific.
+- The address is not a placeholder and the place is a specific POI, not a general area.
+- Verification is required.
+
+Action: 
+search("Dionysiou Areopagitou 15, Athens 117 42, Greece")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Home | Acropolis Museum | Official website",
+    "snippet": "... Athenian Acropolis and its slopes. The masterpieces that form its ... Dionysiou Areopagitou 15,. 11742 Athens. 210 900 09 00 Contact · website content ..."
+  },
+  {
+    "title": "Acropolis Museum Dionysiou Areopagitou 15, Athina 117 42 ...",
+    "snippet": "Oct 31, 2025 ... It's located in the historic Makrygianni district, directly above an extensive archaeological excavation of an ancient Athenian neighborhood."
+  },
+  {
+    "title": "Acropolis Museum (2025) - All You Need to Know BEFORE You Go ...",
+    "snippet": "The area. Address. Dionysiou Areopagitou 15, Athens 117 42 Greece. Neighborhood: Thissio / Makriyanni. Named after the well-preserved Thission (ancient temple ..."
+  },
+  {
+    "title": "Acropolis Museum Location | Directions & Transport Options",
+    "snippet": "Address: Dionysiou Areopagitou 15, Athina 117 42, Greece. ... The Acropolis Museum, Athens, is located at the foot of the Acropolis Hill, just 10 minutes away ..."
+  },
+  {
+    "title": "ACROPOLIS MUSEUM RESTAURANT, Athens - Thissio ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Opens in 22 min. 15 Dionysiou Areopagitou Street, Athens 117 42 Greece."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Acropolis Museum",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Plaka Neighborhood  
+**Address:** Plaka, Athens -  
+**Activity:** Stroll through the historic neighborhood with neoclassical architecture, shops, and cafes. Experience the local culture and atmosphere.  
+**
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Plaka Neighborhood",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Lunch in Plaka (suggest a traditional Greek taverna)  
+**Address:** -  
+**Activity:** Enjoy authentic Greek cuisine such as moussaka, souvlaki, or Greek salad.  
+**
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Lunch in Plaka (suggest a traditional Greek taverna)",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** National Archaeological Museum  
+**Address:** 44 Patission St, Athens 106 82, Greece  
+**Activity:** Explore Greece’s largest archaeological museum with extensive collections from prehistoric times to late antiquity.  
+**
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "National Archaeological Museum" and Address is "44 Patission St, Athens 106 82, Greece".
+- Both fields are present and specific.
+- The address is not a placeholder and the place is a specific POI.
+- Verification is required.
+
+Action: 
+search("44 Patission St, Athens 106 82, Greece")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "National Archaeological Museum",
+    "snippet": "44, 28th of October (Patission) str., Athens 106 82. ANNOUNCEMENTS. Season's greetings from the National Archaeological Museum. Τhe Hellenic National ..."
+  },
+  {
+    "title": "How to get to National Archaeological Museum Athens?",
+    "snippet": "Address: 28is Octovrious 44, Athina, 106 82, Greece Find on maps. The museum is situated at 44 Patission Street in the Exarcheia neighborhood of the city."
+  },
+  {
+    "title": "ATHENS E-GUIDE – SV Acropolis Residence",
+    "snippet": "NATIONAL ARCHEOLOGICAL MUSEUM, 44 Patission Street, Athens 106 82. Days ... KOTSANAS MUSEUM OF ANCIENT GREEK TECHNOLOGY, Pindarou 6, Athens 106 71. Days ..."
+  },
+  {
+    "title": "The National Archaelogical Museum | Athens Insider",
+    "snippet": "... Greek art. The café provides shady respite, with its palm-fringed gardens evoking a different Greece. 44, 28th of October (Patission) str.,. Athens 106 82. T ..."
+  },
+  {
+    "title": "The National Archaeological Museum will remain open with free ...",
+    "snippet": "Oct 28, 2025 ... ... Greece, featuring artworks dating from the Predynastic Period ... 44 Patission (28is Oktovriou), Athens 106 82 Admission: Free. Post ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "National Archaeological Museum",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Syntagma Square and the Hellenic Parliament  
+**Address:** Syntagma Square, Athens 105 63, Greece  
+**Activity:** Watch the changing of the guard ceremony at the Tomb of the Unknown Soldier and explore the central square.  
+**
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Syntagma Square and the Hellenic Parliament",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Dinner near Syntagma or Monastiraki  
+**Address:** -  
+**Activity:** Have an early dinner at a restaurant offering Greek cuisine, preparing you for your flight.  
+**
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Dinner near Syntagma or Monastiraki",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Travel to Athens International Airport  
+**Address:** Eleftherios Venizelos Airport, Spata 190 19, Greece  
+**Activity:** Transfer to the airport to arrive by 20:00 for your 22:00 flight.  
+**
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Travel to Athens International Airport" and Address is "Eleftherios Venizelos Airport, Spata 190 19, Greece".
+- Both fields are present and the address is specific.
+- The place refers to a specific POI (the airport), not a non-specific location.
+- Verification is required.
+
+Action: 
+search("Eleftherios Venizelos Airport, Spata 190 19, Greece")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Athens International Airport - Wikipedia",
+    "snippet": "Athens International Airport Eleftherios Venizelos (IATA: ATH, ICAO: LGAV), commonly initialised as AIA, is the largest international airport in Greece, ..."
+  },
+  {
+    "title": "Athens FBO & Ground Handling Services | Hangar | Greece",
+    "snippet": "Athens International Airport Main Terminal Building Suite MTB1, Q02, Spata 190 19, Greece. Yiannis ArkoulisManaging Director. Contact Yiannis. Downloads."
+  },
+  {
+    "title": "ATH | IAG Cargo",
+    "snippet": "Athens, Greece. Served by: Passenger Aircraft. Sales. +30 210 354 3044 ... Athens International Airport, Skysev Cargo building No 23, Spata 190, 19 Athens ..."
+  },
+  {
+    "title": "Athens, Greece (ATH) - Airport information",
+    "snippet": "Athens, Greece (ATH) Airport information. Address: Athens International Airport Eleftherios Venizelos Spata, Greece 190 19."
+  },
+  {
+    "title": "Care4bag • Baggage storage & wrapping",
+    "snippet": "It is located at Athens International Airport Departures Hall, next to Gate 2. ... Ε. Follow. Athens International Airport 190 19 Spata Greece.. +30 210 35 ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Travel to Athens International Airport",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+

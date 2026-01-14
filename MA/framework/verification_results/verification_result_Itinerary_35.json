@@ -1,0 +1,79 @@
+[
+  {
+    "place": "Berlin Central Station (Hauptbahnhof)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Berlin Central Station (Hauptbahnhof)  \n**Address:** Europaplatz 1, 10557 Berlin  \n**Activity:** Starting point. Optionally, grab a coffee and a light breakfast at one of the station’s cafes.  \n**"
+  },
+  {
+    "place": "Museum Island",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Museum Island  \n**Address:** Bodestraße 1-3, 10178 Berlin  \n**Activity:** Explore Berlin’s UNESCO-listed Museum Island. Recommended museums: Pergamon Museum (ancient artifacts and monumental architecture), Neues Museum (Egyptian and Prehistoric collections), or Altes Museum (Classical Antiquities).  \n**"
+  },
+  {
+    "place": "Berlin Cathedral (Berliner Dom)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Berlin Cathedral (Berliner Dom)  \n**Address:** Am Lustgarten, 10178 Berlin  \n**Activity:** Visit the stunning cathedral, climb the dome for city views, and explore the crypt.  \n**"
+  },
+  {
+    "place": "Unter den Linden Boulevard and Brandenburg Gate",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Unter den Linden Boulevard and Brandenburg Gate  \n**Address:** -  \n**Activity:** Walk along this historic boulevard, passing notable sights such as Humboldt University, State Opera, and the iconic Brandenburg Gate.  \n**"
+  },
+  {
+    "place": "Gendarmenmarkt",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Gendarmenmarkt  \n**Address:** -  \n**Activity:** Enjoy architectural beauty at one of Berlin's most elegant squares, featuring the German and French Cathedrals and the Konzerthaus. Possibility for a light lunch or coffee break at cafes in the square.  \n**"
+  },
+  {
+    "place": "Topography of Terror",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Topography of Terror  \n**Address:** Niederkirchnerstraße 8, 10963 Berlin  \n**Activity:** Learn about Berlin’s 20th-century history at this museum and documentation center on the former Gestapo and SS Headquarters site.  \n**"
+  },
+  {
+    "place": "Potsdamer Platz",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Potsdamer Platz  \n**Address:** -  \n**Activity:** Experience Berlin’s modern side with its striking architecture, shopping galleries, and cultural venues. Quick visit to the Sony Center or grab a snack.  \n**"
+  },
+  {
+    "place": "Charlottenburg Palace",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Charlottenburg Palace  \n**Address:** Spandauer Damm 10-22, 14059 Berlin  \n**Activity:** Tour Berlin’s largest palace and its gardens, representing the grandeur of Prussian royalty.  \n**"
+  },
+  {
+    "place": "Dinner near Charlottenburg or en route to the airport",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Dinner near Charlottenburg or en route to the airport  \n**Address:** Suggested: Engelbecken Restaurant, Kaiserdamm 109, 14057 Berlin (or another nearby spot for classic German cuisine)  \n**Activity:** Enjoy a relaxing dinner before heading to the airport.  \n**"
+  },
+  {
+    "place": "Travel to Berlin Brandenburg Airport (BER)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Travel to Berlin Brandenburg Airport (BER)  \n**Address:** Willy-Brandt-Platz, 12529 Schönefeld  \n**Activity:** Head to the airport by public transport (S-Bahn or regional train; allow at least 30–40 mins from Charlottenburg/central Berlin to BER).  \n**"
+  },
+  {
+    "place": "Berlin Brandenburg Airport (BER)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Berlin Brandenburg Airport (BER)  \n**Address:** Willy-Brandt-Platz, 12529 Schönefeld  \n**Activity:** Arrive at the airport, check in, go through security, and prepare for your 22:00 flight to Athens.  \n**"
+  }
+]

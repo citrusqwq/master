@@ -1,0 +1,44 @@
+[
+  {
+    "place": "Shakespeare and Sons",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Shakespeare and Sons  \n   **Address:** Warschauer Str. 74, 10243 Berlin  \n   **Activity:** Stöbern in einer der coolsten englischsprachigen Buchhandlungen Berlins mit Café und Bagels.  \n   **"
+  },
+  {
+    "place": "Dussmann das KulturKaufhaus",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Dussmann das KulturKaufhaus  \n   **Address:** Friedrichstraße 90, 10117 Berlin  \n   **Activity:** Große Auswahl an Büchern (auch internationale Titel), Musik und Geschenkartikeln – ein Paradies für Buchliebhaber.  \n   **"
+  },
+  {
+    "place": "Spaziergang durch das Scheunenviertel",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Spaziergang durch das Scheunenviertel  \n   **Address:** -  \n   **Activity:** Entspanntes Erkunden eines der kreativsten Viertel Berlins mit kleinen Läden, Galerien und Cafés.  \n   **"
+  },
+  {
+    "place": "Chicha Berlin (Peruanisches Restaurant)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Chicha Berlin (Peruanisches Restaurant)  \n   **Address:** Friedelstraße 34, 12047 Berlin  \n   **Activity:** Mittagessen mit moderner südamerikanischer Küche, insbesondere peruanische Spezialitäten wie Ceviche und Pisco Sour.  \n   **"
+  },
+  {
+    "place": "GameOn Arcade",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place:** GameOn Arcade  \n   **Address:** Karl-Marx-Straße 75, 12043 Berlin  \n   **Activity:** Retro- und moderne Arcade-Spiele, Flipper, Air Hockey – ideal für eine längere, spaßige Aktivität mit Freunden.  \n   **"
+  },
+  {
+    "place": "Monster Ronson’s Ichiban Karaoke",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Monster Ronson’s Ichiban Karaoke  \n   **Address:** Warschauer Str. 34, 10243 Berlin  \n   **Activity:** Private Karaoke-Räume oder offene Bühne – gemeinsam singen und Spaß haben zum Tagesabschluss.  \n   **"
+  }
+]

@@ -1,0 +1,319 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Shakespeare and Sons  
+   **Address:** Warschauer Str. 74, 10243 Berlin  
+   **Activity:** Stöbern in einer der coolsten englischsprachigen Buchhandlungen Berlins mit Café und Bagels.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Action: search("Warschauer Str. 74, 10243 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Shakespeare and Sons Bookstore Berlin – Shakespeare & Sons ...",
+    "snippet": "Warschauer Str. 74, 10243 Berlin, Germany. shakespeareandsons@gmail.com. Opening hours: Everyday 8:00-19:00. Books & Bagels. Shakespeare & Sons Berlin runs ..."
+  },
+  {
+    "title": "Ready to wander through Berlin's best bookstores? We've got a ...",
+    "snippet": "Apr 28, 2025 ... ... Str. 150, 10999 Berlin, Germany. (Photo Credit: The Berliner) 4. @shakespeareandsons, Shakespeare & Sons, located at Warschauer Str. 74, 10243 ..."
+  },
+  {
+    "title": "FINE BAGELS, Berlin - Friedrichshain-Kreuzberg (Borough ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Closed now. Warschauer Str. 74, 10243 Berlin Germany. Website. Call. Map."
+  },
+  {
+    "title": "Best bagels in town? : r/berlinsocialclub",
+    "snippet": "Nov 18, 2023 ... Fine bagels on Warschauer Str. 74, 10243. FakeHasselblad. • 2y ago ... r/berlinsocialclub – Berlin Community: Events, soziales Leben & Insider- ..."
+  },
+  {
+    "title": "SHAKESPEARE AND SONS, Berlin - Friedrichshain-Kreuzberg ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Closed now. Warschauer Str. 74 Shakespeare and Sons Bookshop, 10243 Berlin ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Shakespeare and Sons",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Dussmann das KulturKaufhaus  
+   **Address:** Friedrichstraße 90, 10117 Berlin  
+   **Activity:** Große Auswahl an Büchern (auch internationale Titel), Musik und Geschenkartikeln – ein Paradies für Buchliebhaber.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Action: search("Friedrichstraße 90, 10117 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "I'm doing a showcase for my new band-approved songbook ...",
+    "snippet": "Jan 17, 2025 ... ... event courtesy of @kawaipianoseu. @frankiecasillophoto Dussmann das KulturKaufhaus Friedrichstraße 90, 10117 Berlin\"."
+  },
+  {
+    "title": "Anfahrt und Öffnungszeiten - Dussmann - Das Kulturkaufhaus",
+    "snippet": "Friedrichstraße 90 10117 Berlin Öffnungszeiten: Mo-Fr: 09-24 Uhr Sa: 09 ... 26.12., 13-18 Uhr, nur BerlinShop geöffnet 28.12., 13-20 Uhr, nur ..."
+  },
+  {
+    "title": "On December 12, an exclusive pop-up store opened in Berlin to ...",
+    "snippet": "4 days ago ... Pop-Up-Store-Location: Dussmann das KulturKaufhaus, Friedrichstraße 90, 10117 Berlin · Jeehoon Yu and ..."
+  },
+  {
+    "title": "THE BEST 10 HEAD SHOPS near FRIEDRICHSTRASSE 90, 10117 ...",
+    "snippet": "Best Head Shops in Berlin - Last Updated December 2025 - Gras Grün, Klaus der Gärtner, Highendsmoke, Fruko, Ela Spätkauf, Kiwus, Dampfer Depot Berlin, ..."
+  },
+  {
+    "title": "Berlinale Shop Merchandising | Berlinale",
+    "snippet": "Berlin International Film Festival - official website. ... at Dussmann das KulturKaufhaus, Friedrichstraße 90, 10117 Berlin. New Merch ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Dussmann das KulturKaufhaus",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Spaziergang durch das Scheunenviertel  
+   **Address:** -  
+   **Activity:** Entspanntes Erkunden eines der kreativsten Viertel Berlins mit kleinen Läden, Galerien und Cafés.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Spaziergang durch das Scheunenviertel",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Chicha Berlin (Peruanisches Restaurant)  
+   **Address:** Friedelstraße 34, 12047 Berlin  
+   **Activity:** Mittagessen mit moderner südamerikanischer Küche, insbesondere peruanische Spezialitäten wie Ceviche und Pisco Sour.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. The place is a specific restaurant, not a non-specific location. Verification is required.
+
+Action: search("Friedelstraße 34, 12047 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "BLACK PUFFER BAG – B Spritz Berlin",
+    "snippet": "Concept Store B Spritz Berlin. Friedelstraße 34,. 12047 Berlin. Quick links ... Friedelstraße 34. Wojciechowska & Purevdorj GbR 12047 Berlin Germany."
+  },
+  {
+    "title": "RETRO GLOVES - Updated December 2025 - Friedelstr. 34, Berlin ...",
+    "snippet": "RETRO GLOVES, Friedelstr. 34, 12047 Berlin, Germany, 3 Photos, +4915756529599, Mon - 11:00 am - 8:00 pm, Tue - 11:00 am - 8:00 pm, Wed - 11:00 am - 8:00 pm, ..."
+  },
+  {
+    "title": "CONTACT US – Retro Gloves Berlin",
+    "snippet": "Friedelstr. 34, 12047 Berlin-Neukölln retrogloves@gmail.com +4915756529599."
+  },
+  {
+    "title": "Chicha | Neukölln | Berlin | CREME GUIDES",
+    "snippet": "Nov 14, 2022 ... Address. Chicha Friedelstraße 34 12047 Berlin-Neukölln How to get there. Contact. info@chicha-berlin.de · 030 62731010 · www.chicha-berlin.de"
+  },
+  {
+    "title": "Women's Sheepskin Mittens Grey – Retro Gloves Berlin",
+    "snippet": "... Sheepskin Mittens Grey. Retro Gloves Berlin. km. Pickup available, usually ready in 24 hours. Friedelstraße 34 12047 Berlin Germany. +4915756529599. + ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Chicha Berlin (Peruanisches Restaurant)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** GameOn Arcade  
+   **Address:** Karl-Marx-Straße 75, 12043 Berlin  
+   **Activity:** Retro- und moderne Arcade-Spiele, Flipper, Air Hockey – ideal für eine längere, spaßige Aktivität mit Freunden.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. The place "GameOn Arcade" is a specific venue, not a non-specific location. Verification is required.
+
+Action: search("Karl-Marx-Straße 75, 12043 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "THE BEST 10 HALAL RESTAURANTS near KARL-MARX ...",
+    "snippet": "The Best 10 Halal Restaurants near Karl-Marx-Straße 75, 12043 Berlin, Germany · All \"Halal\" results near me in Berlin - December 2025 · Halal Burger Haus - Halal ..."
+  },
+  {
+    "title": "A guiding light in the Döner morass | Berlin Food Stories",
+    "snippet": "Jul 26, 2016 ... Karl-Marx-Straße 75, 12043+5 More. Imren on BFS. A. s some of you may ... Truth is, I've scavenged every corner of Berlin in search of the ..."
+  },
+  {
+    "title": "THE BEST 10 KEBAB near KARL-MARX-STRASSE 75, 12043 ...",
+    "snippet": "Best Kebab in Berlin - Last Updated December 2025 - Best Gemüse Kebap, Rüyam Gemüse Kebab 2, Imren Grill, Mustafa Demir's Gemüse Kebap, Al-Andalos, ..."
+  },
+  {
+    "title": "Top 4 street foods to eat in Berlin, Germany | Chasing a Plate | Food ...",
+    "snippet": "Apr 29, 2019 ... Eat it at: Imren Grill, Karl-Marx-Straße 75, 12043 Berlin, Germany. Open daily 9:00am to 3:00am (Sunday open until midnight). 3. Burgers at ..."
+  },
+  {
+    "title": "Imren | Berlin Food Stories",
+    "snippet": "Karl-Marx-Straße 75, 12043+5 More. Read the Review. Review. A guiding light in ... of Berlin's vibrant food scene. BFS answers the question of “Where ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think: The search results for "Karl-Marx-Straße 75, 12043 Berlin" consistently mention "Imren Grill" as the business at this address, with no mention of "GameOn Arcade" or any arcade-related venue. This suggests the address is associated with a restaurant, not an arcade.
+
+Action: search("GameOn Arcade impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "The iOS version of Carcassonne is being removed from the App ...",
+    "snippet": "Feb 18, 2020 ... https://www.hans-im-glueck.de/impressum.html. It is a german based board game company. You can also, if you like, address the inventor of the ..."
+  },
+  {
+    "title": "Contact us – Atari®",
+    "snippet": "Atari Customer Service is available to help with orders, games, downloads and questions about products and services."
+  },
+  {
+    "title": "My Arcade® Official Site - Best Selling Retro Gaming Devices",
+    "snippet": "Experience the ultimate retro gaming with our premium portable & console devices. Explore our unmatched directory of classic games & relive the nostalgia ..."
+  },
+  {
+    "title": "Game on! Berlin's Electric Social arcade brings the fun factor - The ...",
+    "snippet": "Mar 19, 2025 ... From Pac-Man to virtual darts, Electric Social is the snazzy new arcade offering Berliners a new way to play ... Contact / Impressum · Datenschutz ..."
+  },
+  {
+    "title": "Imprint - Le Bistro Baden-Baden",
+    "snippet": "Game on game · Reservations · Gallery · News · History · Our team · Contact us; English. Deutsch · Français · Home · À la Carte · Game on game · Reservations ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "GameOn Arcade",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": false
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Monster Ronson’s Ichiban Karaoke  
+   **Address:** Warschauer Str. 34, 10243 Berlin  
+   **Activity:** Private Karaoke-Räume oder offene Bühne – gemeinsam singen und Spaß haben zum Tagesabschluss.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Monster Ronson’s Ichiban Karaoke".
+- Address is "Warschauer Str. 34, 10243 Berlin".
+- Address is provided and specific.
+- Place is a specific venue, not a general location.
+- Verification is required.
+
+Action: search("Warschauer Str. 34, 10243 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Monster Ronsons Ichiban Karaoke",
+    "snippet": "... to keep up with all of the monstrous activities.. Monster Ronson's Ichiban Karaoke ‍ Warschauer Straße 34 10243 Berlin Friedrichshain ‍ ☎️ 030 89 75 13 27."
+  },
+  {
+    "title": "TOP 10 BEST Pizza near Warschauer Str. 34, 10243 Berlin ...",
+    "snippet": "Best Pizza near Warschauer Str. 34, 10243 Berlin, Germany · 1. Toros Pizza · 2. Pomodorino · 3. Zeus Pizzeria · 4. Il Ritrovo-Cucina Casalinga Popolare · 5. L' ..."
+  },
+  {
+    "title": "Parking – Berlin Warschauer Straße station",
+    "snippet": "Address. Berlin Warschauer StraßeBerlin Warschauer Straße Warschauer Str. 34 10243 Berlin. Berlin Warschauer Straße, Warschauer Str. 34, 1 0 2 4 3 Berlin."
+  },
+  {
+    "title": "THE BEST 10 GUITAR STORES near WARSCHAUER STR. 34 ...",
+    "snippet": "The Best 10 Guitar Stores near Warschauer Str. 34, 10243 Berlin, Germany · All \"Guitar Stores\" results near me in Berlin - December 2025 · American Guitar Shop - ..."
+  },
+  {
+    "title": "Berlin Warschauer Straße station",
+    "snippet": "Berlin Warschauer StraßeBerlin Warschauer Straße. Travel Info; Facilities ... 10243 Berlin. Berlin Warschauer Straße, Warschauer Str. 34, 1 0 2 4 3 Berlin."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Monster Ronson’s Ichiban Karaoke",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+

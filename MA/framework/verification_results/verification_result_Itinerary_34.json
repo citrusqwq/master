@@ -1,0 +1,44 @@
+[
+  {
+    "place": "Dussmann das KulturKaufhaus",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Dussmann das KulturKaufhaus**  \n   Address: Friedrichstraße 90, 10117 Berlin  \n   Activity: Stöbern durch eine der besten und größten unabhängigen Buchhandlungen Berlins mit einer großen Auswahl, gemütlichen Sitzecken und einer schönen englischsprachigen sowie internationalen Abteilung.  \n   "
+  },
+  {
+    "place": "Saint George’s English Bookshop",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Saint George’s English Bookshop**  \n   Address: Wörther Str. 27, 10405 Berlin  \n   Activity: Weitere Erkundung einer unabhängigen, besonderen Buchhandlung mit Fokus auf englischsprachiger Literatur. Hier gibt es eine entspannte Atmosphäre und besondere Buchschätze.  \n   "
+  },
+  {
+    "place": "Spaziergang & Kaffee in Prenzlauer Berg",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": " – Spaziergang & Kaffee in Prenzlauer Berg**  \n   Address: -  \n   Activity: Gemütlicher Bummel durch das trendige Viertel mit Kaffees, kleinen Läden und entspannter Atmosphäre – perfekt zum kurzen Durchatmen und Leute beobachten.  \n   "
+  },
+  {
+    "place": "Sudaka – South American Grill",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": " – Mittagessen: Sudaka – South American Grill**  \n   Address: Yorckstraße 81, 10965 Berlin  \n   Activity: Genießt authentische südamerikanische Küche von Asado-Grill bis hin zu kreativen Cocktails in einem lebendigen Restaurant mit südlicher Stimmung.  \n   "
+  },
+  {
+    "place": "Lasertag bei Laserstar Berlin",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": " – Spielhalle: Lasertag bei Laserstar Berlin**  \n   Address: Revaler Str. 99, 10245 Berlin  \n   Activity: Power, Spaß und Teamgeist beim gemeinsamen Lasertag-Spiel in einer der beliebtesten Spielhallen Berlins. Alternativ gibt es in der unmittelbaren Nähe auch VR-Arcades oder klassische Spielautomatenhallen.  \n   "
+  },
+  {
+    "place": "Monster Ronson’s Ichiban Karaoke",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Karaoke-Bar: Monster Ronson’s Ichiban Karaoke**  \n   Address: Warschauer Str. 34, 10243 Berlin  \n   Activity: Einzigartiges Karaoke-Erlebnis in privat mietbaren Karaoke-Kabinen oder auf der offenen Bühne mit Drinks in funky-urbanem Ambiente. Hier könnt ihr den Tag ausgelassen abschließen.  \n   "
+  }
+]

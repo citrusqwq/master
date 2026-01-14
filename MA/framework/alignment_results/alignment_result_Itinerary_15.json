@@ -1,0 +1,21 @@
+[
+  {
+    "extracted_requirement_num": 4,
+    "valid_requirements": [
+      "Location: Hamburg",
+      "Visit the port",
+      "Eat a Fischbrötchen",
+      "Avoid too crowded places"
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "Location: Hamburg",
+      "Visit the port",
+      "Eat a Fischbrötchen",
+      "Avoid too crowded places"
+    ],
+    "satisfied_requirements_num": 4
+  }
+]

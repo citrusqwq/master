@@ -1,0 +1,37 @@
+[
+  {
+    "place": "HafenCity",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** HafenCity  \n   **Address:** -  \n   **Activity:** Start your day exploring HafenCity, a modern and less crowded area around the port with scenic waterfront views, interesting architecture, and quiet spots to enjoy the harbor atmosphere without the heavy tourist crowds.  \n   **"
+  },
+  {
+    "place": "Fischmarkt (Hamburg Fish Market)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Fischmarkt (Hamburg Fish Market)  \n   **Address:** Große Elbstraße 9, 22767 Hamburg, Germany  \n   **Activity:** Although famous, the Fish Market is less crowded in the morning before it opens fully. Visit early to enjoy a fresh Fischbrötchen from one of the vendors. It’s a classic Hamburg experience with local seafood specialties.  \n   **"
+  },
+  {
+    "place": "Landungsbrücken (St. Pauli Landungsbrücken)",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Landungsbrücken (St. Pauli Landungsbrücken)  \n   **Address:** St. Pauli Landungsbrücken, 20359 Hamburg, Germany  \n   **Activity:** Walk along the piers at Landungsbrücken for views of the harbor and ships. It’s a port area but you can find quieter spots by walking a bit away from the main crowd. Great for taking photos and absorbing the maritime atmosphere.  \n   **"
+  },
+  {
+    "place": "Altona Fish Auction Hall (Fischauktionshalle)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Altona Fish Auction Hall (Fischauktionshalle)  \n   **Address:** Große Elbstraße 9, 22767 Hamburg, Germany  \n   **Activity:** Visit the Altona Fish Auction Hall for a quieter and more local feel of the Hamburg harbor. Sometimes there are smaller markets, and you can relax near the water while enjoying seafood. A peaceful spot often less crowded than the central port.  \n   **"
+  },
+  {
+    "place": "Altona Balcony (Altonaer Balkon)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": null,
+    "snippet": "Place:** Altona Balcony (Altonaer Balkon)  \n   **Address:** Palmaille 60, 22767 Hamburg, Germany  \n   **Activity:** End your day with a stroll at Altona Balcony, a peaceful park with a panoramic view over the Elbe river and the harbor. It’s a serene place perfect for relaxing and reflecting on your port visit away from crowds.  \n   **"
+  }
+]

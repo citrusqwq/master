@@ -1,0 +1,44 @@
+[
+  {
+    "place": "Altonaer Balkon",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Altonaer Balkon  \n   **Address:** Palmaille, 22767 Hamburg  \n   **Activity:** Genieße einen entspannten Start in den Tag mit einem tollen Blick auf den Hafen abseits der Touristenmassen.  \n   **"
+  },
+  {
+    "place": "Museumshafen Oevelgönne",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Museumshafen Oevelgönne  \n   **Address:** Neumühlen 3, 22763 Hamburg  \n   **Activity:** Spaziere entlang des historischen Museumshafens, bestaune alte Schiffe und genieße die maritime Atmosphäre.  \n   **"
+  },
+  {
+    "place": "Brücke 10 (Fischbrötchenstand)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Brücke 10 (Fischbrötchenstand)  \n   **Address:** St. Pauli-Landungsbrücken 10, 20359 Hamburg  \n   **Activity:** Probiere ein frisches Fischbrötchen mit Blick auf die Elbe. Tipp: Früh da sein, um den großen Andrang zu vermeiden.  \n   **"
+  },
+  {
+    "place": "Elbstrand Övelgönne",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Elbstrand Övelgönne  \n   **Address:** -  \n   **Activity:** Spaziere am Elbstrand entlang, entspanne im Sand und beobachte die vorbeifahrenden Schiffe – meist weniger überlaufen als die Landungsbrücken.  \n   **"
+  },
+  {
+    "place": "Jenischpark",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Jenischpark  \n   **Address:** Baron-Voght-Straße 50, 22609 Hamburg  \n   **Activity:** Genieße einen ruhigen Spaziergang im weitläufigen Park mit Blick auf die Elbe und entdecke das Jenisch-Haus (optional).  \n   **"
+  },
+  {
+    "place": "Ottensen Viertel",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Ottensen Viertel  \n   **Address:** -  \n   **Activity:** Erkunde das charmante, weniger touristische Viertel mit kleinen Cafés, Boutiquen und entspannter Atmosphäre.  \n   **"
+  }
+]

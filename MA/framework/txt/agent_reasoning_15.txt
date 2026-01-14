@@ -1,0 +1,221 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Hamburg Port (specifically the quieter areas like the Old Elbe Tunnel entrance or the Fischmarkt area early in the day)  
+   Address: St. Pauli Landungsbrücken, 20359 Hamburg, Germany  
+   Activity: Enjoy a peaceful walk along the port, watch the ships, and explore the historic Old Elbe Tunnel. Early morning is less crowded and offers a calm atmosphere.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: "Hamburg Port (specifically the quieter areas like the Old Elbe Tunnel entrance or the Fischmarkt area early in the day)" is a specific area within Hamburg Port, mentioning landmarks.
+- Address: "St. Pauli Landungsbrücken, 20359 Hamburg, Germany" is a specific address.
+- address_provided: true (address is present and specific).
+- non-specific_location: The place refers to a general area within the port, but with specific landmarks (Old Elbe Tunnel entrance, Fischmarkt area). However, "Hamburg Port" is a large area, not a single POI, so this may count as non-specific.
+
+Output:
+{
+  "place": "Hamburg Port (specifically the quieter areas like the Old Elbe Tunnel entrance or the Fischmarkt area early in the day)",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Brücke 10 (a well-known but less touristy Fischbrötchen stand near the port)  
+   Address: St. Pauli Landungsbrücken, 20359 Hamburg, Germany  
+   Activity: Taste an authentic Hamburg Fischbrötchen, a traditional fish sandwich, in a local setting away from the busiest spots.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Brücke 10 (a well-known but less touristy Fischbrötchen stand near the port)".
+- Address is "St. Pauli Landungsbrücken, 20359 Hamburg, Germany".
+- Address is provided and not a placeholder.
+- Place is a specific venue, not a non-specific location.
+- Verification is required.
+
+Action: 
+search("St. Pauli Landungsbrücken, 20359 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "St. Pauli Piers - Wikipedia",
+    "snippet": "The St. Pauli Piers is the largest landing site in the Port of Hamburg, Germany, and also one of Hamburg's major tourist attractions."
+  },
+  {
+    "title": "The Landungsbrücken Piers - Hamburg's Traffic Hub by the Elbe River",
+    "snippet": "'landing bridges') were once a landing pier for steam ships, and they now function as a connector for various lines of Hamburg's local train and ferry systems."
+  },
+  {
+    "title": "DIETER IHDE CAPTAIN'S DINNER, Hamburg - St. Pauli ...",
+    "snippet": "Contact. Call, email. Location. Bei Den St. Pauli-landungsbrücken 3, 20359 Hamburg Germany. St. Pauli. Does this restaurant offer takeout or food to go? Yes. No."
+  },
+  {
+    "title": "THE BEST 10 PARKING near BEI DEN ST. PAULI ...",
+    "snippet": "The Best 10 Parking near Bei den St. Pauli-Landungsbrücken 28, 20359 Hamburg, Germany. All \"Parking\" results near me in Hamburg - December 2025."
+  },
+  {
+    "title": "NORDSEE HAMBURG LANDUNGSBRUCKEN - St. Pauli - Photos ...",
+    "snippet": "9:00 AM - 8:00 PM. Contact. Call, email. Location. Bei den St. Pauli Landungsbrucken, 20359 Hamburg Germany. St. Pauli. Is this a fast food place? Yes. No."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think:
+- The search results indicate that "St. Pauli Landungsbrücken, 20359 Hamburg, Germany" refers to a large area with multiple businesses, piers, and restaurants.
+- No result specifically mentions "Brücke 10" as being at this address.
+- The address is not unique to a single business, so the match is inconclusive.
+- A second search is needed to verify if "Brücke 10" is located at this address.
+
+Action:
+search("Brücke 10 impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Impressum – bruecke10.com",
+    "snippet": "Impressum. Angaben gemäß § 5 TMG: Adresse: Brücke 10 – Die Fischbrötchenbude ... info@bruecke10.com. Germann´s Event Catering Services GmbH. Mühlenstraße 62"
+  },
+  {
+    "title": "NBB Netzgesellschaft Berlin-Brandenburg mbH & Co. KG",
+    "snippet": "Impressum. NBB Netzgesellschaft Berlin-Brandenburg mbH & Co. KG. Sitz der Gesellschaft: An der Spandauer Brücke 10 10178 Berlin. Eingetragen im Handelsregister ..."
+  },
+  {
+    "title": "Brücke 10",
+    "snippet": "Impressum · Datenschutz. Brücke 10 | 20359 Hamburg Infos & Reservierung: 040 ... Brücke 10″, für viele junge Hamburger die besten der Stadt. Denn hier ..."
+  },
+  {
+    "title": "Impressum | DIE BRÜCKE Lübeck und Ostholstein gGmbH",
+    "snippet": "DIE BRÜCKE Lübeck und Ostholstein gGmbH. Schwartauer Allee 10 23554 Lübeck. Telefon 0451 140 08 48. Telefax 0451 140 08 40. E-Mail: info@die-bruecke.de."
+  },
+  {
+    "title": "Brücke 10 | Fischbrötchenbude Restaurant Hamburg St. Pauli ...",
+    "snippet": "May 3, 2024 ... Brücke 10 | Fischbrötchenbude Restaurant in Hamburg St. Pauli: Adresse und weitere Informationen im Branchenbuch auf Hamburgs offiziellem ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Brücke 10 (a well-known but less touristy Fischbrötchen stand near the port)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Altona Fish Market area (early visit to avoid crowds)  
+   Address: Große Elbstraße 9, 22767 Hamburg, Germany  
+   Activity: Stroll through the area around the fish market, which is less crowded outside market hours, and enjoy views of the Elbe River and local shops.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: "Altona Fish Market area (early visit to avoid crowds)" refers to an area, not a specific venue.
+- Address: "Große Elbstraße 9, 22767 Hamburg, Germany" is provided and appears specific.
+- However, the Place is a non-specific location (an area, not a single POI).
+
+Output:
+{
+  "place": "Altona Fish Market area (early visit to avoid crowds)",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Planten un Blomen Park  
+   Address: Marseiller Str., 20355 Hamburg, Germany  
+   Activity: Relax in this large, peaceful urban park with beautiful gardens and water features, a great spot to unwind away from crowds.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Planten un Blomen Park" and Address is "Marseiller Str., 20355 Hamburg, Germany".
+- Both fields are present and the address is not a placeholder.
+- "Planten un Blomen Park" is a specific park, not a non-specific location.
+- Verification is required.
+
+Action: 
+search("Marseiller Str., 20355 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "EIS LIVOTTO, Hamburg - St. Pauli - Restaurant Reviews & Photos ...",
+    "snippet": "Hours. No hours listed yet. Contact. email. Location. Marseiller Str. Planten Un Blomen, 20355 Hamburg Germany. St. Pauli. Is this a dessert shop? Yes. No."
+  },
+  {
+    "title": "Cytokinin overproducing ove mutants of Physcomitrella patens show ...",
+    "snippet": "Affiliation. 1 Institut für Angewandte Botanik, Universität Hamburg, Marseiller Strasse 7, D-20355 Hamburg, Germany."
+  },
+  {
+    "title": "THE ROOM - Updated December 2025 - 46 Photos & 19 Reviews ...",
+    "snippet": "THE ROOM - Try Our New Menu - Marseiller Str. 2, 20355 Hamburg, Germany, 46 Photos, +4915903509827, Mon - Closed, Tue - Closed, Wed - Closed, Thu - Closed, ..."
+  },
+  {
+    "title": "ROSCon 2015",
+    "snippet": "20146 Hamburg Germany. Grand Elysée Hamburg, Rothenbaumchaussee 10 20148 Hamburg Germany. Radisson Blu Hamburg, Marseiller Straße 2 20355 Hamburg Germany ..."
+  },
+  {
+    "title": "Car Rental Hamburg",
+    "snippet": "... Germany. The city is vibrant and busy, but there's plenty to see in the ... Planten un Blomen. Marseiller Straße, 20355 Hamburg. This park is 47 hectares ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Planten un Blomen Park",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Sternschanze neighborhood  
+   Address: -  
+   Activity: Explore this trendy but less tourist-heavy neighborhood with cafes, street art, and boutique shops, perfect for a relaxed afternoon stroll.
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Sternschanze neighborhood",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+

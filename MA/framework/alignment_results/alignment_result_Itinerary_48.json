@@ -1,0 +1,21 @@
+[
+  {
+    "extracted_requirement_num": 5,
+    "valid_requirements": [
+      "Start exploring Berlin from 8:00 am at Berlin Hauptbahnhof",
+      "Flight from Berlin to Athens at 22:00, must be at airport by 20:00",
+      "Interested in cultural activities in Berlin",
+      "Need to have dinner before the flight"
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "Start exploring Berlin from 8:00 am at Berlin Hauptbahnhof",
+      "Flight from Berlin to Athens at 22:00, must be at airport by 20:00",
+      "Interested in cultural activities in Berlin",
+      "Need to have dinner before the flight "
+    ],
+    "satisfied_requirements_num": 4
+  }
+]

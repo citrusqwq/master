@@ -1,0 +1,100 @@
+[
+  {
+    "place": "Berliner Hauptbahnhof",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Berliner Hauptbahnhof  \n- **Address:** Europaplatz 1, 10557 Berlin  \n- **Activity:** Ankunft und Startpunkt, ggf. Kaffee holen, Orientierung.  \n- **"
+  },
+  {
+    "place": "Reichstagsgebäude",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Reichstagsgebäude  \n- **Address:** Platz der Republik 1, 11011 Berlin  \n- **Activity:** Besuch der Kuppel (vorherige Online-Anmeldung empfohlen), beeindruckende Architektur und Panoramablick auf Berlin.  \n- **"
+  },
+  {
+    "place": "Brandenburger Tor & Pariser Platz",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Brandenburger Tor & Pariser Platz  \n- **Address:** Pariser Platz, 10117 Berlin  \n- **Activity:** Wahrzeichen Berlins, Fotos machen, kurze Erkundung der Umgebung.  \n- **"
+  },
+  {
+    "place": "Holocaust-Mahnmal (Denkmal für die ermordeten Juden Europas)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Holocaust-Mahnmal (Denkmal für die ermordeten Juden Europas)  \n- **Address:** Cora-Berliner-Straße 1, 10117 Berlin  \n- **Activity:** Besuch des Mahnmals und ggf. des unterirdischen Informationszentrums.  \n- **"
+  },
+  {
+    "place": "Museumsinsel",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Museumsinsel  \n- **Address:** Bodestraße 1-3, 10178 Berlin  \n- **Activity:** Besuch eines Museums nach Wahl (z.B. Pergamonmuseum, Neues Museum, Altes Museum).  \n- **"
+  },
+  {
+    "place": "Hackescher Markt",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Hackescher Markt  \n- **Address:** -  \n- **Activity:** Spaziergang durch die Hackeschen Höfe, kleine Boutiquen, Galerien und Cafés entdecken.  \n- **"
+  },
+  {
+    "place": "Nikolaiviertel",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Nikolaiviertel  \n- **Address:** -  \n- **Activity:** Historisches Viertel mit Kopfsteinpflaster, St. Nikolai-Kirche, Berliner Geschichte erleben.  \n- **"
+  },
+  {
+    "place": "Gendarmenmarkt",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Gendarmenmarkt  \n- **Address:** -  \n- **Activity:** Einer der schönsten Plätze Berlins mit Konzerthaus, Deutschem und Französischem Dom.  \n- **"
+  },
+  {
+    "place": "Checkpoint Charlie",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Checkpoint Charlie  \n- **Address:** Friedrichstraße 43-45, 10117 Berlin  \n- **Activity:** Historischer Grenzübergang, Fotos, ggf. Besuch des Mauermuseums.  \n- **"
+  },
+  {
+    "place": "Topographie des Terrors",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Topographie des Terrors  \n- **Address:** Niederkirchnerstraße 8, 10963 Berlin  \n- **Activity:** Dokumentationszentrum zur NS-Zeit, Ausstellung im Freien und im Gebäude.  \n- **"
+  },
+  {
+    "place": "Potsdamer Platz",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Potsdamer Platz  \n- **Address:** -  \n- **Activity:** Moderne Architektur, Shopping, kurze Pause in einem Café.  \n- **"
+  },
+  {
+    "place": "Kurfürstendamm & Kaiser-Wilhelm-Gedächtniskirche",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Kurfürstendamm & Kaiser-Wilhelm-Gedächtniskirche  \n- **Address:** Breitscheidplatz, 10789 Berlin  \n- **Activity:** Flanieren auf dem Ku’damm, Besuch der Gedächtniskirche, Shoppingmöglichkeiten.  \n- **"
+  },
+  {
+    "place": "Abendessen im Restaurant „Lutter & Wegner“ (empfohlen, deutsche Küche, nahe Ku’damm)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place:** Abendessen im Restaurant „Lutter & Wegner“ (empfohlen, deutsche Küche, nahe Ku’damm)  \n- **Address:** Schlüterstraße 55, 10629 Berlin  \n- **Activity:** Gemütliches Abendessen vor der Abreise.  \n- **"
+  },
+  {
+    "place": "Flughafen Berlin Brandenburg (BER)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Flughafen Berlin Brandenburg (BER)  \n- **Address:** Willy-Brandt-Platz, 12529 Schönefeld  \n- **Activity:** Ankunft am Flughafen, Check-in, Sicherheitskontrolle, ggf. noch Zeit für einen Kaffee oder Souvenir-Shopping.  \n- **"
+  }
+]

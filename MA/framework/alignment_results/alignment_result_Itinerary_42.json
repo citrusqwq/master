@@ -1,0 +1,25 @@
+[
+  {
+    "extracted_requirement_num": 6,
+    "valid_requirements": [
+      "Location: Hamburg",
+      "Interests: Hafenblicke (harbor views), Vintage markets",
+      "Photography: Popular viewpoints for taking photos",
+      "Food preferences: Well-rated local fish restaurants",
+      "Desserts: Artisan or handcrafted dessert shops",
+      "Trip type: One-day urban itinerary"
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "1. Location: Hamburg",
+      "2. Interests: Hafenblicke (harbor views), Vintage markets",
+      "3. Photography: Popular viewpoints for taking photos",
+      "4. Food preferences: Well-rated local fish restaurants",
+      "5. Desserts: Artisan or handcrafted dessert shops",
+      "6. Trip type: One-day urban itinerary "
+    ],
+    "satisfied_requirements_num": 6
+  }
+]

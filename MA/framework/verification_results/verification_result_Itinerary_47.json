@@ -1,0 +1,51 @@
+[
+  {
+    "place": "Berlin Central Station (departure)",
+    "address_provided": false,
+    "non-specific_location": false,
+    "address_match_place": null,
+    "snippet": "Place:** Berlin Central Station (departure)  \n   **Address:** -  \n   **Activity:** Departure from Berlin to Athens by flight or train (depending on actual travel mode) to arrive in Athens city center by late morning or early afternoon.  \n   **"
+  },
+  {
+    "place": "Acropolis of Athens",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Acropolis of Athens  \n   **Address:** Acropolis, Athens 105 58, Greece  \n   **Activity:** Visit the iconic ancient citadel, including the Parthenon, Erechtheion, and the Theatre of Dionysus. Experience ancient Greek culture and history.  \n   **"
+  },
+  {
+    "place": "Acropolis Museum",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Acropolis Museum  \n   **Address:** Dionysiou Areopagitou 15, Athens 117 42, Greece  \n   **Activity:** Explore a rich collection of artifacts recovered from the Acropolis, providing insight into ancient Athenian culture.  \n   **"
+  },
+  {
+    "place": "Plaka neighborhood",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Plaka neighborhood  \n   **Address:** Plaka, Athens 105 58, Greece  \n   **Activity:** Stroll through the historic neighborhood with its narrow streets, neoclassical architecture, shops, cafes, and cultural atmosphere.  \n   **"
+  },
+  {
+    "place": "Roman Agora and Tower of the Winds",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place:** Roman Agora and Tower of the Winds  \n   **Address:** Adrianou 24, Athens 105 55, Greece  \n   **Activity:** Explore this ancient Roman marketplace and the well-preserved Tower of the Winds, a classic piece of ancient technology.  \n   **"
+  },
+  {
+    "place": "Dinner at a traditional Greek restaurant in Monastiraki",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Dinner at a traditional Greek restaurant in Monastiraki  \n   **Address:** Monastiraki Square area, Athens 105 55, Greece  \n   **Activity:** Enjoy a cultural dining experience with authentic Greek food, such as moussaka, souvlaki, or seafood dishes.  \n   **"
+  },
+  {
+    "place": "Transfer to Athens International Airport (Eleftherios Venizelos Airport)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Transfer to Athens International Airport (Eleftherios Venizelos Airport)  \n   **Address:** Spata, Athens 190 19, Greece  \n   **Activity:** Travel to the airport to arrive by 20:00 for the flight check-in and security procedures.  \n   **"
+  }
+]

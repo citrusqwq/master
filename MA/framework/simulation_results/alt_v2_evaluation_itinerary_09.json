@@ -1,0 +1,100 @@
+[
+  {
+    "start_time": "10:00 AM",
+    "planned_activity": "Dussmann das KulturKaufhaus\nExplore one of Berlin's most famous and expansive bookstores, featuring a wide selection of books (including English titles), music, and a cozy café.",
+    "expectation": "The traveler expects a comfortable, relaxing experience browsing books and enjoying the café in a calm atmosphere.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "85 min",
+    "predicted_behavior": "The traveler browsed the bookstore’s main and English-language sections at a relaxed pace, occasionally pausing to flip through interesting books. They spent a substantial amount of time seated in the cozy café with friends, enjoying drinks and conversation in a calm environment, prioritizing comfort and relaxation over extensive exploration.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "summary": "10:00 - 11:25: The traveler browsed the main and English-language sections of Dussmann das KulturKaufhaus and spent a relaxing time with friends in the bookstore's cozy café."
+  },
+  {
+    "start_time": "11:45 AM",
+    "planned_activity": "Ocelot, not just another bookstore\nVisit this trendy independent bookstore with a great selection of books and a stylish café — perfect for browsing and relaxing.",
+    "expectation": "I expect another comfortable and relaxing time browsing books and enjoying the café with my friends.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "50 min",
+    "predicted_behavior": "The traveler browsed the bookstore at a relaxed pace with friends, occasionally picking up books to flip through, and then spent the remainder of the time seated in the café, enjoying drinks and conversation in a comfortable setting.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "summary": "11:45 - 12:35: The traveler browsed books and relaxed with friends over drinks at Ocelot, not just another bookstore."
+  },
+  {
+    "start_time": "1:00 PM",
+    "planned_activity": "Chicha Berlin\nEnjoy lunch at this popular Peruvian restaurant, known for its ceviche, pisco cocktails, and vibrant atmosphere.",
+    "expectation": "The traveler expects a comfortable and enjoyable lunch with friends in a lively but not overwhelming setting, hoping for familiar or accessible menu options.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "After finding Chicha closed, the traveler suggests going to Frieda Schlamassel, a cozy German restaurant nearby, to enjoy comfort food in a relaxed setting with friends. They adjust their expectations to look forward to a familiar, laid-back lunch experience.",
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "predicted_duration": "90 min",
+    "predicted_behavior": "The traveler and friends settled into the cozy restaurant, took their time choosing familiar comfort food, enjoyed a relaxed meal with conversation, and lingered over coffee or dessert, making the most of the comfortable setting.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "summary": "13:00 - 14:30: The traveler and friends enjoyed a relaxed lunch of comfort food and conversation at Frieda Schlamassel, lingering over coffee and dessert in a cozy setting."
+  },
+  {
+    "start_time": "2:45 PM",
+    "planned_activity": "Explore Kreuzberg neighborhood\nStroll through the lively Kreuzberg district, check out street art, independent shops, and grab a coffee or snack at a local café.",
+    "expectation": "The traveler expects a pleasant stroll with friends, hoping for interesting sights and a comfortable café break without too much hustle or noise.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "55 min",
+    "predicted_behavior": "The traveler strolled slowly through Kreuzberg with friends, pausing to admire street art and browse a few independent shop windows before settling into a comfortable, well-rated café for coffee and a snack, enjoying relaxed conversation in a calm environment.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "summary": "14:45 - 15:40: The traveler explored Kreuzberg, admired street art, browsed shop windows, and enjoyed coffee and a snack with friends at a local café."
+  },
+  {
+    "start_time": "4:00 PM",
+    "planned_activity": "GameOn Berlin Arcade\nHave fun with your friends at this modern arcade, featuring classic and new games, pinball, and VR experiences.",
+    "expectation": "The traveler expects a fun but possibly overstimulating experience, hoping to find comfortable ways to enjoy the arcade with friends.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "After discovering the arcade is actually a vegan fast-food restaurant, the traveler suggests to their friends that they visit the nearby Neukölln Arcaden mall instead, looking for a comfortable café or a relaxed activity like browsing shops or watching a movie. Their new expectation is to enjoy a laid-back, comfortable time with friends in a familiar and low-effort environment.",
+      "emotion_valence": "neutral",
+      "emotion_arousal": "neutral"
+    },
+    "predicted_duration": "115 min",
+    "predicted_behavior": "The traveler and their friends spent time relaxing in a comfortable café, enjoying drinks and conversation, followed by leisurely browsing a few shops in the mall. They prioritized comfort and avoided any crowded or high-energy activities, making the most of the relaxed environment.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "summary": "16:00 - 17:55: The traveler and friends relaxed in a comfortable café and browsed shops at Neukölln Arcaden mall, enjoying drinks, conversation, and a laid-back atmosphere."
+  },
+  {
+    "start_time": "6:30 PM",
+    "planned_activity": "Monster Ronson's Ichiban Karaoke\nEnd your day with a lively karaoke session at one of Berlin's most famous karaoke bars, offering private booths and a fun, inclusive vibe.",
+    "expectation": "The traveler expects a fun and relaxed private karaoke experience with friends, hoping for a comfortable and low-pressure environment.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "120 min",
+    "predicted_behavior": "The traveler spent two hours in a private karaoke booth with friends, singing familiar songs, enjoying drinks and snacks, and relaxing in a comfortable, low-pressure environment. They took breaks to chat and soak in the fun, inclusive vibe without feeling rushed or overwhelmed.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "summary": "18:30 - 20:30: The traveler spent two hours at Monster Ronson's Ichiban Karaoke in a private booth with friends, singing, enjoying drinks and snacks, and relaxing in a fun, inclusive atmosphere."
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "place": "Altonaer Balkon",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Altonaer Balkon  \n   **Address:** Palmaille, 22767 Hamburg  \n   **Activity:** Genieße den wunderschönen Ausblick auf Hafen und Elbe von diesem weniger bekannten Park; entspannen, Fotos machen, erste Eindrücke vom Hafen gewinnen.  \n   **"
+  },
+  {
+    "place": "Fischmarkt St. Pauli (außerhalb der Hauptzeiten)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Fischmarkt St. Pauli (außerhalb der Hauptzeiten)  \n   **Address:** Große Elbstraße 9, 22767 Hamburg  \n   **Activity:** Spaziere gemütlich an den Ständen vorbei (werktags und außerhalb des berühmten Sonntagsmarkts sehr ruhig), vielleicht schon ein erstes Fischbrötchen bei einem der kleinen Imbisse genießen.  \n   **"
+  },
+  {
+    "place": "Museumshafen Oevelgönne",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Museumshafen Oevelgönne  \n   **Address:** Neumühlen 3, 22763 Hamburg  \n   **Activity:** Spaziere an historischen Schiffen entlang, bewundere die maritime Atmosphäre abseits der großen Touristenströme.  \n   **"
+  },
+  {
+    "place": "Brücke 10",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Brücke 10  \n   **Address:** St. Pauli-Landungsbrücken, Brücke 10, 20359 Hamburg  \n   **Activity:** Fischbrötchen essen mit Blick auf den Hafen – Brücke 10 ist unter Einheimischen beliebt, meist weniger überlaufen gegen Mittag.  \n   **"
+  },
+  {
+    "place": "Övelgönne Strand und Elbstrand",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Övelgönne Strand und Elbstrand  \n   **Address:** -  \n   **Activity:** Spaziere oder relaxe am Elbstrand, genieße die Schiffe, das Wasser und die entspannte Stimmung abseits des Trubels.  \n   **"
+  },
+  {
+    "place": "Elbchaussee/Villenviertel Ottensen",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Elbchaussee/Villenviertel Ottensen  \n   **Address:** -  \n   **Activity:** Flaniere durch das schöne, ruhige Viertel mit eleganten Altbauten und kleinen Cafés abseits der Menschenmassen.  \n   **"
+  },
+  {
+    "place": "Altonaer Balkon (für den Sonnenuntergang & Abschluss)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place:** Altonaer Balkon (für den Sonnenuntergang & Abschluss)  \n   **Address:** Palmaille, 22767 Hamburg  \n   **Activity:** Entspannen, den Tag Revue passieren lassen und ggf. den Sonnenuntergang genießen, wenn das Wetter passt.  \n   **"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "extracted_requirement_num": 6,
+    "valid_requirements": [
+      "Startzeit: frühestens 8:00 Uhr am Berliner Hauptbahnhof.",
+      "Endzeit: spätestens 20:00 Uhr am Flughafen Berlin (BER).",
+      "Flug nach Athen um 22:00 Uhr.",
+      "Interesse: kulturelle Aktivitäten.",
+      "Abendessen vor dem Flug.",
+      "Nutzung der Zeit zum Erkunden von Berlin."
+    ],
+    "missing_requirements": [
+      "Plane den Trip entsprechend mit meinen Reisezeiten."
+    ]
+  },
+  {
+    "satisfied_requirements": [
+      "1. Startzeit: frühestens 8:00 Uhr am Berliner Hauptbahnhof.",
+      "2. Endzeit: spätestens 20:00 Uhr am Flughafen Berlin (BER).",
+      "3. Flug nach Athen um 22:00 Uhr.",
+      "4. Interesse: kulturelle Aktivitäten.",
+      "5. Abendessen vor dem Flug.",
+      "6. Nutzung der Zeit zum Erkunden von Berlin."
+    ],
+    "satisfied_requirements_num": 6
+  }
+]

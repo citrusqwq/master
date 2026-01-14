@@ -1,0 +1,22 @@
+[
+  {
+    "extracted_requirement_num": 5,
+    "valid_requirements": [
+      "1. Location: Hamburg",
+      "3. Experience: Activities favored by locals on weekends",
+      "4. Avoid: Popular tourist spots listed in TripAdvisor Top 10",
+      "5. Preference: Niche, less touristy places and activities"
+    ],
+    "missing_requirements": [
+      "Provide only a few activities (ein paar Aktivitäten)"
+    ]
+  },
+  {
+    "satisfied_requirements": [
+      "1. 1. Location: Hamburg",
+      "2. 3. Experience: Activities favored by locals on weekends",
+      "4. 5. Preference: Niche, less touristy places and activities "
+    ],
+    "satisfied_requirements_num": 3
+  }
+]

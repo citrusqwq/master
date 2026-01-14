@@ -1,0 +1,71 @@
+[
+  {
+    "start_time": "10:00 AM",
+    "place": "Dussmann das KulturKaufhaus",
+    "address": "Friedrichstraße 90, 10117 Berlin",
+    "activity": "Explore one of Berlin's most famous and expansive bookstores, featuring a wide selection of books (including English titles), music, and a cozy café.",
+    "planned_duration": "1.5 hours",
+    "twist": false,
+    "transit_time_to_next_place": "20 min/public_transportation",
+    "possible_duration": "85 min"
+  },
+  {
+    "start_time": "11:45 AM",
+    "place": "Ocelot, not just another bookstore",
+    "address": "Brunnenstraße 181, 10119 Berlin",
+    "activity": "Visit this trendy independent bookstore with a great selection of books and a stylish café — perfect for browsing and relaxing.",
+    "planned_duration": "1 hour",
+    "twist": false,
+    "transit_time_to_next_place": "25 min/public_transportation",
+    "possible_duration": "50 min"
+  },
+  {
+    "start_time": "1:00 PM",
+    "place": "Chicha Berlin",
+    "address": "Friedelstraße 34, 12047 Berlin",
+    "activity": "Enjoy lunch at this popular Peruvian restaurant, known for its ceviche, pisco cocktails, and vibrant atmosphere.",
+    "planned_duration": "1.5 hours",
+    "twist": "Upon arrival, the traveler finds that the peruvian restaurant 'Chicha' is temporarily closed.",
+    "transit_time_to_next_place": "10 min/walk",
+    "possible_duration": "90 min",
+    "alternatives": [
+      "Kai Maison - Offers an enticing fusion of Asian and French-Japanese cuisine that captures the essence of culinary creativity.",
+      "Frieda Schlamassel - A laid-back German restaurant serving homemade comfort food classics in a cozy setting.",
+      "Kitten Deli - A cozy restaurant and bakery that specializes in fresh Israeli vegetarian dishes, homemade challah bread, and sharing plates.",
+      "Restaurant Paran - Relaxed, Korean-focused restaurant turning out noodle bowls, dumplings & mains in a colorful space."
+    ]
+  },
+  {
+    "start_time": "2:45 PM",
+    "place": "Explore Kreuzberg neighborhood",
+    "address": "-",
+    "activity": "Stroll through the lively Kreuzberg district, check out street art, independent shops, and grab a coffee or snack at a local café.",
+    "planned_duration": "1 hour",
+    "twist": false,
+    "transit_time_to_next_place": "20 min/public_transportation",
+    "possible_duration": "55 min"
+  },
+  {
+    "start_time": "4:00 PM",
+    "place": "GameOn Berlin Arcade",
+    "address": "Karl-Marx-Straße 75, 12043 Berlin",
+    "activity": "Have fun with your friends at this modern arcade, featuring classic and new games, pinball, and VR experiences.",
+    "planned_duration": "2 hours",
+    "twist": "Upon arrival, the traveler finds that this place is not the claimed Arcade but 'Cigköftem' - a fast-food franchise that serves vegan Turkish wraps.",
+    "transit_time_to_next_place": "35 min/public_transportation",
+    "possible_duration": "115 min",
+    "alternatives": [
+      "Neukölln Arcaden - a shopping mall that featuring a diverse range of retail stores, a public library and a cinema."
+    ]
+  },
+  {
+    "start_time": "6:30 PM",
+    "place": "Monster Ronson's Ichiban Karaoke",
+    "address": "Warschauer Str. 34, 10243 Berlin",
+    "activity": "End your day with a lively karaoke session at one of Berlin's most famous karaoke bars, offering private booths and a fun, inclusive vibe.",
+    "planned_duration": "2 hours",
+    "twist": false,
+    "transit_time_to_next_place": null,
+    "possible_duration": "120 min"
+  }
+]

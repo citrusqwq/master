@@ -1,0 +1,25 @@
+[
+  {
+    "extracted_requirement_num": 6,
+    "valid_requirements": [
+      "Tagesausflug in Hamburg.",
+      "Interesse an Hafenblicken.",
+      "Besuch von Vintage-Märkten.",
+      "Fotografieren an beliebten Aussichtspunkten.",
+      "Besuch gut bewerteter lokaler Fischrestaurants.",
+      "Besuch handwerklicher Dessertläden."
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "1. Tagesausflug in Hamburg.",
+      "2. Interesse an Hafenblicken.",
+      "3. Besuch von Vintage-Märkten.",
+      "4. Fotografieren an beliebten Aussichtspunkten.",
+      "5. Besuch gut bewerteter lokaler Fischrestaurants.",
+      "6. Besuch handwerklicher Dessertläden. "
+    ],
+    "satisfied_requirements_num": 6
+  }
+]

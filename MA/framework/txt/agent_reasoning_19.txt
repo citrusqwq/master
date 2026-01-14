@@ -1,0 +1,142 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: National Gallery (Neue Nationalgalerie)  
+   Address: Potsdamer Straße 50, 10785 Berlin, Germany  
+   Activity: Explore modern and contemporary art collections, including works by renowned artists such as Picasso, Matisse, and Klee. Enjoy the architecture of the building itself.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. The Place refers to a specific venue, not a general area. Verification is required.
+
+Action: search("Potsdamer Straße 50, 10785 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Home | Neue Nationalgalerie",
+    "snippet": "... Museum and the City - Blog of the Staatliche Museen zu Berlin ... Potsdamer Strasse © Herzog & de Meuron. A New Museum at the Kulturforum in ..."
+  },
+  {
+    "title": "Neue Nationalgalerie",
+    "snippet": "Potsdamer Straße 50, 10785 , Berlin, Germany. School. Floor Plan. Description. The new National Gallery was designed by Mies van der Rohe in Chicago, but it is ..."
+  },
+  {
+    "title": "Point of contact for research & scholary inquiries | Kulturforum",
+    "snippet": "Neue Nationalgalerie. Postal address: Potsdamer Straße 50 10785 Berlin Germany Phone: +49 (0)30 266 42 4501. E- ..."
+  },
+  {
+    "title": "Psicotrópicos Festival @ Neue Nationalgalerie, Berlin · Shotgun ...",
+    "snippet": "Jul 27, 2025 ... Potsdamer Straße 50, 10785 Berlin, Germany. 1K are interested. Description. Psicotrópicos Festival returns in July for its fifth edition in ..."
+  },
+  {
+    "title": "What's up in Berlin - uinlberlin2025.com",
+    "snippet": "... Straße 1, 10785 Berlin. German State Opera Unter den Linden. The Opera House ... Str. 50, 10785 Berlin (S/U Potsdamer Platz). Bode Museum. The Bode Museum ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "National Gallery (Neue Nationalgalerie)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Curry 36  
+   Address: Mehringdamm 36, 10961 Berlin, Germany  
+   Activity: Taste the famous Berlin currywurst at one of the city's most popular and highly rated currywurst stands.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "Curry 36" is a specific venue, not a non-specific location. Verification is required.
+
+Action: search("Mehringdamm 36, 10961 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Curry 36 – Berlin, Germany - VANGUARD VOYAGER",
+    "snippet": "Jun 27, 2016 ... So let the haters hate and enjoy one of Berlins finest. Curry 36 – Mehringdamm Mehringdamm 36, 10961 Berlin Kreuzberg Telefon 030 25800 88336. 9 ..."
+  },
+  {
+    "title": "CURRY 36, Berlin - Mehringdamm 36, Friedrichshain-Kreuzberg ...",
+    "snippet": "Mehringdamm 36 Kreuzberg, 10961 Berlin Germany. Website. Call. Map. Review. About. Features. CUISINES. German, Fast food. Meal types. Lunch, Dinner, After-hours ..."
+  },
+  {
+    "title": "THE BEST 10 KEBAB near MEHRINGDAMM 36, 10961 BERLIN ...",
+    "snippet": "From now on no kebab in the world will be good again. You are screwed for life. So if you love kebabs and don't live in Berlin I would consider to not try ..."
+  },
+  {
+    "title": "CURRY 36, Berlin - Mehringdamm 36, Friedrichshain-Kreuzberg ...",
+    "snippet": "Mehringdamm 36 Kreuzberg, 10961 Berlin Germany. Website. Call. Map. Review. About. Features. CUISINES. German, Fast food. Meal types. Lunch, Dinner, After-hours ..."
+  },
+  {
+    "title": "THE BEST 10 GAY BARS near MEHRINGDAMM 36, 10961 BERLIN ...",
+    "snippet": "The Best 10 Gay Bars near Mehringdamm 36, 10961 Berlin, Germany · All \"Gay Bars\" results near me in Berlin - December 2025 · Rauschgold - Gay Bars near me - ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Curry 36",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Kurfürstendamm (Ku'damm) shopping street  
+   Address: -  
+   Activity: Shop for women's clothes in size 52 at various boutiques and department stores along this major shopping avenue, including stores like Peek & Cloppenburg and other fashion retailers offering plus sizes.
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Kurfürstendamm (Ku'damm) shopping street",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Alexanderplatz area  
+   Address: -  
+   Activity: Optional additional shopping or sightseeing, relax at a café, or explore nearby attractions like the TV Tower or World Clock.
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Alexanderplatz area",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+

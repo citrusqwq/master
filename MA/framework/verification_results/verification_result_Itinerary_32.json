@@ -1,0 +1,30 @@
+[
+  {
+    "place": "Alte Nationalgalerie",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Alte Nationalgalerie  \n   **Address:** Bodestraße 1-3, 10178 Berlin  \n   **Activity:** Bewundern Sie Meisterwerke der Malerei und Skulpturen vom 19. Jahrhundert in einem eindrucksvollen Museumsbau auf der Museumsinsel.  \n   **"
+  },
+  {
+    "place": "Curry 36",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Curry 36  \n   **Address:** Mehringdamm 36, 10961 Berlin  \n   **Activity:** Genießen Sie Berlins berühmteste Currywurst am Kult-Imbiss \"Curry 36\", bekannt für Qualität und Berliner Flair.  \n   **"
+  },
+  {
+    "place": "KaDeWe (Kaufhaus des Westens)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** KaDeWe (Kaufhaus des Westens)  \n   **Address:** Tauentzienstraße 21-24, 10789 Berlin  \n   **Activity:** Stöbern und einkaufen: Hier finden Sie eine große Auswahl an hochwertiger Damenmode, auch in Größe 52, sowie persönliche Einkaufsberatung.  \n   **"
+  },
+  {
+    "place": "Kurfürstendamm",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Kurfürstendamm  \n   **Address:** -  \n   **Activity:** Flanieren auf Berlins bekanntester Einkauf- und Bummelmeile. Hier gibt es weitere Modegeschäfte mit großen Größen, Cafés und Gelegenheit zum Ausruhen.  \n   **"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "extracted_requirement_num": 6,
+    "valid_requirements": [
+      "Endzeit: 20:00 Uhr am Flughafen",
+      "Rückflug: 22:00 Uhr ab Berlin, 20:00 Uhr am Flughafen sein",
+      "Interessen: Kulturelle Aktivitäten",
+      "Abendessen vor dem Flug",
+      "Transport zwischen den Stationen der Route ist einzuplanen"
+    ],
+    "missing_requirements": [
+      "Frühestens kann ich um 8:00 Uhr am Berliner Hauptbahnhof starten."
+    ]
+  },
+  {
+    "satisfied_requirements": [
+      "3. Interessen: Kulturelle Aktivitäten",
+      "4. Abendessen vor dem Flug"
+    ],
+    "satisfied_requirements_num": 2
+  }
+]

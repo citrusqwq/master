@@ -1,0 +1,21 @@
+[
+  {
+    "extracted_requirement_num": 4,
+    "valid_requirements": [
+      "Visiting Berlin for one day with friends.",
+      "Interested in cool bookstores.",
+      "Want to eat at a South American restaurant.",
+      "Want to include a longer, fun group activity (arcade or karaoke bar)."
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "1. Visiting Berlin for one day with friends.",
+      "2. Interested in cool bookstores.",
+      "3. Want to eat at a South American restaurant.",
+      "4. Want to include a longer, fun group activity (arcade or karaoke bar)."
+    ],
+    "satisfied_requirements_num": 4
+  }
+]

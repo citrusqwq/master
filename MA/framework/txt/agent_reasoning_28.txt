@@ -1,0 +1,432 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Altonaer Balkon  
+   **Address:** Palmaille, 22767 Hamburg  
+   **Activity:** Genieße den wunderschönen Ausblick auf Hafen und Elbe von diesem weniger bekannten Park; entspannen, Fotos machen, erste Eindrücke vom Hafen gewinnen.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Altonaer Balkon",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": null
+}
+Action: search("Palmaille, 22767 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Palmaille - Wikipedia",
+    "snippet": "The Palmaille is a famous avenue of Altona, Hamburg. It is considered one of northern Europe's most complete examples of a Neoclassical urban ensemble."
+  },
+  {
+    "title": "Meat Composition and Quality Assessment of King Scallops (Pecten ...",
+    "snippet": "Sep 29, 2015 ... ... Palmaille 9, 22767 Hamburg, Germany. Monika.Manthey@mri.bund.de. 2 Department of Safety and Quality of Milk and Fish Products, Max Rubner ..."
+  },
+  {
+    "title": "Untitled",
+    "snippet": null
+  },
+  {
+    "title": "Large scale distribution of dioxins, PCBs, heavy metals, PAH ...",
+    "snippet": "Max Rubner - Institut, Federal Research Centre of Nutrition and Food, Department of Safety and Quality of Milk and Fish Products, Palmaille 9, 22767 Hamburg, ..."
+  },
+  {
+    "title": "Notare an der Palmaille | Hamburg - Altona",
+    "snippet": "Wir sind ein modernes und dienstleistungsorientiertes Notariat in Hamburg - Altona. Wir begleiten Sie bei allen notariellen Angelegenheiten."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Action: search("Altonaer Balkon impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Altonaer Balkon - hamburg.de",
+    "snippet": "München. © hamburg.de 2025. Impressum · Datenschutzhinweise · Erklärung zur Barrierefreiheit · Frag den Michel · Hamburg Mail · Presseservice des Senats."
+  },
+  {
+    "title": "Impressum | Rechtsanwälte Hamburg",
+    "snippet": "Impressum. Unter der Bezeichnung \"Lomer & Lutz Rechtsanwälte\" ist Herr ... Altonaer Balkon, Plastik, Skulptur - Ingo Boelter Photodesign - www.ingoboelter.de."
+  },
+  {
+    "title": "Platzneugestaltung der Rainvilleterrasse am Elbhang: Informationen ...",
+    "snippet": "Impressum; Barrierefreiheit. Onlinebeteiligung mit. Platzneugestaltung der ... Altonaer Balkon und dem Heinepark. Derzeit stellt sich die Fläche als ..."
+  },
+  {
+    "title": "Doppelbude L mit Balkon für 2 Personen Hotel Hamburg Altona ...",
+    "snippet": "Cooles Zimmer mit Balkon in Hamburg für Übernachtungen zum Musical ✓ für Städtereisen ✓oder einfach nur so. Hier Doppelbude L mit Balkon buchen ➤ Superbude ..."
+  },
+  {
+    "title": "IMPRESSUM | Bluecherhoefe Altona",
+    "snippet": "12: Old fish auction market in Hamburg, SN-Photography. S.12: Rathaus Hamburg-Altona, dietwalther. S.12: Altonaer Balkon Aussichtsplattform, alamy. S.15: ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Altonaer Balkon",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Fischmarkt St. Pauli (außerhalb der Hauptzeiten)  
+   **Address:** Große Elbstraße 9, 22767 Hamburg  
+   **Activity:** Spaziere gemütlich an den Ständen vorbei (werktags und außerhalb des berühmten Sonntagsmarkts sehr ruhig), vielleicht schon ein erstes Fischbrötchen bei einem der kleinen Imbisse genießen.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Fischmarkt St. Pauli (außerhalb der Hauptzeiten)".
+- Address is "Große Elbstraße 9, 22767 Hamburg".
+- Address is provided and specific.
+- "Fischmarkt St. Pauli" refers to a specific market, not a general area.
+- Verification is required.
+
+Action: 
+search("Große Elbstraße 9, 22767 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Fischauktionshalle Fischauktionshalle | Fischmarkt - Fischmarkt",
+    "snippet": "Altonaer Fischauktionshalle. Es gibt ihn – den Ort, an dem Sie Hamburg ganz nah sein können. An dem Sie den Puls der Elbe spüren und die blauen und roten Arme ..."
+  },
+  {
+    "title": "Fischmarkt - hamburg.de",
+    "snippet": "Von April bis Oktober: 5 bis 9:30 Uhr Von November bis März: 7 bis 9:30 Uhr Anschrift Große Elbstraße 9 22767 Hamburg Haben Sie Fragen zum Hamburger ..."
+  },
+  {
+    "title": "Hamburg Tour Guide presented by LEMARIT",
+    "snippet": "Tip! Hamburger Fischmarkt. Große Elbstraße 9 22767 Hamburg. Find the place ..."
+  },
+  {
+    "title": "Hamburg Neighbourhoods",
+    "snippet": "Hamburg Neighbourhoods ; Walk the Elbe River in the Riverfront District · Hamburger Fischmarkt: Große Elbstraße 9, 22767 Hamburg; La Vela: Große Elbstraße 27, ..."
+  },
+  {
+    "title": "After Work Cruise - Rock the Boat",
+    "snippet": "Event in Hamburg, Germany by MS KOI on Thursday, September 4 2025. ... Große Elbstraße 9, 22767 Hamburg, Deutschland. About. Discussion. 1 went. 󰞋. 0 ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Fischmarkt St. Pauli (außerhalb der Hauptzeiten)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Museumshafen Oevelgönne  
+   **Address:** Neumühlen 3, 22763 Hamburg  
+   **Activity:** Spaziere an historischen Schiffen entlang, bewundere die maritime Atmosphäre abseits der großen Touristenströme.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Museumshafen Oevelgönne" and Address is "Neumühlen 3, 22763 Hamburg".
+- Both fields are present and address is specific.
+- "Museumshafen Oevelgönne" is a specific POI, not a general area.
+- Verification is required.
+
+Action: 
+search("Neumühlen 3, 22763 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Autostrada Sport Exclusive Cars Hamburg | Luxus-und Sportwagen",
+    "snippet": "Kontakt. Neumühlen 3 22763 Hamburg. Deutschland. TEL.: +49 40 22854140. MOBIL: +49 157 92343993. Email: kontakt@autostradasport.de · Autostrada Sport. Bleiben ..."
+  },
+  {
+    "title": "Anfahrt zur Praxis für Gesichtschirurgie Hamburg",
+    "snippet": "Dr. med. Sonja Brumme Haut- und Gesichtschirurgie Neumühlen 3 • 22763 Hamburg Telefon: 040 - 333 100 40. Telefax: 040 - 333 100 41"
+  },
+  {
+    "title": "Autostrada Sport GmbH in Hamburg - Freier Händler-Porsche ...",
+    "snippet": "Neumühlen 3 22763 Hamburg Deutschland. Tel.: +49 40 22854140 2. Tel.-Nr.: +49 1579 2343993. Mobiltelefon: +49 173 1680744. http://www.autostradasport.de."
+  },
+  {
+    "title": "Autostrada Sport GmbH​ - elferspot.com - Marketplace for Porsche ...",
+    "snippet": "Neumühlen 3 22763 Hamburg. Send dealer inquiry. Visit dealer website. Please mention Elferspot when calling Autostrada Sport GmbH​. Call. Inquiry. Interested ..."
+  },
+  {
+    "title": "Hildegund Schuster & Barbara-Kathrin Möbius: Frauen zur See ...",
+    "snippet": "69, Neumühlen 3, 22763 Hamburg (Ottensen). Routenplaner: 53.54475, 9.92547. Beschreibung. Die FrauenFreiluftGalerie in Ottensen präsentiert seit 1994 an vielen ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think:
+- The search results for "Neumühlen 3, 22763 Hamburg" primarily mention "Autostrada Sport GmbH" (a car dealership) and a medical practice, not "Museumshafen Oevelgönne".
+- No result directly links "Museumshafen Oevelgönne" to this address.
+- The address seems to be associated with other businesses.
+
+Action:
+search("Museumshafen Oevelgönne impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Impressum – Museumshafen Oevelgönne",
+    "snippet": "Eine Verwendung zu anderen Zwecken als den oben genannten oder zu kommerziellen Zwecken ist ohne vorherige Rücksprache mit dem Museumshafen Oevelgönne e.V. ..."
+  },
+  {
+    "title": "Impressum – Der Lieger",
+    "snippet": "Angaben gemäß § 5 TMG Museumshafen Oevelgönne e.V.. Ponton Neumühlen 22763 Hamburg Telefon: +49 40 41 91 27 61. Telefax: +49 40 41 91 27 62."
+  },
+  {
+    "title": "Impressum - Schleppdampfer Woltman",
+    "snippet": "Links: Museumshafen Oevelgönne · MarineTraffic. Datenschutz Wir verweisen auf unsere Datenschutzerklärung. Liegeplatz im Museumshafen Oevelgönne - Neumühlen."
+  },
+  {
+    "title": "Hochseekutter Präsident Freiherr von Maltzahn HF.294. - Impressum",
+    "snippet": "Impressum. Verantwortlich: Henning Arndt. Adresse: Museumshafen Oevelgönne e.V.. Anleger Neumühlen 22763 Hamburg. Kontakt: eMail: maltzahn@museumshafen- ..."
+  },
+  {
+    "title": "Impressum",
+    "snippet": "Impressum. Rechtsanwältin Julika Sonntag Elbchaussee 87 22763 ... Die Kanzlei befindet sich unweit des Altonaer Balkons und dem Museumshafen Övelgönne."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Museumshafen Oevelgönne",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Brücke 10  
+   **Address:** St. Pauli-Landungsbrücken, Brücke 10, 20359 Hamburg  
+   **Activity:** Fischbrötchen essen mit Blick auf den Hafen – Brücke 10 ist unter Einheimischen beliebt, meist weniger überlaufen gegen Mittag.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Brücke 10"
+- Address is "St. Pauli-Landungsbrücken, Brücke 10, 20359 Hamburg"
+- Address is provided and specific.
+- Place is not a non-specific location.
+- Verification is required.
+
+Action: 
+search("St. Pauli-Landungsbrücken, Brücke 10, 20359 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "bruecke10.com – Die Fischbrötchenbude auf den St. Pauli ...",
+    "snippet": "Brücke 10 | 20359 Hamburg Infos & Reservierung: 040 / 33 399 339. Moin Moin ... Landungsbrücken gibt es bei Brücke 10! Da kannst du jeden hier fragen ..."
+  },
+  {
+    "title": "BRÜCKE 10 - Updated December 2025 - 367 Photos & 159 ...",
+    "snippet": "BRÜCKE 10 - Bei den St. Pauli-Landungsbrücken 10, 20359 Hamburg, Germany, 367 Photos & Videos, Mon - 10:00 AM - 10:00 PM, Tue - 10:00 AM - 10:00 PM, ..."
+  },
+  {
+    "title": "BRUECKE 10, Hamburg - St. Pauli - Menu, Prices & Restaurant ...",
+    "snippet": "Wheelchair Accessible. Improve this listing. Closed now. 10:00 AM - 10:00 PM. Contact. Call, email. Location. St. Pauli Landungsbrucken 10, 20359 Hamburg ..."
+  },
+  {
+    "title": "Brücke 10 Hamburg",
+    "snippet": "The Brücke 10 restaurant with its fish sandwich specialities is located right beside the St. Pauli Landungsbrücken ... 20359 Hamburg. www.bruecke10.com."
+  },
+  {
+    "title": "Anleger St. Pauli Landungsbrücken (Brücke 7-10)",
+    "snippet": "Für die Richtigkeit der Daten wird keine Haftung übernommen. Lage. St. Pauli-Landungsbrücken 7 20359 Hamburg. Karte vergrößern. Hamburg CARD. Freie Fahrt mit ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Brücke 10",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Övelgönne Strand und Elbstrand  
+   **Address:** -  
+   **Activity:** Spaziere oder relaxe am Elbstrand, genieße die Schiffe, das Wasser und die entspannte Stimmung abseits des Trubels.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Övelgönne Strand und Elbstrand",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Elbchaussee/Villenviertel Ottensen  
+   **Address:** -  
+   **Activity:** Flaniere durch das schöne, ruhige Viertel mit eleganten Altbauten und kleinen Cafés abseits der Menschenmassen.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Elbchaussee/Villenviertel Ottensen",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Altonaer Balkon (für den Sonnenuntergang & Abschluss)  
+   **Address:** Palmaille, 22767 Hamburg  
+   **Activity:** Entspannen, den Tag Revue passieren lassen und ggf. den Sonnenuntergang genießen, wenn das Wetter passt.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Altonaer Balkon (für den Sonnenuntergang & Abschluss)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": null
+}
+
+Action: search("Palmaille, 22767 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Palmaille - Wikipedia",
+    "snippet": "The Palmaille is a famous avenue of Altona, Hamburg. It is considered one of northern Europe's most complete examples of a Neoclassical urban ensemble."
+  },
+  {
+    "title": "Meat Composition and Quality Assessment of King Scallops (Pecten ...",
+    "snippet": "Sep 29, 2015 ... ... Palmaille 9, 22767 Hamburg, Germany. Monika.Manthey@mri.bund.de. 2 Department of Safety and Quality of Milk and Fish Products, Max Rubner ..."
+  },
+  {
+    "title": "Untitled",
+    "snippet": null
+  },
+  {
+    "title": "Large scale distribution of dioxins, PCBs, heavy metals, PAH ...",
+    "snippet": "Max Rubner - Institut, Federal Research Centre of Nutrition and Food, Department of Safety and Quality of Milk and Fish Products, Palmaille 9, 22767 Hamburg, ..."
+  },
+  {
+    "title": "Notare an der Palmaille | Hamburg - Altona",
+    "snippet": "Wir sind ein modernes und dienstleistungsorientiertes Notariat in Hamburg - Altona. Wir begleiten Sie bei allen notariellen Angelegenheiten."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Action: search("Altonaer Balkon (für den Sonnenuntergang & Abschluss) impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Stiftung Historische Museen Hamburg: Wir lieben Geschichte",
+    "snippet": "Luftaufnahme einer Stadtlandschaft bei Sonnenuntergang ... Blicke in die Sammlungen des Altonaer Museums Das Altonaer Museum besitzt 17 norddeutsche Bauernstuben."
+  },
+  {
+    "title": "Hamburg.de Startseite - hamburg.de",
+    "snippet": "Die Fachbehörden entsprechen den Ministerien in den Ländern. Ansicht des Altonaer Rathauses. Bezirksamt Altona ... Impressum · Datenschutzhinweise · Erklärung ..."
+  },
+  {
+    "title": "Die besten Aussichtspunkte zum Hafengeburtstag Hamburg",
+    "snippet": "Tipp zur Anreise: Mit der S-Bahn Linie S1 und S3 bis Königstraße und dann ein kurzer Spaziergang zum Altonaer Balkon. Altonaer Balkon. Adresse. Klopstockstraße"
+  },
+  {
+    "title": "THE MADISON Hotel Hamburg",
+    "snippet": "Und der perfekte Abschluss eines gelungenen Tages? Ein Drink an unserer ... Altonaer Balkon und dem Museumshafen Övelgönne. Alternativ könnt ihr die ..."
+  },
+  {
+    "title": "Umgebungstipps | Hotel Hafen Hamburg",
+    "snippet": "Der Sonnenuntergang ist von einem Steg am See aus zusehen. ... Der Altonaer Balkon eignet sich auch als Ausgangspunkt für einen schönen Spaziergang bis zum ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Altonaer Balkon (für den Sonnenuntergang & Abschluss)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": false
+}
+
+============================================================
+

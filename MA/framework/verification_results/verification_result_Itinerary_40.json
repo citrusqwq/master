@@ -1,0 +1,30 @@
+[
+  {
+    "place": "Hamburg Harbor (Hafen)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Hamburg Harbor (Hafen)\n- Address: -\n- Activity: Start the day with a peaceful walk along the quieter parts of the harbor, such as the area near Elbphilharmonie but away from peak tourist spots. Enjoy the view of ships and the water in a relaxed atmosphere.\n- "
+  },
+  {
+    "place": "StrandPauli (near the harbor)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: StrandPauli (near the harbor)\n- Address: Bernhard-Nocht-Straße 97, 20359 Hamburg, Germany\n- Activity: Try an authentic Fischbrötchen at StrandPauli, a local spot known for good seafood and a less touristy vibe than the main harbor fish stands.\n- "
+  },
+  {
+    "place": "St. Pauli Fish Market area (outside peak market hours)",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: St. Pauli Fish Market area (outside peak market hours)\n- Address: Große Elbstraße 9, 22767 Hamburg, Germany\n- Activity: Explore the St. Pauli area adjacent to the harbor for a more local and quieter atmosphere, with opportunities to see small shops and local life without the bustle of the main market.\n- "
+  },
+  {
+    "place": "Planten un Blomen Park",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": null,
+    "snippet": "Place: Planten un Blomen Park\n- Address: Stephansplatz 1, 20355 Hamburg, Germany\n- Activity: Relax in this beautiful city park that is less crowded on weekday mornings, offering nature, gardens, and calm spots to unwind after the harbor visit.\n- "
+  }
+]

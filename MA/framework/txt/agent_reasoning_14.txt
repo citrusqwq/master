@@ -1,0 +1,228 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Schanzenviertel (Schanze district)  
+- Address: -  
+- Activity: Explore this vibrant neighborhood known for its street art, independent boutiques, cozy cafés, and weekend flea markets. Enjoy a relaxed breakfast or coffee at a local café and soak in the local vibe.  
+-
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Schanzenviertel (Schanze district)",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Isemarkt  
+- Address: Isemarkt, 22769 Hamburg  
+- Activity: Visit this lively outdoor market held on Tuesdays and Fridays, but on weekends the area is still great for a stroll. Discover fresh local produce, artisan foods, and mingle with Hamburg residents.  
+-
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is "Isemarkt, 22769 Hamburg", which is more than a placeholder. "Isemarkt" refers to a specific market, not a general area or district, so non-specific_location is false. Verification is required.
+
+Action: search("Isemarkt, 22769 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Isemarkt Farmer's Markets - Events in Hamburg",
+    "snippet": "The Isemarkt between the underground stations Hoheluftbrücke and Eppendorfer Baum is now a part of Hamburg that is hard to imagine without. This is an entry ..."
+  },
+  {
+    "title": "Isemarkt (2025) - All You Need to Know BEFORE You Go (with ...",
+    "snippet": "Eimsbüttel, a charming neighborhood in Hamburg, is a delightful blend of the old and the new. Its historic charm is evident in its well-preserved 19th-century ..."
+  },
+  {
+    "title": "Isemarkt – Unique weekly market in Eppendorf",
+    "snippet": "Even lyric from Hamburg is offered to the customers – if you're lucky presented in a live performance. Strolling around and drinking coffee. Even if you don't ..."
+  },
+  {
+    "title": "Outdoor Weekly Markets in Hamburg",
+    "snippet": "Shop for fresh produce, meat, fish, cheese and more at the many local farmers' markets held around Hamburg on a daily basis ... Isemarkt. With each row covering ..."
+  },
+  {
+    "title": "Isemarket; the best fresh grocery market in Hamburg, Germany – Eat ...",
+    "snippet": "Dec 22, 2016 ... Isemarkt, Hamburg, Eppendorf, Germany img_4805 The Facts. Isemarket can be found under the viaducts of the U-bahnhofstations between Eppendorfer ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Isemarkt",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Sternschanze Park  
+- Address: Sternschanze, 20357 Hamburg  
+- Activity: Relax like locals in this green urban park, perfect for a picnic or just chilling. Nearby, you can find small bars and street food vendors popular with Hamburgers.  
+-
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Sternschanze Park",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Altona Fish Market (only Sunday morning, so if weekend is Sunday) or alternatively:  
+- Place: Ottensen neighborhood  
+- Address: -  
+- Activity: If Sunday, visit the Altona Fish Market early morning for a lively local experience with fresh fish, live music, and local snacks. If not Sunday, explore Ottensen, a charming district with independent shops, galleries, and cafés away from tourist crowds.  
+-
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Altona Fish Market (only Sunday morning, so if weekend is Sunday) or alternatively:  - Place: Ottensen neighborhood",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Boberger Dünen Nature Reserve  
+- Address: Boberger Furt 1, 22159 Hamburg  
+- Activity: Take a short trip to this hidden natural dune landscape on the outskirts of Hamburg. Enjoy walking trails, birdwatching, and a peaceful atmosphere favored by locals for weekend nature escapes.  
+-
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Boberger Dünen Nature Reserve" and address is "Boberger Furt 1, 22159 Hamburg".
+- Address is provided and is not a placeholder.
+- "Boberger Dünen Nature Reserve" refers to a specific nature reserve, not a general area.
+
+Action: 
+search("Boberger Furt 1, 22159 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "11 schöne Strände in und um Hamburg | Mit Vergnügen Hamburg",
+    "snippet": "Strandbad Farmsen , Neusurenland 67, 22159 Hamburg; Montag – Freitag: 13–18 ... Boberger Niederung , Boberger Furt 50, 21033 Hamburg. Noch mehr Sommer in ..."
+  },
+  {
+    "title": "Straßen- und Gebietsverzeichnis der Freien und Hansestadt ...",
+    "snippet": "... Hamburg. Statistikamt Nord. 5. Erläuterungen. 1. Die neue räumliche Gliederung Hamburgs ... 22159. A194 vom Weg De Beern rechte Seite bis Bienenkamp. 514 Farmsen ..."
+  },
+  {
+    "title": "11 Orte zum Baden, die ihr ohne Auto erreichen könnt | Mit ...",
+    "snippet": "Strandbad Farmsen , Neusurenland 67, 22159 Hamburg; Montag – Freitag: 13 ... Boberger Niederung , Boberger Furt 50, 21033 Hamburg. Mehr Info. Einfach an ..."
+  },
+  {
+    "title": "Sommer, Sonne, Strand! Hamburgs 10 schönste Strände",
+    "snippet": ", Boberger Furt 50, 21033 Hamburg. Erholung pur gibt's am Strand in der ... 22159 Hamburg. Hamburger Strand auf einsamer Insel: Gibt's auf der Insel ..."
+  },
+  {
+    "title": "Zuständiges Polizeikommissariat finden - hamburg.de",
+    "snippet": "Sie wollen wissen, wo das nächstgelegene Polizeikommissariat ist oder suchen ein bestimmtes Polizeikommissariat in Hamburg?"
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think:
+- The search results for "Boberger Furt 1, 22159 Hamburg" do not mention "Boberger Dünen Nature Reserve".
+- The address "Boberger Furt 50, 21033 Hamburg" is repeatedly associated with "Boberger Niederung" (the area that includes the Boberger Dünen).
+- No evidence links "Boberger Furt 1, 22159 Hamburg" to the nature reserve; the correct address for the reserve seems to be "Boberger Furt 50, 21033 Hamburg".
+
+Action:
+search("Boberger Dünen Nature Reserve impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Naturpark Am Stettiner Haff Impressum",
+    "snippet": "Impressum. Verantwortlich: Leiterin des Amtes: Ute Hennings Landesamt für ... Blick auf einen Trockenrasen in den Altwarper Binnendünen. © Naturpark Am ..."
+  },
+  {
+    "title": "39 Hamburg insider tips that only locals know about",
+    "snippet": "Oct 4, 2025 ... Sand so weit das Auge reicht im Hamburg Geheimtipp Boberger Dünen ... The entire nature reserve is 350 hectares in size and many cycling ..."
+  },
+  {
+    "title": "Ausflüge in Hamburgs Osten | Hamburger Kinder Unterwegs",
+    "snippet": "Das Naturschutzgebiet Boberger Dünen ist auf jeden Fall ein Besuch wert. ... Höltigbaum flows almost seamlessly into the Stellmoorer Tunneltal nature reserve, ..."
+  },
+  {
+    "title": "Hummelsbütteler Feldmark - Loki Schmidt Stiftung",
+    "snippet": "Boberger Dünenhaus; Boberger Furt 50| 21033 Hamburg · 040 73931266 | boberg ... Seiten. Sitemap – Alle Seiten; Datenschutz · Über die Stiftung ..."
+  },
+  {
+    "title": "Naturreservat Néouvielle: Wandern in den Pyrenäen | Travelinspired",
+    "snippet": "Dec 3, 2020 ... Aumar See, Wandern Néouvielle Nature Reserve, Reisebericht Bei frostigen Temperaturen wandern wir zum Aumar-See ... Boberger Dünen: Ausflugsziel ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Boberger Dünen Nature Reserve",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": false
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Lokal Bar or a small craft brewery in Sternschanze or Karolinenviertel  
+- Address: -  
+- Activity: End your day with a drink at a local craft beer bar or a cozy pub popular with Hamburg residents, avoiding tourist-heavy spots. Enjoy the local nightlife vibe in a relaxed setting.  
+-
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Lokal Bar or a small craft brewery in Sternschanze or Karolinenviertel",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+

@@ -1,0 +1,19 @@
+[
+  {
+    "extracted_requirement_num": 5,
+    "valid_requirements": [
+      "Bereits einmal in Hamburg gewesen",
+      "Aktivitäten, die Einheimische am Wochenende machen",
+      "Keine TripAdvisor-Top-10-Sehenswürdigkeiten",
+      "Route mit Nischen-Tipps (Geheimtipps, weniger touristisch)"
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "Aktivitäten, die Einheimische am Wochenende machen",
+      "Route mit Nischen-Tipps (Geheimtipps, weniger touristisch)"
+    ],
+    "satisfied_requirements_num": 2
+  }
+]

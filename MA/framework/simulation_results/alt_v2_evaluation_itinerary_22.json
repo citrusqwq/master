@@ -1,0 +1,93 @@
+[
+  {
+    "start_time": "10:00 AM",
+    "planned_activity": "Dussmann das KulturKaufhaus\nExplore one of Berlin's most iconic bookstores with a vast collection of books, including international titles, music, and cultural items. Great for browsing and picking up unique finds.",
+    "expectation": "I expect a calm and enjoyable browsing experience in a comfortable and interesting environment.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "80 min",
+    "predicted_behavior": "The traveler and their friends browsed the bookstore at a relaxed pace, spending time in comfortable seating areas, flipping through books and music, and chatting quietly. They focused on familiar or popular titles, enjoyed the calm atmosphere, and took occasional breaks to soak in the environment.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "summary": "10:00 - 11:20: The traveler and friends relaxed at Dussmann das KulturKaufhaus, browsing books and music, enjoying the calm atmosphere, and chatting in the seating areas."
+  },
+  {
+    "start_time": "11:45 AM",
+    "planned_activity": "Another Country (Bookstore)\nVisit this trendy independent bookstore known for its curated selection of contemporary literature, art books, and magazines. A cool spot to discover new reads and enjoy the creative vibe.",
+    "expectation": "I expect another relaxing and enjoyable time browsing books in a comfortable, creative setting with my friends.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "Surprised to find a fashion store instead of the expected bookstore, the traveler and friends decide to enjoy a coffee at the Voo Store café to relax and discuss their next move. Afterward, they plan to visit Modern Graphics nearby to browse artbooks and graphic novels, adapting their day to still enjoy a creative and comfortable experience.",
+      "emotion_valence": "neutral",
+      "emotion_arousal": "low"
+    },
+    "predicted_duration": "60 min",
+    "predicted_behavior": "The traveler and friends spent most of the hour relaxing in the Voo Store café, enjoying coffee and conversation while planning their next stop. They briefly browsed the store's homeware and accessories but did not linger over the fashion items, preferring to focus on comfort and socializing.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "summary": "11:45 AM - 12:45 PM: The traveler and friends relaxed at the Voo Store café, enjoying coffee, conversation, and a brief browse of homeware and accessories."
+  },
+  {
+    "start_time": "1:00 PM",
+    "planned_activity": "Sudaka\nEnjoy authentic South American cuisine with a focus on Argentinian and other Latin American dishes in a lively atmosphere. Perfect for a flavorful lunch with friends.",
+    "expectation": "The traveler expects a sociable and enjoyable lunch, hoping for comfortable seating and familiar food options despite the lively setting.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "Upon realizing Sudaka is actually a Korean BBQ restaurant, the traveler suggests to their friends that they try Windburger instead, as it offers a comfortable, laid-back atmosphere and familiar food. They expect to enjoy a relaxed lunch with friends in a setting that better matches their preferences.",
+      "emotion_valence": "positive",
+      "emotion_arousal": "neutral"
+    },
+    "predicted_duration": "90 min",
+    "predicted_behavior": "The traveler and their friends settled into comfortable seating at Windburger, ordered familiar burgers and sides, and enjoyed a relaxed, sociable lunch. They spent time chatting, eating at a leisurely pace, and soaking in the laid-back atmosphere, making the most of the comfortable environment.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "summary": "13:00 - 14:30: The traveler and friends enjoyed a relaxed, sociable lunch of burgers and sides at Windburger in a comfortable, laid-back setting."
+  },
+  {
+    "start_time": "2:45 PM",
+    "planned_activity": "Spielwiese Arcade Bar\nSpend the afternoon playing classic and modern arcade games, pinball machines, and enjoy drinks. A fun and interactive way to relax and have a great time with friends.",
+    "expectation": "The traveler expects a fun, easygoing afternoon with friends, enjoying games and drinks in a relaxed setting.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "Surprised to find a café instead of an arcade, the traveler and friends decide to stay at Five Elephant, enjoying coffee and the famous cheesecake in a calm, comfortable setting. They adjust their expectations to a more laid-back afternoon of conversation and relaxation.",
+      "emotion_valence": "neutral",
+      "emotion_arousal": "low"
+    },
+    "predicted_duration": "120 min",
+    "predicted_behavior": "The traveler and friends spent two hours at Five Elephant, enjoying specialty coffee and the famous cheesecake while engaging in relaxed conversation in the café’s comfortable, calm atmosphere. They took their time savoring the food and drinks, appreciating the unexpected but pleasant change of pace.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "neutral"
+    },
+    "summary": "14:45 - 16:45: The traveler and friends spent a relaxed afternoon at Five Elephant café, enjoying specialty coffee, famous cheesecake, and pleasant conversation in a comfortable setting."
+  },
+  {
+    "start_time": "5:00 PM",
+    "planned_activity": "Monster Ronson's Ichiban Karaoke\nEnd the day with karaoke at one of Berlin's most popular karaoke bars. Sing your favorite songs in a lively, friendly environment and enjoy the nightlife vibe.",
+    "expectation": "The traveler expects a fun, social experience with friends, hoping the environment remains comfortable and not too overwhelming.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "Surprised to find the karaoke bar is actually a residential building, the traveler and friends decide to visit the nearby Galerie Met for a quiet, reflective experience before it closes. Afterward, they plan to find a comfortable café to relax and chat, adjusting their expectations for a more laid-back evening.",
+      "emotion_valence": "neutral",
+      "emotion_arousal": "low"
+    },
+    "predicted_duration": "120 min",
+    "predicted_behavior": "The traveler and friends spent about 40 minutes quietly exploring Galerie Met, appreciating the art and the calm environment. They then moved to a comfortable, well-rated café nearby, where they relaxed, chatted, and enjoyed familiar food and drinks for the remaining time.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "summary": "17:00 - 19:00: The traveler explored Galerie Met for art appreciation and then relaxed with friends at a nearby café, enjoying conversation and refreshments."
+  }
+]

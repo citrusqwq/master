@@ -1,0 +1,185 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Neue Nationalgalerie  
+   **Address:** Potsdamer Str. 50, 10785 Berlin, Germany  
+   **Activity:** Explore the impressive collection of 20th-century art in a renowned modernist building designed by Mies van der Rohe.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "Neue Nationalgalerie" is a specific venue, not a non-specific location. Verification is required.
+
+Action: search("Potsdamer Str. 50, 10785 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Home | Neue Nationalgalerie",
+    "snippet": "... on Potsdamer Strasse © Herzog & de Meuron. A New Museum at the Kulturforum in Berlin. The Pietzsch Collection."
+  },
+  {
+    "title": "Neue Nationalgalerie – Berlin.de",
+    "snippet": "Feb 28, 2025 ... Potsdamer Straße 50. 10785 Berlin. City map. Phone: +49 (0)30 266 424 242; Internet: www.smb.museum; Opening Hours: Tuesday, Wednesday, Friday ..."
+  },
+  {
+    "title": "What's up in Berlin - uinlberlin2025.com",
+    "snippet": "... Straße 1, 10785 Berlin. German State Opera Unter den Linden. The Opera House ... Str. 50, 10785 Berlin (S/U Potsdamer Platz). Bode Museum. The Bode Museum ..."
+  },
+  {
+    "title": "Berlin Neue Nationalgalerie Ticket",
+    "snippet": "Valid only on the specified date and time. address : New National Gallery Potsdamer Str. 50, 10785 Berlin, Germany Open in Google Maps. Hours of operation ..."
+  },
+  {
+    "title": "Neue Nationalgalerie (2025) - All You Need to Know BEFORE You ...",
+    "snippet": "Are you currently on your trip? Help us find experiences available for you. Yes. No. The area. Address. Potsdamer Str. 50, 10785 Berlin Germany. Neighborhood ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Neue Nationalgalerie",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Curry 36  
+   **Address:** Mehringdamm 36, 10961 Berlin, Germany  
+   **Activity:** Enjoy Berlin’s most famous currywurst at this iconic stand, beloved by locals and visitors alike.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Curry 36" and Address is "Mehringdamm 36, 10961 Berlin, Germany".
+- Both fields are present and specific.
+- "Curry 36" is a specific venue, not a general location.
+- Address is provided and not a placeholder.
+- Verification is required.
+
+Action: 
+search("Mehringdamm 36, 10961 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Curry 36 – Berlin, Germany - VANGUARD VOYAGER",
+    "snippet": "Jun 27, 2016 ... So let the haters hate and enjoy one of Berlins finest. Curry 36 – Mehringdamm Mehringdamm 36, 10961 Berlin Kreuzberg Telefon 030 25800 88336. 9 ..."
+  },
+  {
+    "title": "CURRY 36, Berlin - Mehringdamm 36, Friedrichshain-Kreuzberg ...",
+    "snippet": "Mehringdamm 36 Kreuzberg, 10961 Berlin Germany. Website. Call. Map. Review. About. Features. CUISINES. German, Fast food. Meal types. Lunch, Dinner, After-hours ..."
+  },
+  {
+    "title": "THE BEST 10 KEBAB near MEHRINGDAMM 36, 10961 BERLIN ...",
+    "snippet": "From now on no kebab in the world will be good again. You are screwed for life. So if you love kebabs and don't live in Berlin I would consider to not try ..."
+  },
+  {
+    "title": "CURRY 36, Berlin - Mehringdamm 36, Friedrichshain-Kreuzberg ...",
+    "snippet": "Mehringdamm 36 Kreuzberg, 10961 Berlin Germany. Website. Call. Map. Review. About. Features. CUISINES. German, Fast food. Meal types. Lunch, Dinner, After-hours ..."
+  },
+  {
+    "title": "THE BEST 10 GAY BARS near MEHRINGDAMM 36, 10961 BERLIN ...",
+    "snippet": "The Best 10 Gay Bars near Mehringdamm 36, 10961 Berlin, Germany · All \"Gay Bars\" results near me in Berlin - December 2025 · Rauschgold - Gay Bars near me - ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Curry 36",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** KaDeWe (Kaufhaus des Westens)  
+   **Address:** Tauentzienstraße 21-24, 10789 Berlin, Germany  
+   **Activity:** Shop for women’s clothing in size 52 at Europe’s largest department store, which offers a wide range of brands and sizes.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. The place "KaDeWe (Kaufhaus des Westens)" refers to a specific department store, not a general area. Therefore, address_provided = true and non-specific_location = false. Verification is required.
+
+Action: search("Tauentzienstraße 21-24, 10789 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Dior Boutique | Germany | Berlin | Tauentzienstrasse 21-24 - DIOR",
+    "snippet": "Discover our Dior Boutique at Tauentzienstrasse 21-24. ... DIOR Berlin KaDeWe. Dior Boutique. Tauentzienstrasse 21-24. 10789 Berlin. DE."
+  },
+  {
+    "title": "BERLIN KADEWE - Tauentzienstrasse 21 23 | MCM",
+    "snippet": "MCM BERLIN KADEWE. BOUTIQUE. Remove this as my store. Make this my store. Tauentzienstrasse 21-24, Berlin 10789 Germany Get directions. +49 30 210 157 30."
+  },
+  {
+    "title": "Bucherer in KaDeWe Tauentzienstraße 21-24 10789 Berlin Germany",
+    "snippet": "Bucherer - Official Rolex Jeweler. Discover the experience of buying a Rolex at our store in KaDeWe Tauentzienstraße 21-24 10789 Berlin Germany."
+  },
+  {
+    "title": "KaDeWe – KaDeWe Berlin",
+    "snippet": "Als sich ständig entwickelnde Marke orientiert sich das Kaufhaus des Westens an gesellschaftlichen Veränderungen und internationalen Strömungen. Ob Mode, ..."
+  },
+  {
+    "title": "Untitled",
+    "snippet": null
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "KaDeWe (Kaufhaus des Westens)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Kurfürstendamm (Ku’damm)  
+   **Address:** -  
+   **Activity:** Stroll along Berlin’s famous shopping boulevard, where you can find additional boutiques and plus-size fashion stores if you wish to continue shopping.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Kurfürstendamm (Ku’damm)",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+

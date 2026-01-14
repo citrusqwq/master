@@ -1,0 +1,51 @@
+[
+  {
+    "place": "Altonaer Balkon",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place:** Altonaer Balkon  \n   **Address:** Palmaille 29, 22767 Hamburg, Germany  \n   **Activity:** Start your day with a peaceful view over the port from this elevated park. It’s less crowded than the Landungsbrücken and offers a great panorama of the harbor.  \n   **"
+  },
+  {
+    "place": "Museumshafen Oevelgönne",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Museumshafen Oevelgönne  \n   **Address:** Neumühlen 3, 22763 Hamburg, Germany  \n   **Activity:** Stroll along the historic harbor with old ships and a relaxed atmosphere. It’s a quieter alternative to the main port area and offers insight into Hamburg’s maritime history.  \n   **"
+  },
+  {
+    "place": "Brücke 10 (Fish Sandwich Stand)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Brücke 10 (Fish Sandwich Stand)  \n   **Address:** St. Pauli-Landungsbrücken 10, 20359 Hamburg, Germany  \n   **Activity:** Enjoy a classic Fischbrötchen at this well-known but not overly crowded stand, especially if you go before the lunch rush.  \n   **"
+  },
+  {
+    "place": "Elbstrand (Elbe Beach)",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Elbstrand (Elbe Beach)  \n   **Address:** Övelgönne, 22605 Hamburg, Germany  \n   **Activity:** Walk or relax along the sandy riverbank, watch ships go by, and enjoy a tranquil atmosphere away from the city crowds.  \n   **"
+  },
+  {
+    "place": "Altes Lotsenhaus Café",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Altes Lotsenhaus Café  \n   **Address:** Övelgönne 13, 22605 Hamburg, Germany  \n   **Activity:** Have coffee and cake in a cozy, historic pilot’s house with a view of the river, popular with locals but usually not too busy.  \n   **"
+  },
+  {
+    "place": "Ottensen Neighborhood",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Ottensen Neighborhood  \n   **Address:** -  \n   **Activity:** Explore this charming, less touristy district with independent shops, galleries, and relaxed bars. Perfect for a gentle stroll and soaking up local life.  \n   **"
+  },
+  {
+    "place": "Altona Fischmarkt (if visiting on Sunday) or a local riverside restaurant",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Altona Fischmarkt (if visiting on Sunday) or a local riverside restaurant  \n   **Address:** Große Elbstraße 9, 22767 Hamburg, Germany (Fischmarkt)  \n   **Activity:** If it’s Sunday, end your day at the historic fish market (less crowded in the evening). Otherwise, enjoy dinner at a riverside restaurant with fresh seafood and harbor views.  \n   **"
+  }
+]

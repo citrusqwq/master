@@ -1,0 +1,24 @@
+[
+  {
+    "extracted_requirement_num": 6,
+    "valid_requirements": [
+      "Flight to Athens departs at 22:00.",
+      "Must be at the airport by 20:00.",
+      "Interested in cultural activities.",
+      "Needs to have dinner before the flight.",
+      "Day trip is in Berlin."
+    ],
+    "missing_requirements": [
+      "Earliest possible start is 8:00 from Berlin Central Station (cannot start before 8:00)."
+    ]
+  },
+  {
+    "satisfied_requirements": [
+      "2. Must be at the airport by 20:00.",
+      "3. Interested in cultural activities.",
+      "4. Needs to have dinner before the flight.",
+      "5. Day trip is in Berlin."
+    ],
+    "satisfied_requirements_num": 4
+  }
+]

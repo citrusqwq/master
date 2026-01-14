@@ -1,0 +1,21 @@
+[
+  {
+    "extracted_requirement_num": 4,
+    "valid_requirements": [
+      "Urban day trip in Hamburg.",
+      "Visit the port (Hamburger Hafen).",
+      "Eat a Fischbrötchen (fish sandwich).",
+      "Avoid too crowded places."
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "Urban day trip in Hamburg.",
+      "Visit the port (Hamburger Hafen).",
+      "Eat a Fischbrötchen (fish sandwich).",
+      "Avoid too crowded places."
+    ],
+    "satisfied_requirements_num": 4
+  }
+]

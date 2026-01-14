@@ -1,0 +1,20 @@
+[
+  {
+    "extracted_requirement_num": 3,
+    "valid_requirements": [
+      "Visit the National Gallery in Berlin.",
+      "Eat a currywurst at the best currywurst stand in Berlin.",
+      "Shop for women's clothes in size 52."
+    ],
+    "missing_requirements": [
+      "All activities should take place in Berlin."
+    ]
+  },
+  {
+    "satisfied_requirements": [
+      "Visit the National Gallery in Berlin.",
+      "Shop for women's clothes in size 52."
+    ],
+    "satisfied_requirements_num": 2
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "place": "Landungsbrücken",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": " – Landungsbrücken**\n- **Address:** Bei den St. Pauli-Landungsbrücken, 20359 Hamburg\n- **Activity:** Starten Sie den Tag mit einem Spaziergang entlang der Landungsbrücken. Genießen Sie den Blick auf den Hafen, beobachten Sie die Schiffe und machen Sie erste Fotos vom Wasser und den Docks.\n- **"
+  },
+  {
+    "place": "Alter Elbtunnel (Aussichtspunkt Steinwerder-Seite)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Alter Elbtunnel (Aussichtspunkt Steinwerder-Seite)**\n- **Address:** Bei den St. Pauli-Landungsbrücken, Zugang zum Elbtunnel, 20359 Hamburg\n- **Activity:** Gehen Sie durch den historischen Alten Elbtunnel auf die Steinwerder-Seite. Von dort haben Sie einen der besten Panoramablicke auf die Hamburger Skyline und den Hafen – perfekt für Fotos.\n- **"
+  },
+  {
+    "place": "Vintage Markt: Flohschanze",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Vintage Markt: Flohschanze**\n- **Address:** Neuer Kamp 30, 20357 Hamburg (Flohmarkt an der Rindermarkthalle St. Pauli, samstags)\n- **Activity:** Stöbern Sie auf dem beliebten Flohschanze-Markt nach Vintage-Schätzen, Kleidung, Schallplatten und Kuriositäten. Ideal für Schnäppchenjäger und Fotografie.\n- **"
+  },
+  {
+    "place": "Portugiesenviertel",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": " – Portugiesenviertel**\n- **Address:** -\n- **Activity:** Spazieren Sie durch das charmante Portugiesenviertel mit seinen kleinen Läden und Cafés. Hier gibt es viele Fotomotive und eine entspannte Atmosphäre.\n- **"
+  },
+  {
+    "place": "Fischereihafen Restaurant",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Mittagessen im Fischrestaurant: Fischereihafen Restaurant**\n- **Address:** Große Elbstraße 143, 22767 Hamburg\n- **Activity:** Genießen Sie frischen Fisch und Meeresfrüchte in einem der bekanntesten und bestbewerteten Fischrestaurants Hamburgs mit Blick auf den Hafen.\n- **"
+  },
+  {
+    "place": "Elbphilharmonie Plaza (Aussichtspunkt)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Elbphilharmonie Plaza (Aussichtspunkt)**\n- **Address:** Platz der Deutschen Einheit 1, 20457 Hamburg\n- **Activity:** Besuchen Sie die Plaza der Elbphilharmonie für einen spektakulären Rundumblick auf die Stadt, den Hafen und die Speicherstadt. Tolle Fotomotive!\n- **"
+  },
+  {
+    "place": "Speicherstadt & Wasserschloss",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": " – Speicherstadt & Wasserschloss**\n- **Address:** -\n- **Activity:** Spazieren Sie durch die historische Speicherstadt, fotografieren Sie die Backsteinarchitektur und besuchen Sie das malerische Wasserschloss.\n- **"
+  },
+  {
+    "place": "Handwerklicher Dessertladen: Herr Max",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Handwerklicher Dessertladen: Herr Max**\n- **Address:** Schulterblatt 12, 20357 Hamburg\n- **Activity:** Probieren Sie kreative Torten, Kuchen und Desserts in diesem beliebten Café mit Vintage-Flair.\n- **"
+  },
+  {
+    "place": "Altonaer Balkon (Aussichtspunkt)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": " – Altonaer Balkon (Aussichtspunkt)**\n- **Address:** Palmaille 29, 22767 Hamburg\n- **Activity:** Lassen Sie den Tag mit einem entspannten Spaziergang und weiteren Hafenblicken vom Altonaer Balkon ausklingen. Perfekt für Sonnenuntergangsfotos.\n- **"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "place": "Schanzenviertel (Schanze)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Schanzenviertel (Schanze)  \n   - Address: -  \n   - Activity: Explore this vibrant neighborhood known for its alternative culture, small independent shops, street art, and cozy cafés. Enjoy a local breakfast or coffee at one of the many specialty cafés that locals frequent.  \n   - "
+  },
+  {
+    "place": "Loki Schmidt Garten (Botanical Garden)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Loki Schmidt Garten (Botanical Garden)  \n   - Address: Ohnhorststr. 18, 22609 Hamburg  \n   - Activity: Walk through this lesser-known botanical garden showcasing a diverse range of plants and themed gardens. It's peaceful and relaxing, perfect for a quiet stroll away from the crowds.  \n   - "
+  },
+  {
+    "place": "Isemarkt",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Isemarkt  \n   - Address: Isemarkt, 22769 Hamburg (runs underneath elevated U3 tracks)  \n   - Activity: Visit this unique open-air market where locals shop for fresh produce, organic foods, and artisanal products. Grab a light lunch from one of the many food stalls selling regional and international delicacies.  \n   - "
+  },
+  {
+    "place": "Entenwerder Park",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Entenwerder Park  \n   - Address: Entenwerder Deich, 20539 Hamburg  \n   - Activity: Relax in this quiet riverside park used mostly by locals. Ideal spot for riverside views, watching boats on the Elbe, or enjoying a beer at the local floating bar “Strandperle” nearby.  \n   - "
+  },
+  {
+    "place": "Gängeviertel",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: Gängeviertel  \n   - Address: Valentinskamp 34, 20355 Hamburg  \n   - Activity: Discover this creative enclave with artist studios, small galleries, and cultural events. It’s a great place to experience Hamburg’s underground art scene and maybe catch a live music performance or workshop.  \n   - "
+  },
+  {
+    "place": "Ottensen",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Ottensen  \n   - Address: -  \n   - Activity: End the day in Ottensen, a charming neighborhood with an authentic local feel. Enjoy dinner at a neighborhood restaurant or beer garden that serves traditional Hamburg cuisine or hip new dishes loved by locals.  \n   - "
+  }
+]

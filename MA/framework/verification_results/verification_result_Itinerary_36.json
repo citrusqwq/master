@@ -1,0 +1,93 @@
+[
+  {
+    "place": "Berliner Hauptbahnhof",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Berliner Hauptbahnhof  \n- **Adresse:** Europaplatz 1, 10557 Berlin  \n- **Aktivität:** Ankunft, möglicher kurzer Kaffee zur Stärkung; Startpunkt des Tages  \n- **"
+  },
+  {
+    "place": "Reichstagsgebäude",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Reichstagsgebäude  \n- **Adresse:** Platz der Republik 1, 11011 Berlin  \n- **Aktivität:** Besichtigung der imposanten Architektur des Regierungssitzes, evtl. Besuch der gläsernen Kuppel (Online-Anmeldung empfohlen)  \n- **"
+  },
+  {
+    "place": "Brandenburger Tor",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Brandenburger Tor  \n- **Adresse:** Pariser Platz, 10117 Berlin  \n- **Aktivität:** Wahrzeichen Berlins, Fotos, kurzer Spaziergang durch das historische Herz der Stadt  \n- **"
+  },
+  {
+    "place": "Holocaust-Mahnmal (Denkmal für die ermordeten Juden Europas)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Holocaust-Mahnmal (Denkmal für die ermordeten Juden Europas)  \n- **Adresse:** Cora-Berliner-Straße 1, 10117 Berlin  \n- **Aktivität:** Gedenkstätte besuchen, durch das beeindruckende Stelenfeld gehen, ggf. Besuch der Ausstellung  \n- **"
+  },
+  {
+    "place": "Unter den Linden (Boulevard)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Unter den Linden (Boulevard)  \n- **Adresse:** -  \n- **Aktivität:** Flanieren auf der berühmten Straße, Sehenswürdigkeiten wie die Staatsoper, Humboldt-Universität, Bebelplatz  \n- **"
+  },
+  {
+    "place": "Museumsinsel",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Museumsinsel  \n- **Adresse:** Bodestraße 1-3, 10178 Berlin  \n- **Aktivität:** Besuch eines Museums (z. B. Pergamonmuseum oder Neues Museum), sonst allgemeiner Spaziergang zwischen den architektonisch beeindruckenden Gebäuden  \n- **"
+  },
+  {
+    "place": "Nikolaiviertel",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Nikolaiviertel  \n- **Adresse:** -  \n- **Aktivität:** Historisches Viertel mit mittelalterlichem Flair, Möglichkeit für ein Mittagessen oder Kaffee in einem lokalen Café  \n- **"
+  },
+  {
+    "place": "East Side Gallery",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** East Side Gallery  \n- **Adresse:** Mühlenstraße 3-100, 10243 Berlin  \n- **Aktivität:** Besuch des längsten erhaltenen Teils der Berliner Mauer, Open-Air-Galerie mit berühmten Graffiti  \n- **"
+  },
+  {
+    "place": "Gendarmenmarkt",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Gendarmenmarkt  \n- **Adresse:** Gendarmenmarkt, 10117 Berlin  \n- **Aktivität:** Einer der schönsten Plätze Berlins, Architektur bestaunen (Konzerthaus, Deutscher Dom, Französischer Dom), kurze Pause  \n- **"
+  },
+  {
+    "place": "Jüdisches Museum Berlin",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Jüdisches Museum Berlin  \n- **Adresse:** Lindenstraße 9-14, 10969 Berlin  \n- **Aktivität:** Ausstellung zur jüdischen Geschichte und Kultur in Deutschland; preisgekrönte Architektur  \n- **"
+  },
+  {
+    "place": "Kreuzberg – Abendessen",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Kreuzberg – Abendessen  \n- **Adresse:** -  \n- **Aktivität:** Zahlreiche Restaurants mit internationaler und kreativer Küche; Empfehlung: Oranienstraße/Nähe Kottbusser Tor für vielfältige Optionen  \n- **"
+  },
+  {
+    "place": "Fahrt zum Flughafen BER",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Fahrt zum Flughafen BER  \n- **Adresse:** -  \n- **Aktivität:** Öffentliche Verkehrsmittel (empfohlen: S-Bahn/Regionalbahn ab Ostbahnhof oder Südkreuz, ca. 30-45 Minuten einplanen), rechtzeitig für den Check-in am Flughafen sein  \n- **"
+  },
+  {
+    "place": "Flughafen BER - Berlin Brandenburg",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Flughafen BER - Berlin Brandenburg  \n- **Adresse:** Willy-Brandt-Platz, 12529 Schönefeld  \n- **Aktivität:** Ankunft, Check-In, Sicherheitskontrolle, Restzeit zum Entspannen vor dem Abflug  \n- **"
+  }
+]

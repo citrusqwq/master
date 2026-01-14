@@ -1,0 +1,25 @@
+[
+  {
+    "extracted_requirement_num": 6,
+    "valid_requirements": [
+      "Destination: Berlin",
+      "Group: Visiting with friends",
+      "Interests: Cool bookstores",
+      "Dining: South American restaurant",
+      "Entertainment: Longer fun activity such as an arcade or karaoke bar",
+      "Trip duration: One day"
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "1. Destination: Berlin",
+      "2. Group: Visiting with friends",
+      "3. Interests: Cool bookstores",
+      "4. Dining: South American restaurant",
+      "5. Entertainment: Longer fun activity such as an arcade or karaoke bar",
+      "6. Trip duration: One day "
+    ],
+    "satisfied_requirements_num": 6
+  }
+]

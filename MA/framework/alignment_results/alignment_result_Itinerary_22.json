@@ -1,0 +1,21 @@
+[
+  {
+    "extracted_requirement_num": 4,
+    "valid_requirements": [
+      "Visit cool bookstores in Berlin.",
+      "Have a meal at a South American restaurant.",
+      "Include a longer fun activity such as an arcade or karaoke bar.",
+      "The trip is for one day with friends."
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "Visit cool bookstores in Berlin.",
+      "Have a meal at a South American restaurant.",
+      "Include a longer fun activity such as an arcade or karaoke bar.",
+      "The trip is for one day with friends."
+    ],
+    "satisfied_requirements_num": 4
+  }
+]

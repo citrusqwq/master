@@ -1,0 +1,37 @@
+[
+  {
+    "place": "HafenCity Hamburg",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: HafenCity Hamburg  \n   Address: -  \n   Activity: Explore the modern HafenCity district, enjoy a peaceful walk along the harbor promenade, and admire the architecture and views of the Elbe River without the heavy crowds of the main harbor area.  \n   "
+  },
+  {
+    "place": "Fischmarkt Hamburg-Altona (early morning market alternative)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Fischmarkt Hamburg-Altona (early morning market alternative)  \n   Address: Große Elbstraße 9, 22767 Hamburg  \n   Activity: Visit the less touristy Altona fish market area to enjoy a fresh Fischbrötchen from local vendors in a more relaxed atmosphere compared to the main St. Pauli fish market.  \n   "
+  },
+  {
+    "place": "Övelgönne Beach and Museumshafen",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: Övelgönne Beach and Museumshafen  \n   Address: Neumühlen 3, 22763 Hamburg  \n   Activity: Walk along the Elbe riverbank at Övelgönne, visit the small museum harbor with historic ships, and enjoy a quiet harbor experience away from the busiest spots.  \n   "
+  },
+  {
+    "place": "St. Pauli Landungsbrücken (early afternoon visit)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: St. Pauli Landungsbrücken (early afternoon visit)  \n   Address: St. Pauli Landungsbrücken, 20359 Hamburg  \n   Activity: Brief visit to the iconic landing bridges to see harbor views and ships, avoiding peak times to reduce crowds. Optionally, take a short harbor boat tour if desired.  \n   "
+  },
+  {
+    "place": "Planten un Blomen Park",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Planten un Blomen Park  \n   Address: Marseiller Str., 20355 Hamburg  \n   Activity: Relax in this large urban park near the city center, enjoy gardens and water features, a peaceful end to the day away from busy tourist areas.  \n   "
+  }
+]

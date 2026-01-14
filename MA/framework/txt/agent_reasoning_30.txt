@@ -1,0 +1,403 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Landungsbrücken**
+- **Address:** Bei den St. Pauli-Landungsbrücken, 20359 Hamburg
+- **Activity:** Starte den Tag mit einem Spaziergang an den berühmten Landungsbrücken. Genieße den Blick auf den Hafen, Schiffe und die Elbphilharmonie – perfekte Fotomotive.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Landungsbrücken",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Flohschanze (Flohmarkt Schanzenviertel, samstags)**
+- **Address:** Neuer Kamp 30, 20357 Hamburg
+- **Activity:** Stöbere über Hamburgs beliebten Vintage- und Trödelmarkt (nur samstags). Hier findest du einzigartige Fundstücke, Retro-Kleidung und Antiquitäten.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: Flohschanze (Flohmarkt Schanzenviertel, samstags)
+- Address: Neuer Kamp 30, 20357 Hamburg
+- Address is provided and specific.
+- "Flohschanze" is a specific flea market, not just a district or neighborhood.
+
+Action: 
+search("Neuer Kamp 30, 20357 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Flohschanze Hamburg",
+    "snippet": "Neuer Kamp 30 20357 Hamburg. www.marktkultur-hamburg.de. Enlarge map. Opening hours. Sat 08:00 - 16:00. Hamburg CARD. Free travel on buses, trains and harbour ..."
+  },
+  {
+    "title": "Digital Audio Service GmbH - MasteringWorks - High-End Audio Gear",
+    "snippet": "Neuer Kamp 30-32 , 20357 Hamburg · Tel. +49 040 47 11 348-0 · E-Mail: · Available Brands:."
+  },
+  {
+    "title": "CLASSIC CYCLES - Updated December 2025 - 14 Reviews - Neuer ...",
+    "snippet": "CLASSIC CYCLES - Neuer Kamp 30, 20357 Hamburg, Germany, 5 Photos & Videos, Tue - 12:30 PM - 7:00 PM, Wed - 12:30 PM - 7:00 PM, Thu - 12:30 PM - 7:00 PM, ..."
+  },
+  {
+    "title": "SONJA STURM - LIFE COACH - Updated December 2025 - Neuer ...",
+    "snippet": "Neuer Kamp 30. 20357 Hamburg. Germany. Sternschanze. Directions. 040 22820212. Call Now · Visit Website. https://sonjasturm.de. More Info. Hours. Other ..."
+  },
+  {
+    "title": "PHOTOAUTOMAT - Neuer Kamp 30, Hamburg, Germany - Yelp - Yelp",
+    "snippet": "PHOTOAUTOMAT, Neuer Kamp 30, 20357 Hamburg, Germany, 19 Photos, Mon - Open 24 hours, Tue - Open 24 hours, Wed - Open 24 hours, Thu - Open 24 hours, ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Flohschanze (Flohmarkt Schanzenviertel, samstags)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Oberhafenquartier (Vintage-Läden und Fotospots)**
+- **Address:** Stockmeyerstraße 43, 20457 Hamburg 
+- **Activity:** Kreatives Viertel unter der Bahn. Entdecke kleine Vintage-Shops, Streetart und urbane Fotospots mit Industrieambiente.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: Oberhafenquartier (Vintage-Läden und Fotospots)
+- Address: Stockmeyerstraße 43, 20457 Hamburg
+- Address is provided and specific.
+- "Oberhafenquartier" refers to a creative quarter, which may be a non-specific location (district/area), not a single POI.
+
+Output:
+{
+  "place": "Oberhafenquartier (Vintage-Läden und Fotospots)",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Fischereihafen Restaurant (Mittagessen)**
+- **Address:** Große Elbstraße 143, 22767 Hamburg
+- **Activity:** Genieße frischen Fisch in einem der bestbewerteten Fischrestaurants Hamburgs mit herrlichem Blick über den Hafen.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Fischereihafen Restaurant (Mittagessen)" and address is "Große Elbstraße 143, 22767 Hamburg".
+- Address is provided and specific.
+- Place is a specific restaurant, not a non-specific location.
+- Need to verify if the address matches the claimed place.
+
+Action: 
+search("Große Elbstraße 143, 22767 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Fischereihafen Restaurant Hamburg: Startseite",
+    "snippet": "Kowalke Hamburg GmbH & Co. KG Große Elbstraße 143, 22767 Hamburg Telefon: 040 - 38 18 16. E-Mail: reservierung@fischereihafenrestaurant.de. © 2020 ..."
+  },
+  {
+    "title": "Fischereihafen Restaurant – Hamburg - a MICHELIN Guide ...",
+    "snippet": "Fischereihafen Restaurant. Große Elbstraße 143, Hamburg, 22767, Germany. €€€ · Seafood, Classic Cuisine. Favorite. Visited. Notes. Reservations are not ..."
+  },
+  {
+    "title": "Home - Fischereihafen Restaurant Hamburg",
+    "snippet": "Kowalke Hamburg GmbH & Co. KG Große Elbstraße 143, 22767 Hamburg Phone: 040 - 38 18 16. E-Mail: info@fischereihafenrestaurant.de. 2025 Fischereihafen ..."
+  },
+  {
+    "title": "Hamburg Tour Guide presented by LEMARIT",
+    "snippet": "Lübeck's old town is Germany's most extensive UNESCO World Heritage Site. Find the place · Fischereihafen Restaurant. Große Elbstraße 143"
+  },
+  {
+    "title": "Kontakt : Universität Hamburg · Fachbereich Biologie · Forschung ...",
+    "snippet": "22767 Hamburg. Laura Schmidt. Fon +49 40 42838-6601. Mail: office.imf@uni ... Große Elbstraße 143 22767 Hamburg. Fon +49 40 3800430. Google-Maps. Schutz ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Fischereihafen Restaurant (Mittagessen)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Alter Elbtunnel (Fotospot)**
+- **Address:** Bei den St. Pauli-Landungsbrücken, 20359 Hamburg
+- **Activity:** Erkunde den historischen Tunnel unter der Elbe – besonders beliebt für Fotos mit der Sichtachse auf Hafen und Stadt oder auf der Südseite mit Skyline-Blick.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: Alter Elbtunnel (Fotospot)
+- Address: Bei den St. Pauli-Landungsbrücken, 20359 Hamburg
+- Address is provided and is not a placeholder.
+- "Alter Elbtunnel" refers to a specific historic tunnel, not a non-specific location.
+- Verification is required.
+
+Action: 
+search("Bei den St. Pauli-Landungsbrücken, 20359 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "St. Pauli Piers - Wikipedia",
+    "snippet": "St. Pauli Landing Bridges. The piers' waterfront seen towards St. Michaelis. General information. Location, Bei den St. Pauli-Landungsbrücken 20359 Hamburg, ..."
+  },
+  {
+    "title": "Landungsbrücken Hamburg Hafen - hamburg.de",
+    "snippet": "Hamburg Reise- & Erlebnisgutscheine. Schenken Sie Zeit in der schönsten Stadt der Welt mit unseren Gutscheinen. Kontakt. St. Pauli Landungsbrücken. 20359 ..."
+  },
+  {
+    "title": "Untitled",
+    "snippet": null
+  },
+  {
+    "title": "THE BEST 10 PARKING near BEI DEN ST. PAULI ...",
+    "snippet": "Pauli-Landungsbrücken 28, 20359 Hamburg, Germany. All \"Parking\" results near me in Hamburg - December 2025. Showing 1-80 of 130."
+  },
+  {
+    "title": "Landungsbrücken",
+    "snippet": "Location. Bei den St. Pauli-Landungsbrücken 20359 Hamburg. Enlarge map ... A piece of the hamburg harbour panorama Cap San Diego. The white swan of the ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think:
+- The search results indicate that "Bei den St. Pauli-Landungsbrücken, 20359 Hamburg" is associated with the St. Pauli Landungsbrücken (landing bridges/pier area).
+- The Alter Elbtunnel is historically accessed from the St. Pauli Landungsbrücken area, but the results do not explicitly mention the Alter Elbtunnel itself.
+- The address is not unique to the tunnel, but is the general area where the entrance to the Alter Elbtunnel is located.
+- The results are not conclusive about whether this address is specifically for the Alter Elbtunnel.
+
+Action:
+search("Alter Elbtunnel (Fotospot) impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Fotospot Alter Elbtunnel - Südeingang",
+    "snippet": "Sep 16, 2013 ... Kreuzfahrtschiffe, die das Cruice Center HafenCity anlaufen oder verlassen, müssen hier vorbei fahren. Dieser Aussichtspunkt erlaubt eine der ..."
+  },
+  {
+    "title": "Alter Elbtunnel ⇒ Infos & Öffnungszeiten an den Landungsbrücken",
+    "snippet": "15Was sind die besten Fotospots am Alten Elbtunnel? 16Welche Verkehrsmittel ... Entdecke den alten Elbtunnel, das unterirdische Meisterwerk. Impressum."
+  },
+  {
+    "title": "Fotospot Alter Elbtunnel",
+    "snippet": "Jun 3, 2013 ... Der Alte Elbtunnel wird offiziell \"St. Pauli Elbtunnel\" genannt und wurde 1911 eröffnet. Er unterquert auf einer Länge von rund 426 m die ..."
+  },
+  {
+    "title": "Hamburger Fotospots: 6 coole Orte für schöne Bilder | AMEXcited",
+    "snippet": "Jul 9, 2025 ... Alter Elbtunnel: Historische Elbquerung; Binnen- und Außenalster ... Impressum · Newsletter · Website Regeln | Cookie-Richtlinie | Impressum."
+  },
+  {
+    "title": "Meine 5 liebsten Fotospots in Hamburg Fotografie, Workshops und ...",
+    "snippet": "Feb 27, 2020 ... Und wie du hinkommst. Inhalte in diesem BlogPost. Speicherstadt. Landungsbrücken. Alter Elbtunnel."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Alter Elbtunnel (Fotospot)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Vlet Dessert Bar (für handwerkliche Desserts)**
+- **Address:** Am Sandtorkai 23/24, 20457 Hamburg
+- **Activity:** Probiere kreative Desserts in moderner Atmosphäre – beliebt für ihre ausgefallenen Dessert-Kreationen.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. The place "Vlet Dessert Bar" is a specific venue, not a non-specific location. Verification is required.
+
+Action: search("Am Sandtorkai 23/24, 20457 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "PÂTISSERIE JOHANNA, Hamburg - Am Sandtorkai 23-24 ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Closed now. Am Sandtorkai 23-24, 20457 Hamburg Germany. Map. Review. About."
+  },
+  {
+    "title": "IS 2024",
+    "snippet": "May 23, 2024 ... ... 23-24 May 2024. Bundesbank Regional Office Hamburg, Germany ... Am Sandtorkai 23/24, 20457 Hamburg). In addition, optional informal ..."
+  },
+  {
+    "title": "PATISSERIE JOHANNA - Updated December 2025 - 12 Photos ...",
+    "snippet": "Am Sandtorkai 23-24. 20457 Hamburg. Germany. Speicherstadt. Directions. Visit Website. http://www.pattisserie-johanna.de. Food & Alcohol. Does Patisserie ..."
+  },
+  {
+    "title": "MARKTHALLE SPEICHERSTADT - Updated December 2025 - 22 ...",
+    "snippet": "MARKTHALLE SPEICHERSTADT - Try Our New Menu - Am Sandtorkai 23/24, 20457 Hamburg, Germany, 22 Photos, +4915733924558, Mon - 11:00 am - 6:00 pm, ..."
+  },
+  {
+    "title": "NaNi E-Sports GmbH | Gamecity Hamburg",
+    "snippet": "YouTube. Categories: OtherServicesEsportsPR/marketing agencySerious gamesPublisherDeveloper and publisher. Am Sandtorkai 23/24, 20457 Hamburg. To load this ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think: The search results for "Am Sandtorkai 23/24, 20457 Hamburg" mention several businesses, including "PÂTISSERIE JOHANNA" and "MARKTHALLE SPEICHERSTADT," but there is no mention of "Vlet Dessert Bar." The address appears to be associated with other venues. To be sure, I will perform the second search as per the rules.
+
+Action: search("Vlet Dessert Bar impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Cinnamon Blueberry Crumb Bars ⋆ The Mellow Kitchn",
+    "snippet": "Aug 20, 2021 ... Category: all recipes, baking, breakfast, Dessert, recipes, snack, Summer, sweets, Vegetarian ... Let cool slightly before cutting into bars. The ..."
+  },
+  {
+    "title": "Friendliness of German startup : r/germany",
+    "snippet": "Mar 2, 2022 ... Not having an Impressum is actually illegal....I don't know ... bar for becoming an HR personnel really so low? Seems more than half ..."
+  },
+  {
+    "title": "Creamy Chocolate & Chestnut Mousse ⋆ The Mellow Kitchn",
+    "snippet": "Feb 9, 2018 ... Impressum / Legal Disclosure ... However, I feel like the addition of some sort of fruit is paramount for this dessert to create balance."
+  },
+  {
+    "title": "17 Best Cookie Bar Recipes - How to Make Cookie Bars",
+    "snippet": "Oct 18, 2021 ... Kelly, why would I bake cookie bars when I could just make sugar cookies cut into seasonal shapes for Halloween or Christmas? Let's ask recipe ..."
+  },
+  {
+    "title": "Original Beans",
+    "snippet": "Taste the Rare. Cusco 100% - bar · Mix & Match - 20% discount · Virunga 70 ... Impressum. SDG HOUSE, Mauritskade 64, 1092 AD, Amsterdam, The Netherlands"
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Vlet Dessert Bar",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": false
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Elbphilharmonie Plaza (Aussichtspunkt & Fotospot, Sonnenuntergang)**
+- **Address:** Platz der Deutschen Einheit 1, 20457 Hamburg
+- **Activity:** Besuche die Plaza der Elbphilharmonie für einen grandiosen Rundumblick über Hafen, Speicherstadt und Innenstadt – ein Traum für Fotografen, besonders zum Sonnenuntergang.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Elbphilharmonie Plaza (Aussichtspunkt & Fotospot, Sonnenuntergang)".
+- Address is "Platz der Deutschen Einheit 1, 20457 Hamburg".
+- Address is provided and specific.
+- Place is not a non-specific location.
+- Verification is required.
+
+Action: search("Platz der Deutschen Einheit 1, 20457 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Hamburg Spa Hotel | The Westin Hamburg Elbphilharmonie",
+    "snippet": "As one of Hamburg's pet-friendly city center hotels, we welcome trained ... Platz der Deutschen Einheit 2,. Hamburg, Germany, 20457. Toll Free: +49-40 ..."
+  },
+  {
+    "title": "Parken in Hamburg - Parkhaus Elbphilharmonie &#128664; - APCOA",
+    "snippet": "Zur Verfügung stehen die Tarife Event, Langzeit Comfort und VIP Parken. Jetzt buchen! Wegbeschreibung. Platz der Deutschen Einheit 1 20457 Hamburg."
+  },
+  {
+    "title": "Elbphilharmonie Laeiszhalle Hamburg - Elbphilharmonie",
+    "snippet": "Two venues, one website: the events programme of the Elbphilharmonie and Laeiszhalle in Hamburg – book concerts, plan your visit, browse the Mediatheque."
+  },
+  {
+    "title": "Elbphilharmonie Lindner Group",
+    "snippet": "Elbphilharmonie. Platz der Deutschen Einheit 1, 20457 Hamburg, Germany. Photo © Lindner Group. The queues of the Elbphilharmonie´s opening concert were not ..."
+  },
+  {
+    "title": "APCOA PARKING - Platz der Deutschen Einheit 1, Hamburg, Germany",
+    "snippet": "More info about Apcoa Parking. Map. Platz der Deutschen Einheit 1. 20457 Hamburg. Germany. HafenCity. Directions. 0711 30570305. Call Now · Visit Website."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Elbphilharmonie Plaza (Aussichtspunkt & Fotospot, Sonnenuntergang)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+

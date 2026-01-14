@@ -1,0 +1,513 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Berliner Hauptbahnhof  
+- **Adresse:** Europaplatz 1, 10557 Berlin  
+- **Aktivität:** Ankunft, möglicher kurzer Kaffee zur Stärkung; Startpunkt des Tages  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "Berliner Hauptbahnhof" is a specific POI (Berlin Central Station), not a non-specific location. Verification is required.
+
+Action: search("Europaplatz 1, 10557 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Hertz Car Rental - Berlin Main Railway Station - Europaplatz 1",
+    "snippet": "Berlin Main Railway Station - Europaplatz 1 Information. Location Details. Hours. Europaplatz 1 Berlin,10557 +49 30 20649328 Get Directions."
+  },
+  {
+    "title": "Berlin Hauptbahnhof",
+    "snippet": "Address. Berlin HauptbahnhofBerlin Hauptbahnhof Europaplatz 1 10557 Berlin. Berlin Hauptbahnhof, Europaplatz 1, 1 0 5 5 7 Berlin. Deutsch English. Business ..."
+  },
+  {
+    "title": "MCDONALD'S, Berlin - Europaplatz 1, Mitte (Borough) - Menu ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Open until 3:00 AM. Europaplatz 1 Hauptbahnhof, 10557 Berlin Germany. Website."
+  },
+  {
+    "title": "Car Rental Berlin Hauptbahnhof | SIXT rent a car",
+    "snippet": "Berlin Central Train Station. Google Maps Berlin Central Train Station, Europaplatz 1, Berlin, Berlin 10557, Germany. Additional Information. How to find us."
+  },
+  {
+    "title": "CURRY 36, Berlin - Europaplatz 1, Charlottenburg-Wilmersdorf ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Closed now. Europaplatz 1, 10557 Berlin Germany. Website. Call. Map. Review."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Berliner Hauptbahnhof",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Reichstagsgebäude  
+- **Adresse:** Platz der Republik 1, 11011 Berlin  
+- **Aktivität:** Besichtigung der imposanten Architektur des Regierungssitzes, evtl. Besuch der gläsernen Kuppel (Online-Anmeldung empfohlen)  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Reichstagsgebäude" and Address is "Platz der Republik 1, 11011 Berlin".
+- Address is provided and is not a placeholder.
+- "Reichstagsgebäude" is a specific landmark, not a non-specific location.
+- Verification is required.
+
+Action: search("Platz der Republik 1, 11011 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Reichstag building - Wikipedia",
+    "snippet": "... Platz der Republik in Berlin that is the seat of the German Bundestag. ... Platz der Republik 1, 11011 Berlin, Berlin, Germany. Coordinates · 52°31′07″N ..."
+  },
+  {
+    "title": "Form submission webhook",
+    "snippet": "... Platz der Republik 1, 11011 Berlin, Germany\", \"isMock\": false, \"altitude\": 33.7906493, \"accuracy\": 33.7906493, \"speed\": 0.7906493 }, \"choices\": [ { \"id ..."
+  },
+  {
+    "title": "German Bundestag contact form - Berlin",
+    "snippet": "German Bundestag Platz der Republik 1 11011 Berlin Germany Tel.: +49(0) 30 227-0 Fax: +49(0) 30 227-36878"
+  },
+  {
+    "title": "Decisions search - Order of 25 March ... - Bundesverfassungsgericht",
+    "snippet": "1. Until a decision in the proceedings in the main action is issued, the ... Platz der Republik 1, 11011 Berlin. - authorised representative: Prof. Dr ..."
+  },
+  {
+    "title": "Kontakt - Deutscher Bundestag",
+    "snippet": "Deutscher Bundestag Verwaltung - Referat Int 3 Platz der Republik 1 11011 Berlin Die Parlamentariergruppen haben kein eigenes Budget und können daher keine ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Reichstagsgebäude",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Brandenburger Tor  
+- **Adresse:** Pariser Platz, 10117 Berlin  
+- **Aktivität:** Wahrzeichen Berlins, Fotos, kurzer Spaziergang durch das historische Herz der Stadt  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "Brandenburger Tor" is a specific landmark, not a non-specific location. Verification is required.
+
+Action: search("Pariser Platz, 10117 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Pariser Platz - Wikipedia",
+    "snippet": "Pariser Platz ( transl. Parisian Square) is a square in the historic center of Berlin, Germany, situated by the Brandenburg Gate at the end of Unter den ..."
+  },
+  {
+    "title": "Pariser Platz – Berlin.de",
+    "snippet": "Dec 20, 2024 ... Anlässlich der Eroberung von Paris durch preußische Truppen in den Befreiungskriegen erhielt er den Namen Pariser Platz. Anfänglich mit ..."
+  },
+  {
+    "title": "Brandenburg Gate in Berlin: history, events & more | visitBerlin.de",
+    "snippet": "Tiergarten Park. Find further information here. Information about Accessibility: Labelling \"Tourism for all\". Address. Pariser Platz 10117 Berlin. +−."
+  },
+  {
+    "title": "Pariser Platz – Berlin.de",
+    "snippet": "Jan 16, 2025 ... Pariser Platz at the Brandenburg Gate was the border between East and West Berlin until the fall of the Wall. Today it is one of the most visited squares in ..."
+  },
+  {
+    "title": "U.S. Mission Germany | EducationUSA",
+    "snippet": "The U.S. Embassy in Berlin, and the U.S. Consulates in Duesseldorf, Frankfurt ... Walk-in Address. Pariser Platz 2. 10117 Berlin. Germany. Mailing Address."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Brandenburger Tor",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Holocaust-Mahnmal (Denkmal für die ermordeten Juden Europas)  
+- **Adresse:** Cora-Berliner-Straße 1, 10117 Berlin  
+- **Aktivität:** Gedenkstätte besuchen, durch das beeindruckende Stelenfeld gehen, ggf. Besuch der Ausstellung  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Holocaust-Mahnmal (Denkmal für die ermordeten Juden Europas)"
+- Address is "Cora-Berliner-Straße 1, 10117 Berlin"
+- Address is provided and specific.
+- Place is a specific memorial, not a general area.
+
+Action: 
+search("Cora-Berliner-Straße 1, 10117 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Memorial to the Murdered Jews of Europe - Stiftung Denkmal für die ...",
+    "snippet": "Stelenfeld and Information Centre ; Field of Stelae. 24 hours a day accessible ; PLACE. Cora-Berliner-Straße 1. D – 10117 Berlin ; CONTACT. + 49 30 26 39 43 – 0"
+  },
+  {
+    "title": "Memorial to the Murdered Jews of Europe | visitBerlin.de",
+    "snippet": "... the Berlin Welcome Card. ... 10:00 – 18:00. Find further information here. Denkmal für die ermordeten Juden Europas. Address. Cora-Berliner-Straße 1 10117 Berlin."
+  },
+  {
+    "title": "Museum – Memorial for the Murdered Jews ... - Museumsportal Berlin",
+    "snippet": "1. January closed; 24. December closed; 25. December closed; 26. December closed; 31. December 10:00 - 16:00. Location,. Cora-Berliner-Straße 1, 10117 Berlin."
+  },
+  {
+    "title": "Memorial to the Murdered Jews of Europe - Wikipedia",
+    "snippet": "The memorial is located on Cora-Berliner-Straße 1, 10117 in Berlin, a city with one of the largest Jewish populations in Europe before the Second World War."
+  },
+  {
+    "title": "Sunday, 2nd November, 2pm Free guided tour of the Memorial to ...",
+    "snippet": "Oct 30, 2025 ... Memorial to the Murdered Jews of Europe, entrance to the Information Centre, Cora- Berliner-Straße -Straße 1, 10117 Berlin No registration ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Holocaust-Mahnmal (Denkmal für die ermordeten Juden Europas)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Unter den Linden (Boulevard)  
+- **Adresse:** -  
+- **Aktivität:** Flanieren auf der berühmten Straße, Sehenswürdigkeiten wie die Staatsoper, Humboldt-Universität, Bebelplatz  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Unter den Linden (Boulevard)",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Museumsinsel  
+- **Adresse:** Bodestraße 1-3, 10178 Berlin  
+- **Aktivität:** Besuch eines Museums (z. B. Pergamonmuseum oder Neues Museum), sonst allgemeiner Spaziergang zwischen den architektonisch beeindruckenden Gebäuden  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Museumsinsel",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Nikolaiviertel  
+- **Adresse:** -  
+- **Aktivität:** Historisches Viertel mit mittelalterlichem Flair, Möglichkeit für ein Mittagessen oder Kaffee in einem lokalen Café  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Nikolaiviertel",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** East Side Gallery  
+- **Adresse:** Mühlenstraße 3-100, 10243 Berlin  
+- **Aktivität:** Besuch des längsten erhaltenen Teils der Berliner Mauer, Open-Air-Galerie mit berühmten Graffiti  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "East Side Gallery" and address is "Mühlenstraße 3-100, 10243 Berlin".
+- Address is provided and is not a placeholder.
+- "East Side Gallery" is a specific landmark, not a non-specific location.
+- Verification is required.
+
+Action: 
+search("Mühlenstraße 3-100, 10243 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "EAST SIDE GALLERY - Updated December 2025 - 1863 Photos ...",
+    "snippet": "EAST SIDE GALLERY, Mühlenstr. 3 - 100, 10243 Berlin, Germany, 1863 Photos, +491723918726, Mon - Open 24 hours, Tue - Open 24 hours, Wed - Open 24 hours, ..."
+  },
+  {
+    "title": "East Side Gallery | Berlin WelcomeCard",
+    "snippet": "Die Kunstmeile verläuft parallel zur Spree entlang der Mühlenstraße zwischen dem Ostbahnhof und der Oberbaumbrücke. ... Mühlenstraße 3-100 10243 Berlin"
+  },
+  {
+    "title": "Berlin's must-see attractions! Brandenburg Gate Address: Pariser ...",
+    "snippet": "Sep 26, 2025 ... ... Mühlenstraße 3–100, 10243 Berlin The longest surviving stretch of the Berlin Wall, transformed into a 1.3 km open-air gallery with 101 ..."
+  },
+  {
+    "title": "Berlin East Side Gallery - Information Updated December 2025 ...",
+    "snippet": "The East Side Gallery is located at Mühlenstraße 3-100 in 10243 Berlin, Germany. This unique open-air art exhibit stretches for approximately 1.3 kilometers ..."
+  },
+  {
+    "title": "Review of East Side Gallery | Berlin, Germany, Europe - AFAR",
+    "snippet": "East Side Gallery. Mühlenstraße 3-100, 10243 Berlin, Germany. http://www ... The East Side Gallery is located near the center of Berlin on Mühlenstraße in the ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "East Side Gallery",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Gendarmenmarkt  
+- **Adresse:** Gendarmenmarkt, 10117 Berlin  
+- **Aktivität:** Einer der schönsten Plätze Berlins, Architektur bestaunen (Konzerthaus, Deutscher Dom, Französischer Dom), kurze Pause  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Gendarmenmarkt",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Jüdisches Museum Berlin  
+- **Adresse:** Lindenstraße 9-14, 10969 Berlin  
+- **Aktivität:** Ausstellung zur jüdischen Geschichte und Kultur in Deutschland; preisgekrönte Architektur  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Jüdisches Museum Berlin".
+- Address is "Lindenstraße 9-14, 10969 Berlin".
+- Address is provided and specific.
+- Place is a specific POI, not a general area.
+- Verification is required.
+
+Action: 
+search("Lindenstraße 9-14, 10969 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Planning Your Visit | Jewish Museum Berlin",
+    "snippet": "The JMB Shop is operated by Bavaroi Berlin GmbH. Opening hours: 10 am–6 pm. Lindenstraße 9–14 10969 Berlin service@bavaroi.net. Rooms for Event Hosting ..."
+  },
+  {
+    "title": "In Berlin, history can be found on every corner. In addition to ...",
+    "snippet": "Feb 20, 2025 ... ... Berlin Free admission, Mon-Fri 10am - 6pm, Sat+Sun 11am - 6pm Jewish Museum Berlin, Lindenstraße 9-14, 10969 Berlin Free admission ..."
+  },
+  {
+    "title": "Jüdisches Museum Berlin",
+    "snippet": "Bitte buchen Sie dieses vorab im Online-Ticketshop. zum Ticketshop. Anfahrt. Anfahrt. Jüdisches Museum Berlin Lindenstraße 9–14 10969 Berlin T +49 (0)30 259 93 ..."
+  },
+  {
+    "title": "Museums in Berlin: Jüdisches Museum Berlin | ART at Berlin",
+    "snippet": "ART@Berlin: Museums in Berlin: Jüdisches Museum Berlin is one of the largest museums in Europe ... Lindenstraße 9-14, 10969 Berlin-Kreuzberg. GPS:."
+  },
+  {
+    "title": "Lindenstraße | Jewish Museum Berlin",
+    "snippet": "Lindenstraße 9–14, 10969 Berlin See location on map. In front of a wall with labeled colored squares lie labeled color cubes. Text installation Lindenstraße ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Jüdisches Museum Berlin",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Kreuzberg – Abendessen  
+- **Adresse:** -  
+- **Aktivität:** Zahlreiche Restaurants mit internationaler und kreativer Küche; Empfehlung: Oranienstraße/Nähe Kottbusser Tor für vielfältige Optionen  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Kreuzberg – Abendessen",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Fahrt zum Flughafen BER  
+- **Adresse:** -  
+- **Aktivität:** Öffentliche Verkehrsmittel (empfohlen: S-Bahn/Regionalbahn ab Ostbahnhof oder Südkreuz, ca. 30-45 Minuten einplanen), rechtzeitig für den Check-in am Flughafen sein  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Fahrt zum Flughafen BER",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Flughafen BER - Berlin Brandenburg  
+- **Adresse:** Willy-Brandt-Platz, 12529 Schönefeld  
+- **Aktivität:** Ankunft, Check-In, Sicherheitskontrolle, Restzeit zum Entspannen vor dem Abflug  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. The place "Flughafen BER - Berlin Brandenburg" is a specific POI (an airport), not a non-specific location. Verification is required.
+
+Action: search("Willy-Brandt-Platz, 12529 Schönefeld")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Steigenberger Airport Hotel Berlin | H Rewards",
+    "snippet": "Willy-Brandt-Platz 3 12529 Schönefeld Deutschland. +49 30 246 497-0 · berlin-airport@steigenberger.com. Our facilities at the Steigenberger Airport Hotel Berlin."
+  },
+  {
+    "title": "BER Airport | S-Bahn Berlin GmbH",
+    "snippet": "... Willy Brandt\". Berlin Brandenburg Airport (BER) - Willy Brandt. ] } Address. Willy-Brandt-Platz 1, 12529 Schönefeld · Show address in journey planner · Website ..."
+  },
+  {
+    "title": "IntercityHotel Berlin Airport BER Terminal 1+2 | H Rewards",
+    "snippet": "Show More. Willy-Brandt-Platz 5 12529 Schönefeld Deutschland. +49 30 536 531 0 · airport-ber@intercityhotel.com. Free WiFi. Environmental Certification."
+  },
+  {
+    "title": "Steigenberger Airport Hotel Berlin- First Class Schoenefeld ...",
+    "snippet": "Hoteliers! Is your information accurate? Update Here. Steigenberger Airport Hotel Berlin Location Map. Willy-Brandt-Platz 3. Schoenefeld, Germany 12529. Map ..."
+  },
+  {
+    "title": "Office Space in Willy-Brandt-Platz 2, Schonefeld, 12529 | Easy Offices",
+    "snippet": "Nearby Coworking Space ... Willy-Brandt-Platz 2, Schonefeld, 12529. Office space. from €185 person/month. Coworking Desks. from €169 person/month. Request ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think: The search results show that Willy-Brandt-Platz, 12529 Schönefeld is an address associated with several locations at or near Berlin Brandenburg Airport (BER), including hotels and office spaces. One result specifically mentions "Berlin Brandenburg Airport (BER) - Willy Brandt" with the address Willy-Brandt-Platz 1, 12529 Schönefeld, which matches the general address provided (Willy-Brandt-Platz, 12529 Schönefeld). The address is a plaza at the airport, and the airport is named after Willy Brandt. The address provided is sufficiently specific and matches the location of Flughafen BER.
+
+Output:
+{
+  "place": "Flughafen BER - Berlin Brandenburg",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+

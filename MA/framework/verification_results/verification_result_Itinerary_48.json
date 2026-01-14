@@ -1,0 +1,65 @@
+[
+  {
+    "place": "Berlin Hauptbahnhof",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Berlin Hauptbahnhof  \n- Address: Europaplatz 1, 10557 Berlin, Germany  \n- Activity: Start your day here, the main transport hub for easy transit. From here, take public transport to Museum Island.  \n- "
+  },
+  {
+    "place": "Museum Island (Museumsinsel)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Museum Island (Museumsinsel)  \n- Address: Bodestraße 1-3, 10178 Berlin, Germany  \n- Activity: Explore key museums like the Pergamon Museum, Altes Museum, and Neues Museum. Cultural treasures including ancient artifacts and classical art.  \n- "
+  },
+  {
+    "place": "Berlin Cathedral (Berliner Dom)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Berlin Cathedral (Berliner Dom)  \n- Address: Am Lustgarten, 10178 Berlin, Germany  \n- Activity: Visit this iconic cathedral for its stunning architecture and panoramic views from the dome.  \n- "
+  },
+  {
+    "place": "Unter den Linden / Museumsviertel",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Unter den Linden / Museumsviertel  \n- Address: -  \n- Activity: Walk along Unter den Linden boulevard to enjoy Berlin's historical architecture and vibrant cultural atmosphere. Optionally visit nearby Humboldt University or Staatsoper.  \n- "
+  },
+  {
+    "place": "Lunch break around Gendarmenmarkt",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Lunch break around Gendarmenmarkt  \n- Address: Gendarmenmarkt, 10117 Berlin, Germany  \n- Activity: Enjoy lunch at a café or restaurant around historic Gendarmenmarkt square, surrounded by French and German Cathedrals and concert halls, continuing with the cultural vibe.  \n- "
+  },
+  {
+    "place": "Topography of Terror",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Topography of Terror  \n- Address: Niederkirchnerstraße 8, 10963 Berlin, Germany  \n- Activity: Visit the outdoor and indoor exhibitions documenting the history of the Gestapo, SS, and the terror of the Nazi regime. A very powerful cultural education site.  \n- "
+  },
+  {
+    "place": "Checkpoint Charlie / Friedrichstraße area",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Checkpoint Charlie / Friedrichstraße area  \n- Address: Friedrichstraße 43-45, 10117 Berlin, Germany  \n- Activity: Explore this famous Cold War border crossing point and its museum for more historical context. Shopping and strolling in the nearby Friedrichstraße shopping street.  \n- "
+  },
+  {
+    "place": "Dinner near Alexanderplatz",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Dinner near Alexanderplatz  \n- Address: Alexanderplatz, 10178 Berlin, Germany  \n- Activity: Have an early dinner in one of the many restaurants around Alexanderplatz to ensure timely arrival at airport.  \n- "
+  },
+  {
+    "place": "Travel to Berlin Brandenburg Airport (BER)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Travel to Berlin Brandenburg Airport (BER)  \n- Address: Willy-Brandt-Platz, 12529 Schönefeld, Germany  \n- Activity: Take public transit (S-Bahn or regional train) or taxi to airport to arrive by 20:00 for your flight.  \n- "
+  }
+]

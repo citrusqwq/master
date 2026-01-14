@@ -1,0 +1,44 @@
+[
+  {
+    "place": "Schanzenviertel (Schanze district)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Schanzenviertel (Schanze district)  \n- Address: -  \n- Activity: Explore this vibrant neighborhood known for its street art, independent boutiques, cozy cafés, and weekend flea markets. Enjoy a relaxed breakfast or coffee at a local café and soak in the local vibe.  \n- "
+  },
+  {
+    "place": "Isemarkt",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Isemarkt  \n- Address: Isemarkt, 22769 Hamburg  \n- Activity: Visit this lively outdoor market held on Tuesdays and Fridays, but on weekends the area is still great for a stroll. Discover fresh local produce, artisan foods, and mingle with Hamburg residents.  \n- "
+  },
+  {
+    "place": "Sternschanze Park",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Sternschanze Park  \n- Address: Sternschanze, 20357 Hamburg  \n- Activity: Relax like locals in this green urban park, perfect for a picnic or just chilling. Nearby, you can find small bars and street food vendors popular with Hamburgers.  \n- "
+  },
+  {
+    "place": "Altona Fish Market (only Sunday morning, so if weekend is Sunday) or alternatively:  - Place: Ottensen neighborhood",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Altona Fish Market (only Sunday morning, so if weekend is Sunday) or alternatively:  \n- Place: Ottensen neighborhood  \n- Address: -  \n- Activity: If Sunday, visit the Altona Fish Market early morning for a lively local experience with fresh fish, live music, and local snacks. If not Sunday, explore Ottensen, a charming district with independent shops, galleries, and cafés away from tourist crowds.  \n- "
+  },
+  {
+    "place": "Boberger Dünen Nature Reserve",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: Boberger Dünen Nature Reserve  \n- Address: Boberger Furt 1, 22159 Hamburg  \n- Activity: Take a short trip to this hidden natural dune landscape on the outskirts of Hamburg. Enjoy walking trails, birdwatching, and a peaceful atmosphere favored by locals for weekend nature escapes.  \n- "
+  },
+  {
+    "place": "Lokal Bar or a small craft brewery in Sternschanze or Karolinenviertel",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Lokal Bar or a small craft brewery in Sternschanze or Karolinenviertel  \n- Address: -  \n- Activity: End your day with a drink at a local craft beer bar or a cozy pub popular with Hamburg residents, avoiding tourist-heavy spots. Enjoy the local nightlife vibe in a relaxed setting.  \n- "
+  }
+]

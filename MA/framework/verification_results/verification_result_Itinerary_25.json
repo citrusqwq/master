@@ -1,0 +1,51 @@
+[
+  {
+    "place": "Wochenmarkt Isemarkt (Ise Market)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Wochenmarkt Isemarkt (Ise Market)  \n**Address:** Isestraße, 20144 Hamburg, Germany  \n**Activity:** Start your day at Hamburg’s longest open-air market—favorite among locals but often missed by tourists. Browse fresh produce, sample artisanal breads and cheeses, people-watch under the U-Bahn tracks, or grab a slow coffee.  \n**"
+  },
+  {
+    "place": "Eppendorf Neighborhood",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Eppendorf Neighborhood  \n**Address:** -  \n**Activity:** Stroll through Eppendorf, a chic local district with leafy streets, quirky boutiques, independent bookstores, and elegant 19th-century buildings. Stop for a pastry in a local bakery, or shop at small design stores.  \n**"
+  },
+  {
+    "place": "Planten un Blomen Park – Japanese Garden",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Planten un Blomen Park – Japanese Garden  \n**Address:** Marseiller Str., 20355 Hamburg, Germany  \n**Activity:** Relax where locals come to read, picnic, or enjoy some sun. Don’t miss the Japanese Garden (largest in Europe) and maybe catch any weekend cultural event happening in the park.  \n**"
+  },
+  {
+    "place": "Karoviertel",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Karoviertel  \n**Address:** -  \n**Activity:** Trendy, non-touristy neighborhood packed with independent cafés, thrift shops, and street art. Grab lunch at a vegan/vegetarian spot or small bistro, and browse the quirky shops.  \n**"
+  },
+  {
+    "place": "Museum für Kunst und Gewerbe Hamburg (Design Museum)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Museum für Kunst und Gewerbe Hamburg (Design Museum)  \n**Address:** Steintorplatz, 20099 Hamburg, Germany  \n**Activity:** Not usually on top-10 lists, this museum draws locals with exhibitions on design, photography, and pop culture. Check out their temporary exhibitions for something unique.  \n**"
+  },
+  {
+    "place": "Schanzenviertel (Schanze)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Schanzenviertel (Schanze)  \n**Address:** -  \n**Activity:** Immerse yourself in this lively, alternative district. Enjoy a craft beer at a local brewery, browse record stores, or just wander through Flohschanze—a second-hand market popular on weekends.  \n**"
+  },
+  {
+    "place": "Café Paris",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Café Paris  \n**Address:** Rathausstraße 4, 20095 Hamburg, Germany  \n**Activity:** End your day with coffee and a cake (or early dinner) in this beautiful Belle Époque-style café, beloved by Hamburgers for its local charm.  \n**"
+  }
+]

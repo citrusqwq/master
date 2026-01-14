@@ -1,0 +1,153 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Nationalgalerie (Neue Nationalgalerie)  
+   Address: Potsdamer Straße 50, 10785 Berlin  
+   Activity: Explore modern and contemporary art collections, including works by renowned artists such as Picasso, Klee, and Matisse. Enjoy the architecture of the building designed by Ludwig Mies van der Rohe.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Nationalgalerie (Neue Nationalgalerie)" and address is "Potsdamer Straße 50, 10785 Berlin".
+- Both fields are present and specific.
+- The address is not a placeholder.
+- The place is a specific venue, not a general area.
+- Verification is required.
+
+Action: 
+search("Potsdamer Straße 50, 10785 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Home | Neue Nationalgalerie",
+    "snippet": "... Museum and the City - Blog of the Staatliche Museen zu Berlin ... Potsdamer Strasse © Herzog & de Meuron. A New Museum at the Kulturforum in ..."
+  },
+  {
+    "title": "Mark Grotjahn-Kitchens-2024 - Galerie Max Hetzler",
+    "snippet": "Apr 25, 2024 ... Neue Nationalgalerie, Potsdamer Straße 50, 10785 Berlin Galerie Max Hetzler is pleased to present Kitchens, an exhibition of large-scale ..."
+  },
+  {
+    "title": "Berlin, 2 September 2025 PRESS RELEASE Neue Nationalgalerie ...",
+    "snippet": "Sep 10, 2025 ... presse@smb.spk-berlin.de www.smb.museum/presse. Berlin, 2 September 2025. PRESS RELEASE. Neue Nationalgalerie. Potsdamer Straße 50, 10785 Berlin."
+  },
+  {
+    "title": "You're invited to Talk Art LIVE in BERLIN this Wednesday 10th ...",
+    "snippet": "Sep 9, 2025 ... ... BerlinArtWeek Please note new venue: Neue Nationalgalerie, Potsdamer Straße 50 10785 Berlin. Talk starts at 2pm sharp. We will meet ..."
+  },
+  {
+    "title": "Art in Berlin: Neue Nationalgalerie | ART at Berlin",
+    "snippet": "© ART@Berlin: Kunst in Berlin Neue Nationalgalerie. Address. Address: Potsdamer Straße 50. 10785 Berlin-Schöneberg ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Nationalgalerie (Neue Nationalgalerie)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Curry 36  
+   Address: Mehringdamm 36, 10961 Berlin  
+   Activity: Taste one of Berlin’s most famous Currywurst at this iconic street food stand, known for its authentic and delicious sausage with curry ketchup.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Curry 36" and Address is "Mehringdamm 36, 10961 Berlin".
+- Both fields are present and specific.
+- Address is not a placeholder.
+- Place is a specific venue, not a general area.
+
+Action: 
+search("Mehringdamm 36, 10961 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Currywurst Kreuzberg | CURRY 36 Mehringdamm",
+    "snippet": "Seitdem gibt es das Original im Herzen Kreuzbergs. Täglich von 9:00 Uhr bis 5:00 Uhr. Mehringdamm 36 · 10961 Berlin Kreuzberg ..."
+  },
+  {
+    "title": "Curry 36 – Berlin, Germany - VANGUARD VOYAGER",
+    "snippet": "Jun 27, 2016 ... So let the haters hate and enjoy one of Berlins finest. Curry 36 – Mehringdamm Mehringdamm 36, 10961 Berlin Kreuzberg Telefon 030 25800 ..."
+  },
+  {
+    "title": "THE BEST 10 KEBAB near MEHRINGDAMM 36, 10961 BERLIN ...",
+    "snippet": "The Best 10 Kebab near Mehringdamm 36, 10961 Berlin, Germany · 1. Mustafas Gemüse Kebap · 2. Rüyam Gemüse Kebab 2 · 3. Kadakal's Original · 4. Pergamon Döner ..."
+  },
+  {
+    "title": "CURRY 36, Berlin - Mehringdamm 36, Friedrichshain-Kreuzberg ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Open until 5:00 AM. Mehringdamm 36 Kreuzberg, 10961 Berlin Germany. Website."
+  },
+  {
+    "title": "THE BEST 10 GAY BARS near MEHRINGDAMM 36, 10961 BERLIN ...",
+    "snippet": "The Best 10 Gay Bars near Mehringdamm 36, 10961 Berlin, Germany · 1. Rauschgold · 2. Prinzknecht · 3. Möbel-Olfe · 4. Bull · 5. Pussycat · 6. Untertage · 7."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Curry 36",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Kurfürstendamm (Ku'damm) shopping district  
+   Address: -  
+   Activity: Shop for women's clothing in size 52 at various boutiques and department stores along this popular shopping street. Stores like Peek & Cloppenburg and other fashion retailers offer a wide range of sizes and styles.
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Kurfürstendamm (Ku'damm) shopping district",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Café or nearby park (optional)  
+   Address: -  
+   Activity: Relax with a coffee or stroll in a nearby park such as Tiergarten to unwind after shopping and sightseeing.
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Café or nearby park (optional)",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+

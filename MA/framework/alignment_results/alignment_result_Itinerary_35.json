@@ -1,0 +1,23 @@
+[
+  {
+    "extracted_requirement_num": 6,
+    "valid_requirements": [
+      "Departure city: Berlin",
+      "Earliest start time in Berlin: 8:00 from Berlin Central Station",
+      "Flight to Athens at 22:00, from Berlin (needs to be at airport by 20:00)",
+      "Interested in: Cultural activities",
+      "Needs to have dinner before the flight",
+      "All stops should fit comfortably within the timespan, considering travel times to and from airport"
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "Departure city: Berlin",
+      "Earliest start time in Berlin: 8:00 from Berlin Central Station",
+      "Interested in: Cultural activities",
+      "Needs to have dinner before the flight"
+    ],
+    "satisfied_requirements_num": 4
+  }
+]

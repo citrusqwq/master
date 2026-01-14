@@ -1,0 +1,19 @@
+[
+  {
+    "extracted_requirement_num": 3,
+    "valid_requirements": [
+      "Besuch der Nationalgalerie.",
+      "Currywurst essen, möglichst am besten Stand in Berlin.",
+      "Kleidung in Größe 52 für Damen kaufen."
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "Besuch der Nationalgalerie.",
+      "Currywurst essen, möglichst am besten Stand in Berlin.",
+      "Kleidung in Größe 52 für Damen kaufen."
+    ],
+    "satisfied_requirements_num": 3
+  }
+]

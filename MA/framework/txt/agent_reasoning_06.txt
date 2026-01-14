@@ -1,0 +1,446 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Landungsbrücken**
+- **Address:** Bei den St. Pauli-Landungsbrücken, 20359 Hamburg
+- **Activity:** Starten Sie den Tag mit einem Spaziergang entlang der Landungsbrücken. Genießen Sie den Blick auf den Hafen, beobachten Sie die Schiffe und machen Sie erste Fotos vom Wasser und den Docks.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Landungsbrücken",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Alter Elbtunnel (Aussichtspunkt Steinwerder-Seite)**
+- **Address:** Bei den St. Pauli-Landungsbrücken, Zugang zum Elbtunnel, 20359 Hamburg
+- **Activity:** Gehen Sie durch den historischen Alten Elbtunnel auf die Steinwerder-Seite. Von dort haben Sie einen der besten Panoramablicke auf die Hamburger Skyline und den Hafen – perfekt für Fotos.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: Alter Elbtunnel (Aussichtspunkt Steinwerder-Seite)
+- Address: Bei den St. Pauli-Landungsbrücken, Zugang zum Elbtunnel, 20359 Hamburg
+- Address is provided and not a placeholder.
+- The place is not a non-specific location; it refers to a specific landmark/viewpoint.
+
+Action: 
+search("Bei den St. Pauli-Landungsbrücken, Zugang zum Elbtunnel, 20359 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Alter Elbtunnel – Öffnungszeiten, Bilder, Informationen - hamburg.de",
+    "snippet": "St. Pauli-Elbtunnel (Alter Elbtunnel). Bei den St. Pauli-Landungsbrücken 20359 Hamburg. Webauftritt aufrufen · Kontakt speichern; Adresse auf Karte anzeigen ..."
+  },
+  {
+    "title": "Alter Elbtunnel ⇒ Infos & Öffnungszeiten an den Landungsbrücken",
+    "snippet": "Wie hat man den alten Elbtunnel gebaut? Der Alte Elbtunnel, auch bekannt als St. Pauli-Elbtunnel, ist ..."
+  },
+  {
+    "title": "Landungsbrücken Hamburg Hafen - hamburg.de",
+    "snippet": "Die St. Pauli Landungsbrücken sind Touristenmagnet und Verkehrsknotenpunkt ... Das linke Gebäude ist der Zugang zum \"Alten Elbtunnel\", daneben beginnen die ..."
+  },
+  {
+    "title": "Alter Elbtunnel in Hamburg: Ein Baudenkmal im Sanierungszustand ...",
+    "snippet": "Jan 20, 2025 ... ... St. Pauli Landungsbrücken in Hamburg an ein Bauwerk der Antike. Doch in dem Gebäude an der Elbe verbirgt sich weder Tempel noch Kirche. Es ..."
+  },
+  {
+    "title": "Elbe Tunnel (1911) - Wikipedia",
+    "snippet": "Pauli Elbe Tunnel (German: Alter Elbtunnel colloquially or St. Pauli Elbtunnel officially), which opened in 1911, is a pedestrian and vehicle tunnel in Hamburg."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Alter Elbtunnel (Aussichtspunkt Steinwerder-Seite)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Vintage Markt: Flohschanze**
+- **Address:** Neuer Kamp 30, 20357 Hamburg (Flohmarkt an der Rindermarkthalle St. Pauli, samstags)
+- **Activity:** Stöbern Sie auf dem beliebten Flohschanze-Markt nach Vintage-Schätzen, Kleidung, Schallplatten und Kuriositäten. Ideal für Schnäppchenjäger und Fotografie.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: "Vintage Markt: Flohschanze"
+- Address: "Neuer Kamp 30, 20357 Hamburg (Flohmarkt an der Rindermarkthalle St. Pauli, samstags)"
+- Address is provided and specific.
+- Place is not a non-specific location.
+
+Action: 
+search("Neuer Kamp 30, 20357 Hamburg (Flohmarkt an der Rindermarkthalle St. Pauli, samstags)")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Nachtflohmarkt vor der Rindermarkthalle St. Pauli",
+    "snippet": "Jeden Mittwoch und Donnerstag verwandelt sich der große Platz vor der Rindermarkthalle St. Pauli in einen Flohmarkt unter dem Sternenhimmel mit Food, ..."
+  },
+  {
+    "title": "Home - Rindermarkthalle St. Pauli",
+    "snippet": "Die Rindermarkthalle St. Pauli ist das lebendige Herzstück für St. Pauli, das ... 8:30 bis 21 Uhr. Adresse. Neuer Kamp 31 20359 Hamburg. Direkt an der. U3 ..."
+  },
+  {
+    "title": "Flohschanze - Flohmarkt in Hamburg jeden Samstag - hamburg.de",
+    "snippet": "Flohmärkte. Kontakt. Flohmarkt Flohschanze. Neuer Kamp 30 20357 Hamburg. +49 40 2702766 · Kontakt speichern; Adresse auf Karte anzeigen; Anfahrt. Flohmärkte in ..."
+  },
+  {
+    "title": "marktkultur hamburg",
+    "snippet": "Termin, Jeden Samstag. Marktzeit, 08:00-16:00 Uhr. Adresse, Alte Rinderschlachthalle, Neuer Kamp 30, 20357 Hamburg (vis-à-vis Bahnhof Feldstraße)."
+  },
+  {
+    "title": "Flohmarkt Hamburg",
+    "snippet": "30. Okt ... Pauli. Neuer Kamp 31, 20357 Hamburg, Germany. 35 Personen sind interessiert · 󰍸 · 󰤦 · 󰤧 · Flohmarkt Hamburg ist hier: Rindermarkthalle St."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Vintage Markt: Flohschanze",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Portugiesenviertel**
+- **Address:** -
+- **Activity:** Spazieren Sie durch das charmante Portugiesenviertel mit seinen kleinen Läden und Cafés. Hier gibt es viele Fotomotive und eine entspannte Atmosphäre.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Portugiesenviertel",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Mittagessen im Fischrestaurant: Fischereihafen Restaurant**
+- **Address:** Große Elbstraße 143, 22767 Hamburg
+- **Activity:** Genießen Sie frischen Fisch und Meeresfrüchte in einem der bekanntesten und bestbewerteten Fischrestaurants Hamburgs mit Blick auf den Hafen.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: Fischereihafen Restaurant
+- Address: Große Elbstraße 143, 22767 Hamburg
+- Address is provided and specific.
+- Place is a specific restaurant, not a general area.
+
+Action: 
+search("Große Elbstraße 143, 22767 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Fischereihafen Restaurant Hamburg: Startseite",
+    "snippet": "Kowalke Hamburg GmbH & Co. KG Große Elbstraße 143, 22767 Hamburg Telefon: 040 - 38 18 16. E-Mail: reservierung@fischereihafenrestaurant.de. © 2020 ..."
+  },
+  {
+    "title": "Fischereihafen Restaurant – Hamburg - a MICHELIN Guide ...",
+    "snippet": "Fischereihafen Restaurant. Große Elbstraße 143, Hamburg, 22767, Germany. €€€ · Seafood, Classic Cuisine. Favorite. Visited. Notes. Reservations are not ..."
+  },
+  {
+    "title": "Home - Fischereihafen Restaurant Hamburg",
+    "snippet": "Kowalke Hamburg GmbH & Co. KG Große Elbstraße 143, 22767 Hamburg Phone: 040 - 38 18 16. E-Mail: info@fischereihafenrestaurant.de. 2025 Fischereihafen ..."
+  },
+  {
+    "title": "Hamburg Tour Guide presented by LEMARIT",
+    "snippet": "Lübeck's old town is Germany's most extensive UNESCO World Heritage Site. Find the place · Fischereihafen Restaurant. Große Elbstraße 143"
+  },
+  {
+    "title": "Kontakt : Universität Hamburg · Fachbereich Biologie · Forschung ...",
+    "snippet": "22767 Hamburg. Laura Schmidt. Fon +49 40 42838-6601. Mail: office.imf@uni ... Große Elbstraße 143 22767 Hamburg. Fon +49 40 3800430. Google-Maps. Schutz ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Fischereihafen Restaurant",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Elbphilharmonie Plaza (Aussichtspunkt)**
+- **Address:** Platz der Deutschen Einheit 1, 20457 Hamburg
+- **Activity:** Besuchen Sie die Plaza der Elbphilharmonie für einen spektakulären Rundumblick auf die Stadt, den Hafen und die Speicherstadt. Tolle Fotomotive!
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: Elbphilharmonie Plaza (Aussichtspunkt)
+- Address: Platz der Deutschen Einheit 1, 20457 Hamburg
+- Address is provided and specific.
+- Place is a specific POI (not a district or generic area).
+- Verification is required.
+
+Action: search("Platz der Deutschen Einheit 1, 20457 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Hamburg Spa Hotel | The Westin Hamburg Elbphilharmonie",
+    "snippet": "As one of Hamburg's pet-friendly city center hotels, we welcome trained ... Platz der Deutschen Einheit 2,. Hamburg, Germany, 20457. Toll Free: +49-40 ..."
+  },
+  {
+    "title": "Parken in Hamburg - Parkhaus Elbphilharmonie &#128664; - APCOA",
+    "snippet": "Zur Verfügung stehen die Tarife Event, Langzeit Comfort und VIP Parken. Jetzt buchen! Wegbeschreibung. Platz der Deutschen Einheit 1 20457 Hamburg."
+  },
+  {
+    "title": "Elbphilharmonie Laeiszhalle Hamburg - Elbphilharmonie",
+    "snippet": "Two venues, one website: the events programme of the Elbphilharmonie and Laeiszhalle in Hamburg – book concerts, plan your visit, browse the Mediatheque."
+  },
+  {
+    "title": "Elbphilharmonie Lindner Group",
+    "snippet": "Elbphilharmonie. Platz der Deutschen Einheit 1, 20457 Hamburg, Germany. Photo © Lindner Group. The queues of the Elbphilharmonie´s opening concert were not ..."
+  },
+  {
+    "title": "APCOA PARKING - Platz der Deutschen Einheit 1, Hamburg, Germany",
+    "snippet": "More info about Apcoa Parking. Map. Platz der Deutschen Einheit 1. 20457 Hamburg. Germany. HafenCity. Directions. 0711 30570305. Call Now · Visit Website."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Elbphilharmonie Plaza (Aussichtspunkt)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Speicherstadt & Wasserschloss**
+- **Address:** -
+- **Activity:** Spazieren Sie durch die historische Speicherstadt, fotografieren Sie die Backsteinarchitektur und besuchen Sie das malerische Wasserschloss.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Speicherstadt & Wasserschloss",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Handwerklicher Dessertladen: Herr Max**
+- **Address:** Schulterblatt 12, 20357 Hamburg
+- **Activity:** Probieren Sie kreative Torten, Kuchen und Desserts in diesem beliebten Café mit Vintage-Flair.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: "Handwerklicher Dessertladen: Herr Max"
+- Address: "Schulterblatt 12, 20357 Hamburg"
+- Both fields are present and specific.
+- The address is provided and not a placeholder.
+- The place is a specific venue, not a non-specific location.
+- Verification is required.
+
+Action: 
+search("Schulterblatt 12, 20357 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "JIM BURRITO'S CANTINS, Hamburg - Sternschanze - Restaurant ...",
+    "snippet": "Wheelchair Accessible. Improve this listing. Open now. 12:00 PM - 10:00 PM. Contact. Call, email. Location. Schulterblatt 12, 20357 Hamburg Germany."
+  },
+  {
+    "title": "Jim Burrito's: International Restaurant",
+    "snippet": "Schulterblatt 12. 20357 Hamburg. Open. Küche bis 21.00. Mittwoch. 17.00-22.00. Donnerstag. 17.00-22.00. Freitag. 17.00-22.00. Samstag. 16.30-23.00 (Küche bis ..."
+  },
+  {
+    "title": "HERR MAX, Hamburg - Sternschanze - Restaurant Reviews, Photos ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Open until 9:00 PM. Schulterblatt 12, 20357 Hamburg Germany. Call. Map."
+  },
+  {
+    "title": "Herr Max – Patisserie & Konditorei",
+    "snippet": "20251 Hamburg. Tel.: 040 36851510 hallo@herrmax.de. Öffnungszeiten: Montag bis Sonntag 12-17 Uhr. Abholung & Zahlung · Datenschutz · Widerrufsbelehrung · AGB ..."
+  },
+  {
+    "title": "Chipotle Mexican Grill Hamburg, Germany - Last Updated ...",
+    "snippet": "Schulterblatt 12, 20357 Hamburg Germany. Schulterblatt 12, 20357 Hamburg Germany. This is a placeholder. €€. Looks like a lot of nacho cheese tortilla chips and ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Handwerklicher Dessertladen: Herr Max",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Altonaer Balkon (Aussichtspunkt)**
+- **Address:** Palmaille 29, 22767 Hamburg
+- **Activity:** Lassen Sie den Tag mit einem entspannten Spaziergang und weiteren Hafenblicken vom Altonaer Balkon ausklingen. Perfekt für Sonnenuntergangsfotos.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: "Altonaer Balkon (Aussichtspunkt)" is a specific viewpoint/park in Hamburg, not a general area.
+- Address: "Palmaille 29, 22767 Hamburg" is a specific address.
+- Both Place and Address are present, address is not a placeholder, and the place is not a non-specific location.
+
+Action: 
+search("Palmaille 29, 22767 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Meat Composition and Quality Assessment of King Scallops (Pecten ...",
+    "snippet": "2015 Sep 29;4(4):524-546. doi: ... Palmaille 9, 22767 Hamburg, Germany. Monika.Manthey@mri.bund.de. 2 Department of Safety and Quality of Milk and Fish ..."
+  },
+  {
+    "title": "Folie 1",
+    "snippet": "Jun 10, 2024 ... Palmaille 29, 22767 Hamburg. Wohnung. Das rd. 30 qm ... Das Haus liegt in bevorzugter Lage am Elbhang in der Palmaille 29, 22767 Hamburg."
+  },
+  {
+    "title": "Contact Us – CESMA",
+    "snippet": "Oct 13, 2025 ... PALMAILLE 29 22767 HAMBURG. e-mail: vdks.office@t-online.de. Tel.: +49 40 384981. Fax: +49 40 3892114. MEMBER REPRESENTATIVE AFCAN FRANCE. CAPT ..."
+  },
+  {
+    "title": "\"John Augustus Essberger\" Tankreederei GmbH & Co. KG - LEI ...",
+    "snippet": "LEI: 529900122V299SJFLI29. Entity. Legal Name. \"John Augustus Essberger ... Palmaille 45 Hamburg, Hamburg (DE-HH), 22767 GERMANY. Headquarters Address."
+  },
+  {
+    "title": "Hamburg Shipping Services",
+    "snippet": "Palmaille 35a 22767 Hamburg. Imprint. Information provided in accordance with ... Wendenstraße 29 20097 Hamburg, Germany E-Mail: office.hh@symbolic ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think:
+- The search results for "Palmaille 29, 22767 Hamburg" show references to apartments, offices, and organizations at this address, but none mention "Altonaer Balkon" or a viewpoint/park.
+- No result directly links "Altonaer Balkon (Aussichtspunkt)" to Palmaille 29.
+- The address seems to be a residential or office building, not a public park or viewpoint.
+
+Action:
+search("Altonaer Balkon (Aussichtspunkt) impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Altonaer Balkon - hamburg.de",
+    "snippet": "Restaurants und Bars mit Aussicht ... München. © hamburg.de 2025. Impressum · Datenschutzhinweise · Erklärung zur Barrierefreiheit · Frag den Michel · Hamburg ..."
+  },
+  {
+    "title": "Altonaer Balkon - Fotohotspot mit Aussicht | Hamburg Tourist.info",
+    "snippet": "Adresse Altonaer Balkon Palmaille 20457 Hamburg. Bus: 112 - Elbberg. Eine Frage stellen. Details. Altonaer Balkon: „Point of View” am Hamburger Hafen. Altonaer ..."
+  },
+  {
+    "title": "Beste Aussicht genießen vom Altonaer Balkon aus | Mit Vergnügen ...",
+    "snippet": "Der wohl größte Balkon in ganz Hamburg mit dem eindrucksvollsten Panorama befindet sich am Geesthang in Altona, 27 Meter über der Elbe. Der Altonaer Balkon ..."
+  },
+  {
+    "title": "Altonaer Balkon – Einzigartiger Park über der Elbe",
+    "snippet": "Die am Aussichtspunkt aufgestellte Bronzeplastik zeigt drei Fischer mit ... Impressum · Datenschutzerklärung · Datenschutzeinstellungen · Erklärung zur ..."
+  },
+  {
+    "title": "Altonaer Balkon – Wikipedia",
+    "snippet": "Impressum · Wikipedia. Suchen. Altonaer Balkon. Parkanlage und Aussichtspunkt in Hamburg-Altona ... Der Altonaer Balkon befindet sich im Hamburger Stadtteil ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Altonaer Balkon (Aussichtspunkt)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": false
+}
+
+============================================================
+

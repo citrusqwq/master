@@ -1,0 +1,371 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Berlin Hauptbahnhof  
+- Address: Europaplatz 1, 10557 Berlin, Germany  
+- Activity: Start your day here, the main transport hub for easy transit. From here, take public transport to Museum Island.  
+-
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "Berlin Hauptbahnhof" is a specific POI (the main train station), not a non-specific location. Verification is required.
+
+Action: search("Europaplatz 1, 10557 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Hertz Car Rental - Berlin Main Railway Station - Europaplatz 1",
+    "snippet": "Berlin,10557. +49 30 20649328 · Get Directions · Qualifications & Requirements ... 1-11, 14167, Berlin, GermanyBerlin, 14167View Location. Hertz 24/7™ Car ..."
+  },
+  {
+    "title": "MCDONALD'S, Berlin - Europaplatz 1, Mitte (Borough) - Menu ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Open until 3:00 AM. Europaplatz 1 Hauptbahnhof, 10557 Berlin Germany. Website."
+  },
+  {
+    "title": "Hertz Car Rental - Berlin, Potsdamer Platz - Servicepoint",
+    "snippet": "Berlin Main Railway Station - Europaplatz 1Europaplatz 1, Hauptbahnhof 1. Ug, Parkhaus Ebene -3, 10557, Berlin, GermanyBerlin, 10557View Location."
+  },
+  {
+    "title": "Berlin Hauptbahnhof - Wikipedia",
+    "snippet": "Berlin U-Bahn. East facade of Berlin Hauptbahnhof. General information. Other names, Lehrter Bahnhof. Location, Europaplatz 1 10557 Berlin Mitte, Berlin, Berlin"
+  },
+  {
+    "title": "Berlin Hauptbahnhof",
+    "snippet": "German Federal Police ... Address. Berlin HauptbahnhofBerlin Hauptbahnhof Europaplatz 1 10557 Berlin. Berlin Hauptbahnhof, Europaplatz 1, 1 0 5 5 7 Berlin."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Berlin Hauptbahnhof",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Museum Island (Museumsinsel)  
+- Address: Bodestraße 1-3, 10178 Berlin, Germany  
+- Activity: Explore key museums like the Pergamon Museum, Altes Museum, and Neues Museum. Cultural treasures including ancient artifacts and classical art.  
+-
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Museum Island (Museumsinsel)" and address is "Bodestraße 1-3, 10178 Berlin, Germany".
+- Address is provided and specific.
+- "Museum Island" refers to a specific, well-known museum complex, not a vague area.
+- Verification is needed.
+
+Action: 
+search("Bodestraße 1-3, 10178 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Home | Pergamonmuseum",
+    "snippet": "... Berlin © Staatliche Museen zu Berlin / David von Becker. During the closure ... Find more information regarding cookies on our Data Protection Declaration and ..."
+  },
+  {
+    "title": "Berlin Travel Guide | 4 Days in the German Capital",
+    "snippet": "Jan 16, 2020 ... Added bonus: the Pergamon is located on Museuminsel – a UNESCO World Heritage Site! A must-visit. Address: Bodestraße 1-3, 10178 Berlin."
+  },
+  {
+    "title": "Home | Alte Nationalgalerie",
+    "snippet": "The Alte Nationalgalerie is the original home of the Nationalgalerie Berlin. It owns approximately 2000 paintings and as much sculptures."
+  },
+  {
+    "title": "Altes Museum, Staatliche Museen zu Berlin, Berlin, Germany ...",
+    "snippet": "Berlin, Germany. Follow. Karl Friedrich Schinkel's Altes Museum ... Altes MuseumBodestraße 1-3, 10178 Berlin, Germany. MondayClosed; Tuesday10:00 ..."
+  },
+  {
+    "title": "Berlin's must-see attractions! Brandenburg Gate Address: Pariser ...",
+    "snippet": "Sep 26, 2025 ... ... Bodestraße 1–3, 10178 Berlin 🏛️A beautifully restored museum on Museum Island, home to Egyptian treasures (including Nefertiti's bust) and ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Museum Island (Museumsinsel)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Berlin Cathedral (Berliner Dom)  
+- Address: Am Lustgarten, 10178 Berlin, Germany  
+- Activity: Visit this iconic cathedral for its stunning architecture and panoramic views from the dome.  
+-
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "Berlin Cathedral (Berliner Dom)" is a specific POI, not a general area. Verification is required.
+
+Action: search("Am Lustgarten, 10178 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Lustgarten – Berlin.de",
+    "snippet": "Sep 30, 2025 ... Visitors enjoy the evening at the Long Night of Museums in the Lustgarten on Museum Island. ... 10178 Berlin. City map. Public transportation ..."
+  },
+  {
+    "title": "Lustgarten (2025) - All You Need to Know BEFORE You Go (with ...",
+    "snippet": "The area. Address. Am Lustgarten 1 Museum Island, 10178 Berlin Germany. Neighborhood: Mitte (Borough). Read more. How to get there. Hackescher Markt • 6 min ..."
+  },
+  {
+    "title": "Lustgarten | visitBerlin.de",
+    "snippet": "... \"Berlin soup bowl.\" The Lustgarden is perfect for a break after visiting the Museum's Island or Berlin Cathedral. Address. Am Lustgarten 1 10178 Berlin. +−."
+  },
+  {
+    "title": "Pictured is the Berlin Cathedral and the Lustgarten on Museum ...",
+    "snippet": "Nov 4, 2025 ... ... on Museum Island in the Mitte district of Berlin, Germany. It is situated on Am Lustgarten 1, 10178 Berlin. The cathedral stands on the ..."
+  },
+  {
+    "title": "Berlin Cathedral | visitBerlin.de",
+    "snippet": "After the division of Germany, the Cathedral Church was in East Berlin. ... 12:00 – 17:00. Find further information here. Berliner Dom. Address. Am Lustgarten ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Berlin Cathedral (Berliner Dom)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Unter den Linden / Museumsviertel  
+- Address: -  
+- Activity: Walk along Unter den Linden boulevard to enjoy Berlin's historical architecture and vibrant cultural atmosphere. Optionally visit nearby Humboldt University or Staatsoper.  
+-
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Unter den Linden / Museumsviertel",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Lunch break around Gendarmenmarkt  
+- Address: Gendarmenmarkt, 10117 Berlin, Germany  
+- Activity: Enjoy lunch at a café or restaurant around historic Gendarmenmarkt square, surrounded by French and German Cathedrals and concert halls, continuing with the cultural vibe.  
+-
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Lunch break around Gendarmenmarkt",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Topography of Terror  
+- Address: Niederkirchnerstraße 8, 10963 Berlin, Germany  
+- Activity: Visit the outdoor and indoor exhibitions documenting the history of the Gestapo, SS, and the terror of the Nazi regime. A very powerful cultural education site.  
+-
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Topography of Terror" and address is "Niederkirchnerstraße 8, 10963 Berlin, Germany".
+- Both fields are present and specific.
+- "Topography of Terror" is a specific museum, not a general area.
+- Address is provided and not a placeholder.
+- Need to verify if the address matches the place.
+
+Action: 
+search("Niederkirchnerstraße 8, 10963 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Topography of Terror",
+    "snippet": "Dealing with National Socialism in Germany since 1945. ___. July 2, 2025 ... Niederkirchnerstraße 8 10963 Berlin 030 254509-0 · info@topographie.de. Your ..."
+  },
+  {
+    "title": "Niederkirchnerstraße - Wikipedia",
+    "snippet": "Niederkirchnerstraße, or Niederkirchnerstrasse is a street in Berlin, Germany and was named after Käthe Niederkirchner. The thoroughfare was known as ..."
+  },
+  {
+    "title": "Topography of Terror | visitBerlin.de",
+    "snippet": "Outdoor areas until dusk (at least 20 clock). Find further information here. Topographie des Terrors. Address. Niederkirchnerstraße 8 10963 Berlin. +−."
+  },
+  {
+    "title": "Topography of Terror - Wikipedia",
+    "snippet": "The Topography of Terror (German: Topographie des Terrors) is an outdoor and indoor history museum in Berlin, Germany. It is located on Niederkirchnerstrasse ..."
+  },
+  {
+    "title": "Topography of Terror, Niederkirchnerstraße 8, 10963 Berlin, Germany",
+    "snippet": "Topography of Terror, Niederkirchnerstraße 8, 10963 Berlin, Germany. Museum•2,469 posts."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Topography of Terror",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Checkpoint Charlie / Friedrichstraße area  
+- Address: Friedrichstraße 43-45, 10117 Berlin, Germany  
+- Activity: Explore this famous Cold War border crossing point and its museum for more historical context. Shopping and strolling in the nearby Friedrichstraße shopping street.  
+-
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: "Checkpoint Charlie / Friedrichstraße area" contains both a specific POI ("Checkpoint Charlie") and a non-specific location ("Friedrichstraße area").
+- The address is "Friedrichstraße 43-45, 10117 Berlin, Germany", which appears specific.
+- I need to determine if the Place is non-specific. "Checkpoint Charlie" is specific, but "Friedrichstraße area" is not.
+- According to the rules, if the Place refers to a non-specific location, set non-specific_location = true and do not call search().
+
+Output:
+{
+  "place": "Checkpoint Charlie / Friedrichstraße area",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Dinner near Alexanderplatz  
+- Address: Alexanderplatz, 10178 Berlin, Germany  
+- Activity: Have an early dinner in one of the many restaurants around Alexanderplatz to ensure timely arrival at airport.  
+-
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Dinner near Alexanderplatz",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Travel to Berlin Brandenburg Airport (BER)  
+- Address: Willy-Brandt-Platz, 12529 Schönefeld, Germany  
+- Activity: Take public transit (S-Bahn or regional train) or taxi to airport to arrive by 20:00 for your flight.  
+-
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Travel to Berlin Brandenburg Airport (BER)" and address is "Willy-Brandt-Platz, 12529 Schönefeld, Germany".
+- Both fields are present and the address is specific.
+- The place is a specific POI (the airport), not a general area.
+
+Action: 
+search("Willy-Brandt-Platz, 12529 Schönefeld, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Steigenberger Airport Hotel Berlin | H Rewards",
+    "snippet": "Willy-Brandt-Platz 3 12529 Schönefeld Deutschland. +49 30 246 497-0 · berlin ... Germany. Pay at H Rewards.com with: mastercard; jcb; paypal; americanexpress ..."
+  },
+  {
+    "title": "STEIGENBERGER AIRPORT HOTEL BERLIN - Updated 2025 ...",
+    "snippet": "Willy-Brandt-Platz 3, 12529 Schonefeld, Brandenburg Germany. Name/address in local language. 01149302464970. E-mail hotel. Getting there. Berlin Brandenburg ..."
+  },
+  {
+    "title": "IntercityHotel Berlin Airport BER Terminal 1+2 | H Rewards",
+    "snippet": "Willy-Brandt-Platz 5 12529 Schönefeld Deutschland. +49 30 536 531 0 · airport ... Germany. Pay at H Rewards.com using: mastercard; jcb; paypal ..."
+  },
+  {
+    "title": "Steigenberger Airport Hotel Berlin- First Class Schoenefeld ...",
+    "snippet": "Hoteliers! Is your information accurate? Update Here. Steigenberger Airport Hotel Berlin Location Map. Willy-Brandt-Platz 3. Schoenefeld, Germany 12529. Map ..."
+  },
+  {
+    "title": "Office Space in Willy-Brandt-Platz 2, Schonefeld, 12529 | Easy Offices",
+    "snippet": "The Berlin Airport business center in the BAC will belong to the top conference addresses in Germany with regard to its location, representativeness and ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think:
+- The search results show that "Willy-Brandt-Platz, 12529 Schönefeld, Germany" is associated with several businesses and hotels, especially the Steigenberger Airport Hotel Berlin and IntercityHotel Berlin Airport BER Terminal 1+2.
+- The address is not unique to the airport itself but is a plaza where the airport and related businesses are located.
+- The snippet for the office space mentions "The Berlin Airport business center in the BAC... with regard to its location," suggesting that Willy-Brandt-Platz is directly associated with the Berlin Brandenburg Airport (BER) complex.
+
+Output:
+{
+  "place": "Travel to Berlin Brandenburg Airport (BER)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+

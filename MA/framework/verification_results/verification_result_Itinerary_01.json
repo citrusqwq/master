@@ -1,0 +1,51 @@
+[
+  {
+    "place": "Isemarkt",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Isemarkt  \n**Address:** Isestraße, 20144 Hamburg  \n**Activity:** Stroll through one of Europe’s longest open-air markets under the U-Bahn tracks. Browse fresh produce, local delicacies, flowers, and crafts. Enjoy a coffee and pastry from a local vendor.  \n**"
+  },
+  {
+    "place": "Planten un Blomen (Japanese Garden area)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Planten un Blomen (Japanese Garden area)  \n**Address:** Marseiller Str., 20355 Hamburg  \n**Activity:** Relax in the Japanese Garden, a tranquil spot within the larger Planten un Blomen park. Locals come here to read, meditate, or enjoy the scenery.  \n**"
+  },
+  {
+    "place": "Karoviertel",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Karoviertel  \n**Address:** -  \n**Activity:** Explore this creative neighborhood filled with independent boutiques, record stores, and quirky cafés. Great for people-watching and soaking up local vibes.  \n**"
+  },
+  {
+    "place": "Museum der Arbeit (Museum of Work)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Museum der Arbeit (Museum of Work)  \n**Address:** Wiesendamm 3, 22305 Hamburg  \n**Activity:** Discover Hamburg’s industrial and social history in this interactive museum, often visited by locals and school groups.  \n**"
+  },
+  {
+    "place": "Alsterperle Kiosk",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Alsterperle Kiosk  \n**Address:** Eduard-Rhein-Ufer, 22087 Hamburg  \n**Activity:** Join locals for a relaxed drink at this lakeside kiosk on the Außenalster. Enjoy the view, chat with Hamburgers, or rent a paddleboat nearby.  \n**"
+  },
+  {
+    "place": "Gängeviertel",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Gängeviertel  \n**Address:** Valentinskamp 34a, 20355 Hamburg  \n**Activity:** Explore this artist-run quarter with street art, galleries, and occasional live music or workshops. A hub for Hamburg’s alternative scene.  \n**"
+  },
+  {
+    "place": "Schanzenviertel (Sternschanze)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Schanzenviertel (Sternschanze)  \n**Address:** -  \n**Activity:** End your day in this lively district. Grab dinner at a local favorite (e.g., Bullerei or a Turkish grill), and if you wish, enjoy a craft beer at a neighborhood bar.  \n**"
+  }
+]

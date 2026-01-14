@@ -1,0 +1,373 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Landungsbrücken (St. Pauli Piers)  
+   **Address:** St. Pauli Landungsbrücken, 20359 Hamburg, Germany  
+   **Activity:** Start your day with iconic harbor views and watch the ships and ferries coming and going. Great spot for photography along the Elbe river, with classic Hamburg maritime flair.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: "Landungsbrücken (St. Pauli Piers)" refers to a well-known area along the Elbe river in Hamburg, not a specific business or venue, but rather a set of piers and a transport hub.
+- Address: "St. Pauli Landungsbrücken, 20359 Hamburg, Germany" is a location, but not a specific business address.
+- The Place is a non-specific location (a set of piers/area).
+
+Output:
+{
+  "place": "Landungsbrücken (St. Pauli Piers)",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Fischmarkt Hamburg-Altona (if visiting on Sunday morning) or Flohschanze Vintage Market (alternatively)  
+   **Address:** Fischmarkt Altona - Große Elbstraße 9, 22767 Hamburg, Germany (only Sundays, 5-9:30AM)  
+   **Activity:** Explore a classic vintage market for unique finds and souvenirs, perfect for vintage shopping. If Sunday, Fischmarkt offers fresh produce and vibrant atmosphere including vintage stalls; otherwise, visit Flohschanze, a trendy flea market in the Schanzenviertel area.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Fischmarkt Hamburg-Altona (if visiting on Sunday morning) or Flohschanze Vintage Market (alternatively)".
+- Address is "Fischmarkt Altona - Große Elbstraße 9, 22767 Hamburg, Germany (only Sundays, 5-9:30AM)".
+- Address is provided and specific.
+- Place refers to two possible markets, but the address is for Fischmarkt Altona.
+- The location is not a non-specific area, but a specific market.
+
+Action: 
+search("Fischmarkt Altona - Große Elbstraße 9, 22767 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Altonaer Fischmarkt (2025) - All You Need to Know BEFORE You ...",
+    "snippet": "Jun 15, 2025 ... The area. Address. Grosse Elbstrasse 9, 22767 Hamburg Germany. Neighborhood: Altonaer Fischmarkt. Read more. Reach out directly. Full view. Best ..."
+  },
+  {
+    "title": "Fil:Hamburg, St.-Pauli-Fischmarkt, Fischauktionshalle -- 2016 ...",
+    "snippet": "16219. Adresse. InfoField. Fischauktionshalle Große Elbstraße 9 22767 Hamburg · Tyskland. Sted. InfoField. Germany St. Pauli ◁ Hamburg-Mitte ◁ Hamburg ◁ ..."
+  },
+  {
+    "title": "Hamburg Germany Top Ten Sights: A Fabulous Mystery Tour ...",
+    "snippet": "Feb 8, 2019 ... Altona Fischmarkt harkens back to a time ... – March, 7 am to 9:30 am. Admission: Free. Address: Große Elbstraße 5, 22767 Hamburg, Germany."
+  },
+  {
+    "title": "Best Burgers in Hamburg: Where to Eat Like a Local",
+    "snippet": "... Fischmarkt is the perfect place to wind down from the Reeperbahn's excesses. Fischmarkt - Altonaer Fischauktionshalle Große Elbstraße 9, 22767 Hamburg, Germany."
+  },
+  {
+    "title": "Pani Smak - Reviews, Photos & Phone Number - Updated ...",
+    "snippet": "Große Elbstraße 9, 22767 Hamburg, Germany. Fischmarkt Hamburg Altona. Fischmarkt, 22767 Hamburg, Germany."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Fischmarkt Hamburg-Altona (if visiting on Sunday morning) or Flohschanze Vintage Market (alternatively)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Elbphilharmonie Plaza  
+   **Address:** Platz der Deutschen Einheit 1, 20457 Hamburg, Germany  
+   **Activity:** Head to the Elbphilharmonie’s public viewing platform for spectacular panoramic views of the Hafen city and Elbe river. Ideal for photography of the urban harbor landscape.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "Elbphilharmonie Plaza" refers to a specific location (the public viewing platform of the Elbphilharmonie), not a general area. Therefore, address_provided = true and non-specific_location = false. Verification is required.
+
+Action: search("Platz der Deutschen Einheit 1, 20457 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Hamburg Spa Hotel | The Westin Hamburg Elbphilharmonie",
+    "snippet": "As one of Hamburg's pet-friendly city center hotels, we welcome trained ... Platz der Deutschen Einheit 2,. Hamburg, Germany, 20457. Toll Free: +49-40 ..."
+  },
+  {
+    "title": "APCOA PARKING - Platz der Deutschen Einheit 1, Hamburg, Germany",
+    "snippet": "APCOA PARKING in Hamburg, reviews by real people. Yelp is a fun and easy ... Platz der Deutschen Einheit 1. 20457 Hamburg. Germany. HafenCity. Directions."
+  },
+  {
+    "title": "Elbphilharmonie Lindner Group",
+    "snippet": "Lindner Group · About · Projects · Team. English. Deutsch · English. Elbphilharmonie. Platz der Deutschen Einheit 1, 20457 Hamburg, Germany. Photo © Lindner ..."
+  },
+  {
+    "title": "Elbphilharmonie - Wikipedia",
+    "snippet": "Platz der Deutschen Einheit 20457 Hamburg, Germany. Coordinates, 53°32′29″N 9°59′03″E﻿ / ﻿53.54139°N 9.98417°E﻿ / 53.54139; 9.98417. Public transit, U3 ..."
+  },
+  {
+    "title": "Elbphilharmonie Laeiszhalle Hamburg - Elbphilharmonie",
+    "snippet": "Two venues, one website: the events programme of the Elbphilharmonie and Laeiszhalle in Hamburg – book concerts, plan your visit, browse the Mediatheque."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Elbphilharmonie Plaza",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Fischrestaurant Henssler Henssler  
+   **Address:** Kirchenallee 39, 20099 Hamburg, Germany  
+   **Activity:** Enjoy a highly rated local restaurant known for fresh and expertly prepared fish dishes, blending traditional Hamburg seafood specialties with modern flair.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Fischrestaurant Henssler Henssler" and address is "Kirchenallee 39, 20099 Hamburg, Germany".
+- Both fields are present and specific.
+- Address is provided and not a placeholder.
+- Place is a specific restaurant, not a non-specific location.
+- Verification is required.
+
+Action: 
+search("Kirchenallee 39, 20099 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Deutsches Schauspielhaus | Deutsches Schauspielhaus Hamburg",
+    "snippet": "mit englischen und deutschen Übertiteln / with english and german surtitles / Samstag / 20/12/2025 / 20.00 Uhr / SchauSpielHaus. Morgen 21/12/2025. Die Stadt ..."
+  },
+  {
+    "title": "DEUTSCHES SCHAUSPIELHAUS - Updated December 2025 - 157 ...",
+    "snippet": "More info about Deutsches Schauspielhaus · Map · Kirchenallee 39. 20099 Hamburg. Germany. St. Georg. Directions · 040 248710. Call Now · Other Amenities. Does ..."
+  },
+  {
+    "title": "Deutsches SchauSpielHaus Hamburg - Reviews, Photos & Phone ...",
+    "snippet": "Kirchenallee 39, 20099 Hamburg, Germany +4940248713 4940-248-713 Suggest an edit. Deutsches SchauSpielHaus Hamburg is a ..."
+  },
+  {
+    "title": "Deutsches SchauSpielHaus Hamburg - Ask AI | mindtrip",
+    "snippet": "AddressKirchenallee 39 20099 Hamburg Germany. Websitewww.schauspielhaus.de · Phone+49 40 248713. You might want to ask. What types of performances and plays are ..."
+  },
+  {
+    "title": "Theatre Database / Theatre Architecture - database, projects",
+    "snippet": "Deutsches Schauspielhaus. Hermann Helmer, Ferdinand Fellner. alias Staatliches Schauspielhaus. Kirchenallee 39 20099. Hamburg Germany. Wikipedia."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think:
+- All search results for "Kirchenallee 39, 20099 Hamburg, Germany" refer to "Deutsches Schauspielhaus," a theater, not a restaurant.
+- No mention of "Fischrestaurant Henssler Henssler" at this address.
+- The address appears to be associated exclusively with the theater.
+
+Action:
+search("Fischrestaurant Henssler Henssler impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Restaurant HENSSLER – Restaurant Sushibar",
+    "snippet": "Seit vielen Jahren steht der Name HENSSLER für herausragend frisches Sushi und exzellente Speisen mit extrem guten Geschmack. Das Geheimnis für diesen ..."
+  },
+  {
+    "title": "Hamburg - Ahoi Steffen Henssler",
+    "snippet": "Adresse. Spitalerstraße 12 20095 Hamburg Telefon +49 (0) 40 64 66 05 60. E-Mail hamburg@ahoisteffenhenssler.de. Öffnungszeiten. Montag–Sonntag 12.00–22.00 Uhr"
+  },
+  {
+    "title": "Henssler at Home",
+    "snippet": "HENSSLER AT HOME. liefern oder abholen. Bitte gib deine Adresse ein und navigiere zur Filiale, damit wir dir die Angebote ... Impressum; Verpackung. AMPM. 00:00."
+  },
+  {
+    "title": "Scharbeutz - Ahoi Steffen Henssler",
+    "snippet": "Adresse. Strandallee 139 23683 Scharbeutz Telefon +49 (0) 4503 35 69 110. E-Mail scharbeutz@ahoisteffenhenssler.de. Öffnungszeiten. Sonntag bis Donnerstag 12.00 ..."
+  },
+  {
+    "title": "Restaurant Henssler Restaurant / Sushibar – Hamburg, HH ...",
+    "snippet": "Henssler Restaurant / Sushibar. 4,6 (8280). 31 bis 50 Euro. Crossover. Große Elbstraße ... Impressum. Cookies und interessenbasierte Werbung. Erklärung zur ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Fischrestaurant Henssler Henssler",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": false
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Schanze neighborhood (Schanzenviertel)  
+   **Address:** -  
+   **Activity:** Explore the vibrant Schanzenviertel area where you can stroll through boutiques, vintage shops, and street art. Stop at artisan shops like “The Bakery” or “Honigmond” for handmade desserts and coffee.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Schanze neighborhood (Schanzenviertel)",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Dockland Office Building  
+   **Address:** Bernhard-Nocht-Straße 69, 20359 Hamburg, Germany  
+   **Activity:** Visit this uniquely shaped office building on the Elbe river for another excellent harbor viewpoint and photo opportunity, especially beautiful towards sunset.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Dockland Office Building" and address is "Bernhard-Nocht-Straße 69, 20359 Hamburg, Germany".
+- Address is provided and specific.
+- Place is a specific building, not a non-specific location.
+- Verification is required.
+
+Action: 
+search("Bernhard-Nocht-Straße 69, 20359 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "NOCHTSPEICHER - Bernhard-Nocht-Str. 69 a, Hamburg, Germany",
+    "snippet": "More info about Nochtspeicher · Map · Bernhard-Nocht-Str. 69 a. 20359 Hamburg. Germany. St. Pauli. Directions · Other Amenities. Does Nochtspeicher have free WiFi?"
+  },
+  {
+    "title": "NOCHTSPEICHER - Bernhard-Nocht-Str. 69 a, Hamburg, Germany",
+    "snippet": "10 reviews and 38 photos of NOCHTSPEICHER \"Great venue for gigs. We did a show here & the staff were all very helpful and gracious."
+  },
+  {
+    "title": "The Awakening live in Hamburg, Germany @ Nochtspeicher - Nov 4 ...",
+    "snippet": "The Awakening live in Hamburg, Germany. Tuesday, November 4 @ 8:00PM Tue, Nov 4 @ 8:00PM. Nochtspeicher, Bernhard-Nocht-Straße 69a, 20359 Hamburg, Germany. The ..."
+  },
+  {
+    "title": "Ellur - UK Sounds",
+    "snippet": "20. 2025. Onstage11:50 pm. Reeperbahn 2025. Location: Nochtwache 170P Bernhard-Nocht-Straße 69 20359 Hamburg. Socials. Artist Details. Email. sally@ ..."
+  },
+  {
+    "title": "Alle Veranstaltungen im Nochtspeicher Hamburg",
+    "snippet": "Die Band erhielt zahllose Auszeichnungen wie den \"German Blues Award ... Bernhard-Nocht-Straße 69a | 20359 Hamburg; Impressum · Datenschutz · Newsletter ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think:
+- The search results for "Bernhard-Nocht-Straße 69, 20359 Hamburg, Germany" mostly reference "Nochtspeicher" and "Nochtwache" as venues at this address, not "Dockland Office Building".
+- There is no mention of "Dockland Office Building" in the results.
+- The Dockland Office Building is a well-known modern structure on the Elbe, but the address here seems to correspond to a different venue.
+
+Action:
+search("Dockland Office Building impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Contact | Datadog",
+    "snippet": "4th Floor, 1 Dockland Central, Guild Street Dublin 1, D01 E4X0 Ireland. NYC office-mobile ... 10/2A 10/2B 3rd floor, Sunriver building off ..."
+  },
+  {
+    "title": "Worldwide Offices - Dolby",
+    "snippet": "Dolby Germany GmbH. Marienbergstrasse 98 90411 Nuremberg. Ireland: 77 Sir John Rogerson's Quay, Block C Grand Canal Docklands ... Building 5, Office 110 502444 ..."
+  },
+  {
+    "title": "Microsoft Worldwide Sites",
+    "snippet": "Microsoft Office, Kings Tower, 24 Glover Road, Ikoyi, Lagos, Nigeria. Phone : +234 (1) 4621100 Fax : +234 (1) 4621158"
+  },
+  {
+    "title": "Contact Us | LeMaitre",
+    "snippet": "China Sales Office. LeMaitre Vascular Medical Technology (Shanghai) Co., Ltd. Room 108, 1st Floor, No.5 Building"
+  },
+  {
+    "title": "Hadi Teherani | Work",
+    "snippet": "... \", \"xsrfHeaderName\": \"X-XSRF-TOKEN\", \"maxContentLength\": -1 } }. Filter. NEWS · WORK · ABOUT · Contact · Impressum & Datenschutz · Jobs · People · Instagram ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Dockland Office Building",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": false
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Abschluss bei einem weiteren Dessert-Café wie „TörtchenTörtchen“  
+   **Address:** Eppendorfer Weg 131, 20259 Hamburg, Germany  
+   **Activity:** End your day indulging in exquisite hand-crafted cakes or desserts at one of Hamburg’s beloved artisan patisseries.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: "Abschluss bei einem weiteren Dessert-Café wie „TörtchenTörtchen“" (which translates to "Finish at another dessert café like 'TörtchenTörtchen'")
+- Address: "Eppendorfer Weg 131, 20259 Hamburg, Germany"
+- The Place field is not a specific location but rather a suggestion ("another dessert café like TörtchenTörtchen"), which is a non-specific location.
+
+Output:
+{
+  "place": "Abschluss bei einem weiteren Dessert-Café wie „TörtchenTörtchen“",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+

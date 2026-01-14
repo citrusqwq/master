@@ -1,0 +1,23 @@
+[
+  {
+    "extracted_requirement_num": 5,
+    "valid_requirements": [
+      "Tagesausflug in Berlin.",
+      "Gruppe von Freunden.",
+      "Besuch von coolen Buchhandlungen.",
+      "Essen in einem südamerikanischen Restaurant.",
+      "Längere, spaßige Aktivität (z.B. Spielhalle oder Karaoke-Bar)."
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "Tagesausflug in Berlin.",
+      "Gruppe von Freunden.",
+      "Besuch von coolen Buchhandlungen.",
+      "Essen in einem südamerikanischen Restaurant.",
+      "Längere, spaßige Aktivität (z.B. Spielhalle oder Karaoke-Bar)."
+    ],
+    "satisfied_requirements_num": 5
+  }
+]

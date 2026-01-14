@@ -1,0 +1,93 @@
+[
+  {
+    "start_time": "10:00 AM",
+    "planned_activity": "Dussmann das KulturKaufhaus\nExplore one of Berlin's most iconic bookstores with a vast collection of books, including international titles, music, and cultural items. Great for browsing and picking up unique finds.",
+    "expectation": "The traveler expects to discover unique books and cultural items while enjoying a stimulating and social browsing experience with friends.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "80 min",
+    "predicted_behavior": "The traveler and their friends browsed different sections of the bookstore, discussed intriguing books and cultural items, and shared recommendations, especially focusing on international and unique finds. They took time to explore music and other cultural merchandise, making the visit both intellectually stimulating and socially engaging.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "summary": "10:00 - 11:20: The traveler and friends explored Dussmann das KulturKaufhaus, browsing books, music, and cultural items while sharing recommendations and enjoying an engaging, social visit."
+  },
+  {
+    "start_time": "11:45 AM",
+    "planned_activity": "Another Country (Bookstore)\nVisit this trendy independent bookstore known for its curated selection of contemporary literature, art books, and magazines. A cool spot to discover new reads and enjoy the creative vibe.",
+    "expectation": "I expect to discover intriguing new books and enjoy a lively, creative atmosphere with my friends.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "Surprised to find a fashion store instead of the expected bookstore, the group quickly decides to check out the Voo Store café and browse briefly, then heads to Modern Graphics nearby to satisfy their craving for unique books and art. They now look forward to discovering graphic novels and enjoying the playful, creative vibe together.",
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "predicted_duration": "60 min",
+    "predicted_behavior": "The group spent a brief period exploring the Voo Store’s fashion and homeware offerings, enjoyed a quick coffee at the café, and then walked to Modern Graphics. There, they enthusiastically browsed graphic novels and art books, discussed their finds, and soaked in the creative, playful atmosphere together.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "summary": "11:45 AM - 12:45 PM: The group explored Voo Store’s fashion and homeware, had coffee at its café, then visited Modern Graphics to browse graphic novels and art books and enjoy the creative atmosphere."
+  },
+  {
+    "start_time": "1:00 PM",
+    "planned_activity": "Sudaka\nEnjoy authentic South American cuisine with a focus on Argentinian and other Latin American dishes in a lively atmosphere. Perfect for a flavorful lunch with friends.",
+    "expectation": "The traveler expects a lively, flavorful, and social lunch experience that continues the group's energetic and adventurous day.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "Surprised to find a Korean BBQ instead of the expected South American restaurant, the group quickly discusses and decides to stay, intrigued by the lively, social dining style and the opportunity to share dishes. They adjust their expectations, looking forward to a playful, interactive lunch experience that still fits their energetic mood.",
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "predicted_duration": "90 min",
+    "predicted_behavior": "The group enthusiastically embraced the surprise, spending time choosing a variety of Korean BBQ dishes, grilling and sharing food at the table, and engaging in animated conversation. They enjoyed the interactive aspect of the meal, savoring both the flavors and the playful, communal atmosphere.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "summary": "13:00 - 14:30: The group dined at Kimchi Princess, enjoying an interactive Korean BBQ lunch with shared dishes and lively conversation."
+  },
+  {
+    "start_time": "2:45 PM",
+    "planned_activity": "Spielwiese Arcade Bar\nSpend the afternoon playing classic and modern arcade games, pinball machines, and enjoy drinks. A fun and interactive way to relax and have a great time with friends.",
+    "expectation": "The traveler expects a lively, playful, and social afternoon filled with friendly competition and shared enjoyment with friends.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "Surprised to find a café instead of an arcade, the group decides to embrace the situation by trying the famous cheesecake and coffee at Five Elephant, turning the mix-up into a fun, social experience. Afterward, they plan to continue their afternoon at Dietrich Bar, seeking a lively atmosphere to match their original expectations.",
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "predicted_duration": "120 min",
+    "predicted_behavior": "The traveler and friends spent the first part of their afternoon at Five Elephant, savoring the famous cheesecake and specialty coffee while turning the unexpected venue into a fun, social experience with lively conversation. They then moved on to Dietrich Bar, where they enjoyed drinks and sought out a more energetic, playful group atmosphere, engaging in social activities and games to fulfill their original expectations.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "summary": "14:45 - 16:45: The traveler and friends enjoyed cheesecake and coffee at Five Elephant café before heading to Dietrich Bar for drinks, games, and a lively social atmosphere."
+  },
+  {
+    "start_time": "5:00 PM",
+    "planned_activity": "Monster Ronson's Ichiban Karaoke\nEnd the day with karaoke at one of Berlin's most popular karaoke bars. Sing your favorite songs in a lively, friendly environment and enjoy the nightlife vibe.",
+    "expectation": "The traveler expects a fun, energetic, and memorable group experience that lets everyone be playful and expressive together.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "Surprised to find the karaoke bar is actually a residential building, the group quickly decides to visit Galerie Met to catch the last hour of its contemporary and digital art exhibits. Afterward, they plan to continue their evening at Basmah, enjoying Sudanese snacks and lively conversation. The group is still excited for a fun, social night, even if it's different from what they expected.",
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "predicted_duration": "120 min",
+    "predicted_behavior": "The traveler spent about an hour exploring contemporary and digital art exhibits at Galerie Met with friends, engaging in discussion and sharing impressions. They then spent the next hour at Basmah, sampling Sudanese snacks and enjoying lively, social conversation, making the most of the unexpected change in plans.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "neutral"
+    },
+    "summary": "17:00 - 19:00: The traveler explored contemporary and digital art at Galerie Met for an hour, then enjoyed Sudanese snacks and lively conversation at Basmah with friends."
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "extracted_requirement_num": 6,
+    "valid_requirements": [
+      "Location: Hamburg",
+      "Interests: Harbor views, vintage markets",
+      "Photography: Popular viewpoints",
+      "Food preferences: Well-rated local fish restaurants",
+      "Dessert: Artisan dessert shops",
+      "Duration: One day"
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "1. Location: Hamburg",
+      "2. Interests: Harbor views, vintage markets",
+      "3. Photography: Popular viewpoints",
+      "4. Food preferences: Well-rated local fish restaurants",
+      "5. Dessert: Artisan dessert shops",
+      "6. Duration: One day "
+    ],
+    "satisfied_requirements_num": 6
+  }
+]

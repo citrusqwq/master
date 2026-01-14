@@ -1,0 +1,21 @@
+[
+  {
+    "extracted_requirement_num": 4,
+    "valid_requirements": [
+      "Location: Hamburg",
+      "Must visit the port",
+      "Wants to eat a Fischbrötchen (fish sandwich)",
+      "Prefers to avoid too crowded places"
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "Location: Hamburg",
+      "Must visit the port",
+      "Wants to eat a Fischbrötchen (fish sandwich)",
+      "Prefers to avoid too crowded places"
+    ],
+    "satisfied_requirements_num": 4
+  }
+]

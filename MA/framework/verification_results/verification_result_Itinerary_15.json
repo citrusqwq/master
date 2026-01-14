@@ -1,0 +1,37 @@
+[
+  {
+    "place": "Hamburg Port (specifically the quieter areas like the Old Elbe Tunnel entrance or the Fischmarkt area early in the day)",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Hamburg Port (specifically the quieter areas like the Old Elbe Tunnel entrance or the Fischmarkt area early in the day)  \n   Address: St. Pauli Landungsbrücken, 20359 Hamburg, Germany  \n   Activity: Enjoy a peaceful walk along the port, watch the ships, and explore the historic Old Elbe Tunnel. Early morning is less crowded and offers a calm atmosphere.  \n   "
+  },
+  {
+    "place": "Brücke 10 (a well-known but less touristy Fischbrötchen stand near the port)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Brücke 10 (a well-known but less touristy Fischbrötchen stand near the port)  \n   Address: St. Pauli Landungsbrücken, 20359 Hamburg, Germany  \n   Activity: Taste an authentic Hamburg Fischbrötchen, a traditional fish sandwich, in a local setting away from the busiest spots.  \n   "
+  },
+  {
+    "place": "Altona Fish Market area (early visit to avoid crowds)",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Altona Fish Market area (early visit to avoid crowds)  \n   Address: Große Elbstraße 9, 22767 Hamburg, Germany  \n   Activity: Stroll through the area around the fish market, which is less crowded outside market hours, and enjoy views of the Elbe River and local shops.  \n   "
+  },
+  {
+    "place": "Planten un Blomen Park",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Planten un Blomen Park  \n   Address: Marseiller Str., 20355 Hamburg, Germany  \n   Activity: Relax in this large, peaceful urban park with beautiful gardens and water features, a great spot to unwind away from crowds.  \n   "
+  },
+  {
+    "place": "Sternschanze neighborhood",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Sternschanze neighborhood  \n   Address: -  \n   Activity: Explore this trendy but less tourist-heavy neighborhood with cafes, street art, and boutique shops, perfect for a relaxed afternoon stroll.  \n   "
+  }
+]

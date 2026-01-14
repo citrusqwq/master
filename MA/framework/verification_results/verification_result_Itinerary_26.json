@@ -1,0 +1,51 @@
+[
+  {
+    "place": "Wochenmarkt auf dem Goldbekplatz",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Wochenmarkt auf dem Goldbekplatz  \n   **Address:** Goldbekplatz, 22303 Hamburg  \n   **Activity:** Genieße den lebendigen Wochenmarkt im Stadtteil Winterhude, kaufe regionale Spezialitäten, probiere handgemachtes Gebäck und beobachte das bunte Treiben.  \n   **"
+  },
+  {
+    "place": "Spaziergang entlang des Osterbekkanals",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Spaziergang entlang des Osterbekkanals  \n   **Address:** -  \n   **Activity:** Mache einen entspannten Spaziergang entlang des idyllischen Osterbekkanals; unterwegs laden kleine Cafés am Wasser zum Kaffeetrinken oder Pausemachen ein.  \n   **"
+  },
+  {
+    "place": "Literaturhauscafé",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Literaturhauscafé  \n   **Address:** Schwanenwik 38, 22087 Hamburg  \n   **Activity:** Lunch oder Kaffee in klassischer Villa-Atmosphäre direkt an der Alster, umgeben von Literatur und kulturell interessiertem Publikum.  \n   **"
+  },
+  {
+    "place": "Gängeviertel",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Gängeviertel  \n   **Address:** Valentinskamp 34a, 20355 Hamburg  \n   **Activity:** Erkunde die künstlerisch-bunt gestalteten Höfe, Ateliers und temporären Ausstellungen im alternativen Gängeviertel. Oft gibt es kleine Veranstaltungen am Wochenende.  \n   **"
+  },
+  {
+    "place": "Karoviertel",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Karoviertel  \n   **Address:** -  \n   **Activity:** Bummel durch das hippe Karoviertel mit seinen kleinen Boutiquen, Secondhand-Läden, Plattenläden und besonderen Cafés.  \n   **"
+  },
+  {
+    "place": "Oberhafenquartier",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Oberhafenquartier  \n   **Address:** Stockmeyerstraße 43, 20457 Hamburg  \n   **Activity:** Entdecke die kreative Szene im ehemaligen Güterbahnhof: Street Art, Kunststudios und originelle Gastronomiekonzepte wie Nord Coast Coffee oder Hobenköök.  \n   **"
+  },
+  {
+    "place": "Drilling Bar & Brennerei",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Drilling Bar & Brennerei  \n   **Address:** Friesenweg 4, Haus 13, 22763 Hamburg  \n   **Activity:** Zum Tagesausklang ein Drink in dieser modernen Bar mit Craft-Spirituosen aus eigener Produktion – beliebt bei Locals.  \n   **"
+  }
+]

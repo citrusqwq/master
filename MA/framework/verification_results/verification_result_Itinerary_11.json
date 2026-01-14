@@ -1,0 +1,72 @@
+[
+  {
+    "place": "Berlin Central Station (Hauptbahnhof)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Berlin Central Station (Hauptbahnhof)  \n- **Address:** Europaplatz 1, 10557 Berlin, Germany  \n- **Activity:** Grab a quick breakfast and coffee at the station before starting your day.  \n- **"
+  },
+  {
+    "place": "Museum Island (Museumsinsel)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Museum Island (Museumsinsel)  \n- **Address:** Bodestraße 1-3, 10178 Berlin, Germany  \n- **Activity:** Explore world-class museums such as the Pergamon Museum or the Neues Museum, both rich in cultural and historical artifacts.  \n- **"
+  },
+  {
+    "place": "Berlin Cathedral (Berliner Dom)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Berlin Cathedral (Berliner Dom)  \n- **Address:** Am Lustgarten, 10178 Berlin, Germany  \n- **Activity:** Visit the stunning cathedral, climb to the dome for panoramic city views, and enjoy the architecture and history.  \n- **"
+  },
+  {
+    "place": "Gendarmenmarkt",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Gendarmenmarkt  \n- **Address:** -  \n- **Activity:** Stroll through one of Berlin’s most beautiful squares, admire the Konzerthaus, French and German Cathedrals, and soak in the cultural atmosphere.  \n- **"
+  },
+  {
+    "place": "Jewish Museum Berlin",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Jewish Museum Berlin  \n- **Address:** Lindenstraße 9-14, 10969 Berlin, Germany  \n- **Activity:** Discover the history and culture of Jewish life in Germany through engaging exhibitions and architecture.  \n- **"
+  },
+  {
+    "place": "East Side Gallery",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** East Side Gallery  \n- **Address:** Mühlenstraße 3-100, 10243 Berlin, Germany  \n- **Activity:** Walk along the longest remaining section of the Berlin Wall, now an open-air gallery covered in murals and street art.  \n- **"
+  },
+  {
+    "place": "Charlottenburg Palace (Schloss Charlottenburg)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Charlottenburg Palace (Schloss Charlottenburg)  \n- **Address:** Spandauer Damm 20-24, 14059 Berlin, Germany  \n- **Activity:** Tour the opulent palace and its gardens, experiencing Prussian royal history and baroque architecture.  \n- **"
+  },
+  {
+    "place": "Restaurant Neni Berlin (or similar, for dinner with a view)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Restaurant Neni Berlin (or similar, for dinner with a view)  \n- **Address:** Budapester Str. 40, 10787 Berlin, Germany  \n- **Activity:** Enjoy a delicious dinner with Mediterranean and Middle Eastern influences, plus a panoramic view of the city from the rooftop.  \n- **"
+  },
+  {
+    "place": "Transit to Berlin Brandenburg Airport (BER)",
+    "address_provided": false,
+    "non-specific_location": false,
+    "address_match_place": null,
+    "snippet": "Place:** Transit to Berlin Brandenburg Airport (BER)  \n- **Address:** -  \n- **Activity:** Head to the airport via taxi, S-Bahn, or regional train.  \n- **"
+  },
+  {
+    "place": "Berlin Brandenburg Airport (BER)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Berlin Brandenburg Airport (BER)  \n- **Address:** Willy-Brandt-Platz, 12529 Schönefeld, Germany  \n- **Activity:** Arrive at the airport for check-in and security before your 22:00 flight.  \n- **"
+  }
+]

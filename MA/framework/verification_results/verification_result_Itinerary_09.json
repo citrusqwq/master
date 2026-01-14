@@ -1,0 +1,44 @@
+[
+  {
+    "place": "Dussmann das KulturKaufhaus",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Dussmann das KulturKaufhaus  \n   **Address:** Friedrichstraße 90, 10117 Berlin  \n   **Activity:** Explore one of Berlin’s most famous and expansive bookstores, featuring a wide selection of books (including English titles), music, and a cozy café.  \n   **"
+  },
+  {
+    "place": "Ocelot, not just another bookstore",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Ocelot, not just another bookstore  \n   **Address:** Brunnenstraße 181, 10119 Berlin  \n   **Activity:** Visit this trendy independent bookstore with a great selection of books and a stylish café—perfect for browsing and relaxing.  \n   **"
+  },
+  {
+    "place": "Chicha Berlin",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Chicha Berlin  \n   **Address:** Friedelstraße 34, 12047 Berlin  \n   **Activity:** Enjoy lunch at this popular Peruvian restaurant, known for its ceviche, pisco cocktails, and vibrant atmosphere.  \n   **"
+  },
+  {
+    "place": "Explore Kreuzberg neighborhood",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Explore Kreuzberg neighborhood  \n   **Address:** -  \n   **Activity:** Stroll through the lively Kreuzberg district, check out street art, independent shops, and grab a coffee or snack at a local café.  \n   **"
+  },
+  {
+    "place": "GameOn Berlin Arcade",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place:** GameOn Berlin Arcade  \n   **Address:** Karl-Marx-Straße 75, 12043 Berlin  \n   **Activity:** Have fun with your friends at this modern arcade, featuring classic and new games, pinball, and VR experiences.  \n   **"
+  },
+  {
+    "place": "Monster Ronson’s Ichiban Karaoke",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Monster Ronson’s Ichiban Karaoke  \n   **Address:** Warschauer Str. 34, 10243 Berlin  \n   **Activity:** End your day with a lively karaoke session at one of Berlin’s most famous karaoke bars, offering private booths and a fun, inclusive vibe.  \n   **"
+  }
+]

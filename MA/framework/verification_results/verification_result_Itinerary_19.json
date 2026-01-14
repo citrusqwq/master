@@ -1,0 +1,30 @@
+[
+  {
+    "place": "National Gallery (Neue Nationalgalerie)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: National Gallery (Neue Nationalgalerie)  \n   Address: Potsdamer Straße 50, 10785 Berlin, Germany  \n   Activity: Explore modern and contemporary art collections, including works by renowned artists such as Picasso, Matisse, and Klee. Enjoy the architecture of the building itself.  \n   "
+  },
+  {
+    "place": "Curry 36",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Curry 36  \n   Address: Mehringdamm 36, 10961 Berlin, Germany  \n   Activity: Taste the famous Berlin currywurst at one of the city's most popular and highly rated currywurst stands.  \n   "
+  },
+  {
+    "place": "Kurfürstendamm (Ku'damm) shopping street",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Kurfürstendamm (Ku'damm) shopping street  \n   Address: -  \n   Activity: Shop for women's clothes in size 52 at various boutiques and department stores along this major shopping avenue, including stores like Peek & Cloppenburg and other fashion retailers offering plus sizes.  \n   "
+  },
+  {
+    "place": "Alexanderplatz area",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Alexanderplatz area  \n   Address: -  \n   Activity: Optional additional shopping or sightseeing, relax at a café, or explore nearby attractions like the TV Tower or World Clock.  \n   "
+  }
+]

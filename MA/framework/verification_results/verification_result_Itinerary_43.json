@@ -1,0 +1,30 @@
+[
+  {
+    "place": "National Gallery (Neue Nationalgalerie)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: National Gallery (Neue Nationalgalerie)\n   Address: Matthäikirchplatz, 10785 Berlin, Germany\n   Activity: Explore modern and contemporary art collections, including works by renowned artists from the 20th century.\n   "
+  },
+  {
+    "place": "Curry 36",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Curry 36\n   Address: Mehringdamm 36, 10961 Berlin, Germany\n   Activity: Enjoy authentic Berlin currywurst, considered one of the best and most popular stands in the city.\n   "
+  },
+  {
+    "place": "KaDeWe (Kaufhaus des Westens)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: KaDeWe (Kaufhaus des Westens)\n   Address: Tauentzienstraße 21-24, 10789 Berlin, Germany\n   Activity: Shop for women's clothing, including plus sizes (size 52) in a variety of fashion brands in one of Europe's largest and most famous department stores.\n   "
+  },
+  {
+    "place": "Kurfürstendamm (Ku'damm)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Kurfürstendamm (Ku'damm)\n   Address: -\n   Activity: Continue shopping or strolling along this famous commercial street with many boutiques and fashion stores offering a wide range of women’s clothing sizes.\n   "
+  }
+]

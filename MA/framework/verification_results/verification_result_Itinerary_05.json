@@ -1,0 +1,58 @@
+[
+  {
+    "place": "Landungsbrücken",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Landungsbrücken  \n**Address:** Bei den St. Pauli-Landungsbrücken, 20359 Hamburg, Germany  \n**Activity:** Start your day at the iconic Landungsbrücken piers. Enjoy panoramic harbor views, watch ships come and go, and take photos of the bustling waterfront.  \n**"
+  },
+  {
+    "place": "Fischmarkt (Fish Market)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Fischmarkt (Fish Market)  \n**Address:** Große Elbstraße 9, 22767 Hamburg, Germany  \n**Activity:** Explore Hamburg’s famous vintage and food market (open Sundays, but the area is lively on other days too). Browse vintage stalls, antiques, and local produce. Great for candid photography and soaking up local atmosphere.  \n**"
+  },
+  {
+    "place": "Speicherstadt",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Speicherstadt  \n**Address:** -  \n**Activity:** Wander through the historic warehouse district, a UNESCO World Heritage site. Capture photos of red-brick warehouses, canals, and bridges—one of Hamburg’s most photogenic areas.  \n**"
+  },
+  {
+    "place": "VLET an der Alster (Seafood Restaurant)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place:** VLET an der Alster (Seafood Restaurant)  \n**Address:** Ballindamm 14-15, 20095 Hamburg, Germany  \n**Activity:** Enjoy a well-regarded local seafood lunch with views of the Alster lake. Try North Sea specialties and fresh fish dishes.  \n**"
+  },
+  {
+    "place": "Elbphilharmonie Plaza",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Elbphilharmonie Plaza  \n**Address:** Platz der Deutschen Einheit 1, 20457 Hamburg, Germany  \n**Activity:** Visit the Elbphilharmonie’s public viewing platform for sweeping views of the harbor and city skyline. Excellent spot for panoramic photos.  \n**"
+  },
+  {
+    "place": "Karolinenviertel",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Karolinenviertel  \n**Address:** -  \n**Activity:** Explore this trendy neighborhood known for its vintage boutiques, quirky shops, and street art. Ideal for finding unique souvenirs and more photo opportunities.  \n**"
+  },
+  {
+    "place": "Herr Max (Artisanal Dessert Shop)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Herr Max (Artisanal Dessert Shop)  \n**Address:** Schulterblatt 12, 20357 Hamburg, Germany  \n**Activity:** Indulge in creative cakes, pastries, and coffee at this beloved local patisserie.  \n**"
+  },
+  {
+    "place": "Alster Lake (Binnenalster)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Alster Lake (Binnenalster)  \n**Address:** -  \n**Activity:** End your day with a relaxing stroll along the Alster lake promenade. Capture sunset photos of the water, swans, and cityscape.  \n**"
+  }
+]

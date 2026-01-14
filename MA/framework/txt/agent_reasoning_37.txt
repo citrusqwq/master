@@ -1,0 +1,318 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Isemarkt  
+   Address: Isebekstraße, 20259 Hamburg  
+   Activity: Explore Hamburg’s longest outdoor market held under the elevated U3 subway line. Sample fresh local produce, artisanal breads, cheeses, and regional specialties. This is a great way to immerse yourself in local life and taste authentic flavors.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Isemarkt" and Address is "Isebekstraße, 20259 Hamburg".
+- Both fields are present and the address is not a placeholder.
+- "Isemarkt" is a specific market, not a general area.
+- Need to verify if "Isebekstraße, 20259 Hamburg" is the correct address for Isemarkt.
+
+Action: 
+search("Isebekstraße, 20259 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Hamburger Theater von A-Z",
+    "snippet": "Eimsbütteler Chaussee 5, 20259 Hamburgwww.delphishowpalast-hamburg.de ... Theater Altes HeizkraftwerkIsebekstraße 34, 22769 Hamburgwww.theater-altes-heizkraftwerk ..."
+  },
+  {
+    "title": "Untitled",
+    "snippet": null
+  },
+  {
+    "title": "Wohnung mieten in Hamburg Altona-Nord | immowelt",
+    "snippet": "Isebekstraße 15, Altona-Nord, Hamburg (22769). Die Wohnung befindet sich im 2 ... Eimsbüttel, Hamburg (20259). Wir bieten eine wundervolle 3,5 Zimmer ..."
+  },
+  {
+    "title": "2 bed apartments for rent in Altona, Germany - Rentberry",
+    "snippet": "Isebekstraße 17, 22769 Hamburg, Germany. Instant Apply. €1,850 ... Lindenallee 34, 20259 Hamburg, Germany. View Listing. €1,650. Available ..."
+  },
+  {
+    "title": "13 2 - 2,5-Zimmer-Wohnungen mieten in Hamburg Altona-Nord",
+    "snippet": "Isebekstraße 15, Altona-Nord, Hamburg (22769). Die Wohnung befindet sich im ... Eimsbüttel, Hamburg (20259). Nette kleine Wohnung in super Lage mitten in ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think:
+- The search results for "Isebekstraße, 20259 Hamburg" mostly reference residential addresses and a theater, but do not mention "Isemarkt" or a market.
+- The address is a street, and the snippets do not confirm a market at this location.
+- The results are inconclusive regarding whether "Isemarkt" is at this address.
+
+Action:
+search("Isemarkt impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Untitled",
+    "snippet": "isemarkt-eppendorf.de. Frisches Markterlebnis auf dem Isemarkt in Eppendorf ⇒ Regionales Obst und Gemüse ✓ Handgemachte Spezialitäten ✓ Kulinarische ..."
+  },
+  {
+    "title": "Impressum – LOLA Fashion Store",
+    "snippet": "ISEMARKT CARDIGAN. Sprache. Deutsch. Deutsch; English. Account Suchen · 0. Warenkorb ... Impressum. LOLA Fashion Store LOLA, Eppendorfer Weg 203, 20253 Hamburg ..."
+  },
+  {
+    "title": "Impressum",
+    "snippet": "... KA1 - Anette Kellner | Grindelberg 86 | 20144 Hamburg Exklusive Damenmode am Isemarkt. Impressum · Datenschutz · Öffnungszeiten · Standort & Kontakt."
+  },
+  {
+    "title": "Impressum – Dailydose of Baking",
+    "snippet": "IMPRESSUM Angaben gemäß § 5 TMG: Daily Dose of Baking Vertreten durch: Juhmanah ... Isemarkt Freitag 9-14 Uhr. Impressumadmin2024-04-15T11:43:27+00:00."
+  },
+  {
+    "title": "Kōjō: Ceremonial Matcha für Zuhause",
+    "snippet": "Entdecke CEREMONIAL MATCHA der höchsten Qualitätsstufe – direkt aus Japan. Intensiver Geschmack, leuchtendes Grün – Schmecke & Sehe den Unterschied!"
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Isemarkt",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Sternschanze Quarter ("Schanze")  
+   Address: -  
+   Activity: Wander through this trendy neighborhood known for its independent boutiques, vintage shops, street art, and cozy cafes. Stop for a coffee or a snack at one of the local cafés and soak in the creative atmosphere favored by Hamburgers.
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Sternschanze Quarter (\"Schanze\")",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Schulterblatt Street, Sternschanze  
+   Address: Schulterblatt, 20357 Hamburg  
+   Activity: Enjoy lunch at one of the many small restaurants or food spots offering international and local fusion cuisines. This street is a local hotspot filled with diverse eateries often missed by tourists.
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Schulterblatt Street, Sternschanze",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Loki-Schmidt-Garten (Botanical Garden of the University of Hamburg)  
+   Address: Ohnhorststraße 18, 22609 Hamburg  
+   Activity: Discover this peaceful botanical garden featuring diverse plant collections, perfect for a leisurely stroll away from the tourist crowds. The garden is a local favorite for relaxation and nature appreciation.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. The place refers to a specific POI (the botanical garden), not a general area. Verification is required.
+
+Action: search("Ohnhorststraße 18, 22609 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Kontakt : Universität Hamburg · Fachbereich Biologie · Forschung ...",
+    "snippet": "Ohnhorststr. 18 22609 Hamburg. Tel.: +49 40 42816-627. E-Mail ruzica.latincic\"AT\"uni-hamburg.de. SO FINDEN SIE ZU UNS / MAP AND DIRECTIONS. Google-Maps. Schutz ..."
+  },
+  {
+    "title": "Bisulfite Sequencing Using Small DNA Amounts",
+    "snippet": "Biocenter Klein Flottbek, University of Hamburg, Ohnhorststrasse 18, 22609, Hamburg, Germany. stefan.scholten@uni-hamburg.de. 3 Institute for Plant Breeding, ..."
+  },
+  {
+    "title": "Mensa Botanischer Garten: STW Hamburg",
+    "snippet": "Ohnhorststraße 18 22609 Hamburg. Öffnungszeiten. Mensa Botanischer Garten ... © 2025 Studierendenwerk Hamburg AöR. Alle Rechte vorbehalten. Irrtümer ..."
+  },
+  {
+    "title": "Identification and evaluation of Escherichia coli strain ATCC 8739 as ...",
+    "snippet": "Affiliations. 1 Food Microbiology, Hamburg School of Food Science, University of Hamburg, Ohnhorststrasse 18, 22609, Hamburg, Germany; Department of Food ..."
+  },
+  {
+    "title": "Untitled",
+    "snippet": null
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Loki-Schmidt-Garten (Botanical Garden of the University of Hamburg)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Elbgold Coffee Roastery  
+   Address: Lagerstraße 34c, 20357 Hamburg  
+   Activity: Visit this renowned local coffee roastery in the HafenCity area to taste freshly roasted coffee. You can learn about the roasting process and enjoy a cup brewed by expert baristas, a beloved weekend ritual for Hamburg locals.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Elbgold Coffee Roastery"
+- Address is "Lagerstraße 34c, 20357 Hamburg"
+- Address is provided and specific.
+- Place is a specific venue, not a non-specific location.
+- Verification is required.
+
+Action: search("Lagerstraße 34c, 20357 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "On the Coffee Trail in Hamburg - Binny's Food & Travel",
+    "snippet": "Dec 1, 2019 ... Find it: Lagerstraße 34c, 20357 Hamburg, Germany. Törnqvist."
+  },
+  {
+    "title": "Best Coffee Shops in Hamburg, Germany (with Map ...",
+    "snippet": "Jan 14, 2015 ... Mühlenkamp 6a (Winterhude) or. Lagerstraße 34c, 20357 (Sternschanze). All the coffee shops on this list did latte art, or they would not make ..."
+  },
+  {
+    "title": "PLOTCOFFEE · GREEN COFFEE AMBASSADORS",
+    "snippet": "Get in touch with us to find your exclusive nano- or microlot! hello@plotcoffee.com +49 40 431 972 00. PLOTCOFFEE GmbH. Lagerstraße 34C 20357 Hamburg Germany."
+  },
+  {
+    "title": "elbgold Röstkaffee GmbH | Impressum",
+    "snippet": "Kontakt. Kontakt. elbgold Röstkaffee GmbH. Lagerstraße 34c 20357 Hamburg ... Die elbgold Specialty Coffee Rösterei in Hamburg. elbgold steht für hochwertigen ..."
+  },
+  {
+    "title": "Elbgold Hamburg",
+    "snippet": "The Hamburg coffee roastery has set itself the task of finding the best ... Coffee gift sets! Location. Lagerstraße 34c 20357 Hamburg. www.elbgold.com."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Elbgold Coffee Roastery",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Altona Fish Market area (outside market hours)  
+   Address: Großen Elbstraße 9, 22767 Hamburg  
+   Activity: Stroll along Altona’s harbor promenade and explore the lively neighborhood where many locals spend their weekday evenings and weekends. It's quieter outside the early Sunday market hours but still vibrant with small bars and local hangouts.
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Altona Fish Market area (outside market hours)",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Magdalena Cocktail Bar  
+   Address: Beim Grünen Jäger 23, 20359 Hamburg  
+   Activity: End your day at a cozy, local cocktail bar known for creative drinks and a relaxed vibe, popular among Hamburg residents rather than tourists. Enjoy some handcrafted cocktails reflecting the local scene.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Magdalena Cocktail Bar".
+- Address is "Beim Grünen Jäger 23, 20359 Hamburg".
+- Address is provided and specific.
+- Place is a specific venue, not a non-specific location.
+- Verification is required.
+
+Action: 
+search("Beim Grünen Jäger 23, 20359 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Kontakt | Altan Hotel",
+    "snippet": "Details. Beim grünen Jäger 23, D-20359 Hamburg, Germany; +49 (0) 40-439 73 22; info@altan-hotel.de. Senden Sie uns eine E-Mail. Name (erforderlich)."
+  },
+  {
+    "title": "Altan Hotel, Hamburg (updated prices 2026)",
+    "snippet": "Accessibility Links. Skip to description; Skip to facilities; Skip to rooms; Skip to policies. Beim Grünen Jäger 23, Sternschanze, Hamburg. —. Great Location. — ..."
+  },
+  {
+    "title": "Altan - Hamburg - Great prices at HOTEL DE",
+    "snippet": "Beim Grünen Jäger 23, 20359 Hamburg, St. Pauli. Altan Hotel is located in Hamburg in the famous and lively district St. Pauli. St. Pauli football stadium Am ..."
+  },
+  {
+    "title": "Altan Hotel, Hamburg Hotels - Skyscanner",
+    "snippet": "Altan Hotel. Beim Grünen Jäger 23, Hamburg, 20359, Germany. 2.7/5. Below ... Beim Grünen Jäger 23, Hamburg, 20359, Germany. Good to know. Check in from: 14 ..."
+  },
+  {
+    "title": "Events | Kultur | Grüner Jäger | St. Pauli | Hamburg",
+    "snippet": "Eventlocation mieten: Auf über 200 Quadratmeter Fläche bietet der «Grüner Jäger» Platz für Kultur, Kunst und Events. Unsere unterschiedlichen Räume und die ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Magdalena Cocktail Bar",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": false
+}
+
+============================================================
+

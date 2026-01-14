@@ -1,0 +1,58 @@
+[
+  {
+    "place": "Acropolis of Athens",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Acropolis of Athens  \n**Address:** Acropolis, Athens 105 58, Greece  \n**Activity:** Explore the ancient citadel, including the Parthenon, Erechtheion, and the Temple of Athena Nike. Learn about ancient Greek history and architecture.  \n**"
+  },
+  {
+    "place": "Acropolis Museum",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Acropolis Museum  \n**Address:** Dionysiou Areopagitou 15, Athens 117 42, Greece  \n**Activity:** Visit the museum housing artifacts found on the Acropolis site, including sculptures, pottery, and historical exhibits.  \n**"
+  },
+  {
+    "place": "Plaka Neighborhood",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Plaka Neighborhood  \n**Address:** Plaka, Athens -  \n**Activity:** Stroll through the historic neighborhood with neoclassical architecture, shops, and cafes. Experience the local culture and atmosphere.  \n**"
+  },
+  {
+    "place": "Lunch in Plaka (suggest a traditional Greek taverna)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Lunch in Plaka (suggest a traditional Greek taverna)  \n**Address:** -  \n**Activity:** Enjoy authentic Greek cuisine such as moussaka, souvlaki, or Greek salad.  \n**"
+  },
+  {
+    "place": "National Archaeological Museum",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** National Archaeological Museum  \n**Address:** 44 Patission St, Athens 106 82, Greece  \n**Activity:** Explore Greece’s largest archaeological museum with extensive collections from prehistoric times to late antiquity.  \n**"
+  },
+  {
+    "place": "Syntagma Square and the Hellenic Parliament",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Syntagma Square and the Hellenic Parliament  \n**Address:** Syntagma Square, Athens 105 63, Greece  \n**Activity:** Watch the changing of the guard ceremony at the Tomb of the Unknown Soldier and explore the central square.  \n**"
+  },
+  {
+    "place": "Dinner near Syntagma or Monastiraki",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Dinner near Syntagma or Monastiraki  \n**Address:** -  \n**Activity:** Have an early dinner at a restaurant offering Greek cuisine, preparing you for your flight.  \n**"
+  },
+  {
+    "place": "Travel to Athens International Airport",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Travel to Athens International Airport  \n**Address:** Eleftherios Venizelos Airport, Spata 190 19, Greece  \n**Activity:** Transfer to the airport to arrive by 20:00 for your 22:00 flight.  \n**"
+  }
+]

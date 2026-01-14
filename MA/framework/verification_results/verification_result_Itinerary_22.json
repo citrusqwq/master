@@ -1,0 +1,51 @@
+[
+  {
+    "place": "Dussmann das KulturKaufhaus",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Dussmann das KulturKaufhaus  \n- Address: Friedrichstraße 90, 10117 Berlin  \n- Activity: Explore one of Berlin’s most iconic bookstores with a vast selection of books, including international literature and a cozy atmosphere to browse and relax.  \n- "
+  },
+  {
+    "place": "Another cool bookstore - St. Oberholz Bookstore & Café (located inside the St. Oberholz café)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Another cool bookstore - St. Oberholz Bookstore & Café (located inside the St. Oberholz café)  \n- Address: Rosenthaler Str. 72a, 10119 Berlin  \n- Activity: Visit this trendy spot combining a bookstore and café, perfect for discovering unique books and enjoying a coffee break.  \n- "
+  },
+  {
+    "place": "Südamerika Restaurant - \"Chimichurri\"",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: Südamerika Restaurant - \"Chimichurri\"  \n- Address: Knaackstraße 22, 10405 Berlin  \n- Activity: Enjoy authentic South American cuisine with specialties from Argentina and other countries, perfect for a flavorful lunch with friends.  \n- "
+  },
+  {
+    "place": "Mauerpark (non-specific location)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Mauerpark (non-specific location)  \n- Address: -  \n- Activity: Walk around this lively park area, enjoy street performances, and relax before the evening activities.  \n- "
+  },
+  {
+    "place": "Spielhalle (Arcade) - \"Game Science Center\"",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: Spielhalle (Arcade) - \"Game Science Center\"  \n- Address: Karl-Marx-Allee 93A, 10243 Berlin  \n- Activity: Experience interactive and futuristic arcade games and VR experiences for a fun and engaging group activity.  \n- "
+  },
+  {
+    "place": "Karaoke Bar - \"Monster Ronson's Ichiban Karaoke\"",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: Karaoke Bar - \"Monster Ronson's Ichiban Karaoke\"  \n- Address: Revaler Str. 99, 10245 Berlin  \n- Activity: Sing your heart out in one of Berlin’s most popular karaoke bars, with a lively atmosphere and great music selection.  \n- "
+  },
+  {
+    "place": "Evening stroll or drinks in Friedrichshain (non-specific location)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Evening stroll or drinks in Friedrichshain (non-specific location)  \n- Address: -  \n- Activity: End the day with a relaxed walk or drinks in the vibrant Friedrichshain neighborhood, known for its nightlife and cool bars.  \n- "
+  }
+]

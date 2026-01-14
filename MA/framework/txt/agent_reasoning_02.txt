@@ -1,0 +1,429 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Frühstück im Café Elbgold (Schanzenviertel)**
+- **Address:** Lagerstraße 34c, 20357 Hamburg
+- **Activity:** Genieße ein entspanntes Frühstück mit exzellentem Kaffee in einer der beliebtesten Röstereien der Stadt, umgeben von Locals.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: Café Elbgold (Schanzenviertel)
+- Address: Lagerstraße 34c, 20357 Hamburg
+- Address is provided and specific.
+- Place is a specific café, not a general area.
+- Verification is required.
+
+Action: search("Lagerstraße 34c, 20357 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "On the Coffee Trail in Hamburg - Binny's Food & Travel",
+    "snippet": "Dec 1, 2019 ... Find it: Lagerstraße 34c, 20357 Hamburg, Germany. Törnqvist."
+  },
+  {
+    "title": "Best Coffee Shops in Hamburg, Germany (with Map ...",
+    "snippet": "Jan 14, 2015 ... Mühlenkamp 6a (Winterhude) or. Lagerstraße 34c, 20357 (Sternschanze). All the coffee shops on this list did latte art, or they would not make ..."
+  },
+  {
+    "title": "PLOTCOFFEE · GREEN COFFEE AMBASSADORS",
+    "snippet": "Get in touch with us to find your exclusive nano- or microlot! hello@plotcoffee.com +49 40 431 972 00. PLOTCOFFEE GmbH. Lagerstraße 34C 20357 Hamburg Germany."
+  },
+  {
+    "title": "elbgold Röstkaffee GmbH | Impressum",
+    "snippet": "Kontakt. Kontakt. elbgold Röstkaffee GmbH. Lagerstraße 34c 20357 Hamburg ... Die elbgold Specialty Coffee Rösterei in Hamburg. elbgold steht für hochwertigen ..."
+  },
+  {
+    "title": "Elbgold Hamburg",
+    "snippet": "The Hamburg coffee roastery has set itself the task of finding the best ... Coffee gift sets! Location. Lagerstraße 34c 20357 Hamburg. www.elbgold.com."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Café Elbgold (Schanzenviertel)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Spaziergang durch das Schanzenviertel**
+- **Address:** -
+- **Activity:** Erkunde die kleinen Boutiquen, Plattenläden und Streetart im alternativen Szeneviertel. Perfekt zum Leute beobachten und für einen authentischen Eindruck vom Hamburger Alltag.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Spaziergang durch das Schanzenviertel",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Flohschanze (Flohmarkt, nur samstags) oder Karoviertel**
+- **Address:** Neuer Kamp 30, 20357 Hamburg (Flohschanze) / - (Karoviertel)
+- **Activity:** Stöbere auf dem Flohmarkt nach Vintage-Schätzen (nur samstags) oder schlendere durch das kreative Karoviertel mit kleinen Läden und Ateliers.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+There are two places mentioned: "Flohschanze (Flohmarkt, nur samstags)" and "Karoviertel". The address field contains "Neuer Kamp 30, 20357 Hamburg (Flohschanze) / - (Karoviertel)". I will extract the first place and its address for verification. "Karoviertel" is a neighborhood (non-specific location), but "Flohschanze" is a specific market.
+
+Action: 
+search("Neuer Kamp 30, 20357 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Flohschanze Hamburg",
+    "snippet": "Neuer Kamp 30 20357 Hamburg. www.marktkultur-hamburg.de. Enlarge map. Opening hours. Sat 08:00 - 16:00. Hamburg CARD. Free travel on buses, trains and harbour ..."
+  },
+  {
+    "title": "Digital Audio Service GmbH - MasteringWorks - High-End Audio Gear",
+    "snippet": "Neuer Kamp 30-32 , 20357 Hamburg · Tel. +49 040 47 11 348-0 · E-Mail: · Available Brands:."
+  },
+  {
+    "title": "CLASSIC CYCLES - Updated December 2025 - 14 Reviews - Neuer ...",
+    "snippet": "CLASSIC CYCLES - Neuer Kamp 30, 20357 Hamburg, Germany, 5 Photos & Videos, Tue - 12:30 PM - 7:00 PM, Wed - 12:30 PM - 7:00 PM, Thu - 12:30 PM - 7:00 PM, ..."
+  },
+  {
+    "title": "SONJA STURM - LIFE COACH - Updated December 2025 - Neuer ...",
+    "snippet": "Neuer Kamp 30. 20357 Hamburg. Germany. Sternschanze. Directions. 040 22820212. Call Now · Visit Website. https://sonjasturm.de. More Info. Hours. Other ..."
+  },
+  {
+    "title": "PHOTOAUTOMAT - Neuer Kamp 30, Hamburg, Germany - Yelp - Yelp",
+    "snippet": "PHOTOAUTOMAT, Neuer Kamp 30, 20357 Hamburg, Germany, 19 Photos, Mon - Open 24 hours, Tue - Open 24 hours, Wed - Open 24 hours, Thu - Open 24 hours, ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Flohschanze (Flohmarkt, nur samstags)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Mittagessen im „Kleines Phi“**
+- **Address:** Kleine Freiheit 86, 22767 Hamburg
+- **Activity:** Lunch in einer entspannten Bar mit kreativer Küche, beliebt bei Locals.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: The Place is "Kleines Phi" and the Address is "Kleine Freiheit 86, 22767 Hamburg". Both fields are present and specific. The address is not a placeholder, and the place is a specific venue, not a general area. Verification is required.
+
+Action: search("Kleine Freiheit 86, 22767 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "GROSSE FREIHEIT 36 - Updated December 2025 - 61 Photos & 86 ...",
+    "snippet": "GROSSE FREIHEIT 36 - Try Our New Menu - Große Freiheit 36, 22767 Hamburg ... Die ist sehr beengt und immer voll, da gefällt mir die kleine Bar im OG deutlich ..."
+  },
+  {
+    "title": "Contact - STRICHPUNKT DESIGN",
+    "snippet": "Alte Jakobstraße 85-86 10179 Berlin. hello@sp.design · How to find us. Brand Studio. Hamburg. Strichpunkt GmbH c/o MYTY Market Kleine Freiheit 70 22767 Hamburg."
+  },
+  {
+    "title": "BRANDGUT | Knusprige Aufstriche aus frisch gebrannten Nüssen.",
+    "snippet": "Die Rösterei, Steinstraße 19a, 20095 Hamburg Senf Pauli Manufaktur, Kleine Freiheit 46, 22767 Hamburg ... Osterstraße 86 (Eimsbüttel) Osterstraße 120 ..."
+  },
+  {
+    "title": "The Rabbithole in Hamburg - Falstaff",
+    "snippet": "Kleine Freiheit 42 22767 Hamburg Germany info@the-rabbithole.de · www.the ... Paul-Roosen Straße 35, 22767 Hamburg, Germany. 81. Learn more. 2. Hæbel. Paul ..."
+  },
+  {
+    "title": "Baufirmen in Hamburg-St. Pauli >> Jetzt finden!",
+    "snippet": "BIH Bau- und Immobilienservice Hamburg e.K.. ,, St. Pauli. Tel. 040 85 53 86 56. Branche: Bauunternehmen. Mehr Details. sectsort:C,subsectsort:~,ranksort ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think: The search results for "Kleine Freiheit 86, 22767 Hamburg" do not clearly mention "Kleines Phi" or any other business at that address. The results reference other addresses on Kleine Freiheit and other venues, but not the claimed place. The information is inconclusive.
+
+Action: search("Kleines Phi impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Behind Bars: Kleines Phi - Thomas Henry",
+    "snippet": "Mar 24, 2016 ... In der Feldstraße im Hamburger Karolinenviertel betreibt Philip Schulz seit Ende Mai 2015 die Bar Kleines Phi. ... Impressum · Datenschutz · AGB ..."
+  },
+  {
+    "title": "Impressum",
+    "snippet": "Impressum · PHI Österreich GmbH. Forschung, Qualitätssicherung, Information Firmenbuchnummer: 589314p. Landesgericht Innsbruck · Passivhaus Austria. GISA-Nummer: ..."
+  },
+  {
+    "title": "Impressum – PHI",
+    "snippet": "Impressum. Peter Hess® Institut. Peter Hess Klangmethoden GmbH & Co. KG ... Dabei handelt es sich um kleine Textdateien, die nur für die Dauer Ihres ..."
+  },
+  {
+    "title": "Impressum | Munich eSports",
+    "snippet": "Erster Vorstandsvorsitzender: Thai Phi-Long Pham Zweiter ... Google Adsense verwendet auch sog. ”Web Beacons” (kleine unsichtbare Grafiken) zur Sammlung von ..."
+  },
+  {
+    "title": "Impressum - Phi",
+    "snippet": "IMPRESSUM Angaben gemäß § 5 TMG: ​ Telefon:+49 (0) 30 374 37 330 Internet: www.itsmephi.com Mail: phi@itsmephi.com Josephine Wolff Manteuffelstraße 61 ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Kleines Phi",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Spaziergang am Altonaer Balkon**
+- **Address:** Palmaille, 22767 Hamburg
+- **Activity:** Genieße den Elbblick und entspanne im Park, wo viele Hamburger picknicken oder einfach die Aussicht genießen.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Spaziergang am Altonaer Balkon",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Besuch der Hanseplatte (Plattenladen & Hamburg-Shop)**
+- **Address:** Neuer Kamp 32, 20357 Hamburg
+- **Activity:** Stöbere durch Musik von Hamburger Künstlern, lokale Souvenirs und entdecke Hamburgs Musikszene.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: The Place is "Hanseplatte (Plattenladen & Hamburg-Shop)" and the Address is "Neuer Kamp 32, 20357 Hamburg". Both fields are present, the address is specific, and the place is a specific shop, not a general area. Verification is required.
+
+Action: search("Neuer Kamp 32, 20357 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "HANSEPLATTE - Updated December 2025 - 27 Photos & 21 ...",
+    "snippet": "HANSEPLATTE, Neuer Kamp 32, 20357 Hamburg, Germany, 27 Photos, +494028570193, Mon - 11:00 am - 7:00 pm, Tue - 11:00 am - 7:00 pm, Wed - 11:00 am - 7:00 pm, ..."
+  },
+  {
+    "title": "SMALLVILLE - Neuer Kamp 32, Hamburg, Germany - Yelp",
+    "snippet": "SMALLVILLE, Neuer Kamp 32, 20357 Hamburg, Germany, 5 Photos, +494022748664, Mon - Closed, Tue - 2:00 pm - 8:00 pm, Wed - 2:00 pm - 8:00 pm, ..."
+  },
+  {
+    "title": "SKILLZ Beanie blue",
+    "snippet": "Responsible person: Hatmakers, Neuer Kamp 32, 20357 Hamburg, Germany, Contact: info@hatmakers.de ; Who runs PortablismGear? PortablismGear.com was founded in ..."
+  },
+  {
+    "title": "Contact - Nettwerk Music Group",
+    "snippet": "Hamburg Neuer Kamp 32, 20357. Hamburg, Germany Phone: 49.40.431.846.50 Fax: 49.40.431.846.51. London 15 Adeline Place, 3rd Floor, London, United Kingdom WC1B ..."
+  },
+  {
+    "title": "Digital Audio Service GmbH - MasteringWorks - High-End Audio Gear",
+    "snippet": "Neuer Kamp 30-32 , 20357 Hamburg · Tel. +49 040 47 11 348-0 · E-Mail: · Available Brands:."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Hanseplatte (Plattenladen & Hamburg-Shop)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Kaffee & Kuchen im „Herr Max“**
+- **Address:** Schulterblatt 12, 20357 Hamburg
+- **Activity:** Hausgemachte Torten und Kaffee in einem charmanten Café, das bei Einheimischen sehr beliebt ist.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: Herr Max
+- Address: Schulterblatt 12, 20357 Hamburg
+- Address is provided and specific.
+- "Herr Max" is a specific venue, not a non-specific location.
+- Need to verify if "Herr Max" is at Schulterblatt 12, 20357 Hamburg.
+
+Action: 
+search("Schulterblatt 12, 20357 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "JIM BURRITO'S CANTINS, Hamburg - Sternschanze - Restaurant ...",
+    "snippet": "Wheelchair Accessible. Improve this listing. Open now. 12:00 PM - 10:00 PM. Contact. Call, email. Location. Schulterblatt 12, 20357 Hamburg Germany."
+  },
+  {
+    "title": "Jim Burrito's: International Restaurant",
+    "snippet": "Schulterblatt 12. 20357 Hamburg. Open. Küche bis 21.00. Mittwoch. 17.00-22.00. Donnerstag. 17.00-22.00. Freitag. 17.00-22.00. Samstag. 16.30-23.00 (Küche bis ..."
+  },
+  {
+    "title": "HERR MAX, Hamburg - Sternschanze - Restaurant Reviews, Photos ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Open until 9:00 PM. Schulterblatt 12, 20357 Hamburg Germany. Call. Map."
+  },
+  {
+    "title": "Herr Max – Patisserie & Konditorei",
+    "snippet": "20251 Hamburg. Tel.: 040 36851510 hallo@herrmax.de. Öffnungszeiten: Montag bis Sonntag 12-17 Uhr. Abholung & Zahlung · Datenschutz · Widerrufsbelehrung · AGB ..."
+  },
+  {
+    "title": "Chipotle Mexican Grill Hamburg, Germany - Last Updated ...",
+    "snippet": "Schulterblatt 12, 20357 Hamburg Germany. Schulterblatt 12, 20357 Hamburg Germany. This is a placeholder. €€. Looks like a lot of nacho cheese tortilla chips and ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Herr Max",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Spaziergang durch den Wohlerspark**
+- **Address:** Wohlers Allee, 22767 Hamburg
+- **Activity:** Entspanne im ruhigen Park, der ein echter Geheimtipp für eine Pause abseits der Touristenströme ist.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Spaziergang durch den Wohlerspark",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Craft Beer im „ÜberQuell“ (Brauerei & Biergarten)**
+- **Address:** St. Pauli Fischmarkt 28-32, 20359 Hamburg
+- **Activity:** Probiere lokale Biere mit Blick auf die Elbe, triff Hamburger und genieße die entspannte Atmosphäre.
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: ÜberQuell (Brauerei & Biergarten)
+- Address: St. Pauli Fischmarkt 28-32, 20359 Hamburg
+- Address is provided and specific.
+- Place is a specific venue, not a general area.
+
+Action: 
+search("St. Pauli Fischmarkt 28-32, 20359 Hamburg")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "St. Pauli Fischmarkt 28-32, 20359 Hamburg",
+    "snippet": "Our menu offers you fluffy Neapolitan pizza and fresh bowls, some with herbs and vegetables from our GreenPauli roof garden."
+  },
+  {
+    "title": "UEBERQUELL BRAUWERKSTAETTEN, Hamburg - Altona-Altstadt ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Opens in 37 min. St. Pauli Fischmarkt 28-32 Riverkasematten, 20359 Hamburg ..."
+  },
+  {
+    "title": "Curling - Hamburg",
+    "snippet": "St. Pauli Fischmarkt 28-32, 20359 Hamburg. Bavarian Curling in Hamburg – Your Winter Event at the ..."
+  },
+  {
+    "title": "Consumer goods and services – from globa0,l production to local ...",
+    "snippet": "Hamburg, Germany ; Thursday 27 October 2022 ; 18:50, Registrations at ÜberQuell (optional) Address: St. Pauli Fischmarkt 28-32, 20359 Hamburg ; 19:00, Welcome ..."
+  },
+  {
+    "title": "What are the best craft beer bars/restaurants? - Hamburg Forum ...",
+    "snippet": "Jul 1, 2023 ... With the iconic address: St. Pauli Fischmarkt 28-32, 20359 Hamburg. Reply. Report. kokkinos vrachos. 2 years ago. Hamburg, Germany. 12,137 forum ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "ÜberQuell (Brauerei & Biergarten)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+

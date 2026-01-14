@@ -1,0 +1,21 @@
+[
+  {
+    "extracted_requirement_num": 5,
+    "valid_requirements": [
+      "Interested in cultural activities.",
+      "Need to have dinner before the flight."
+    ],
+    "missing_requirements": [
+      "Earliest start time is 8:00 from Berlin Central Station.",
+      "Flight from Berlin to Athens departs at 22:00.",
+      "Explore the city before the flight."
+    ]
+  },
+  {
+    "satisfied_requirements": [
+      "Interested in cultural activities.",
+      "Need to have dinner before the flight."
+    ],
+    "satisfied_requirements_num": 2
+  }
+]

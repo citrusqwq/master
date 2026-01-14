@@ -1,0 +1,22 @@
+[
+  {
+    "extracted_requirement_num": 5,
+    "valid_requirements": [
+      "City: Hamburg",
+      "Previous visits: Yes",
+      "Preference: Local, niche experiences, avoid top 10 TripAdvisor attractions",
+      "Activities: Engage in activities typical for locals on a weekend"
+    ],
+    "missing_requirements": [
+      "User is passing through Hamburg"
+    ]
+  },
+  {
+    "satisfied_requirements": [
+      "1. City: Hamburg",
+      "3. Preference: Local, niche experiences, avoid top 10 TripAdvisor attractions",
+      "4. Activities: Engage in activities typical for locals on a weekend"
+    ],
+    "satisfied_requirements_num": 3
+  }
+]

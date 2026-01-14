@@ -1,0 +1,23 @@
+[
+  {
+    "extracted_requirement_num": 5,
+    "valid_requirements": [
+      "Aufenthalt in Berlin für einen Tag.",
+      "Reisegruppe: Freunde.",
+      "Interesse an coolen Buchhandlungen.",
+      "Wunsch, in einem südamerikanischen Restaurant zu essen.",
+      "Längere, spaßige Aktivität einbauen (z.B. Spielhalle oder Karaoke-Bar)."
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "Aufenthalt in Berlin für einen Tag.",
+      "Reisegruppe: Freunde.",
+      "Interesse an coolen Buchhandlungen.",
+      "Wunsch, in einem südamerikanischen Restaurant zu essen.",
+      "Längere, spaßige Aktivität einbauen (z.B. Spielhalle oder Karaoke-Bar)."
+    ],
+    "satisfied_requirements_num": 5
+  }
+]

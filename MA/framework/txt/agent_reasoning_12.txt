@@ -1,0 +1,634 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Berliner Hauptbahnhof  
+- **Address:** Europaplatz 1, 10557 Berlin  
+- **Activity:** Ankunft und Startpunkt, ggf. Kaffee holen, Orientierung.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "Berliner Hauptbahnhof" is a specific location (the main train station), not a district or neighborhood.
+
+Action: search("Europaplatz 1, 10557 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Hertz Car Rental - Berlin Main Railway Station - Europaplatz 1",
+    "snippet": "Berlin Main Railway Station - Europaplatz 1 Information. Location Details. Hours. Europaplatz 1 Berlin,10557 +49 30 20649328 Get Directions."
+  },
+  {
+    "title": "Berlin Hauptbahnhof",
+    "snippet": "Address. Berlin HauptbahnhofBerlin Hauptbahnhof Europaplatz 1 10557 Berlin. Berlin Hauptbahnhof, Europaplatz 1, 1 0 5 5 7 Berlin. Deutsch English. Business ..."
+  },
+  {
+    "title": "MCDONALD'S, Berlin - Europaplatz 1, Mitte (Borough) - Menu ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Open until 3:00 AM. Europaplatz 1 Hauptbahnhof, 10557 Berlin Germany. Website."
+  },
+  {
+    "title": "Car Rental Berlin Hauptbahnhof | SIXT rent a car",
+    "snippet": "Berlin Central Train Station. Google Maps Berlin Central Train Station, Europaplatz 1, Berlin, Berlin 10557, Germany. Additional Information. How to find us."
+  },
+  {
+    "title": "CURRY 36, Berlin - Europaplatz 1, Charlottenburg-Wilmersdorf ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Closed now. Europaplatz 1, 10557 Berlin Germany. Website. Call. Map. Review."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Berliner Hauptbahnhof",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Reichstagsgebäude  
+- **Address:** Platz der Republik 1, 11011 Berlin  
+- **Activity:** Besuch der Kuppel (vorherige Online-Anmeldung empfohlen), beeindruckende Architektur und Panoramablick auf Berlin.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: The Place is "Reichstagsgebäude" and the Address is "Platz der Republik 1, 11011 Berlin". Both fields are present, the address is specific, and the place is a specific landmark, not a general area. Verification is required.
+
+Action: search("Platz der Republik 1, 11011 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Reichstag building - Wikipedia",
+    "snippet": "... Platz der Republik in Berlin that is the seat of the German Bundestag. ... Platz der Republik 1, 11011 Berlin, Berlin, Germany. Coordinates · 52°31′07″N ..."
+  },
+  {
+    "title": "Form submission webhook",
+    "snippet": "... Platz der Republik 1, 11011 Berlin, Germany\", \"isMock\": false, \"altitude\": 33.7906493, \"accuracy\": 33.7906493, \"speed\": 0.7906493 }, \"choices\": [ { \"id ..."
+  },
+  {
+    "title": "German Bundestag contact form - Berlin",
+    "snippet": "German Bundestag Platz der Republik 1 11011 Berlin Germany Tel.: +49(0) 30 227-0 Fax: +49(0) 30 227-36878"
+  },
+  {
+    "title": "Decisions search - Order of 25 March ... - Bundesverfassungsgericht",
+    "snippet": "1. Until a decision in the proceedings in the main action is issued, the ... Platz der Republik 1, 11011 Berlin. - authorised representative: Prof. Dr ..."
+  },
+  {
+    "title": "Kontakt - Deutscher Bundestag",
+    "snippet": "Deutscher Bundestag Verwaltung - Referat Int 3 Platz der Republik 1 11011 Berlin Die Parlamentariergruppen haben kein eigenes Budget und können daher keine ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Reichstagsgebäude",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Brandenburger Tor & Pariser Platz  
+- **Address:** Pariser Platz, 10117 Berlin  
+- **Activity:** Wahrzeichen Berlins, Fotos machen, kurze Erkundung der Umgebung.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Brandenburger Tor & Pariser Platz",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": null
+}
+
+Think: The address "Pariser Platz, 10117 Berlin" is provided and is not a placeholder. The place "Brandenburger Tor & Pariser Platz" refers to a specific landmark and its associated square, not a non-specific location. Verification is required.
+
+Action: search("Pariser Platz, 10117 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Pariser Platz - Wikipedia",
+    "snippet": "Pariser Platz ( transl. Parisian Square) is a square in the historic center of Berlin, Germany, situated by the Brandenburg Gate at the end of Unter den ..."
+  },
+  {
+    "title": "Pariser Platz – Berlin.de",
+    "snippet": "Dec 20, 2024 ... Anlässlich der Eroberung von Paris durch preußische Truppen in den Befreiungskriegen erhielt er den Namen Pariser Platz. Anfänglich mit ..."
+  },
+  {
+    "title": "Brandenburg Gate in Berlin: history, events & more | visitBerlin.de",
+    "snippet": "Tiergarten Park. Find further information here. Information about Accessibility: Labelling \"Tourism for all\". Address. Pariser Platz 10117 Berlin. +−."
+  },
+  {
+    "title": "Pariser Platz – Berlin.de",
+    "snippet": "Jan 16, 2025 ... Pariser Platz at the Brandenburg Gate was the border between East and West Berlin until the fall of the Wall. Today it is one of the most visited squares in ..."
+  },
+  {
+    "title": "U.S. Mission Germany | EducationUSA",
+    "snippet": "The U.S. Embassy in Berlin, and the U.S. Consulates in Duesseldorf, Frankfurt ... Walk-in Address. Pariser Platz 2. 10117 Berlin. Germany. Mailing Address."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Brandenburger Tor & Pariser Platz",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Holocaust-Mahnmal (Denkmal für die ermordeten Juden Europas)  
+- **Address:** Cora-Berliner-Straße 1, 10117 Berlin  
+- **Activity:** Besuch des Mahnmals und ggf. des unterirdischen Informationszentrums.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Action: search("Cora-Berliner-Straße 1, 10117 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Memorial to the Murdered Jews of Europe - Stiftung Denkmal für die ...",
+    "snippet": "Stelenfeld and Information Centre ; Field of Stelae. 24 hours a day accessible ; PLACE. Cora-Berliner-Straße 1. D – 10117 Berlin ; CONTACT. + 49 30 26 39 43 – 0"
+  },
+  {
+    "title": "Memorial to the Murdered Jews of Europe | visitBerlin.de",
+    "snippet": "... the Berlin Welcome Card. ... 10:00 – 18:00. Find further information here. Denkmal für die ermordeten Juden Europas. Address. Cora-Berliner-Straße 1 10117 Berlin."
+  },
+  {
+    "title": "Museum – Memorial for the Murdered Jews ... - Museumsportal Berlin",
+    "snippet": "1. January closed; 24. December closed; 25. December closed; 26. December closed; 31. December 10:00 - 16:00. Location,. Cora-Berliner-Straße 1, 10117 Berlin."
+  },
+  {
+    "title": "Memorial to the Murdered Jews of Europe - Wikipedia",
+    "snippet": "The memorial is located on Cora-Berliner-Straße 1, 10117 in Berlin, a city with one of the largest Jewish populations in Europe before the Second World War."
+  },
+  {
+    "title": "Sunday, 2nd November, 2pm Free guided tour of the Memorial to ...",
+    "snippet": "Oct 30, 2025 ... Memorial to the Murdered Jews of Europe, entrance to the Information Centre, Cora- Berliner-Straße -Straße 1, 10117 Berlin No registration ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Holocaust-Mahnmal (Denkmal für die ermordeten Juden Europas)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Museumsinsel  
+- **Address:** Bodestraße 1-3, 10178 Berlin  
+- **Activity:** Besuch eines Museums nach Wahl (z.B. Pergamonmuseum, Neues Museum, Altes Museum).  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Museumsinsel", which refers to the Museum Island, a well-known area in Berlin with several museums. This is a non-specific location, as it refers to a district/area rather than a single POI.
+- Address is provided and appears specific.
+- According to the rules, if the Place is a non-specific location, I should not call search() and set address_match_place to null.
+
+Output:
+{
+  "place": "Museumsinsel",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Hackescher Markt  
+- **Address:** -  
+- **Activity:** Spaziergang durch die Hackeschen Höfe, kleine Boutiquen, Galerien und Cafés entdecken.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Hackescher Markt",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Nikolaiviertel  
+- **Address:** -  
+- **Activity:** Historisches Viertel mit Kopfsteinpflaster, St. Nikolai-Kirche, Berliner Geschichte erleben.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Nikolaiviertel",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Gendarmenmarkt  
+- **Address:** -  
+- **Activity:** Einer der schönsten Plätze Berlins mit Konzerthaus, Deutschem und Französischem Dom.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Gendarmenmarkt",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Checkpoint Charlie  
+- **Address:** Friedrichstraße 43-45, 10117 Berlin  
+- **Activity:** Historischer Grenzübergang, Fotos, ggf. Besuch des Mauermuseums.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: The Place is "Checkpoint Charlie" and the Address is "Friedrichstraße 43-45, 10117 Berlin". Both fields are present, the address is specific, and the place is a well-known POI, not a non-specific location. Verification is required.
+
+Action: search("Friedrichstraße 43-45, 10117 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Checkpoint Charlie Berlin: history & information | visitBerlin.de",
+    "snippet": "Checkpoint Charlie in Berlin Friedrichstraße © visitBerlin, Foto: Artfully Media, Sven Christian Schramm ... Friedrichstraße 43-45 10969 Berlin. +−. Leaflet | Map ..."
+  },
+  {
+    "title": "Checkpoint Charlie – Berlin.de",
+    "snippet": "Nov 5, 2024 ... Die Bildkombo zeigt die Friedrichstraße am Checkpoint Charlie in Berlin im Oktober 1961 und am 09.10.2014. ... Friedrichstraße 43-45. 10117 Berlin."
+  },
+  {
+    "title": "Location – Mondrian",
+    "snippet": "... Berlin, for business or pleasure. Checkpoint Charlie (3 minutes). Friedrichstraße 43-45, 10117 Berlin, Germany. Jewish Museum (3 minutes). Lindenstraße 9-14 ..."
+  },
+  {
+    "title": "Checkpoint Charlie - Wikipedia",
+    "snippet": "Checkpoint Charlie (or \"Checkpoint C\") was the Western Bloc's name for the best-known Berlin Wall crossing point between East Berlin and West Berlin during ..."
+  },
+  {
+    "title": "Checkpoint Charlie – Berlin.de",
+    "snippet": "Nov 5, 2024 ... In the middle of Friedrichstraße, Berlin's main traffic axis from ... Friedrichstraße 43-45. 10117 Berlin. City map. Admission Fee. free ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Checkpoint Charlie",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Topographie des Terrors  
+- **Address:** Niederkirchnerstraße 8, 10963 Berlin  
+- **Activity:** Dokumentationszentrum zur NS-Zeit, Ausstellung im Freien und im Gebäude.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "Topographie des Terrors" is a specific POI, not a non-specific location. Verification is required.
+
+Action: search("Niederkirchnerstraße 8, 10963 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Topographie des Terrors: Home",
+    "snippet": "Berlin 1933–1945. Zwischen Propaganda und Terror. © David von Bassewitz ... Niederkirchnerstraße 8 10963 Berlin 030 254509-0 · info@topographie.de. Besuch ..."
+  },
+  {
+    "title": "Niederkirchnerstraße - Wikipedia",
+    "snippet": "A preserved section of the Berlin Wall adjacent to Niederkirchnerstraße in 2014 ... 8) in 1933. Map. Wikimedia | © OpenStreetMap. Interactive map of ..."
+  },
+  {
+    "title": "Topography of Terror",
+    "snippet": "Niederkirchnerstraße 8 10963 Berlin 030 254509-0 · info@topographie.de. Your visit. Getting here and opening hours · Guided Tours · Audio guide. Inclusion."
+  },
+  {
+    "title": "Topography of Terror | visitBerlin.de",
+    "snippet": "A second permanent exhibition in the excavations along Niederkirchnerstraße, \"Berlin 1933-1945. ... Niederkirchnerstraße 8 10963 Berlin. +−. Leaflet | Map data © ..."
+  },
+  {
+    "title": "Anfahrt und Öffnungszeiten | Topographie des Terrors",
+    "snippet": "Anfahrt. Bild in Lightbox öffnen. Dokumentationszentrum Topographie des Terrors Niederkirchnerstraße 8 10963 Berlin 030 254509-50 info(at)topographie.de."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Topographie des Terrors",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Potsdamer Platz  
+- **Address:** -  
+- **Activity:** Moderne Architektur, Shopping, kurze Pause in einem Café.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Potsdamer Platz",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Kurfürstendamm & Kaiser-Wilhelm-Gedächtniskirche  
+- **Address:** Breitscheidplatz, 10789 Berlin  
+- **Activity:** Flanieren auf dem Ku’damm, Besuch der Gedächtniskirche, Shoppingmöglichkeiten.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Kurfürstendamm & Kaiser-Wilhelm-Gedächtniskirche",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Abendessen im Restaurant „Lutter & Wegner“ (empfohlen, deutsche Küche, nahe Ku’damm)  
+- **Address:** Schlüterstraße 55, 10629 Berlin  
+- **Activity:** Gemütliches Abendessen vor der Abreise.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Abendessen im Restaurant „Lutter & Wegner“ (empfohlen, deutsche Küche, nahe Ku’damm)"
+- Address is "Schlüterstraße 55, 10629 Berlin"
+- Address is provided and specific.
+- Place refers to a specific restaurant, not a non-specific location.
+- Need to verify if "Lutter & Wegner" is at Schlüterstraße 55, 10629 Berlin.
+
+Action: search("Schlüterstraße 55, 10629 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "1811 in Berlin - Restaurant Reviews, Menu and Prices | TheFork",
+    "snippet": "1811. Schlüterstraße 55, 10629, Berlin. FrenchAverage price €60. 9.7. (342 ... Schlüterstraße 55, 10629 Berlin. S-Bahnhof Savignyplatz. Strasse, CONTIPARK ..."
+  },
+  {
+    "title": "1811, Berlin - Charlottenburg-Wilmersdorf (Borough) - Menu, Prices ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Open until 11:00 PM. Schlüterstrasse 55, 10629 Berlin Germany. Website. Menu."
+  },
+  {
+    "title": "Menu 2025 - 1811 in Berlin | TheFork",
+    "snippet": "Nov 24, 2025 ... Restaurant guide · Berlin restaurants · 1811; Menu - 1811 in Berlin. Insider. Menu 2025 - 1811. Schlüterstraße 55, 10629, Berlin. FrenchAverage ..."
+  },
+  {
+    "title": "NU RESTAURANT, Berlin - Charlottenburg-Wilmersdorf (Borough ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Closed now. Schlüterstraße 55, 10629 Berlin Germany. Website. Menu. Map."
+  },
+  {
+    "title": "Restaurant 1811: Startseite",
+    "snippet": "Schlüterstraße 55 10629 Berlin-Charlottenburg Deutschland. Öffnungszeiten. Lunch: Dienstag – Freitag 12:30 – 15:00. Dinner: Dienstag – Samstag 17:00 – 23:00."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- The search results for "Schlüterstraße 55, 10629 Berlin" show two restaurants: "1811" and "NU Restaurant" at this address.
+- There is no mention of "Lutter & Wegner" at this address in any of the results.
+- The address appears to be associated with other restaurants, not "Lutter & Wegner".
+- To be certain, I should check if "Lutter & Wegner impressum" links this place to Schlüterstraße 55.
+
+Action: search("Lutter & Wegner impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Impressum – Lutter & Wegner Berlin",
+    "snippet": "Betriebsstätte: Lutter & Wegner am Gendarmenmarkt Charlottenstraße 56 10117 Berlin Tel.: +49 30 20 29 54 15. Email: info@l-w-berlin.de"
+  },
+  {
+    "title": "Impressum Index — Lutter & Wegner",
+    "snippet": "IMPRESSUM. Betriebsstätte. Lutter & Wegner am Gendarmenmarkt Charlottenstraße 56 10117 Berlin. Tel: +49 (0)30 202 954 0. Fax: +49 (0)30 202 954 25"
+  },
+  {
+    "title": "Impressum - Lutter & Wegner Sekt",
+    "snippet": "Lutter & Wegner Gendarmenmarkt – der Sekt, der Sekt den Namen gab. Aus hervorragenden Weinen kultivieren unsere Kellermeister den Sekt des Hauses und ..."
+  },
+  {
+    "title": "Impressum | Datenschutz – Villa Solitude",
+    "snippet": "Laggner Bad Gastein Hotel GmbH | Geschäftsführer Josef Laggner | UID: ATU62173917. Kaiser Franz Josef Str. 16 | A - 5640 Bad Gastein | Austria"
+  },
+  {
+    "title": "Impressum – Fischerhütte",
+    "snippet": "Lutter & Wegner Weinhandlung. Feiern. Fischerhütte Events · Ihre Veranstaltung ... Impressum. Firmierung / Unternehmenssitz. Laggner Fischerhütte Biergarten ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Abendessen im Restaurant „Lutter & Wegner“ (empfohlen, deutsche Küche, nahe Ku’damm)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": false
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Flughafen Berlin Brandenburg (BER)  
+- **Address:** Willy-Brandt-Platz, 12529 Schönefeld  
+- **Activity:** Ankunft am Flughafen, Check-in, Sicherheitskontrolle, ggf. noch Zeit für einen Kaffee oder Souvenir-Shopping.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Flughafen Berlin Brandenburg (BER)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": null
+}
+
+Action: search("Willy-Brandt-Platz, 12529 Schönefeld")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Steigenberger Airport Hotel Berlin | H Rewards",
+    "snippet": "Willy-Brandt-Platz 3 12529 Schönefeld Deutschland. +49 30 246 497-0 · berlin-airport@steigenberger.com. Our facilities at the Steigenberger Airport Hotel Berlin."
+  },
+  {
+    "title": "BER Airport | S-Bahn Berlin GmbH",
+    "snippet": "... Willy Brandt\". Berlin Brandenburg Airport (BER) - Willy Brandt. ] } Address. Willy-Brandt-Platz 1, 12529 Schönefeld · Show address in journey planner · Website ..."
+  },
+  {
+    "title": "IntercityHotel Berlin Airport BER Terminal 1+2 | H Rewards",
+    "snippet": "Show More. Willy-Brandt-Platz 5 12529 Schönefeld Deutschland. +49 30 536 531 0 · airport-ber@intercityhotel.com. Free WiFi. Environmental Certification."
+  },
+  {
+    "title": "Steigenberger Airport Hotel Berlin- First Class Schoenefeld ...",
+    "snippet": "Hoteliers! Is your information accurate? Update Here. Steigenberger Airport Hotel Berlin Location Map. Willy-Brandt-Platz 3. Schoenefeld, Germany 12529. Map ..."
+  },
+  {
+    "title": "Office Space in Willy-Brandt-Platz 2, Schonefeld, 12529 | Easy Offices",
+    "snippet": "Nearby Coworking Space ... Willy-Brandt-Platz 2, Schonefeld, 12529. Office space. from €185 person/month. Coworking Desks. from €169 person/month. Request ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Action: search("Flughafen Berlin Brandenburg (BER) impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Impressum",
+    "snippet": "Flughafen Berlin Brandenburg Betriebsbereich BER Nord Willy-Brandt-Straße 1 12529 Schönefeld. Postadresse: Flughafen Berlin Brandenburg GmbH, 12521 Berlin."
+  },
+  {
+    "title": "Impressum",
+    "snippet": "BER - Flughafen Berlin Brandenburg. Werben am Flughafen. Werbeportfolio ... Impressum. Kontakt. Impressum. Impressum. Flughafen Berlin Brandenburg GmbH. T +49 ..."
+  },
+  {
+    "title": "Impressum - Passion Food",
+    "snippet": "Impressum. ImpressumSebastian Kampe2021-05-17T15:34:09+02:00 ... We deliver catering 24/7 to BER Berlin Brandenburg Airport. Our team is available to take ..."
+  },
+  {
+    "title": "Impressum alt | Hotelq24",
+    "snippet": "BER Airport. Berlin-Brandenburg. 45 min. by taxi. 55 min. by public transport. (ABC tariff). Many car sharing providers. on site. Home · Rooms & Packages."
+  },
+  {
+    "title": "Impressum – WeParking – Parken Flughafen Berlin – Parken am ...",
+    "snippet": "WeParking am Flughafen BER. Kontaktieren Sie uns bei Fragen gern per E-Mail ... Flughafen Berlin. Eichenallee 3A 15749 Mittenwalde; +49 (0) 151 58 58 68 ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Flughafen Berlin Brandenburg (BER)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+

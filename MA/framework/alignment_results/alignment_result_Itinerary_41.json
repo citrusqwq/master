@@ -1,0 +1,23 @@
+[
+  {
+    "extracted_requirement_num": 5,
+    "valid_requirements": [
+      "Location: Hamburg",
+      "Duration: One day",
+      "Interests: Harbor views, vintage markets",
+      "Activities: Photography at popular scenic spots",
+      "Food preferences: Local well-regarded seafood restaurants, artisanal dessert shops"
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "1. Location: Hamburg",
+      "2. Duration: One day",
+      "3. Interests: Harbor views, vintage markets",
+      "4. Activities: Photography at popular scenic spots",
+      "5. Food preferences: Local well-regarded seafood restaurants, artisanal dessert shops "
+    ],
+    "satisfied_requirements_num": 5
+  }
+]

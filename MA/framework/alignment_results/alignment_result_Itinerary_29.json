@@ -1,0 +1,25 @@
+[
+  {
+    "extracted_requirement_num": 6,
+    "valid_requirements": [
+      "One day trip in Hamburg",
+      "Fond of harbor views",
+      "Interested in vintage markets",
+      "Likes taking photos at popular scenic spots",
+      "Wants to visit well-regarded local seafood restaurants",
+      "Wishes to try artisanal dessert shops"
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "1. One day trip in Hamburg",
+      "2. Fond of harbor views",
+      "3. Interested in vintage markets",
+      "4. Likes taking photos at popular scenic spots",
+      "5. Wants to visit well-regarded local seafood restaurants",
+      "6. Wishes to try artisanal dessert shops "
+    ],
+    "satisfied_requirements_num": 6
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "start_time": "10:00 AM",
+    "place": "Shakespeare and Sons",
+    "address": "Warschauer Str. 74, 10243 Berlin, Germany",
+    "activity": "Browse a beautiful English-language bookstore with a cozy atmosphere. Enjoy coffee and bagels at the in-store café.",
+    "planned_duration": "1.5 hours",
+    "twist": false,
+    "transit_time_to_next_place": "30 min/public_transportation",
+    "possible_duration": "75 min"
+  },
+  {
+    "start_time": "11:45 AM",
+    "place": "Ocelot, not just another bookstore",
+    "address": "Brunnenstr. 181, 10119 Berlin, Germany",
+    "activity": "Explore an indie bookstore beloved for its stylish interior and curated selection of international books.",
+    "planned_duration": "1 hour",
+    "twist": false,
+    "transit_time_to_next_place": "25 min/public_transportation",
+    "possible_duration": "50 min"
+  },
+  {
+    "start_time": "1:00 PM",
+    "place": "Chicha Berlin – Peruvian Restaurant",
+    "address": "Friedelstraße 34, 12047 Berlin, Germany",
+    "activity": "Enjoy a South American lunch with fresh ceviche, Peruvian specialties, and cocktails in a trendy Neukölln setting.",
+    "planned_duration": "1.5 hours",
+    "twist": "Upon arrival, the traveler finds that the peruvian restaurant 'Chicha' is temporarily closed.",
+    "transit_time_to_next_place": "35 min/public_transportation",
+    "possible_duration": "70 min",
+    "alternatives": [
+      "Kai Maison - Offers an enticing fusion of Asian and French-Japanese cuisine that captures the essence of culinary creativity.",
+      "Frieda Schlamassel - A laid-back German restaurant serving homemade comfort food classics in a cozy setting.",
+      "Kitten Deli - A cozy restaurant and bakery that specializes in fresh Israeli vegetarian dishes, homemade challah bread, and sharing plates.",
+      "Restaurant Paran - Relaxed, Korean-focused restaurant turning out noodle bowls, dumplings & mains in a colorful space."
+    ]
+  },
+  {
+    "start_time": "2:45 PM",
+    "place": "SAVVY Contemporary",
+    "address": "Reinickendorfer Str. 17, 13347 Berlin, Germany",
+    "activity": "Visit this cultural center/bookshop hybrid for unique books, exhibitions, and a creative artistic vibe.",
+    "planned_duration": "1 hour",
+    "twist": false,
+    "transit_time_to_next_place": "30 min/public_transportation",
+    "possible_duration": "45 min"
+  },
+  {
+    "start_time": "4:00 PM",
+    "place": "GameOn Arcade",
+    "address": "Karl-Liebknecht-Str. 13, 10178 Berlin, Germany",
+    "activity": "Dive into a retro and modern arcade for a couple of hours of gaming fun—perfect for groups of friends.",
+    "planned_duration": "2 hours",
+    "twist": "Upon arrival, the traveler discovers that this place is not the claimed Arcade but a comic book store called 'Manga-Mafia' - a colorful shop that sells a wide range of manga, anime merchandise, trading cards, and Japanese snacks.",
+    "transit_time_to_next_place": "20 min/public_transportation",
+    "possible_duration": "120 min",
+    "alternatives": [
+      "berlincurrys - Brewpub with shiny copper vessels & outside seating, serving German cuisine & self-brewed beers."
+    ]
+  },
+  {
+    "start_time": "6:30 PM",
+    "place": "Monster Ronson's Ichiban Karaoke",
+    "address": "Warschauer Str. 34, 10243 Berlin, Germany",
+    "activity": "Wrap up your day singing your heart out at Berlin's most famous karaoke bar—reserve a private booth for your group for maximum fun.",
+    "planned_duration": "2.5 hours",
+    "twist": false,
+    "transit_time_to_next_place": null,
+    "possible_duration": "150 min"
+  }
+]

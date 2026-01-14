@@ -1,0 +1,100 @@
+[
+  {
+    "start_time": "10:00 AM",
+    "planned_activity": "Shakespeare and Sons\nBrowse a beautiful English-language bookstore with a cozy atmosphere. Enjoy coffee and bagels at the in-store café.",
+    "expectation": "The traveler expects a comfortable, relaxing time browsing books and enjoying familiar food in a cozy setting with friends.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "75 min",
+    "predicted_behavior": "The traveler browsed the bookstore at a relaxed pace, occasionally picking up books to examine, then spent most of the time seated with friends in the café, enjoying coffee, bagels, and conversation in a cozy, comfortable atmosphere.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "summary": "10:00 - 11:15: The traveler browsed books and enjoyed coffee, bagels, and conversation with friends at the cozy Shakespeare and Sons bookstore café."
+  },
+  {
+    "start_time": "11:45 AM",
+    "planned_activity": "Ocelot, not just another bookstore\nExplore an indie bookstore beloved for its stylish interior and curated selection of international books.",
+    "expectation": "I expect a comfortable, aesthetically pleasing environment where I can browse books and relax with friends.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "50 min",
+    "predicted_behavior": "The traveler browsed the curated selection of books at a relaxed pace, enjoyed the stylish and comfortable environment with friends, and spent some time sitting and chatting quietly in a cozy spot within the bookstore.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "summary": "11:45 AM - 12:35 PM: The traveler browsed books and relaxed with friends in the stylish, cozy environment of Ocelot, not just another bookstore."
+  },
+  {
+    "start_time": "1:00 PM",
+    "planned_activity": "Chicha Berlin – Peruvian Restaurant\nEnjoy a South American lunch with fresh ceviche, Peruvian specialties, and cocktails in a trendy Neukölln setting.",
+    "expectation": "The traveler expects a pleasant lunch with friends in a comfortable setting, hoping for familiar or approachable food options despite the new cuisine.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "After finding Chicha Berlin closed, the traveler suggests Frieda Schlamassel, a cozy German restaurant with comfort food, as an alternative. They expect a relaxed lunch with friends in a comfortable setting, even if it's not the original cuisine planned.",
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "predicted_duration": "70 min",
+    "predicted_behavior": "The traveler and friends settled into Frieda Schlamassel, ordered familiar German comfort food, and enjoyed a relaxed lunch together, spending time chatting and savoring the cozy atmosphere. They took their time with the meal and conversation, making the most of the comfortable setting.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "summary": "13:00 - 14:10: The traveler and friends enjoyed a relaxed lunch of German comfort food and conversation at Frieda Schlamassel."
+  },
+  {
+    "start_time": "2:45 PM",
+    "planned_activity": "SAVVY Contemporary\nVisit this cultural center/bookshop hybrid for unique books, exhibitions, and a creative artistic vibe.",
+    "expectation": "I expect a comfortable visit with interesting books, hoping the creative vibe remains calm and not overwhelming.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "45 min",
+    "predicted_behavior": "The traveler browsed the bookshop at a relaxed pace with friends, spent time seated in a comfortable spot to look through a few books, and quietly observed the exhibitions without feeling rushed or overwhelmed.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "summary": "14:45 - 15:30: The traveler visited SAVVY Contemporary, leisurely browsing the bookshop, relaxing with friends while looking through books, and quietly observing the exhibitions."
+  },
+  {
+    "start_time": "4:00 PM",
+    "planned_activity": "GameOn Arcade\nDive into a retro and modern arcade for a couple of hours of gaming fun—perfect for groups of friends.",
+    "expectation": "The traveler expects a more energetic and social experience that may be less relaxing but enjoyable with friends.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "After discovering the arcade is actually a comic book store, the traveler and friends briefly browse the shop, sampling some Japanese snacks, but soon decide to head to the nearby brewpub for a more comfortable and familiar group experience. They now expect a relaxed time with good seating and familiar food, which better matches their preferences.",
+      "emotion_valence": "neutral",
+      "emotion_arousal": "neutral"
+    },
+    "predicted_duration": "120 min",
+    "predicted_behavior": "The traveler and friends briefly browsed the comic book store, sampled some Japanese snacks, and then spent most of the time at a nearby brewpub enjoying familiar food, drinks, and relaxed conversation in a comfortable setting.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "summary": "16:00 - 18:00: The traveler and friends briefly browsed a comic book store and sampled Japanese snacks before spending most of their time at a nearby brewpub enjoying food, drinks, and relaxed conversation."
+  },
+  {
+    "start_time": "6:30 PM",
+    "planned_activity": "Monster Ronson's Ichiban Karaoke\nWrap up your day singing your heart out at Berlin's most famous karaoke bar—reserve a private booth for your group for maximum fun.",
+    "expectation": "A fun and relaxed singing session with friends in a private, comfortable setting without the stress of performing for strangers.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "150 min",
+    "predicted_behavior": "The traveler and their friends spent the full 150 minutes in a private karaoke booth, taking turns singing familiar songs, relaxing, chatting, and enjoying drinks in a comfortable, low-key environment without any pressure to perform for strangers.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "low"
+    },
+    "summary": "18:30 - 21:00: The traveler and friends enjoyed 150 minutes in a private booth at Monster Ronson's Ichiban Karaoke, singing, relaxing, chatting, and having drinks in a comfortable, low-key setting."
+  }
+]

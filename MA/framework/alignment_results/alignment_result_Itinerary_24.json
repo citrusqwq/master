@@ -1,0 +1,23 @@
+[
+  {
+    "extracted_requirement_num": 5,
+    "valid_requirements": [
+      "Interested in cultural activities.",
+      "Need to have dinner before the flight.",
+      "Must be at Berlin airport by 20:00.",
+      "Flight departs at 22:00."
+    ],
+    "missing_requirements": [
+      "Earliest start time is 8:00 (no activities before 8:00)."
+    ]
+  },
+  {
+    "satisfied_requirements": [
+      "Interested in cultural activities.",
+      "Need to have dinner before the flight.",
+      "Must be at Berlin airport by 20:00.",
+      "Flight departs at 22:00."
+    ],
+    "satisfied_requirements_num": 4
+  }
+]

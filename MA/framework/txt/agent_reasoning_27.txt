@@ -1,0 +1,303 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Altonaer Balkon  
+   **Address:** Palmaille, 22767 Hamburg, Germany  
+   **Activity:** Start your day with a panoramic and tranquil viewpoint overlooking the port of Hamburg. Relax and enjoy the striking views without the crowds of the main harbor area.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Altonaer Balkon", which is a known park/viewpoint in Hamburg.
+- Address is "Palmaille, 22767 Hamburg, Germany".
+- Address is provided and not a placeholder.
+- "Altonaer Balkon" refers to a specific park/viewpoint, not a general area.
+
+Action: 
+search("Palmaille, 22767 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Meat Composition and Quality Assessment of King Scallops (Pecten ...",
+    "snippet": "Sep 29, 2015 ... ... Palmaille 9, 22767 Hamburg, Germany. Monika.Manthey@mri.bund.de. 2 Department of Safety and Quality of Milk and Fish Products, Max Rubner ..."
+  },
+  {
+    "title": "Reverb",
+    "snippet": "Altonaer Balkon. Altonaer Balkon, Palmaille, 22767 Hamburg, Germany. Website | Directions | Instagram. “Altona's balcony” is exactly what it sounds like: a ..."
+  },
+  {
+    "title": "Large scale distribution of dioxins, PCBs, heavy metals, PAH ...",
+    "snippet": "Thünen-Institute of Fisheries Ecology, Palmaille 9, 22767 Hamburg, Germany. 3 Max Rubner - Institut, Federal Research Centre of Nutrition and Food, Department ..."
+  },
+  {
+    "title": "Wilhelmsen Ahrenkiel Ship Management GmbH & Co. KG",
+    "snippet": "Germany. Contacts & Locations. Ship Management office. Wilhelmsen Ahrenkiel ... Palmaille 67 22767 , Hamburg, Germany. Copy contact. Download contact. Office ..."
+  },
+  {
+    "title": "Contact – MPC Container Ships ASA",
+    "snippet": "Hamburg. MPC Container Ships GmbH & Co. KG. Palmaille 75. D-22767 Hamburg Germany +49 (40) 380 22 4200. View on map. Rotterdam. MPC Container Ships Invest B.V.."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Altonaer Balkon",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Museumshafen Oevelgönne  
+   **Address:** Neumühlen 3, 22763 Hamburg, Germany  
+   **Activity:** Take a calm stroll along this historic small harbor, where you can admire old ships and enjoy the peaceful riverside atmosphere away from the tourist crowds.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "Museumshafen Oevelgönne" refers to a specific historic harbor, not a general area. Verification is required.
+
+Action: search("Neumühlen 3, 22763 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Autostrada Sport GmbH​ - elferspot.com - Marketplace for Porsche ...",
+    "snippet": "DE Germany. Autostrada Sport GmbH​. Neumühlen 3 22763 Hamburg. Send dealer inquiry. Visit dealer website. Please mention Elferspot when calling Autostrada Sport ..."
+  },
+  {
+    "title": "Autostrada Sport Exclusive Cars Hamburg | Luxus-und Sportwagen",
+    "snippet": "Kontakt. Neumühlen 3 22763 Hamburg. Deutschland. TEL.: +49 40 22854140. MOBIL: + ... GermanDeutsch; EnglishEnglish. loading. Verwendung von Cookies. Wir ..."
+  },
+  {
+    "title": "MV CALANDRA - Hamburg",
+    "snippet": "Neumühlen 13 • 22763 Hamburg • Germany • W www.leonhardt-blumberg.com ... Page 3. L E O N H A R D T & B L U M B E R G. Address. Neumühlen 13 • 22763 Hamburg ..."
+  },
+  {
+    "title": "Autostrada Sport Exclusive Cars Hamburg | Luxury and sports cars",
+    "snippet": "Trust the Autostrada Sport Crew! Contact Current vehicle offer. Autostrada Sport. Contact. Neumühlen 3 22763 Hamburg. German. TEL.: +49 40 22854140. MOBIL: +49 ..."
+  },
+  {
+    "title": "Hamburg-Veddel (Women)",
+    "snippet": "Directions. Former satellite camp: Lagerhaus G Dessauer Straße 4 20457 Hamburg Germany. Mural: Neumühlen 16–20 22763 Hamburg Germany. Directions by public ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think: The search results for "Neumühlen 3, 22763 Hamburg, Germany" primarily reference "Autostrada Sport GmbH," a car dealership, at this address. There is no mention of "Museumshafen Oevelgönne" or a harbor/museum at this address. The results do not indicate that this address is associated with the claimed place.
+
+Action: search("Museumshafen Oevelgönne impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Impressum – Museumshafen Oevelgönne",
+    "snippet": "Eine Verwendung zu anderen Zwecken als den oben genannten oder zu kommerziellen Zwecken ist ohne vorherige Rücksprache mit dem Museumshafen Oevelgönne e.V. ..."
+  },
+  {
+    "title": "Impressum – Der Lieger",
+    "snippet": "Angaben gemäß § 5 TMG Museumshafen Oevelgönne e.V.. Ponton Neumühlen 22763 Hamburg Telefon: +49 40 41 91 27 61. Telefax: +49 40 41 91 27 62."
+  },
+  {
+    "title": "Impressum - Schleppdampfer Woltman",
+    "snippet": "Links: Museumshafen Oevelgönne · MarineTraffic. Datenschutz Wir verweisen auf unsere Datenschutzerklärung. Liegeplatz im Museumshafen Oevelgönne - Neumühlen."
+  },
+  {
+    "title": "Hochseekutter Präsident Freiherr von Maltzahn HF.294. - Impressum",
+    "snippet": "Impressum. Verantwortlich: Henning Arndt. Adresse: Museumshafen Oevelgönne e.V.. Anleger Neumühlen 22763 Hamburg. Kontakt: eMail: maltzahn@museumshafen- ..."
+  },
+  {
+    "title": "Impressum",
+    "snippet": "Impressum. Rechtsanwältin Julika Sonntag Elbchaussee 87 22763 ... Die Kanzlei befindet sich unweit des Altonaer Balkons und dem Museumshafen Övelgönne."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Museumshafen Oevelgönne",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Brücke 10 (Fish Sandwich Stand)  
+   **Address:** St. Pauli-Landungsbrücken 10, 20359 Hamburg, Germany  
+   **Activity:** Try a delicious Fischbrötchen while enjoying river views. Arriving near lunchtime but a bit early helps you avoid the crowds.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Brücke 10 (Fish Sandwich Stand)".
+- Address is "St. Pauli-Landungsbrücken 10, 20359 Hamburg, Germany".
+- Address is provided and specific.
+- Place is a specific venue, not a non-specific location.
+- Verification is required.
+
+Action: 
+search("St. Pauli-Landungsbrücken 10, 20359 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "BRÜCKE 10 - Updated December 2025 - 367 Photos & 159 ...",
+    "snippet": "BRÜCKE 10 - Bei den St. Pauli-Landungsbrücken 10, 20359 Hamburg, Germany ... This was easily one of my favorite dishes in Hamburg, if not in Germany in general."
+  },
+  {
+    "title": "BRUECKE 10, Hamburg - St. Pauli - Menu, Prices & Restaurant ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Closed now. St. Pauli Landungsbrucken 10, 20359 Hamburg Germany ... BRUECKE 10, ..."
+  },
+  {
+    "title": "bruecke10.com – Die Fischbrötchenbude auf den St. Pauli ...",
+    "snippet": "Brücke 10 | 20359 Hamburg Infos & Reservierung: 040 / 33 399 339. Moin Moin! Herzlich Willkommen in unserer Fischbrötchenbude auf den St. Pauli Landungsbrücken."
+  },
+  {
+    "title": "DIETER IHDE CAPTAIN'S DINNER, Hamburg - St. Pauli ...",
+    "snippet": "Improve this listing. Open now. 8:00 AM - 10:00 PM. Contact. Call, email. Location. Bei Den St. Pauli-landungsbrücken 3, 20359 Hamburg Germany. St. Pauli."
+  },
+  {
+    "title": "St. Pauli Piers - Wikipedia",
+    "snippet": "St. Pauli Landing Bridges. The piers' waterfront seen towards St. Michaelis. General information. Location, Bei den St. Pauli-Landungsbrücken 20359 Hamburg, ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Brücke 10 (Fish Sandwich Stand)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Elbstrand (Hamburg Beach)  
+   **Address:** Övelgönne, 22605 Hamburg, Germany  
+   **Activity:** Relax by the Elbe River on Hamburg’s beautiful urban beach. Enjoy the sights of ships passing by, take a gentle walk, or rest on the sand in a less crowded stretch by Övelgönne.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Elbstrand (Hamburg Beach)",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Fischereihafenviertel  
+   **Address:** -  
+   **Activity:** Wander through this authentic port district, explore maritime ambience, peek into ateliers or small shops, and enjoy a coffee at a cozy café with local flavor, all in a peaceful setting.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Fischereihafenviertel",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Jenischpark  
+   **Address:** Baron-Voght-Straße 50, 22609 Hamburg, Germany  
+   **Activity:** End your day in one of Hamburg’s largest and most tranquil parks. Walk amid old trees, sculptures, and green meadows, far from the bustle of the city and crowds.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Jenischpark", which is a specific park, not a general area.
+- Address is "Baron-Voght-Straße 50, 22609 Hamburg, Germany", which appears to be a specific address.
+- Both Place and Address fields are present and non-empty.
+- "Jenischpark" is a specific location, not a district or neighborhood.
+- address_provided = true, non-specific_location = false.
+- Verification is required.
+
+Action: 
+search("Baron-Voght-Straße 50, 22609 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Jenisch Haus, Historische Museen Hamburg, Hamburg, Germany ...",
+    "snippet": "Hamburg, Germany. Follow. The Jenisch Haus is one of the most beautiful ... Jenisch HouseBaron-Voght-Straße 50, 22609 Hamburg, Germany. Monday11:00 AM ..."
+  },
+  {
+    "title": "Privacy Policy / Ernst Barlach Haus",
+    "snippet": "Baron-Voght-Straße 50 A 22609 Hamburg / Germany Phone: 0049 40 82 60 85. Fax: 0049 40 82 64 15 info@barlach-haus.de. Revocation of your consent to the ..."
+  },
+  {
+    "title": "Maritime tour along the Elbe beach Hamburg",
+    "snippet": "... Germany from the late Renaissance to Art Nouveau in the Jenisch Haus. ... Baron-Voght-Straße 50 22609 Hamburg. Jenisch House. Jenisch Haus."
+  },
+  {
+    "title": "Jenisch House - Reviews, Photos & Phone Number - Updated ...",
+    "snippet": "Baron-Voght-Straße 50, 22609 Hamburg, Germany +49 4082-879 Suggest an edit. Jenisch House is a historical landmark located in Hamburg, Germany."
+  },
+  {
+    "title": "Jenisch House in Hamburg, Germany | Hostelman.com",
+    "snippet": "Home > Attractions > Germany > Hamburg > Hamburg > Museums > Jenisch House. Jenisch House. Category: Museums. Baron-Voght-Straße 50. Hamburg Hamburg 22609"
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Jenischpark",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+

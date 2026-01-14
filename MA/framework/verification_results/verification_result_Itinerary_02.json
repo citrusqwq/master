@@ -1,0 +1,65 @@
+[
+  {
+    "place": "Café Elbgold (Schanzenviertel)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Frühstück im Café Elbgold (Schanzenviertel)**\n- **Address:** Lagerstraße 34c, 20357 Hamburg\n- **Activity:** Genieße ein entspanntes Frühstück mit exzellentem Kaffee in einer der beliebtesten Röstereien der Stadt, umgeben von Locals.\n- **"
+  },
+  {
+    "place": "Spaziergang durch das Schanzenviertel",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": " – Spaziergang durch das Schanzenviertel**\n- **Address:** -\n- **Activity:** Erkunde die kleinen Boutiquen, Plattenläden und Streetart im alternativen Szeneviertel. Perfekt zum Leute beobachten und für einen authentischen Eindruck vom Hamburger Alltag.\n- **"
+  },
+  {
+    "place": "Flohschanze (Flohmarkt, nur samstags)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Flohschanze (Flohmarkt, nur samstags) oder Karoviertel**\n- **Address:** Neuer Kamp 30, 20357 Hamburg (Flohschanze) / - (Karoviertel)\n- **Activity:** Stöbere auf dem Flohmarkt nach Vintage-Schätzen (nur samstags) oder schlendere durch das kreative Karoviertel mit kleinen Läden und Ateliers.\n- **"
+  },
+  {
+    "place": "Kleines Phi",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": null,
+    "snippet": " – Mittagessen im „Kleines Phi“**\n- **Address:** Kleine Freiheit 86, 22767 Hamburg\n- **Activity:** Lunch in einer entspannten Bar mit kreativer Küche, beliebt bei Locals.\n- **"
+  },
+  {
+    "place": "Spaziergang am Altonaer Balkon",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": null,
+    "snippet": " – Spaziergang am Altonaer Balkon**\n- **Address:** Palmaille, 22767 Hamburg\n- **Activity:** Genieße den Elbblick und entspanne im Park, wo viele Hamburger picknicken oder einfach die Aussicht genießen.\n- **"
+  },
+  {
+    "place": "Hanseplatte (Plattenladen & Hamburg-Shop)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Besuch der Hanseplatte (Plattenladen & Hamburg-Shop)**\n- **Address:** Neuer Kamp 32, 20357 Hamburg\n- **Activity:** Stöbere durch Musik von Hamburger Künstlern, lokale Souvenirs und entdecke Hamburgs Musikszene.\n- **"
+  },
+  {
+    "place": "Herr Max",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Kaffee & Kuchen im „Herr Max“**\n- **Address:** Schulterblatt 12, 20357 Hamburg\n- **Activity:** Hausgemachte Torten und Kaffee in einem charmanten Café, das bei Einheimischen sehr beliebt ist.\n- **"
+  },
+  {
+    "place": "Spaziergang durch den Wohlerspark",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": " – Spaziergang durch den Wohlerspark**\n- **Address:** Wohlers Allee, 22767 Hamburg\n- **Activity:** Entspanne im ruhigen Park, der ein echter Geheimtipp für eine Pause abseits der Touristenströme ist.\n- **"
+  },
+  {
+    "place": "ÜberQuell (Brauerei & Biergarten)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Craft Beer im „ÜberQuell“ (Brauerei & Biergarten)**\n- **Address:** St. Pauli Fischmarkt 28-32, 20359 Hamburg\n- **Activity:** Probiere lokale Biere mit Blick auf die Elbe, triff Hamburger und genieße die entspannte Atmosphäre.\n- **"
+  }
+]

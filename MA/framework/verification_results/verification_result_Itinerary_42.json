@@ -1,0 +1,51 @@
+[
+  {
+    "place": "Landungsbrücken (St. Pauli Piers)",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Landungsbrücken (St. Pauli Piers)  \n   **Address:** St. Pauli Landungsbrücken, 20359 Hamburg, Germany  \n   **Activity:** Start your day with iconic harbor views and watch the ships and ferries coming and going. Great spot for photography along the Elbe river, with classic Hamburg maritime flair.  \n   **"
+  },
+  {
+    "place": "Fischmarkt Hamburg-Altona (if visiting on Sunday morning) or Flohschanze Vintage Market (alternatively)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Fischmarkt Hamburg-Altona (if visiting on Sunday morning) or Flohschanze Vintage Market (alternatively)  \n   **Address:** Fischmarkt Altona - Große Elbstraße 9, 22767 Hamburg, Germany (only Sundays, 5-9:30AM)  \n   **Activity:** Explore a classic vintage market for unique finds and souvenirs, perfect for vintage shopping. If Sunday, Fischmarkt offers fresh produce and vibrant atmosphere including vintage stalls; otherwise, visit Flohschanze, a trendy flea market in the Schanzenviertel area.  \n   **"
+  },
+  {
+    "place": "Elbphilharmonie Plaza",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Elbphilharmonie Plaza  \n   **Address:** Platz der Deutschen Einheit 1, 20457 Hamburg, Germany  \n   **Activity:** Head to the Elbphilharmonie’s public viewing platform for spectacular panoramic views of the Hafen city and Elbe river. Ideal for photography of the urban harbor landscape.  \n   **"
+  },
+  {
+    "place": "Fischrestaurant Henssler Henssler",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place:** Fischrestaurant Henssler Henssler  \n   **Address:** Kirchenallee 39, 20099 Hamburg, Germany  \n   **Activity:** Enjoy a highly rated local restaurant known for fresh and expertly prepared fish dishes, blending traditional Hamburg seafood specialties with modern flair.  \n   **"
+  },
+  {
+    "place": "Schanze neighborhood (Schanzenviertel)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Schanze neighborhood (Schanzenviertel)  \n   **Address:** -  \n   **Activity:** Explore the vibrant Schanzenviertel area where you can stroll through boutiques, vintage shops, and street art. Stop at artisan shops like “The Bakery” or “Honigmond” for handmade desserts and coffee.  \n   **"
+  },
+  {
+    "place": "Dockland Office Building",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place:** Dockland Office Building  \n   **Address:** Bernhard-Nocht-Straße 69, 20359 Hamburg, Germany  \n   **Activity:** Visit this uniquely shaped office building on the Elbe river for another excellent harbor viewpoint and photo opportunity, especially beautiful towards sunset.  \n   **"
+  },
+  {
+    "place": "Abschluss bei einem weiteren Dessert-Café wie „TörtchenTörtchen“",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Abschluss bei einem weiteren Dessert-Café wie „TörtchenTörtchen“  \n   **Address:** Eppendorfer Weg 131, 20259 Hamburg, Germany  \n   **Activity:** End your day indulging in exquisite hand-crafted cakes or desserts at one of Hamburg’s beloved artisan patisseries.  \n   **"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "place": "Nationalgalerie (Neue Nationalgalerie)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Nationalgalerie (Neue Nationalgalerie)  \n   Address: Potsdamer Straße 50, 10785 Berlin  \n   Activity: Explore modern and contemporary art collections, including works by renowned artists such as Picasso, Klee, and Matisse. Enjoy the architecture of the building designed by Ludwig Mies van der Rohe.  \n   "
+  },
+  {
+    "place": "Curry 36",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Curry 36  \n   Address: Mehringdamm 36, 10961 Berlin  \n   Activity: Taste one of Berlin’s most famous Currywurst at this iconic street food stand, known for its authentic and delicious sausage with curry ketchup.  \n   "
+  },
+  {
+    "place": "Kurfürstendamm (Ku'damm) shopping district",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Kurfürstendamm (Ku'damm) shopping district  \n   Address: -  \n   Activity: Shop for women's clothing in size 52 at various boutiques and department stores along this popular shopping street. Stores like Peek & Cloppenburg and other fashion retailers offer a wide range of sizes and styles.  \n   "
+  },
+  {
+    "place": "Café or nearby park (optional)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Café or nearby park (optional)  \n   Address: -  \n   Activity: Relax with a coffee or stroll in a nearby park such as Tiergarten to unwind after shopping and sightseeing.  \n   "
+  }
+]

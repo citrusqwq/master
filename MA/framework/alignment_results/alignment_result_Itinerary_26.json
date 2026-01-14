@@ -1,0 +1,22 @@
+[
+  {
+    "extracted_requirement_num": 6,
+    "valid_requirements": [
+      "Bereits früher in Hamburg gewesen",
+      "Aktivitäten abseits der bekannten/sehr touristischen Top-10-Sehenswürdigkeiten",
+      "Inspiration, was Einheimische am Wochenende unternehmen",
+      "Route mit Nischen-Tipps (Geheimtipps)"
+    ],
+    "missing_requirements": [
+      "Auf der Durchreise in Hamburg"
+    ]
+  },
+  {
+    "satisfied_requirements": [
+      "Aktivitäten abseits der bekannten/sehr touristischen Top-10-Sehenswürdigkeiten",
+      "Inspiration, was Einheimische am Wochenende unternehmen",
+      "Route mit Nischen-Tipps (Geheimtipps)"
+    ],
+    "satisfied_requirements_num": 3
+  }
+]

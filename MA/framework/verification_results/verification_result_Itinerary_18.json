@@ -1,0 +1,44 @@
+[
+  {
+    "place": "Landungsbrücken",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Landungsbrücken  \n   Address: St. Pauli Landungsbrücken, 20359 Hamburg, Germany  \n   Activity: Start your day with iconic harbor views and great photo opportunities of the Elbe River and ships. Explore the piers and watch the bustling harbor activity.  \n   "
+  },
+  {
+    "place": "Flohschanze Vintage Market (Schanzenviertel)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: Flohschanze Vintage Market (Schanzenviertel)  \n   Address: Schulterblatt 71, 20357 Hamburg, Germany  \n   Activity: Browse through a popular vintage market with unique clothing, antiques, and collectibles. Great for photography and finding special vintage items.  \n   "
+  },
+  {
+    "place": "Fischereihafen Restaurant",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Fischereihafen Restaurant  \n   Address: Große Elbstraße 143, 22767 Hamburg, Germany  \n   Activity: Enjoy a well-rated local fish lunch with fresh seafood specialties in a traditional harbor atmosphere.  \n   "
+  },
+  {
+    "place": "Elbphilharmonie Plaza",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Elbphilharmonie Plaza  \n   Address: Platz der Deutschen Einheit 1, 20457 Hamburg, Germany  \n   Activity: Visit the Elbphilharmonie Plaza for panoramic views of the harbor and city skyline, perfect for photography.  \n   "
+  },
+  {
+    "place": "Portugiesenviertel (Portuguese Quarter)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Portugiesenviertel (Portuguese Quarter)  \n   Address: -  \n   Activity: Stroll through this charming neighborhood near the harbor, known for its vibrant atmosphere and artisan dessert shops. Stop at a local handcraft dessert café for sweet treats.  \n   "
+  },
+  {
+    "place": "St. Pauli Landungsbrücken or Dockland Office Building",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": null,
+    "snippet": "Place: St. Pauli Landungsbrücken or Dockland Office Building  \n   Address: Dockland: Bernhard-Nocht-Straße 69, 20359 Hamburg, Germany  \n   Activity: End your day with sunset photography at another popular harbor viewpoint like the Dockland building’s rooftop or back at the Landungsbrücken for evening harbor lights.  \n   "
+  }
+]

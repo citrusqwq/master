@@ -1,0 +1,382 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Dussmann das KulturKaufhaus**  
+   Address: Friedrichstraße 90, 10117 Berlin  
+   Activity: Stöbern durch eine der besten und größten unabhängigen Buchhandlungen Berlins mit einer großen Auswahl, gemütlichen Sitzecken und einer schönen englischsprachigen sowie internationalen Abteilung.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Dussmann das KulturKaufhaus"
+- Address is "Friedrichstraße 90, 10117 Berlin"
+- Address is provided and specific.
+- Place is a specific venue, not a non-specific location.
+- Need to verify if the address matches the place.
+
+Action: 
+search("Friedrichstraße 90, 10117 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "I'm doing a showcase for my new band-approved songbook ...",
+    "snippet": "Jan 17, 2025 ... ... event courtesy of @kawaipianoseu. @frankiecasillophoto Dussmann das KulturKaufhaus Friedrichstraße 90, 10117 Berlin\"."
+  },
+  {
+    "title": "Anfahrt und Öffnungszeiten - Dussmann - Das Kulturkaufhaus",
+    "snippet": "Friedrichstraße 90 10117 Berlin Öffnungszeiten: Mo-Fr: 09-24 Uhr Sa: 09 ... 26.12., 13-18 Uhr, nur BerlinShop geöffnet 28.12., 13-20 Uhr, nur ..."
+  },
+  {
+    "title": "On December 12, an exclusive pop-up store opened in Berlin to ...",
+    "snippet": "4 days ago ... Pop-Up-Store-Location: Dussmann das KulturKaufhaus, Friedrichstraße 90, 10117 Berlin · Jeehoon Yu and ..."
+  },
+  {
+    "title": "THE BEST 10 HEAD SHOPS near FRIEDRICHSTRASSE 90, 10117 ...",
+    "snippet": "Best Head Shops in Berlin - Last Updated December 2025 - Gras Grün, Klaus der Gärtner, Highendsmoke, Fruko, Ela Spätkauf, Kiwus, Dampfer Depot Berlin, ..."
+  },
+  {
+    "title": "Berlinale Shop Merchandising | Berlinale",
+    "snippet": "Berlin International Film Festival - official website. ... at Dussmann das KulturKaufhaus, Friedrichstraße 90, 10117 Berlin. New Merch ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Dussmann das KulturKaufhaus",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Saint George’s English Bookshop**  
+   Address: Wörther Str. 27, 10405 Berlin  
+   Activity: Weitere Erkundung einer unabhängigen, besonderen Buchhandlung mit Fokus auf englischsprachiger Literatur. Hier gibt es eine entspannte Atmosphäre und besondere Buchschätze.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Saint George’s English Bookshop".
+- Address is "Wörther Str. 27, 10405 Berlin".
+- Address is provided and specific.
+- Place is a specific venue, not a non-specific location.
+- Verification is required.
+
+Action: 
+search("Wörther Str. 27, 10405 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Best bookstore in Berlin : r/berlin",
+    "snippet": "Nov 10, 2019 ... Address: Wörther Str. 27, Berlin, BE 10405 Phone: +49 30 81798333. I go there every time I'm in Berlin, they specialize in English books and ..."
+  },
+  {
+    "title": "Saint George's English Bookstore",
+    "snippet": "AddressWörther Str. 27 10405 Berlin Germany. Websitewww.saintgeorgesbookshop.com · Phone+49 30 81798333. Hours of operation. Closed now. Mon11 AM – 8 PM; Tue11 ..."
+  },
+  {
+    "title": "6 English Bookshops In Berlin For Every Kind Of Reader - Jetset Times",
+    "snippet": "Oct 12, 2021 ... George's English Bookstore. Wörther Str. 27, 10405 Berlin, Germany."
+  },
+  {
+    "title": "Saint George's English Bookstore - Reviews, Photos & Phone ...",
+    "snippet": "Wörther Str. 27, 10405 Berlin, Germany +49 4930-817-98333 Suggest an edit ... Visitors appreciate the strong Berlin vibe and the store's unique titles, which ..."
+  },
+  {
+    "title": "Happy Holidays (2025) - ayaka daimon illustration",
+    "snippet": "Wörther Str. 27, 10405 Berlin, Germany. Technique used: Adobe Fresco, Photoshop and After Effects. Thank you for taking a moment to explore my work!"
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Saint George’s English Bookshop",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Spaziergang & Kaffee in Prenzlauer Berg**  
+   Address: -  
+   Activity: Gemütlicher Bummel durch das trendige Viertel mit Kaffees, kleinen Läden und entspannter Atmosphäre – perfekt zum kurzen Durchatmen und Leute beobachten.
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Spaziergang & Kaffee in Prenzlauer Berg",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Mittagessen: Sudaka – South American Grill**  
+   Address: Yorckstraße 81, 10965 Berlin  
+   Activity: Genießt authentische südamerikanische Küche von Asado-Grill bis hin zu kreativen Cocktails in einem lebendigen Restaurant mit südlicher Stimmung.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place: Sudaka – South American Grill
+- Address: Yorckstraße 81, 10965 Berlin
+- Address is provided and specific.
+- Place is a specific restaurant, not a non-specific location.
+- Need to verify if "Sudaka – South American Grill" is at Yorckstraße 81, 10965 Berlin.
+
+Action: 
+search("Yorckstraße 81, 10965 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Zahnarztpraxis | Yorckstrasse 81",
+    "snippet": "Close the overlay. IMPRESSUM. Seitenbetreiber: Zahnarztpraxis Dr. Svetlana Serkedjieva. Yorckstrasse 81; 10965 Berlin. Tel.: +49 30 7857090. Fax."
+  },
+  {
+    "title": "YORCKS BAR, Berlin - Restaurant Reviews & Phone Number ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. + Add hours. Yorckstraße 81, 10965 Berlin Germany. Website. Call. Map. Review."
+  },
+  {
+    "title": "Untitled",
+    "snippet": null
+  },
+  {
+    "title": "A bridge pillar filled up with bullet holes from ww2 ( battle of Berlin ...",
+    "snippet": "Jun 9, 2024 ... A bridge pillar filled up with bullet holes from ww2 ( battle of Berlin ) Date and Exact location : 01-05-2024 Yorckstraße, 10965 Berlin, ..."
+  },
+  {
+    "title": "Cafe Wirtschaftswunder, 81 Yorckstraße, Berlin, 10965, DE ...",
+    "snippet": "Das Café Wirtschaftswunder in Berlin bietet eine einladende Atmosphäre für Gäste, die eine besondere Zeit verbringen möchten. Reservierungsanfragen sind bis ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think:
+- The search results for "Yorckstraße 81, 10965 Berlin" mention a Zahnarztpraxis (dentist), Yorcks Bar, and Cafe Wirtschaftswunder, but do not mention "Sudaka – South American Grill".
+- No clear evidence that "Sudaka – South American Grill" is at this address.
+- Need to perform a second search to check if "Sudaka – South American Grill" is associated with this address.
+
+Action:
+search("Sudaka – South American Grill impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Kulturfabrik Leipzig e.V. - Rückblick - WERK 2",
+    "snippet": "Che Sudaka (Verschoben auf 08.03.23) 10.03. The Dead South (Verlegt Haus Auensee) ... Grill – Gespräche – Plattenladen, Wave Dance, 3. Wave Gotik Treffen, 37 ..."
+  },
+  {
+    "title": "Die 7 BESTEN südamerikanische Kochbücher",
+    "snippet": "1. Chakalls Sudaka · 2. Ceviche: Peruanische Küche · 3. Andina: Das Beste aus Perus Küche · 4. Venezuela Küche · 5. Das Anden-Kochbuch · 6. Peru – Das Kochbuch · 7."
+  },
+  {
+    "title": "SOMMER 2018 ... HIER BEI UNS!",
+    "snippet": "Oct 26, 2018 ... CHE SUDAKA \"Almas Rebeldes\" Tour 2018. Di 30.01. OLYMPIQUE Chron ... american South. PARTY. ASCHAFFENBURG. Colos-Saal. 23:30 What Is Love ..."
+  },
+  {
+    "title": "„Beef Buddies“ – Bücher gebraucht, antiquarisch & neu kaufen",
+    "snippet": "Chakalls Sudaka - Südamerikanische Trendküche · Chakall: Chakalls Sudaka - Südamerikanis ... Old Cowboys Never Die : An Exciting Western Novel of the American ..."
+  },
+  {
+    "title": "Untitled",
+    "snippet": "Jan 31, 2019 ... Impressum; 18 Jahre Unifunk;. Blechspielzeug: Ratter & Zisch. 4 ... Das kolumbianisch-argentinische Quartett Che Sudaka wurde 2002 in Bar-."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Sudaka – South American Grill",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": false
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Spielhalle: Lasertag bei Laserstar Berlin**  
+   Address: Revaler Str. 99, 10245 Berlin  
+   Activity: Power, Spaß und Teamgeist beim gemeinsamen Lasertag-Spiel in einer der beliebtesten Spielhallen Berlins. Alternativ gibt es in der unmittelbaren Nähe auch VR-Arcades oder klassische Spielautomatenhallen.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Lasertag bei Laserstar Berlin"
+- Address is "Revaler Str. 99, 10245 Berlin"
+- Address is provided and specific.
+- Place is a specific venue, not a non-specific location.
+- Verification is required.
+
+Action: 
+search("Revaler Str. 99, 10245 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Revaler Str. 99 Berlin (2025) – Best of TikTok, Instagram & Reddit ...",
+    "snippet": "Revaler Str. 99 is a photographer's dream for urban and street art photography. The RAW Gelände is covered in vibrant graffiti and murals, providing endless ..."
+  },
+  {
+    "title": "TOP 10 BEST Restaurants near Revaler Str. 99, 10245 Berlin ...",
+    "snippet": "Best Restaurants near Revaler Str. 99, 10245 Berlin, Germany · 1. Scheers Schnitzel · 2. MAISON UMAMI · 3. Speisehaus · 4. Emma Pea · 5. Butterhandlung · 6."
+  },
+  {
+    "title": "Urban Spree - Berlin",
+    "snippet": "... Str., one of the busiest arteries of Berlin, counting 100.000 visitors/day ... Urban Spree — Revaler Straße 99 — 10245 Berlin — Germany. Modal title."
+  },
+  {
+    "title": "MAAYA Berlin - I am because we are",
+    "snippet": "OPENING HOURS. MAAYA. RAW Gelände Revaler Str. 99 10245 Berlin U-Bhf. Warschauerstr. ROUTE. Opening Hours. Tue-Thu 12-22 Uhr Fri-Sat 12-23 Uhr Sun 12-22 Uhr."
+  },
+  {
+    "title": "This is the Medieval Christmas market in Berlin ✍️ Good to know ...",
+    "snippet": "Nov 13, 2025 ... ... –Sun €4 Revaler Str. 99, 10245 Berlin (RAW-Gelände, Friedrichshain), @flugtraeumer With love, @berlinglimmers\"."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think:
+- The search results for "Revaler Str. 99, 10245 Berlin" mention the RAW Gelände, which is a large area with multiple venues (restaurants, Urban Spree, MAAYA, etc.), but none specifically mention "Laserstar Berlin" or a lasertag venue.
+- The address is a multi-tenant location, so it's not conclusive from this search alone if "Laserstar Berlin" is at this address.
+
+Action:
+search("Laserstar Berlin impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Kontakt | Laserstar Berlin Neukölln",
+    "snippet": "Innomall GmbH Karl-Marx-Straße 255, 12057 Berlin E-Mail: support@innomallgmbh.zohodesk.eu Telefon: +4930 403673050."
+  },
+  {
+    "title": "Impressum - Laserstar Funworld Berlin Innomall GmbH",
+    "snippet": "Kontakt · Laserstar Funworld Berlin Innomall GmbH · Karl Marx Str. 255 · 12057 Berlin. 030 403673050; E-Mail · Web. FOLLOW US. Facebook · Youtube · Instagram ..."
+  },
+  {
+    "title": "Impressum | Laserstar Oldenburg in Niedersachsen",
+    "snippet": "Innobook UG. Karl-Marx-Straße 255, 12057 Berlin. vertreten durch ihren Geschäftsführer: Herrn Niko Nobes. E-Mail: support-innobook@innomallgmbh.zohodesk.eu."
+  },
+  {
+    "title": "WERNER-SEELENBINDER-HALLE - Updated December 2025 ...",
+    "snippet": "People who viewed Werner-Seelenbinder-Halle also viewed. Photo of SEZ Berlin. SEZ Berlin. 46 reviews. Friedrichshain. Photo of LaserStar Berlin Neukölln."
+  },
+  {
+    "title": "Laserstar Zone Lasertag, Schwarzlicht Minigolf, Exit Game",
+    "snippet": "... Berlin | Datenschutzerklärung | Impressum. * Alle Preise inkl. gesetzl. Mehrwertsteuer zzgl. Versandkosten und ggf. Nachnahmegebühren, wenn nicht anders ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Lasertag bei Laserstar Berlin",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": false
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+ – Karaoke-Bar: Monster Ronson’s Ichiban Karaoke**  
+   Address: Warschauer Str. 34, 10243 Berlin  
+   Activity: Einzigartiges Karaoke-Erlebnis in privat mietbaren Karaoke-Kabinen oder auf der offenen Bühne mit Drinks in funky-urbanem Ambiente. Hier könnt ihr den Tag ausgelassen abschließen.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Monster Ronson’s Ichiban Karaoke"
+- Address is "Warschauer Str. 34, 10243 Berlin"
+- Address is provided and not a placeholder.
+- Place is a specific venue, not a non-specific location.
+- Verification is required.
+
+Action: 
+search("Warschauer Str. 34, 10243 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Monster Ronsons Ichiban Karaoke",
+    "snippet": "... to keep up with all of the monstrous activities.. Monster Ronson's Ichiban Karaoke ‍ Warschauer Straße 34 10243 Berlin Friedrichshain ‍ ☎️ 030 89 75 13 27."
+  },
+  {
+    "title": "TOP 10 BEST Pizza near Warschauer Str. 34, 10243 Berlin ...",
+    "snippet": "Best Pizza near Warschauer Str. 34, 10243 Berlin, Germany · 1. Toros Pizza · 2. Pomodorino · 3. Zeus Pizzeria · 4. Il Ritrovo-Cucina Casalinga Popolare · 5. L' ..."
+  },
+  {
+    "title": "Parking – Berlin Warschauer Straße station",
+    "snippet": "Address. Berlin Warschauer StraßeBerlin Warschauer Straße Warschauer Str. 34 10243 Berlin. Berlin Warschauer Straße, Warschauer Str. 34, 1 0 2 4 3 Berlin."
+  },
+  {
+    "title": "THE BEST 10 GUITAR STORES near WARSCHAUER STR. 34 ...",
+    "snippet": "The Best 10 Guitar Stores near Warschauer Str. 34, 10243 Berlin, Germany · All \"Guitar Stores\" results near me in Berlin - December 2025 · American Guitar Shop - ..."
+  },
+  {
+    "title": "Berlin Warschauer Straße station",
+    "snippet": "Berlin Warschauer StraßeBerlin Warschauer Straße. Travel Info; Facilities ... 10243 Berlin. Berlin Warschauer Straße, Warschauer Str. 34, 1 0 2 4 3 Berlin."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Monster Ronson’s Ichiban Karaoke",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+

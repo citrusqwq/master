@@ -1,0 +1,21 @@
+[
+  {
+    "extracted_requirement_num": 4,
+    "valid_requirements": [
+      "City: Hamburg",
+      "Has visited before; wants to avoid typical tourist attractions (TripAdvisor top 10)",
+      "Interested in activities locals might do on a weekend",
+      "Prefers niche, off-the-beaten-path suggestions"
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "City: Hamburg",
+      "Has visited before; wants to avoid typical tourist attractions (TripAdvisor top 10)",
+      "Interested in activities locals might do on a weekend",
+      "Prefers niche, off-the-beaten-path suggestions"
+    ],
+    "satisfied_requirements_num": 4
+  }
+]

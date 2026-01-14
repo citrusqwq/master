@@ -1,0 +1,21 @@
+[
+  {
+    "extracted_requirement_num": 4,
+    "valid_requirements": [
+      "Tagesausflug in Hamburg.",
+      "Besuch des Hafens.",
+      "Ein Fischbrötchen essen.",
+      "Überfüllte Orte möglichst meiden."
+    ],
+    "missing_requirements": null
+  },
+  {
+    "satisfied_requirements": [
+      "Tagesausflug in Hamburg.",
+      "Besuch des Hafens.",
+      "Ein Fischbrötchen essen.",
+      "Überfüllte Orte möglichst meiden. "
+    ],
+    "satisfied_requirements_num": 4
+  }
+]

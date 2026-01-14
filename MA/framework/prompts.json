@@ -1,0 +1,62 @@
+[
+  {
+    "Prompt_ID": "Hamburg_01",
+    "Language": "EN",
+    "Prompt": "I am passing through Hamburg and have been there before so I would like to do some activities that Locals might engage in on a weekend. Stay away from the TripAdvisor top 10 and give me an itinerary with some niche suggestions please."
+  },
+  {
+    "Prompt_ID": "Hamburg_01",
+    "Language": "DE",
+    "Prompt": "Ich bin auf der Durchreise in Hamburg und war schon einmal dort, daher möchte ich gern ein paar Aktivitäten machen, die Einheimische am Wochenende unternehmen. Bitte halte dich von den TripAdvisor-Top-10 fern und gib mir eine Route mit ein paar Nischen-Tipps."
+  },
+  {
+    "Prompt_ID": "Hamburg_02",
+    "Language": "EN",
+    "Prompt": "Plan a day in Hamburg for me. I want to visit the port and eat a Fischbrötchen. Please avoid too crowded places."
+  },
+  {
+    "Prompt_ID": "Hamburg_02",
+    "Language": "DE",
+    "Prompt": "Plane einen Tag in Hamburg für mich. Ich möchte den Hafen besuchen und ein Fischbrötchen essen. Bitte meide zu überfüllte Orte."
+  },
+  {
+    "Prompt_ID": "Hamburg_03",
+    "Language": "EN",
+    "Prompt": "I’m spending one day in Hamburg and am particularly fond of harbor views and vintage markets. I prefer taking photos at popular scenic spots, and also want to check out local well-regarded seafood restaurants and artisanal dessert shops. Could you plan an itinerary for me?"
+  },
+  {
+    "Prompt_ID": "Hamburg_03",
+    "Language": "DE",
+    "Prompt": "Ich verbringe einen Tag in Hamburg und mag besonders Hafenblicke und Vintage-Märkte. Ich fotografiere am liebsten an beliebten Aussichtspunkten und möchte außerdem gut bewertete lokale Fischrestaurants sowie handwerkliche Dessertläden besuchen. Könntest du mir eine Route planen?"
+  },
+  {
+    "Prompt_ID": "Berlin_01",
+    "Language": "EN",
+    "Prompt": "I'm planning a day in Berlin. I would like to visit the National Gallery there, eat a currywurst at the best stand in Berlin and buy clothes in size 52 for women."
+  },
+  {
+    "Prompt_ID": "Berlin_01",
+    "Language": "DE",
+    "Prompt": "Ich plane einen Tag in Berlin. Ich möchte die Nationalgalerie besuchen, eine Currywurst am besten Stand in Berlin essen und Kleidung in Größe 52 für Damen kaufen."
+  },
+  {
+    "Prompt_ID": "Berlin_02",
+    "Language": "EN",
+    "Prompt": "I am visiting Berlin with friends for a day. We enjoy visiting cool bookstores, I would like to eat at a South American restaurant at some point, and we definitely want to fit in a longer fun activity like going to an arcade or a karaoke bar."
+  },
+  {
+    "Prompt_ID": "Berlin_02",
+    "Language": "DE",
+    "Prompt": "Ich besuche Berlin einen Tag lang mit Freunden. Wir gehen gerne in coole Buchhandlungen, ich würde irgendwann gern in einem südamerikanischen Restaurant essen, und wir wollen auf jeden Fall eine längere spaßige Aktivität einbauen, zum Beispiel eine Spielhalle oder eine Karaoke-Bar."
+  },
+  {
+    "Prompt_ID": "Berlin_03",
+    "Language": "EN",
+    "Prompt": "I plan to fly to Athens from Berlin at 22:00 and I want to use the time to explore the city before that. I could start my travel the earliest at 8:00 from Berlin Central Station. I am interested in cultural activities and I need to have Dinner before the flight as well. I need to be at 20:00 at the airport. Plan the trip with my travel times accordingly."
+  },
+  {
+    "Prompt_ID": "Berlin_03",
+    "Language": "DE",
+    "Prompt": "Ich plane, um 22:00 Uhr von Berlin nach Athen zu fliegen, und möchte die Zeit davor nutzen, um die Stadt zu erkunden. Frühestens kann ich um 8:00 Uhr am Berliner Hauptbahnhof starten. Ich interessiere mich für kulturelle Aktivitäten und muss vor dem Flug auch noch zu Abend essen. Um 20:00 Uhr muss ich am Flughafen sein. Plane den Trip entsprechend mit meinen Reisezeiten."
+  }
+]

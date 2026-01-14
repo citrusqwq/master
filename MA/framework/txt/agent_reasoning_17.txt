@@ -1,0 +1,341 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Speicherstadt  
+   Address: Speicherstadt, 20457 Hamburg, Germany  
+   Activity: Explore the historic warehouse district with its beautiful canals and red-brick buildings. Great spot for vintage architecture photography and harbor views.
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Speicherstadt",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: HafenCity and Elbphilharmonie Plaza  
+   Address: Platz der Deutschen Einheit 1, 20457 Hamburg, Germany  
+   Activity: Visit the modern HafenCity area and the Elbphilharmonie Plaza for panoramic harbor views and photo opportunities.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: The Place field mentions "HafenCity and Elbphilharmonie Plaza." HafenCity is a district (non-specific location), while Elbphilharmonie Plaza is a specific POI. The address provided is "Platz der Deutschen Einheit 1, 20457 Hamburg, Germany," which is the address of the Elbphilharmonie. Since HafenCity is a non-specific location, but Elbphilharmonie Plaza is specific, I need to check if the Place is considered non-specific overall.
+
+Action: Since the Place field includes a non-specific location (HafenCity), I will set non-specific_location to true and, per the rules, will not perform a search.
+
+Output:
+{
+  "place": "HafenCity and Elbphilharmonie Plaza",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Flohschanze Vintage Market (Schanzenviertel)  
+   Address: Schulterblatt 71, 20357 Hamburg, Germany  
+   Activity: Browse through vintage clothing, antiques, and unique finds at this popular flea market. Ideal for vintage shopping and street photography.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Flohschanze Vintage Market (Schanzenviertel)" and address is "Schulterblatt 71, 20357 Hamburg, Germany".
+- Both fields are present and address is specific.
+- "Flohschanze Vintage Market" is a specific market, not just a district.
+- Need to verify if this address matches the market.
+
+Action: 
+search("Schulterblatt 71, 20357 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "ROTE FLORA - Updated December 2025 - 67 Photos & 34 Reviews ...",
+    "snippet": "Schulterblatt 71. 20357 Hamburg. Germany. Sternschanze. Directions. 040 4395413. Call Now · Visit Website. http://www.rote-flora.de. Food & Alcohol. Does Rote ..."
+  },
+  {
+    "title": "Bunker BJJ - Smoothcomp",
+    "snippet": "위치. Schulterblatt 71, 20357 Hamburg, Hamburg, Germany ; Phone +49 176 20055988 ; Person in charge. Chris Skutecki ..."
+  },
+  {
+    "title": "ROTE FLORA - Updated December 2025 - 67 Photos & 34 Reviews ...",
+    "snippet": "More info about Rote Flora. Map. Schulterblatt 71. 20357 Hamburg. Germany. Sternschanze. Directions. 040 4395413. Call Now · Visit Website. http://www.rote- ..."
+  },
+  {
+    "title": "Hamburg Radical Bookfair I",
+    "snippet": "... Oct 5, 2014 at 6:00PM CEST. More than a year ago. 󰘛. Rote Flora. Schulterblatt 71, 20357 Hamburg, Germany. About. Discussion. 0 went. 󰞋. 57 interested. 󰞋. 24 ..."
+  },
+  {
+    "title": "Immerse Yourself in the Vibrant Atmosphere of Rote Flora",
+    "snippet": "A brief summary to Rote Flora. Schulterblatt 71, Hamburg, Altona, 20357, DE ... -Eiche in Hamburg, a stunning historical monument offering insight into Germany's ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think:
+- The search results for "Schulterblatt 71, 20357 Hamburg, Germany" consistently reference "Rote Flora," a well-known cultural center and building at this address.
+- There is no mention of "Flohschanze Vintage Market" or a flea market in the results.
+- It is possible that the flea market is held at or near Rote Flora, but based on these results, the address is primarily associated with Rote Flora, not directly with the Flohschanze Vintage Market.
+
+Action:
+search("Flohschanze Vintage Market (Schanzenviertel) impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Best Flea Markets In Europe You Must Visit In 2025 - Flea Market ...",
+    "snippet": "... Flohschanze Flea market in Schanzenviertel ( https://www.fleamarketinsiders ... Impressum | fleamapket.com | fleamapket.es | treehousemap.com © 2009 ..."
+  },
+  {
+    "title": "9 Best Second Hand Shops in Hamburg You Must Visit in 2025 [Full ...",
+    "snippet": "Jan 15, 2025 ... Flohschanze. While technically part ofHamburg's famous weekly flea market scene, Flohschanze deserves special mention for its impressive ..."
+  },
+  {
+    "title": "Cool Things To Do Around Hamburg Schanzenviertel ...",
+    "snippet": "Dec 20, 2023 ... ... flea markets in the city, the Flohschanze has been in business since 2000. Open every Saturday from 8:00 am – 4:00 pm, people flock to this ..."
+  },
+  {
+    "title": "Thrifting in Hamburg: Your Insider's Guide to Vintage, Kiloshops ...",
+    "snippet": "Nov 6, 2025 ... Thrifting in Hamburg: Your Insider's Guide to Vintage, Kiloshops, and Flea Markets ... Copyright @flohschanze. Pro Tips from the ..."
+  },
+  {
+    "title": "Top 5 Outdoor Activities in Hamburg – THETRAVELBLOG.at ...",
+    "snippet": "Apr 10, 2017 ... A visit of the flea market in the “Schanzenviertel”. The so called “Flohschanze ... Imprint / Impressum. © THETRAVELBLOG.at 2016-2025 ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Flohschanze Vintage Market (Schanzenviertel)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Fischereihafen Restaurant  
+   Address: Große Elbstraße 143, 22767 Hamburg, Germany  
+   Activity: Enjoy a well-regarded local seafood lunch with fresh fish dishes and harbor views.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. The place is a specific restaurant, not a general area. Verification is required.
+
+Action: search("Große Elbstraße 143, 22767 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Fischereihafen Restaurant – Hamburg - a MICHELIN Guide ...",
+    "snippet": "Fischereihafen Restaurant. Große Elbstraße 143, Hamburg, 22767, Germany. €€€ · Seafood, Classic Cuisine. Favorite. Visited. Notes. Reservations are not ..."
+  },
+  {
+    "title": "Reverb",
+    "snippet": "Große Elbstraße 143, 22767 Hamburg, Germany. Website | Directions | Instagram. “It's very traditional and typical for Hamburg.” – SCOOTER. Zardoz Records."
+  },
+  {
+    "title": "Home - Fischereihafen Restaurant Hamburg",
+    "snippet": "Kowalke Hamburg GmbH & Co. KG Große Elbstraße 143, 22767 Hamburg Phone: 040 - 38 18 16. E-Mail: info@fischereihafenrestaurant.de. 2025 Fischereihafen ..."
+  },
+  {
+    "title": "Institute of Marine Ecosystem and Fishery Science, University of ...",
+    "snippet": "Feb 18, 2021 ... IHF-Große Elbstraße: Große Elbstraße 133, Neue Fischhalle: Große Elbstraße 210, Aquarium: Große Elbstraße 143; Zipcode: 22767; City: Hamburg ..."
+  },
+  {
+    "title": "Best Restaurants in Hamburg - Find Famous Places to Eat in ...",
+    "snippet": "Grosse Elbstrasse 143, 22767 Hamburg. 040 381 816. Popular modern fish restaurant on the riverside in Altona, serving freshwater and seafood specialities."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Fischereihafen Restaurant",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Landungsbrücken (St. Pauli Piers)  
+   Address: St. Pauli Landungsbrücken, 20359 Hamburg, Germany  
+   Activity: Walk along the piers, take photos of the harbor, ships, and the Elbe river. A lively spot with great maritime atmosphere.
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Landungsbrücken (St. Pauli Piers)",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Elbgold Coffee Roasters (for artisanal desserts and coffee)  
+   Address: Lagerstraße 34c, 20357 Hamburg, Germany  
+   Activity: Savor artisanal desserts and specialty coffee in a trendy café known for quality and craftsmanship.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Elbgold Coffee Roasters (for artisanal desserts and coffee)".
+- Address is "Lagerstraße 34c, 20357 Hamburg, Germany".
+- Address is provided and specific.
+- Place is a specific venue, not a general area.
+
+Action: 
+search("Lagerstraße 34c, 20357 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "On the Coffee Trail in Hamburg - Binny's Food & Travel",
+    "snippet": "Dec 1, 2019 ... Find it: Lagerstraße 34c, 20357 Hamburg, Germany. Törnqvist."
+  },
+  {
+    "title": "Elbgold Roastery - Hamburg, Germany | European Coffee Trip",
+    "snippet": "Lagerstrasse 34c, 20357 Hamburg, Germany. Opening hours. Monday: 07:30-18:00. Tuesday: 07:30-18:00. Wednesday: 07:30-18:00. Thursday: 07:30-18:00."
+  },
+  {
+    "title": "Best Coffee Shops in Hamburg, Germany (with Map ...",
+    "snippet": "Jan 14, 2015 ... Mühlenkamp 6a (Winterhude) or. Lagerstraße 34c, 20357 (Sternschanze). All the coffee shops on this list did latte art, or they would not make ..."
+  },
+  {
+    "title": "PLOTCOFFEE · GREEN COFFEE AMBASSADORS",
+    "snippet": "Get in touch with us to find your exclusive nano- or microlot! hello@plotcoffee.com +49 40 431 972 00. PLOTCOFFEE GmbH. Lagerstraße 34C 20357 Hamburg Germany."
+  },
+  {
+    "title": "Guide to: Hamburg | Secret Trips",
+    "snippet": "May 3, 2024 ... Elbgold Lagerstraße 34c, 20357 Hamburg; elbgoldshop.com. Ratsherrn Brauerei GmbH Lagerstraße 30a, 20357 Hamburg, Germany; +49 40 380728920; ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Elbgold Coffee Roasters (for artisanal desserts and coffee)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: St. Pauli Fish Market (if open, Sunday mornings) or alternatively, Karolinenviertel neighborhood  
+   Address: Große Elbstraße 9, 22767 Hamburg, Germany (Fish Market) / Karolinenstraße, 20357 Hamburg, Germany (Karolinenviertel)  
+   Activity: If visiting on Sunday morning, explore the famous fish market for vintage and local goods. Otherwise, stroll Karolinenviertel for quirky shops, street art, and vintage boutiques.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: The Place field lists two options: "St. Pauli Fish Market" and "Karolinenviertel neighborhood." The Address field provides two addresses, one for each option. Both "Fish Market" and "Karolinenviertel" are mentioned. "Karolinenviertel neighborhood" is a non-specific location (a neighborhood), while "St. Pauli Fish Market" is a specific POI. However, since the Place field is ambiguous and includes a non-specific location, I need to treat non-specific_location as true.
+
+Output:
+{
+  "place": "St. Pauli Fish Market (if open, Sunday mornings) or alternatively, Karolinenviertel neighborhood",
+  "address_provided": true,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place: Altes Mädchen Brewery & Restaurant  
+   Address: Lagerstraße 28b, 20357 Hamburg, Germany  
+   Activity: End the day with craft beer and a casual dinner featuring local ingredients, including seafood options.
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Both Place and Address fields are present and non-empty.
+- The address is specific and not a placeholder.
+- The place name refers to a specific venue, not a general area.
+
+Action: 
+search("Lagerstraße 28b, 20357 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "BRAUGASTHAUS ALTES MÄDCHEN, Hamburg - Sternschanze ...",
+    "snippet": "Lagerstraße 28b, 20357 Hamburg Germany. Website. Menu. Map. Review. About. Features. CUISINES. German, Bar, European, Contemporary, Central European. Meal types."
+  },
+  {
+    "title": "Altes Mädchen",
+    "snippet": "In diesem Sinne: Prost und guten Appetit! Lagerstraße 28b, 20357 Hamburg Im Herzen der Schanzenhöfe. Events, Kurse & Führungen. ENTDECKE DAS ratsherrn ..."
+  },
+  {
+    "title": "Awards Ceremony - TravelPlus",
+    "snippet": "Ratsherrn Brauerei GmbH Lagerstraße 28b, 20357 Hamburg, Germany. Date: Tuesday 8th April, 2025. Time: From 6.00 pm, join us for drinks and canapés, then at 7 ..."
+  },
+  {
+    "title": "Altes Mädchen Ratsherrn Braugasthaus Hamburg, Hamburg ...",
+    "snippet": "Address. Lagerstraße 28b, 20357 Hamburg, Germany. Website. http://altes-maedchen.com/de/. Phone. +49 40 800077750. Lagerstraße 28b, 20357 Hamburg, Germany."
+  },
+  {
+    "title": "AI.STARTUP.HUB Graduation Day | AI.STARTUP.HUB Hamburg",
+    "snippet": "Location: Braugasthaus Altes Mädchen (Ratsherrn Diele), Lagerstraße 28b, 20357 Hamburg ... AI for Hamburg GmbH, Neuer Jungfernstieg 5, 20354 Hamburg, Germany."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Altes Mädchen Brewery & Restaurant",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+

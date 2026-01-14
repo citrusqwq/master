@@ -1,0 +1,37 @@
+[
+  {
+    "place": "Dussmann das KulturKaufhaus",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Dussmann das KulturKaufhaus  \n- Address: Friedrichstraße 90, 10117 Berlin, Germany  \n- Activity: Explore one of Berlin’s most iconic bookstores with a vast collection of books, including international titles, music, and cultural items. Great for browsing and picking up unique finds.  \n- "
+  },
+  {
+    "place": "Another Country (Bookstore)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: Another Country (Bookstore)  \n- Address: Oranienstraße 24, 10999 Berlin, Germany  \n- Activity: Visit this trendy independent bookstore known for its curated selection of contemporary literature, art books, and magazines. A cool spot to discover new reads and enjoy the creative vibe.  \n- "
+  },
+  {
+    "place": "Sudaka Berlin",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: Sudaka Berlin  \n- Address: Skalitzer Str. 36, 10999 Berlin, Germany  \n- Activity: Enjoy authentic South American cuisine with a focus on Argentinian and other Latin American dishes in a lively atmosphere. Perfect for a flavorful lunch with friends.  \n- "
+  },
+  {
+    "place": "Spielwiese Arcade Bar",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: Spielwiese Arcade Bar  \n- Address: Reichenberger Str. 101, 10999 Berlin, Germany  \n- Activity: Spend the afternoon playing classic and modern arcade games, pinball machines, and enjoy drinks. A fun and interactive way to relax and have a great time with friends.  \n- "
+  },
+  {
+    "place": "Monster Ronson’s Ichiban Karaoke",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: Monster Ronson’s Ichiban Karaoke  \n- Address: Reichenberger Str. 166, 10999 Berlin, Germany  \n- Activity: End the day with karaoke at one of Berlin’s most popular karaoke bars. Sing your favorite songs in a lively, friendly environment and enjoy the nightlife vibe.  \n- "
+  }
+]

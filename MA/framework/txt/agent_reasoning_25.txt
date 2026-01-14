@@ -1,0 +1,294 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Wochenmarkt Isemarkt (Ise Market)  
+**Address:** Isestraße, 20144 Hamburg, Germany  
+**Activity:** Start your day at Hamburg’s longest open-air market—favorite among locals but often missed by tourists. Browse fresh produce, sample artisanal breads and cheeses, people-watch under the U-Bahn tracks, or grab a slow coffee.  
+**
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Wochenmarkt Isemarkt (Ise Market)".
+- Address is "Isestraße, 20144 Hamburg, Germany".
+- Address is provided and specific.
+- Place is a specific market, not a general area.
+- Verification is required.
+
+Action: 
+search("Isestraße, 20144 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Isestraße - Home | Facebook",
+    "snippet": "Isestraße, Hamburg, Germany. 11 likes · 408 were here. Local business. ... Isestraße, 20144 Hamburg, Germany."
+  },
+  {
+    "title": "MIRJA FRANCKEN BLUMEN - Isestraße, Hamburg, Germany - Florists",
+    "snippet": "More info about Mirja Francken Blumen. Map. Isemarkt. Isestraße. 20144 Hamburg. Germany. Harvestehude. Directions. 0172 4526477. Call Now. More Info. Hours ..."
+  },
+  {
+    "title": "Gluten-Free Bakeries in Buchholz in der Nordheide, Germany",
+    "snippet": "(1). Isestraße, 20144 Hamburg, Germany. Food Truck. GF Menu. GF menu items: Bread/Buns. 9. Avi - Kaffee & Proviant. (5). Zimmerstraße 52, 22085 Hamburg, Germany."
+  },
+  {
+    "title": "10 Best Markets in Hamburg - Where to Go Shopping like a Local in ...",
+    "snippet": "Großneumarkt. Hamburg, Germany ; Fish Market (Fischmarkt). Fischmarkt, 22767 Hamburg, Germany ; Isemarkt Eppendorf. Isestraße 11, 20144 Hamburg, Germany ; St."
+  },
+  {
+    "title": "Katrin Delorme, In Person Kundalini Global Yoga with Gong ...",
+    "snippet": "Katrin Delorme, In Person Kundalini Global Yoga with Gong Meditation in Hamburg, Germany ... Isestraße 3 in 20144 Hamburg. Find out more about Katrin here. Book ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think:
+- The search results mention "Isemarkt Eppendorf. Isestraße 11, 20144 Hamburg, Germany" and refer to Isemarkt being located on Isestraße.
+- The address "Isestraße, 20144 Hamburg, Germany" is associated with Isemarkt in the search results.
+- This supports that the address matches the claimed place.
+
+Output:
+{
+  "place": "Wochenmarkt Isemarkt (Ise Market)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Eppendorf Neighborhood  
+**Address:** -  
+**Activity:** Stroll through Eppendorf, a chic local district with leafy streets, quirky boutiques, independent bookstores, and elegant 19th-century buildings. Stop for a pastry in a local bakery, or shop at small design stores.  
+**
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Eppendorf Neighborhood",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Planten un Blomen Park – Japanese Garden  
+**Address:** Marseiller Str., 20355 Hamburg, Germany  
+**Activity:** Relax where locals come to read, picnic, or enjoy some sun. Don’t miss the Japanese Garden (largest in Europe) and maybe catch any weekend cultural event happening in the park.  
+**
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Planten un Blomen Park – Japanese Garden"
+- Address is "Marseiller Str., 20355 Hamburg, Germany"
+- Address is provided and not a placeholder.
+- Place is a specific garden within a park, not a non-specific location.
+- Verification is required.
+
+Action: search("Marseiller Str., 20355 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "EIS LIVOTTO, Hamburg - St. Pauli - Restaurant Reviews & Photos ...",
+    "snippet": "Hours. No hours listed yet. Contact. email. Location. Marseiller Str. Planten Un Blomen, 20355 Hamburg Germany. St. Pauli. Is this a dessert shop? Yes. No."
+  },
+  {
+    "title": "Cytokinin overproducing ove mutants of Physcomitrella patens show ...",
+    "snippet": "Affiliation. 1 Institut für Angewandte Botanik, Universität Hamburg, Marseiller Strasse 7, D-20355 Hamburg, Germany."
+  },
+  {
+    "title": "THE ROOM - Updated December 2025 - 46 Photos & 19 Reviews ...",
+    "snippet": "THE ROOM - Try Our New Menu - Marseiller Str. 2, 20355 Hamburg, Germany, 46 Photos, +4915903509827, Mon - Closed, Tue - Closed, Wed - Closed, Thu - Closed, ..."
+  },
+  {
+    "title": "ROSCon 2015",
+    "snippet": "20146 Hamburg Germany. Grand Elysée Hamburg, Rothenbaumchaussee 10 20148 Hamburg Germany. Radisson Blu Hamburg, Marseiller Straße 2 20355 Hamburg Germany ..."
+  },
+  {
+    "title": "Car Rental Hamburg",
+    "snippet": "... Germany. The city is vibrant and busy, but there's plenty to see in the ... Planten un Blomen. Marseiller Straße, 20355 Hamburg. This park is 47 hectares ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Planten un Blomen Park – Japanese Garden",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Karoviertel  
+**Address:** -  
+**Activity:** Trendy, non-touristy neighborhood packed with independent cafés, thrift shops, and street art. Grab lunch at a vegan/vegetarian spot or small bistro, and browse the quirky shops.  
+**
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Karoviertel",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Museum für Kunst und Gewerbe Hamburg (Design Museum)  
+**Address:** Steintorplatz, 20099 Hamburg, Germany  
+**Activity:** Not usually on top-10 lists, this museum draws locals with exhibitions on design, photography, and pop culture. Check out their temporary exhibitions for something unique.  
+**
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Museum für Kunst und Gewerbe Hamburg (Design Museum)".
+- Address is "Steintorplatz, 20099 Hamburg, Germany".
+- Address is provided and specific.
+- Place is a specific museum, not a general area.
+- Verification is required.
+
+Action: 
+search("Steintorplatz, 20099 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "MK&G: Welcome",
+    "snippet": "(in German). Register. Footer navigation. FAQ · Newsletter · Press · Contact · About ... Steintorplatz 20099 Hamburg. Logo Stiftung Hamburger Kunstsammlungen Logo ..."
+  },
+  {
+    "title": "Museum für Kunst und Gewerbe, Museum of Arts and Crafts",
+    "snippet": ". Address Museum für Kunst und Gewerbe Hamburg Steintorplatz 1 20099 Hamburg ... Germany's first museum of magic invites visitors to explore the ..."
+  },
+  {
+    "title": "Museum für Kunst und Gewerbe Hamburg",
+    "snippet": "Steintorplatz 20099 Hamburg. Bild / Video. Video-Datei. Willkommen. im MK&G ... Steintorplatz 20099 Hamburg. Logo Stiftung Hamburger Kunstsammlungen Logo ..."
+  },
+  {
+    "title": "Generator Hostel Hamburg- Tourist Class Hamburg, Germany ...",
+    "snippet": "Home / Hotels / Germany / Hamburg · Back to Search Results. Generator Hostel Hamburg. Steintorplatz 3, Hamburg, Germany 20099. Overview; Meeting Rooms & Events ..."
+  },
+  {
+    "title": "Generator - Hamburg Reviews | Read Customer Service Reviews of ...",
+    "snippet": "Dec 18, 2024 ... Contact info. Steintorplatz 3, 20099, Hamburg, Germany. +4940226358460. 2.9. Average. TrustScore 3 out of 5. 2 reviews. 5-star. 4-star. 3-star."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Museum für Kunst und Gewerbe Hamburg (Design Museum)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Schanzenviertel (Schanze)  
+**Address:** -  
+**Activity:** Immerse yourself in this lively, alternative district. Enjoy a craft beer at a local brewery, browse record stores, or just wander through Flohschanze—a second-hand market popular on weekends.  
+**
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Schanzenviertel (Schanze)",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Café Paris  
+**Address:** Rathausstraße 4, 20095 Hamburg, Germany  
+**Activity:** End your day with coffee and a cake (or early dinner) in this beautiful Belle Époque-style café, beloved by Hamburgers for its local charm.  
+**
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "Café Paris" is a specific venue, not a non-specific location. Verification is required.
+
+Action: search("Rathausstraße 4, 20095 Hamburg, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Coffee Shop Open Late Hamburg, Germany - Last Updated ...",
+    "snippet": "Rathausstr. 4, 20095 Hamburg Germany. 040 32527777. Rathausstr. 4, 20095 Hamburg Germany. This is a placeholder. €€€. I was expecting a tasty, light French ..."
+  },
+  {
+    "title": "Reverb",
+    "snippet": "Rathausstraße 4, 20095 Hamburg, Germany. Website | Directions | Instagram. ” I usually order a cup of tea (english breakfast) and a cake” – SCOOTER. Copyright ..."
+  },
+  {
+    "title": "Oskar Reviews | Read Customer Service Reviews of hello-oskar.de",
+    "snippet": "Oct 24, 2023 ... Contact info. Rathausstraße 4, 20095, Hamburg, Germany. 040 655 89907 · support@hello-oskar.de · hello-oskar.de. 4.7. Excellent. TrustScore 4.5 ..."
+  },
+  {
+    "title": "Café Paris (2025) – Best of TikTok, Instagram & Reddit Food Guide",
+    "snippet": "10 Best Brunch places in Hamburg. Café Paris is an upscale, French-themed café located at Rathausstraße 4, 20095 Hamburg, Germany. It was founded in 1882 in ..."
+  },
+  {
+    "title": "owen Reviews | Read Customer Service Reviews of hello-owen.de",
+    "snippet": "Aug 5, 2024 ... Written by the company. Starte dein neues Abenteuer mit Owen. Contact info. Rathausstraße 4, 20095, Hamburg, Germany."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Café Paris",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+

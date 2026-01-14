@@ -1,0 +1,100 @@
+[
+  {
+    "start_time": "10:00 AM",
+    "planned_activity": "Dussmann das KulturKaufhaus\nExplore one of Berlin's most famous and expansive bookstores, featuring a wide selection of books (including English titles), music, and a cozy café.",
+    "expectation": "They expect to discover interesting books and enjoy a relaxed, culturally rich experience with friends.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "85 min",
+    "predicted_behavior": "The traveler browsed different sections of the bookstore with friends, discussed interesting books and music, and spent time in the café enjoying drinks and conversation. They balanced exploring intellectually stimulating titles with playful group interactions, making the most of the store’s cultural atmosphere.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "neutral"
+    },
+    "summary": "10:00 - 11:25: The traveler and friends explored Dussmann das KulturKaufhaus, browsing books and music, discussing their finds, and relaxing together in the café."
+  },
+  {
+    "start_time": "11:45 AM",
+    "planned_activity": "Ocelot, not just another bookstore\nVisit this trendy independent bookstore with a great selection of books and a stylish café — perfect for browsing and relaxing.",
+    "expectation": "They expect an engaging and enjoyable experience exploring books and relaxing with friends in a stylish, unique setting.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "50 min",
+    "predicted_behavior": "The traveler browsed the bookstore’s curated selection with friends, discussed interesting books, and spent time relaxing together in the stylish café, enjoying drinks and the unique atmosphere.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "summary": "11:45 - 12:35: The traveler browsed books, discussed interesting finds with friends, and relaxed in the stylish café at Ocelot, not just another bookstore."
+  },
+  {
+    "start_time": "1:00 PM",
+    "planned_activity": "Chicha Berlin\nEnjoy lunch at this popular Peruvian restaurant, known for its ceviche, pisco cocktails, and vibrant atmosphere.",
+    "expectation": "They expect a lively, flavorful, and socially engaging dining experience that introduces them to authentic Peruvian cuisine.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "Surprised by Chicha's closure, the group quickly pivots and chooses Kai Maison for its creative, international fusion menu, viewing this as a chance to try something unexpected together. They look forward to a lively, shared meal and the discovery of new flavors, keeping the spirit of adventure alive.",
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "predicted_duration": "90 min",
+    "predicted_behavior": "The group spent 90 minutes at Kai Maison, enthusiastically exploring the fusion menu, sharing multiple dishes, and engaging in lively conversation. They enjoyed the social atmosphere, discussed the unexpected change, and made the most of the opportunity to discover new flavors together.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "summary": "13:00 - 14:30: The group dined at Kai Maison, sharing creative fusion dishes and enjoying lively conversation while embracing the unexpected change in plans."
+  },
+  {
+    "start_time": "2:45 PM",
+    "planned_activity": "Explore Kreuzberg neighborhood\nStroll through the lively Kreuzberg district, check out street art, independent shops, and grab a coffee or snack at a local café.",
+    "expectation": "The traveler expects an engaging and lively experience discovering unique shops, art, and local flavors with friends.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "55 min",
+    "predicted_behavior": "The traveler and their friends strolled through Kreuzberg, stopping to admire street art, quickly browsed a few independent shops, and spent the last part of their visit enjoying coffee and snacks at a local café while chatting and people-watching.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "summary": "14:45 - 15:40: The traveler and friends explored Kreuzberg, admired street art, browsed independent shops, and enjoyed coffee and snacks at a local café."
+  },
+  {
+    "start_time": "4:00 PM",
+    "planned_activity": "GameOn Berlin Arcade\nHave fun with your friends at this modern arcade, featuring classic and new games, pinball, and VR experiences.",
+    "expectation": "They expect a lively, fun, and interactive experience that will energize them and strengthen bonds with friends.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "Surprised to find the arcade is actually a vegan Turkish fast-food spot, the group laughs it off and decides to try a quick wrap for the novelty. Still eager for interactive fun, they head to Neukölln Arcaden, excited to explore the mall’s cinema or other group-friendly activities, keeping the outing lively and social.",
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "predicted_duration": "115 min",
+    "predicted_behavior": "The traveler and friends laughed off the arcade mix-up, enjoyed trying vegan Turkish wraps at Cigköftem, and then spent the bulk of their time at Neukölln Arcaden engaging in group-friendly activities such as exploring the mall, possibly catching a movie, or playing games together. The outing remained lively, social, and playful, balancing novelty with interactive fun.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "summary": "16:00 - 17:55: The traveler and friends tried vegan Turkish wraps at Cigköftem before spending most of their time enjoying group activities and exploring Neukölln Arcaden."
+  },
+  {
+    "start_time": "6:30 PM",
+    "planned_activity": "Monster Ronson's Ichiban Karaoke\nEnd your day with a lively karaoke session at one of Berlin's most famous karaoke bars, offering private booths and a fun, inclusive vibe.",
+    "expectation": "The traveler expects an energetic, fun, and socially engaging experience with friends in a lively atmosphere.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "120 min",
+    "predicted_behavior": "The traveler and their friends spent the full two hours singing a variety of songs, rotating the microphone, encouraging each other, and enjoying the energetic, inclusive atmosphere of the karaoke bar. They likely ordered drinks, laughed, and fully engaged in the social experience, making the most of the private booth and the venue's lively vibe.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "summary": "18:30 - 20:30: The traveler and friends enjoyed two hours at Monster Ronson's Ichiban Karaoke, singing songs, sharing the microphone, and soaking up the lively, inclusive atmosphere in a private booth."
+  }
+]

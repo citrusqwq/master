@@ -1,0 +1,503 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Berlin Central Station (Hauptbahnhof)  
+- **Address:** Europaplatz 1, 10557 Berlin, Germany  
+- **Activity:** Grab a quick breakfast and coffee at the station before starting your day.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Berlin Central Station (Hauptbahnhof)".
+- Address is "Europaplatz 1, 10557 Berlin, Germany".
+- Address is provided and specific.
+- Place is a specific POI (not a district or neighborhood).
+- Verification is required.
+
+Action: 
+search("Europaplatz 1, 10557 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Hertz Car Rental - Berlin Main Railway Station - Europaplatz 1",
+    "snippet": "Berlin,10557. +49 30 20649328 · Get Directions · Qualifications & Requirements ... 1-11, 14167, Berlin, GermanyBerlin, 14167View Location. Hertz 24/7™ Car ..."
+  },
+  {
+    "title": "MCDONALD'S, Berlin - Europaplatz 1, Mitte (Borough) - Menu ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Open until 3:00 AM. Europaplatz 1 Hauptbahnhof, 10557 Berlin Germany. Website."
+  },
+  {
+    "title": "Hertz Car Rental - Berlin, Potsdamer Platz - Servicepoint",
+    "snippet": "Berlin Main Railway Station - Europaplatz 1Europaplatz 1, Hauptbahnhof 1. Ug, Parkhaus Ebene -3, 10557, Berlin, GermanyBerlin, 10557View Location."
+  },
+  {
+    "title": "Berlin Hauptbahnhof - Wikipedia",
+    "snippet": "Berlin U-Bahn. East facade of Berlin Hauptbahnhof. General information. Other names, Lehrter Bahnhof. Location, Europaplatz 1 10557 Berlin Mitte, Berlin, Berlin"
+  },
+  {
+    "title": "Berlin Hauptbahnhof",
+    "snippet": "German Federal Police ... Address. Berlin HauptbahnhofBerlin Hauptbahnhof Europaplatz 1 10557 Berlin. Berlin Hauptbahnhof, Europaplatz 1, 1 0 5 5 7 Berlin."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Berlin Central Station (Hauptbahnhof)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Museum Island (Museumsinsel)  
+- **Address:** Bodestraße 1-3, 10178 Berlin, Germany  
+- **Activity:** Explore world-class museums such as the Pergamon Museum or the Neues Museum, both rich in cultural and historical artifacts.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Museum Island (Museumsinsel)" and Address is "Bodestraße 1-3, 10178 Berlin, Germany".
+- Both fields are present and non-empty.
+- "Museum Island" refers to a specific group of museums on an island in Berlin, not just a general area, so non-specific_location is false.
+- Address is provided and not a placeholder.
+- Need to verify if the address matches the claimed place.
+
+Action: 
+search("Bodestraße 1-3, 10178 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Home | Pergamonmuseum",
+    "snippet": "... Berlin © Staatliche Museen zu Berlin / David von Becker. During the closure ... Find more information regarding cookies on our Data Protection Declaration and ..."
+  },
+  {
+    "title": "Berlin Travel Guide | 4 Days in the German Capital",
+    "snippet": "Jan 16, 2020 ... Added bonus: the Pergamon is located on Museuminsel – a UNESCO World Heritage Site! A must-visit. Address: Bodestraße 1-3, 10178 Berlin."
+  },
+  {
+    "title": "Home | Alte Nationalgalerie",
+    "snippet": "The Alte Nationalgalerie is the original home of the Nationalgalerie Berlin. It owns approximately 2000 paintings and as much sculptures."
+  },
+  {
+    "title": "Altes Museum, Staatliche Museen zu Berlin, Berlin, Germany ...",
+    "snippet": "Berlin, Germany. Follow. Karl Friedrich Schinkel's Altes Museum ... Altes MuseumBodestraße 1-3, 10178 Berlin, Germany. MondayClosed; Tuesday10:00 ..."
+  },
+  {
+    "title": "Berlin's must-see attractions! Brandenburg Gate Address: Pariser ...",
+    "snippet": "Sep 26, 2025 ... ... Bodestraße 1–3, 10178 Berlin 🏛️A beautifully restored museum on Museum Island, home to Egyptian treasures (including Nefertiti's bust) and ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Museum Island (Museumsinsel)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Berlin Cathedral (Berliner Dom)  
+- **Address:** Am Lustgarten, 10178 Berlin, Germany  
+- **Activity:** Visit the stunning cathedral, climb to the dome for panoramic city views, and enjoy the architecture and history.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Berlin Cathedral (Berliner Dom)".
+- Address is "Am Lustgarten, 10178 Berlin, Germany".
+- Address is provided and is not a placeholder.
+- Place is a specific landmark, not a non-specific location.
+- Verification is required.
+
+Action: 
+search("Am Lustgarten, 10178 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Lustgarten – Berlin.de",
+    "snippet": "Sep 30, 2025 ... Visitors enjoy the evening at the Long Night of Museums in the Lustgarten on Museum Island. ... 10178 Berlin. City map. Public transportation ..."
+  },
+  {
+    "title": "Lustgarten (2025) - All You Need to Know BEFORE You Go (with ...",
+    "snippet": "The area. Address. Am Lustgarten 1 Museum Island, 10178 Berlin Germany. Neighborhood: Mitte (Borough). Read more. How to get there. Hackescher Markt • 6 min ..."
+  },
+  {
+    "title": "Lustgarten | visitBerlin.de",
+    "snippet": "... \"Berlin soup bowl.\" The Lustgarden is perfect for a break after visiting the Museum's Island or Berlin Cathedral. Address. Am Lustgarten 1 10178 Berlin. +−."
+  },
+  {
+    "title": "Pictured is the Berlin Cathedral and the Lustgarten on Museum ...",
+    "snippet": "Nov 4, 2025 ... ... on Museum Island in the Mitte district of Berlin, Germany. It is situated on Am Lustgarten 1, 10178 Berlin. The cathedral stands on the ..."
+  },
+  {
+    "title": "Berlin Cathedral | visitBerlin.de",
+    "snippet": "After the division of Germany, the Cathedral Church was in East Berlin. ... 12:00 – 17:00. Find further information here. Berliner Dom. Address. Am Lustgarten ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Berlin Cathedral (Berliner Dom)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Gendarmenmarkt  
+- **Address:** -  
+- **Activity:** Stroll through one of Berlin’s most beautiful squares, admire the Konzerthaus, French and German Cathedrals, and soak in the cultural atmosphere.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Gendarmenmarkt",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Jewish Museum Berlin  
+- **Address:** Lindenstraße 9-14, 10969 Berlin, Germany  
+- **Activity:** Discover the history and culture of Jewish life in Germany through engaging exhibitions and architecture.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. The place is a specific museum, not a general area. Verification is required.
+
+Action: search("Lindenstraße 9-14, 10969 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Planning Your Visit | Jewish Museum Berlin",
+    "snippet": "The JMB Shop is operated by Bavaroi Berlin GmbH. Opening hours: 10 am–6 pm. Lindenstraße 9–14 10969 Berlin service@bavaroi.net. Rooms for Event Hosting ..."
+  },
+  {
+    "title": "In Berlin, history can be found on every corner. In addition to ...",
+    "snippet": "Feb 20, 2025 ... Jewish Museum Berlin, Lindenstraße 9-14, 10969 Berlin Free ... Berlin Germany. Follow. copenhagencityguide's profile picture."
+  },
+  {
+    "title": "Jüdisches Museum Berlin",
+    "snippet": "Bitte buchen Sie dieses vorab im Online-Ticketshop. zum Ticketshop. Anfahrt. Anfahrt. Jüdisches Museum Berlin Lindenstraße 9–14 10969 Berlin T +49 (0)30 259 93 ..."
+  },
+  {
+    "title": "Location – Mondrian",
+    "snippet": "Checkpoint Charlie (3 minutes). Friedrichstraße 43-45, 10117 Berlin, Germany. Jewish Museum (3 minutes). Lindenstraße 9-14, 10969 Berlin, Germany. Berlinische ..."
+  },
+  {
+    "title": "Jewish Museum Berlin",
+    "snippet": "Lindenstraße 9–14 10969 Berlin T +49 (0)30 259 93 300. Public transit: U-Bahn ... Berlin, Germany. - Privacy policy - Info. Purpose: Advertising and ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Jewish Museum Berlin",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** East Side Gallery  
+- **Address:** Mühlenstraße 3-100, 10243 Berlin, Germany  
+- **Activity:** Walk along the longest remaining section of the Berlin Wall, now an open-air gallery covered in murals and street art.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "East Side Gallery" and Address is "Mühlenstraße 3-100, 10243 Berlin, Germany".
+- Both fields are present and the address is specific.
+- "East Side Gallery" is a specific landmark, not a non-specific location.
+- Verification is required.
+
+Action: 
+search("Mühlenstraße 3-100, 10243 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "EAST SIDE GALLERY - Updated December 2025 - 1863 Photos ...",
+    "snippet": "EAST SIDE GALLERY, Mühlenstr. 3 - 100, 10243 Berlin, Germany, 1863 Photos, +491723918726, Mon - Open 24 hours, Tue - Open 24 hours, Wed - Open 24 hours, ..."
+  },
+  {
+    "title": "Berlin's must-see attractions! Brandenburg Gate Address: Pariser ...",
+    "snippet": "Sep 26, 2025 ... Photo shared by Berlin, Germany Travel | Hotels | Food | Tips on ... Address: Mühlenstraße 3–100, 10243 Berlin The longest surviving ..."
+  },
+  {
+    "title": "Week-end escape in Berlin - 3 days in the Deutch capital",
+    "snippet": "Mar 26, 2019 ... East Side Gallery - Berlin. Tips: Location : Mühlenstraße 3-100, 10243 Berlin, Allemagne. Learn more. Back on our bikes we venture on the other ..."
+  },
+  {
+    "title": "Berlin Travel Guide | 4 Days in the German Capital",
+    "snippet": "Jan 16, 2020 ... ... Berlin Wall. Address: Mühlenstraße 3-100, 10243 Berlin. Neue Wache // my favourite memorial in the city, for the victims of war ..."
+  },
+  {
+    "title": "Review of East Side Gallery | Berlin, Germany, Europe - AFAR",
+    "snippet": "East Side Gallery. Mühlenstraße 3-100, 10243 Berlin, Germany. http://www ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "East Side Gallery",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Charlottenburg Palace (Schloss Charlottenburg)  
+- **Address:** Spandauer Damm 20-24, 14059 Berlin, Germany  
+- **Activity:** Tour the opulent palace and its gardens, experiencing Prussian royal history and baroque architecture.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "Charlottenburg Palace (Schloss Charlottenburg)" is a specific POI, not a general area. Verification is required.
+
+Action: search("Spandauer Damm 20-24, 14059 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Spandauer Damm 20-24 Berlin (2025) – Best of TikTok, Instagram ...",
+    "snippet": "Christmas Market Magic. Experience the festive charm of the Christmas market at Charlottenburg Palace. It's a popular spot, so expect crowds, especially on ..."
+  },
+  {
+    "title": "Museum – Charlottenburg Palace - Museumsportal Berlin",
+    "snippet": "Museumsportal Berlin gives an overview of Berlin's museums and provides information on exhibitions and events ... Location,. Spandauer Damm 20-24, 14059 Berlin."
+  },
+  {
+    "title": "Crowne Plaza Berlin City Centre Ku'damm Local area",
+    "snippet": "The museum is located on Potsdamer Platz. Schloss Charlottenburg (Castle). Spandauer Damm 20 - 24, Berlin, 14059. Charlottenburg Castle was built at the end ..."
+  },
+  {
+    "title": "Christmas Market at Charlottenburg Palace – Berlin.de",
+    "snippet": "Spandauer Damm 20. 14059 Berlin. City map. Public transportation. Bus ... Boat trips in Berlin on Spree river, on Landwehr canal or over the Wannsee. mehr ..."
+  },
+  {
+    "title": "Best Christmas in Germany!",
+    "snippet": "Address: Spandauer Damm 20-24, 14059 Berlin, Germany Opening Date: 25 Nov – 31 Dec 2019. Frankfurt. Top 4. Frankfurt Christmas Market. Frankfurt has been the ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Charlottenburg Palace (Schloss Charlottenburg)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Restaurant Neni Berlin (or similar, for dinner with a view)  
+- **Address:** Budapester Str. 40, 10787 Berlin, Germany  
+- **Activity:** Enjoy a delicious dinner with Mediterranean and Middle Eastern influences, plus a panoramic view of the city from the rooftop.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Restaurant Neni Berlin (or similar, for dinner with a view)" and address is "Budapester Str. 40, 10787 Berlin, Germany".
+- Address is provided and specific.
+- Place is not a non-specific location.
+- Need to verify if "Restaurant Neni Berlin" is at "Budapester Str. 40, 10787 Berlin, Germany".
+
+Action: search("Budapester Str. 40, 10787 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Design hotel Berlin | 25hours | ALL - ALL",
+    "snippet": "25hours Hotel Bikini Berlin - Image 3. 25hours Hotel Bikini Berlin - Image 4. 30 30 photos. Budapester Strasse 40, 10787 BERLIN, Germany - See the map. See ..."
+  },
+  {
+    "title": "Venue - CELIS Institute - Investment Screening | National Security ...",
+    "snippet": "NENI BERLIN. Budapester Str. 40, 10787 Berlin, Germany. Image 207. Dinner Thursday 23th. Käfer. Deutschen Bundestag Platz der Republik 11011 Berlin. Please note ..."
+  },
+  {
+    "title": "The Halal Guys Berlin, Germany - Last Updated December 2025 ...",
+    "snippet": "Budapester Str. 40, 10787 Berlin Germany. 030 120221200. Budapester Str. 40, 10787 Berlin Germany. This is a placeholder. €€€. If you're looking for drinks - go ..."
+  },
+  {
+    "title": "25hours Hotel Bikini Berlin | Best Rates - Book now",
+    "snippet": "Budapester Strasse 40 10787 Berlin p +49 30 12 02 21 0. Hotel: bikini@25hours ... Get a first glimpse of Germany's oldest Zoo from Monkey Bar and NENI Berlin."
+  },
+  {
+    "title": "What are the best places to eat in West Berlin?",
+    "snippet": "Sep 7, 2024 ... Neni Berlin • Cuisine: Middle Eastern and Mediterranean • Location: Budapester Str. 40, 10787 Berlin ... German food in Berlin? Thanks a lot ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Restaurant Neni Berlin (or similar, for dinner with a view)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Transit to Berlin Brandenburg Airport (BER)  
+- **Address:** -  
+- **Activity:** Head to the airport via taxi, S-Bahn, or regional train.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Transit to Berlin Brandenburg Airport (BER)",
+  "address_provided": false,
+  "non-specific_location": false,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Berlin Brandenburg Airport (BER)  
+- **Address:** Willy-Brandt-Platz, 12529 Schönefeld, Germany  
+- **Activity:** Arrive at the airport for check-in and security before your 22:00 flight.  
+- **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Berlin Brandenburg Airport (BER)".
+- Address is "Willy-Brandt-Platz, 12529 Schönefeld, Germany".
+- Address is provided and specific.
+- Place is a specific POI (an airport), not a non-specific location.
+- Verification is required.
+
+Action: 
+search("Willy-Brandt-Platz, 12529 Schönefeld, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Steigenberger Airport Hotel Berlin | H Rewards",
+    "snippet": "Willy-Brandt-Platz 3 12529 Schönefeld Deutschland. +49 30 246 497-0 · berlin ... Germany. Pay at H Rewards.com with: mastercard; jcb; paypal; americanexpress ..."
+  },
+  {
+    "title": "STEIGENBERGER AIRPORT HOTEL BERLIN - Updated 2025 ...",
+    "snippet": "Willy-Brandt-Platz 3, 12529 Schonefeld, Brandenburg Germany. Name/address in local language. 01149302464970. E-mail hotel. Getting there. Berlin Brandenburg ..."
+  },
+  {
+    "title": "IntercityHotel Berlin Airport BER Terminal 1+2 | H Rewards",
+    "snippet": "Willy-Brandt-Platz 5 12529 Schönefeld Deutschland. +49 30 536 531 0 · airport ... Germany. Pay at H Rewards.com using: mastercard; jcb; paypal ..."
+  },
+  {
+    "title": "Steigenberger Airport Hotel Berlin- First Class Schoenefeld ...",
+    "snippet": "Hoteliers! Is your information accurate? Update Here. Steigenberger Airport Hotel Berlin Location Map. Willy-Brandt-Platz 3. Schoenefeld, Germany 12529. Map ..."
+  },
+  {
+    "title": "Office Space in Willy-Brandt-Platz 2, Schonefeld, 12529 | Easy Offices",
+    "snippet": "The Berlin Airport business center in the BAC will belong to the top conference addresses in Germany with regard to its location, representativeness and ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think:
+- The search results show that Willy-Brandt-Platz, 12529 Schönefeld, Germany is associated with several businesses and hotels near Berlin Brandenburg Airport (BER), such as Steigenberger Airport Hotel Berlin and IntercityHotel Berlin Airport BER Terminal 1+2.
+- The address is not unique to the airport itself but is the main square/area at the airport complex.
+- The snippet for the office space mentions "The Berlin Airport business center... with regard to its location," indicating that Willy-Brandt-Platz is indeed the address area for the airport and its facilities.
+- No result directly states "Berlin Brandenburg Airport (BER)" as the address, but the context strongly suggests that this is the correct area for the airport.
+
+Output:
+{
+  "place": "Berlin Brandenburg Airport (BER)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+

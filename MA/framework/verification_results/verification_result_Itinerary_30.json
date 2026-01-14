@@ -1,0 +1,51 @@
+[
+  {
+    "place": "Landungsbrücken",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": " – Landungsbrücken**\n- **Address:** Bei den St. Pauli-Landungsbrücken, 20359 Hamburg\n- **Activity:** Starte den Tag mit einem Spaziergang an den berühmten Landungsbrücken. Genieße den Blick auf den Hafen, Schiffe und die Elbphilharmonie – perfekte Fotomotive.\n- **"
+  },
+  {
+    "place": "Flohschanze (Flohmarkt Schanzenviertel, samstags)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Flohschanze (Flohmarkt Schanzenviertel, samstags)**\n- **Address:** Neuer Kamp 30, 20357 Hamburg\n- **Activity:** Stöbere über Hamburgs beliebten Vintage- und Trödelmarkt (nur samstags). Hier findest du einzigartige Fundstücke, Retro-Kleidung und Antiquitäten.\n- **"
+  },
+  {
+    "place": "Oberhafenquartier (Vintage-Läden und Fotospots)",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": " – Oberhafenquartier (Vintage-Läden und Fotospots)**\n- **Address:** Stockmeyerstraße 43, 20457 Hamburg \n- **Activity:** Kreatives Viertel unter der Bahn. Entdecke kleine Vintage-Shops, Streetart und urbane Fotospots mit Industrieambiente.\n- **"
+  },
+  {
+    "place": "Fischereihafen Restaurant (Mittagessen)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Fischereihafen Restaurant (Mittagessen)**\n- **Address:** Große Elbstraße 143, 22767 Hamburg\n- **Activity:** Genieße frischen Fisch in einem der bestbewerteten Fischrestaurants Hamburgs mit herrlichem Blick über den Hafen.\n- **"
+  },
+  {
+    "place": "Alter Elbtunnel (Fotospot)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Alter Elbtunnel (Fotospot)**\n- **Address:** Bei den St. Pauli-Landungsbrücken, 20359 Hamburg\n- **Activity:** Erkunde den historischen Tunnel unter der Elbe – besonders beliebt für Fotos mit der Sichtachse auf Hafen und Stadt oder auf der Südseite mit Skyline-Blick.\n- **"
+  },
+  {
+    "place": "Vlet Dessert Bar",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": " – Vlet Dessert Bar (für handwerkliche Desserts)**\n- **Address:** Am Sandtorkai 23/24, 20457 Hamburg\n- **Activity:** Probiere kreative Desserts in moderner Atmosphäre – beliebt für ihre ausgefallenen Dessert-Kreationen.\n- **"
+  },
+  {
+    "place": "Elbphilharmonie Plaza (Aussichtspunkt & Fotospot, Sonnenuntergang)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": " – Elbphilharmonie Plaza (Aussichtspunkt & Fotospot, Sonnenuntergang)**\n- **Address:** Platz der Deutschen Einheit 1, 20457 Hamburg\n- **Activity:** Besuche die Plaza der Elbphilharmonie für einen grandiosen Rundumblick über Hafen, Speicherstadt und Innenstadt – ein Traum für Fotografen, besonders zum Sonnenuntergang.\n- **"
+  }
+]

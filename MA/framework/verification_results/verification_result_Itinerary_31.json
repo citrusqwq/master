@@ -1,0 +1,30 @@
+[
+  {
+    "place": "Neue Nationalgalerie",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Neue Nationalgalerie  \n   **Address:** Potsdamer Str. 50, 10785 Berlin  \n   **Activity:** Explore the premier collection of 20th-century art, featuring works by artists such as Picasso, Klee, and Kandinsky in a stunning modernist building.  \n   **"
+  },
+  {
+    "place": "Curry 36",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Curry 36  \n   **Address:** Mehringdamm 36, 10961 Berlin  \n   **Activity:** Savor Berlin’s iconic street food at arguably the city’s most famous currywurst stand; enjoy the classic sausage with curry ketchup and fries.  \n   **"
+  },
+  {
+    "place": "Kurfürstendamm shopping district",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Kurfürstendamm shopping district  \n   **Address:** -  \n   **Activity:** Browse major department stores (like KaDeWe and C&A) and boutiques along Berlin’s most famous shopping boulevard; these stores stock women’s clothing in a wide range of sizes, including size 52.  \n   **"
+  },
+  {
+    "place": "Café Einstein Stammhaus",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Café Einstein Stammhaus (optional, for a relaxing finish)  \n   **Address:** Kurfürstenstraße 58, 10785 Berlin  \n   **Activity:** Unwind with coffee and cake in a classic Viennese-style café to end your day.  \n   **"
+  }
+]

@@ -1,0 +1,7 @@
+step,start_time,end_time,duration,twist_emotion_valence,twist_emotion_arousal,final_emotion_valence,final_emotion_arousal,time_adequacy,IAES,weight
+1,10:00,11:25,85,,,1,low,1,1.0,0.1349206349206349
+2,11:45,12:35,50,,,1,low,1,1.0,0.07936507936507936
+3,13:00,14:30,90,1,low,1,low,1,1.0,0.14285714285714285
+4,14:45,15:40,55,,,1,low,1,1.0,0.0873015873015873
+5,16:00,17:55,115,0,neutral,1,low,1,1.0,0.18253968253968253
+6,18:30,20:30,120,,,1,high,1,1.0,0.19047619047619047

@@ -1,0 +1,182 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Alte Nationalgalerie  
+   **Address:** Bodestraße 1-3, 10178 Berlin  
+   **Activity:** Bewundern Sie Meisterwerke der Malerei und Skulpturen vom 19. Jahrhundert in einem eindrucksvollen Museumsbau auf der Museumsinsel.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "Alte Nationalgalerie" is a specific museum, not a non-specific location. Verification is required.
+
+Action: search("Bodestraße 1-3, 10178 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Home | Pergamonmuseum",
+    "snippet": "Antikensammlung, Vorderasiatisches Museum and Museum für Islamische Kunst in the Pergamonmuseum · Staatliche Museen zu Berlin · About Us · What's New · Research ..."
+  },
+  {
+    "title": "Museums in Berlin: Alte Nationalgalerie | ART at Berlin",
+    "snippet": "... , Edouard Manet and many other masters. © ART at Berlin: Museums in in Berlin: Alte Nationalgalerie. Address. Address: Bodestraße 1-3, 10178 Berlin-Mitte ..."
+  },
+  {
+    "title": "Home | Neues Museum",
+    "snippet": "The Neue Museum combines related exhibits: This joint exhibition allows visitors to trace the development of prehistoric and protohistoric cultures."
+  },
+  {
+    "title": "Museums in Berlin: Pergamonmuseum | ART at Berlin",
+    "snippet": "© Staatliche Museen zu Berlin / Maximilian Meisse. © ART at Berlin: Museums in in Berlin: Pergamonmuseum. Address. Address: Bodestraße 1-3, 10178 Berlin-Mitte ..."
+  },
+  {
+    "title": "Pergamon Museum | visitBerlin.de",
+    "snippet": "Pergamonmuseum. Address. Bodestraße 1-3 10178 Berlin. +−. Leaflet | Map data © OpenStreetMap contributors, CC-BY-SA. You might find this also interesting."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Alte Nationalgalerie",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Curry 36  
+   **Address:** Mehringdamm 36, 10961 Berlin  
+   **Activity:** Genießen Sie Berlins berühmteste Currywurst am Kult-Imbiss "Curry 36", bekannt für Qualität und Berliner Flair.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Action: search("Mehringdamm 36, 10961 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Currywurst Kreuzberg | CURRY 36 Mehringdamm",
+    "snippet": "Seitdem gibt es das Original im Herzen Kreuzbergs. Täglich von 9:00 Uhr bis 5:00 Uhr. Mehringdamm 36 · 10961 Berlin Kreuzberg ..."
+  },
+  {
+    "title": "Curry 36 – Berlin, Germany - VANGUARD VOYAGER",
+    "snippet": "Jun 27, 2016 ... So let the haters hate and enjoy one of Berlins finest. Curry 36 – Mehringdamm Mehringdamm 36, 10961 Berlin Kreuzberg Telefon 030 25800 ..."
+  },
+  {
+    "title": "THE BEST 10 KEBAB near MEHRINGDAMM 36, 10961 BERLIN ...",
+    "snippet": "The Best 10 Kebab near Mehringdamm 36, 10961 Berlin, Germany · 1. Mustafas Gemüse Kebap · 2. Rüyam Gemüse Kebab 2 · 3. Kadakal's Original · 4. Pergamon Döner ..."
+  },
+  {
+    "title": "CURRY 36, Berlin - Mehringdamm 36, Friedrichshain-Kreuzberg ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Open until 5:00 AM. Mehringdamm 36 Kreuzberg, 10961 Berlin Germany. Website."
+  },
+  {
+    "title": "THE BEST 10 GAY BARS near MEHRINGDAMM 36, 10961 BERLIN ...",
+    "snippet": "The Best 10 Gay Bars near Mehringdamm 36, 10961 Berlin, Germany · 1. Rauschgold · 2. Prinzknecht · 3. Möbel-Olfe · 4. Bull · 5. Pussycat · 6. Untertage · 7."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Curry 36",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** KaDeWe (Kaufhaus des Westens)  
+   **Address:** Tauentzienstraße 21-24, 10789 Berlin  
+   **Activity:** Stöbern und einkaufen: Hier finden Sie eine große Auswahl an hochwertiger Damenmode, auch in Größe 52, sowie persönliche Einkaufsberatung.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "KaDeWe (Kaufhaus des Westens)" and address is "Tauentzienstraße 21-24, 10789 Berlin".
+- Address is provided and specific.
+- Place is a specific POI, not a general area.
+- Need to verify if the address matches the place.
+
+Action: 
+search("Tauentzienstraße 21-24, 10789 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Untitled",
+    "snippet": null
+  },
+  {
+    "title": "Dior Boutique | Germany | Berlin | Tauentzienstrasse 21-24 - DIOR",
+    "snippet": "Discover our Dior Boutique at Tauentzienstrasse 21-24. ... DIOR Berlin KaDeWe. Dior Boutique. Tauentzienstrasse 21-24. 10789 Berlin. DE."
+  },
+  {
+    "title": "BERLIN KADEWE - Tauentzienstrasse 21 23 | MCM",
+    "snippet": "MCM BERLIN KADEWE. BOUTIQUE. Remove this as my store. Make this my store. Tauentzienstrasse 21-24, Berlin 10789 Germany Get directions. +49 30 210 157 30."
+  },
+  {
+    "title": "KaDeWe – KaDeWe Berlin",
+    "snippet": "Als sich ständig entwickelnde Marke orientiert sich das Kaufhaus des Westens an gesellschaftlichen Veränderungen und internationalen Strömungen. Ob Mode, ..."
+  },
+  {
+    "title": "‭Bucherer‬ in KaDeWe Tauentzienstraße 21-24 10789 Berlin",
+    "snippet": "Bucherer - Official Rolex Jeweler. Discover the experience of buying a Rolex at our store in KaDeWe Tauentzienstraße 21-24 10789 Berlin Germany."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "KaDeWe (Kaufhaus des Westens)",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Kurfürstendamm  
+   **Address:** -  
+   **Activity:** Flanieren auf Berlins bekanntester Einkauf- und Bummelmeile. Hier gibt es weitere Modegeschäfte mit großen Größen, Cafés und Gelegenheit zum Ausruhen.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Kurfürstendamm",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+

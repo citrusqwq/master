@@ -1,0 +1,58 @@
+[
+  {
+    "place": "Speicherstadt",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Speicherstadt  \n   Address: Speicherstadt, 20457 Hamburg, Germany  \n   Activity: Explore the historic warehouse district with its beautiful canals and red-brick buildings. Great spot for vintage architecture photography and harbor views.  \n   "
+  },
+  {
+    "place": "HafenCity and Elbphilharmonie Plaza",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: HafenCity and Elbphilharmonie Plaza  \n   Address: Platz der Deutschen Einheit 1, 20457 Hamburg, Germany  \n   Activity: Visit the modern HafenCity area and the Elbphilharmonie Plaza for panoramic harbor views and photo opportunities.  \n   "
+  },
+  {
+    "place": "Flohschanze Vintage Market (Schanzenviertel)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": null,
+    "snippet": "Place: Flohschanze Vintage Market (Schanzenviertel)  \n   Address: Schulterblatt 71, 20357 Hamburg, Germany  \n   Activity: Browse through vintage clothing, antiques, and unique finds at this popular flea market. Ideal for vintage shopping and street photography.  \n   "
+  },
+  {
+    "place": "Fischereihafen Restaurant",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Fischereihafen Restaurant  \n   Address: Große Elbstraße 143, 22767 Hamburg, Germany  \n   Activity: Enjoy a well-regarded local seafood lunch with fresh fish dishes and harbor views.  \n   "
+  },
+  {
+    "place": "Landungsbrücken (St. Pauli Piers)",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Landungsbrücken (St. Pauli Piers)  \n   Address: St. Pauli Landungsbrücken, 20359 Hamburg, Germany  \n   Activity: Walk along the piers, take photos of the harbor, ships, and the Elbe river. A lively spot with great maritime atmosphere.  \n   "
+  },
+  {
+    "place": "Elbgold Coffee Roasters (for artisanal desserts and coffee)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Elbgold Coffee Roasters (for artisanal desserts and coffee)  \n   Address: Lagerstraße 34c, 20357 Hamburg, Germany  \n   Activity: Savor artisanal desserts and specialty coffee in a trendy café known for quality and craftsmanship.  \n   "
+  },
+  {
+    "place": "St. Pauli Fish Market (if open, Sunday mornings) or alternatively, Karolinenviertel neighborhood",
+    "address_provided": true,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: St. Pauli Fish Market (if open, Sunday mornings) or alternatively, Karolinenviertel neighborhood  \n   Address: Große Elbstraße 9, 22767 Hamburg, Germany (Fish Market) / Karolinenstraße, 20357 Hamburg, Germany (Karolinenviertel)  \n   Activity: If visiting on Sunday morning, explore the famous fish market for vintage and local goods. Otherwise, stroll Karolinenviertel for quirky shops, street art, and vintage boutiques.  \n   "
+  },
+  {
+    "place": "Altes Mädchen Brewery & Restaurant",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Altes Mädchen Brewery & Restaurant  \n   Address: Lagerstraße 28b, 20357 Hamburg, Germany  \n   Activity: End the day with craft beer and a casual dinner featuring local ingredients, including seafood options.  \n   "
+  }
+]

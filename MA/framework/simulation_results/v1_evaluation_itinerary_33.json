@@ -1,0 +1,100 @@
+[
+  {
+    "start_time": "10:00 AM",
+    "planned_activity": "Shakespeare and Sons\nBrowse a beautiful English-language bookstore with a cozy atmosphere. Enjoy coffee and bagels at the in-store café.",
+    "expectation": "They expect to enjoy discovering interesting books and having a relaxed, enjoyable time with friends over coffee and bagels.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "75 min",
+    "predicted_behavior": "The traveler browsed the bookstore's shelves with friends, discussing interesting books and making a few discoveries. They then settled into the cozy café area, enjoying coffee and bagels while chatting and sharing their finds, creating a relaxed and sociable atmosphere.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "neutral"
+    },
+    "summary": "10:00 - 11:15: The traveler browsed books and enjoyed coffee and bagels with friends at Shakespeare and Sons, creating a relaxed and sociable atmosphere."
+  },
+  {
+    "start_time": "11:45 AM",
+    "planned_activity": "Ocelot, not just another bookstore\nExplore an indie bookstore beloved for its stylish interior and curated selection of international books.",
+    "expectation": "They expect to discover interesting books and enjoy a stylish, culturally rich environment with friends.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "50 min",
+    "predicted_behavior": "The traveler and their friends browsed the curated international book selection, discussed intriguing finds, and soaked in the stylish, culturally rich atmosphere. They engaged with staff for recommendations and took photos of the unique interior, making the visit both intellectually stimulating and socially interactive.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "summary": "11:45 - 12:35: At Ocelot, the traveler and friends browsed international books, discussed finds, engaged with staff for recommendations, and enjoyed the stylish atmosphere."
+  },
+  {
+    "start_time": "1:00 PM",
+    "planned_activity": "Chicha Berlin – Peruvian Restaurant\nEnjoy a South American lunch with fresh ceviche, Peruvian specialties, and cocktails in a trendy Neukölln setting.",
+    "expectation": "They expect a flavorful, social, and culturally rich dining experience that energizes the group.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "Surprised by Chicha's closure, the group quickly pivots, viewing it as a fun challenge to find another unique dining spot. After considering the options, they choose Kai Maison for its inventive fusion menu, expecting a lively, social meal that still satisfies their craving for cultural discovery.",
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "predicted_duration": "70 min",
+    "predicted_behavior": "The group spent a few minutes excitedly searching for a new restaurant, then settled into Kai Maison, where they shared a variety of fusion dishes, sampled cocktails, and engaged in animated conversation, turning the unexpected change into a fun, social, and culturally engaging meal.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "summary": "13:00 - 14:10: The group adapted to Chicha's closure by dining at Kai Maison, where they enjoyed fusion dishes, cocktails, and lively conversation for a fun and culturally engaging lunch."
+  },
+  {
+    "start_time": "2:45 PM",
+    "planned_activity": "SAVVY Contemporary\nVisit this cultural center/bookshop hybrid for unique books, exhibitions, and a creative artistic vibe.",
+    "expectation": "They expect to discover intriguing books and art in a lively, creative setting that encourages exploration and conversation.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "45 min",
+    "predicted_behavior": "The traveler browsed through the bookshop’s unique selection, explored the current exhibitions, and engaged in lively discussions with friends about the art and books they discovered. They prioritized interactive or particularly intriguing displays, but moved at a steady pace to fit everything into the allotted time.",
+    "time_adequacy_assessment": "insufficient",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "summary": "14:45 - 15:30: The traveler visited SAVVY Contemporary, browsing unique books, exploring exhibitions, and engaging in lively discussions with friends about the art and books they discovered."
+  },
+  {
+    "start_time": "4:00 PM",
+    "planned_activity": "GameOn Arcade\nDive into a retro and modern arcade for a couple of hours of gaming fun—perfect for groups of friends.",
+    "expectation": "They expect a lively, fun, and social experience that will energize the group and foster playful competition.",
+    "twist_happened": true,
+    "twist_appraisal_results": {
+      "adapted_visiting_plan": "Surprised to find a comic book store instead of an arcade, the group decides to embrace the unexpected and explore 'Manga-Mafia,' enjoying the vibrant atmosphere, browsing manga, and sampling Japanese snacks. They plan to head to the nearby brewpub afterward for drinks and socializing, turning the situation into a playful, culturally diverse outing.",
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "predicted_duration": "120 min",
+    "predicted_behavior": "The group enthusiastically explored the comic book store, browsing manga, checking out anime merchandise, sampling Japanese snacks, and chatting about their discoveries. They made the most of the vibrant atmosphere, taking photos, and engaging in playful banter before heading to the nearby brewpub for drinks and more socializing.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "summary": "16:00 - 18:00: The group explored 'Manga-Mafia' comic book store, browsing manga and anime merchandise, sampling Japanese snacks, and enjoying the lively atmosphere before heading to a nearby brewpub."
+  },
+  {
+    "start_time": "6:30 PM",
+    "planned_activity": "Monster Ronson's Ichiban Karaoke\nWrap up your day singing your heart out at Berlin's most famous karaoke bar—reserve a private booth for your group for maximum fun.",
+    "expectation": "The traveler expects a lively, entertaining, and memorable group experience that encourages playful interaction with friends.",
+    "twist_happened": false,
+    "twist_appraisal_results": null,
+    "predicted_duration": "150 min",
+    "predicted_behavior": "The traveler and their friends spent the full 150 minutes singing a variety of songs in their private booth, taking turns on the microphone, encouraging each other, and enjoying drinks and snacks. They engaged in playful banter, group performances, and celebrated each other's efforts, making the most of the lively and interactive atmosphere.",
+    "time_adequacy_assessment": "adequate",
+    "final_emotion_assessment": {
+      "emotion_valence": "positive",
+      "emotion_arousal": "high"
+    },
+    "summary": "18:30 - 21:00: The traveler and their friends enjoyed 150 minutes of singing, group performances, and lively fun in a private booth at Monster Ronson's Ichiban Karaoke."
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "start_time": "10:00 AM",
+    "place": "Dussmann das KulturKaufhaus",
+    "address": "Friedrichstraße 90, 10117 Berlin, Germany",
+    "activity": "Explore one of Berlin's most iconic bookstores with a vast collection of books, including international titles, music, and cultural items. Great for browsing and picking up unique finds.",
+    "planned_duration": "1.5 hours",
+    "twist": false,
+    "transit_time_to_next_place": "25 min/public_transportation",
+    "possible_duration": "80 min"
+  },
+  {
+    "start_time": "11:45 AM",
+    "place": "Another Country (Bookstore)",
+    "address": "Oranienstraße 24, 10999 Berlin, Germany",
+    "activity": "Visit this trendy independent bookstore known for its curated selection of contemporary literature, art books, and magazines. A cool spot to discover new reads and enjoy the creative vibe.",
+    "planned_duration": "1 hour",
+    "twist": "Upon arrival, the traveler discovers that this place is not the claimed bookstore but another store called 'Voo Store' - a contemporary fashion store offering clothing, shoes, homeware, and accessories, with a café.",
+    "transit_time_to_next_place": "10 min/walk",
+    "possible_duration": "60 min",
+    "alternatives": [
+      "Modern Graphics - A comicshop offering graphic novels, artbooks, Marvel, DC, independent publishers, toys, merchandise and much more."
+    ]
+  },
+  {
+    "start_time": "1:00 PM",
+    "place": "Sudaka",
+    "address": "Skalitzer Str. 36, 10999 Berlin, Germany",
+    "activity": "Enjoy authentic South American cuisine with a focus on Argentinian and other Latin American dishes in a lively atmosphere. Perfect for a flavorful lunch with friends.",
+    "planned_duration": "1.5 hours",
+    "twist": "Upon arrival, the traveler discovers that this place is not the claimed restaurant 'Sudaka' but another resaurant called 'Kimchi Princess' - a Korean BBQ restaurant with red walls, wooden tables & bench seating, also serving dishes to share.",
+    "transit_time_to_next_place": "10 min/public_transportation",
+    "possible_duration": "90 min",
+    "alternatives": [
+      "Windburger - A popular, no-frills burger joint in Berlin known for its creative variety of handmade toppings, generous portions, and a laid-back atmosphere.",
+      "Miss Saigon - Vietnamese specialties & standards, plus many vegan options, in a casual, colorful venue."
+    ]
+  },
+  {
+    "start_time": "2:45 PM",
+    "place": "Spielwiese Arcade Bar",
+    "address": "Reichenberger Str. 101, 10999 Berlin, Germany",
+    "activity": "Spend the afternoon playing classic and modern arcade games, pinball machines, and enjoy drinks. A fun and interactive way to relax and have a great time with friends.",
+    "planned_duration": "2 hours",
+    "twist": "Upon arrival, the traveler discovers that this place is not the claimed Arcade bar but a café called 'Five Elephant' - a coffee shop and bakery known for roasting its own beans and serving a very famous cheesecake.",
+    "transit_time_to_next_place": "15 min/public_transportation",
+    "possible_duration": "120 min",
+    "alternatives": ["Dietrich Bar - A cocktail venue with cozy antique vibes."]
+  },
+  {
+    "start_time": "5:00 PM",
+    "place": "Monster Ronson's Ichiban Karaoke",
+    "address": "Reichenberger Str. 166, 10999 Berlin, Germany",
+    "activity": "End the day with karaoke at one of Berlin's most popular karaoke bars. Sing your favorite songs in a lively, friendly environment and enjoy the nightlife vibe.",
+    "planned_duration": "2 hours",
+    "twist": "Upon arrival, the traveler finds that this place is not the claimed karaoke bar but a residential building. They are scheduled to spend two hours here according to the itinerary.",
+    "transit_time_to_next_place": null,
+    "possible_duration": "120 min",
+    "alternatives": [
+      "Basmah - an African snack bar that serves Sudanese sandwiches and platters.",
+      "Galerie Met (will close in 1h) - An art gallery with focus on contemporary art, and digital art in Metaverse."
+    ]
+  }
+]

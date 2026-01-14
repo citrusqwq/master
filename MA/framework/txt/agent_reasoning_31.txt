@@ -1,0 +1,188 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Neue Nationalgalerie  
+   **Address:** Potsdamer Str. 50, 10785 Berlin  
+   **Activity:** Explore the premier collection of 20th-century art, featuring works by artists such as Picasso, Klee, and Kandinsky in a stunning modernist building.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Neue Nationalgalerie" and Address is "Potsdamer Str. 50, 10785 Berlin".
+- Address is provided and specific.
+- "Neue Nationalgalerie" is a specific venue, not a district or general area.
+- Verification is required.
+
+Action: search("Potsdamer Str. 50, 10785 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Home | Neue Nationalgalerie",
+    "snippet": "... Museum and the City - Blog of the Staatliche Museen zu Berlin ... Potsdamer Strasse © Herzog & de Meuron. A New Museum at the Kulturforum in ..."
+  },
+  {
+    "title": "Neue Nationalgalerie, Berlin | Franz Schneider Brakel GmbH + Co KG",
+    "snippet": "Address/Directions. Neue Nationalgalerie Berlin Potsdamer Str. 50 10785 Berlin. Directions. Share. Xing · LinkedIn · Facebook · Pinterest. Das weitläufige ..."
+  },
+  {
+    "title": "Home | Neue Nationalgalerie",
+    "snippet": "Jahrhunderts wird neben der Neuen Nationalgalerie (links) an der Potsdamer Straße entstehen. © Herzog & de Meuron. Museumsneubau am Berliner Kulturforum. Die ..."
+  },
+  {
+    "title": "What's up in Berlin - uinlberlin2025.com",
+    "snippet": "... Potsdamer Str. 50, 10785 Berlin (S/U Potsdamer Platz). Bode Museum. The Bode Museum accommodates primarily the sculpture collection and the Museum of ..."
+  },
+  {
+    "title": "The Next Day #124: Berlin Weekend Guide",
+    "snippet": "Oct 29, 2025 ... Neue Nationalgalerie, Potsdamer Str. 50, 10785 Berlin. Free For three days, around a hundred artists take over Mies van der Rohe's glass ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Neue Nationalgalerie",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Curry 36  
+   **Address:** Mehringdamm 36, 10961 Berlin  
+   **Activity:** Savor Berlin’s iconic street food at arguably the city’s most famous currywurst stand; enjoy the classic sausage with curry ketchup and fries.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "Curry 36" is a specific venue, not a non-specific location. Verification is required.
+
+Action: search("Mehringdamm 36, 10961 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Currywurst Kreuzberg | CURRY 36 Mehringdamm",
+    "snippet": "Seitdem gibt es das Original im Herzen Kreuzbergs. Täglich von 9:00 Uhr bis 5:00 Uhr. Mehringdamm 36 · 10961 Berlin Kreuzberg ..."
+  },
+  {
+    "title": "Curry 36 – Berlin, Germany - VANGUARD VOYAGER",
+    "snippet": "Jun 27, 2016 ... So let the haters hate and enjoy one of Berlins finest. Curry 36 – Mehringdamm Mehringdamm 36, 10961 Berlin Kreuzberg Telefon 030 25800 ..."
+  },
+  {
+    "title": "THE BEST 10 KEBAB near MEHRINGDAMM 36, 10961 BERLIN ...",
+    "snippet": "The Best 10 Kebab near Mehringdamm 36, 10961 Berlin, Germany · 1. Mustafas Gemüse Kebap · 2. Rüyam Gemüse Kebab 2 · 3. Kadakal's Original · 4. Pergamon Döner ..."
+  },
+  {
+    "title": "CURRY 36, Berlin - Mehringdamm 36, Friedrichshain-Kreuzberg ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Open until 5:00 AM. Mehringdamm 36 Kreuzberg, 10961 Berlin Germany. Website."
+  },
+  {
+    "title": "THE BEST 10 GAY BARS near MEHRINGDAMM 36, 10961 BERLIN ...",
+    "snippet": "The Best 10 Gay Bars near Mehringdamm 36, 10961 Berlin, Germany · 1. Rauschgold · 2. Prinzknecht · 3. Möbel-Olfe · 4. Bull · 5. Pussycat · 6. Untertage · 7."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Curry 36",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Kurfürstendamm shopping district  
+   **Address:** -  
+   **Activity:** Browse major department stores (like KaDeWe and C&A) and boutiques along Berlin’s most famous shopping boulevard; these stores stock women’s clothing in a wide range of sizes, including size 52.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Kurfürstendamm shopping district",
+  "address_provided": false,
+  "non-specific_location": true,
+  "address_match_place": null
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Café Einstein Stammhaus (optional, for a relaxing finish)  
+   **Address:** Kurfürstenstraße 58, 10785 Berlin  
+   **Activity:** Unwind with coffee and cake in a classic Viennese-style café to end your day.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Café Einstein Stammhaus", which is a specific venue.
+- Address is "Kurfürstenstraße 58, 10785 Berlin", which is a full address.
+- Address is provided and not a placeholder.
+- Place is not a non-specific location.
+
+Action: 
+search("Kurfürstenstraße 58, 10785 Berlin")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "THE BEST 10 STRIP CLUBS near KURFÜRSTENSTRASSE 58 ...",
+    "snippet": "The Best 10 Strip Clubs near Kurfürstenstraße 58, 10785 Berlin, Germany. All \"Strip Clubs\" results near me in Berlin - December 2025. Showing 1-16 of 16."
+  },
+  {
+    "title": "Café Einstein Stammhaus – Wikipedia",
+    "snippet": "Das Café Einstein Stammhaus war ein Kaffeehaus an der Kurfürstenstraße 58 im Berliner Ortsteil Tiergarten (Bezirk Mitte). Es befand sich in einer Villa, ..."
+  },
+  {
+    "title": "CAFÉ EINSTEIN STAMMHAUS - Updated December 2025 - 170 ...",
+    "snippet": "Kurfürstenstr. 58. 10785 Berlin. Germany. Tiergarten. Directions. 030 2639190. Call Now · Visit Website. https://www.cafeeinstein.com · Full menu. More Info."
+  },
+  {
+    "title": "Café Einstein Stammhaus (@cafe.einstein.stammhaus) • Instagram ...",
+    "snippet": "1.5K+ followers · 26 following · 198 posts · @cafe.einstein.stammhaus: “Kurfürstenstraße 58 10785 Berlin info@cafeeinstein.com +49 (0)30 263 91 90”"
+  },
+  {
+    "title": "Café Einstein – A Little Bit of Vienna in Berlin | Berlin | CREME ...",
+    "snippet": "Aug 17, 2011 ... Address. Café Einstein Kurfürstenstraße 58 10785 Berlin-Tiergarten ... Countless touching stories twine around this elegant town house on Berlins ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Café Einstein Stammhaus",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+

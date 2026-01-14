@@ -1,0 +1,367 @@
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Shakespeare and Sons  
+   **Address:** Warschauer Str. 74, 10243 Berlin, Germany  
+   **Activity:** Browse a beautiful English-language bookstore with a cozy atmosphere. Enjoy coffee and bagels at the in-store café.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Shakespeare and Sons" and Address is "Warschauer Str. 74, 10243 Berlin, Germany".
+- Address is provided and specific.
+- Place is a specific venue, not a general location.
+- Verification is required.
+
+Action: 
+search("Warschauer Str. 74, 10243 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "Shakespeare and Sons Bookstore Berlin – Shakespeare & Sons ...",
+    "snippet": "Warschauer Str. 74, 10243 Berlin, Germany. shakespeareandsons@gmail.com. Opening hours: Everyday 8:00-19:00. Books & Bagels. Shakespeare & Sons Berlin runs ..."
+  },
+  {
+    "title": "Ready to wander through Berlin's best bookstores? We've got a ...",
+    "snippet": "Apr 28, 2025 ... @shakespeareandsons, Shakespeare & Sons, located at Warschauer Str. 74, 10243 Berlin, Germany. (Photo Credit: @allisfullofbooks) Discover ..."
+  },
+  {
+    "title": "FINE BAGELS, Berlin - Friedrichshain-Kreuzberg (Borough ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Closed now. Warschauer Str. 74, 10243 Berlin Germany. Website. Call. Map."
+  },
+  {
+    "title": "FINE BAGELS - Updated December 2025 - 73 Photos & 31 Reviews ...",
+    "snippet": "FINE BAGELS - Try Our New Menu - Warschauer Str. 74, 10243 Berlin, Germany, 73 Photos, +493046796332, Mon - 8:00 am - 8:00 pm, Tue - 8:00 am - 8:00 pm, ..."
+  },
+  {
+    "title": "SHAKESPEARE AND SONS, Berlin - Friedrichshain-Kreuzberg ...",
+    "snippet": "Warschauer Str. 74 Shakespeare and Sons Bookshop, 10243 Berlin Germany. Website. Call. Map. Review. About. Features. CUISINES. Cafe. Meal types. Breakfast, ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Shakespeare and Sons",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Ocelot, not just another bookstore  
+   **Address:** Brunnenstr. 181, 10119 Berlin, Germany  
+   **Activity:** Explore an indie bookstore beloved for its stylish interior and curated selection of international books.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present and specific. The address is not a placeholder, and the place is a specific venue, not a general location. Verification is required.
+
+Action: search("Brunnenstr. 181, 10119 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "OCELOT - 17 Photos - Brunnenstr. 181, Berlin, Germany - Bookstores",
+    "snippet": "OCELOT, Brunnenstr. 181, 10119 Berlin, Germany, 17 Photos, +493097894592, Mon - 10:00 am - 8:00 pm, Tue - 10:00 am - 8:00 pm, Wed - 10:00 am - 8:00 pm, ..."
+  },
+  {
+    "title": "DR. MED. HEINO KARGE - Brunnenstr. 181, Berlin, Germany - Yelp",
+    "snippet": "Brunnenstr. 181 ... 10119 Berlin ... Germany ... Mitte ... Directions ... 030 2832758 ... Call Now ... Other Amenities ... Dr. med. Heino Karge Reviews in Other Languages."
+  },
+  {
+    "title": "PHILIPP-SCHAEFFER-BIBLIOTHEK - Updated December 2025 ...",
+    "snippet": "Brunnenstr. 181. 10119 Berlin. Germany. Mitte. Directions. 030 901824444. Call Now ... Philipp-Schaeffer-Bibliothek Reviews in Other Languages. German. 6 ..."
+  },
+  {
+    "title": "Legal Notice | Foodwatch EN",
+    "snippet": "Legal Notice. foodwatch e.V.. Brunnenstrasse 181 10119 Berlin Germany. Phone: + ... Listed on Charlottenburg [Berlin] district court register of charitable ..."
+  },
+  {
+    "title": "SAP PLM, MDG and EHS Consultants — GRAMONT",
+    "snippet": "Carsten Scholz is managing GRAMONT's German office based in Berlin. He ... Germany. ﻿GRAMONT Deutschland GmbH. Brunnenstr. 181 10119 Berlin Germany. To ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Ocelot, not just another bookstore",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Chicha Berlin – Peruvian Restaurant  
+   **Address:** Friedelstraße 34, 12047 Berlin, Germany  
+   **Activity:** Enjoy a South American lunch with fresh ceviche, Peruvian specialties, and cocktails in a trendy Neukölln setting.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Chicha Berlin – Peruvian Restaurant"
+- Address is "Friedelstraße 34, 12047 Berlin, Germany"
+- Address is provided and specific.
+- Place is a specific restaurant, not a non-specific location.
+- Verification is required.
+
+Action: 
+search("Friedelstraße 34, 12047 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "RETRO GLOVES - Friedelstr. 34, Berlin, Germany - Yelp",
+    "snippet": "RETRO GLOVES, Friedelstr. 34, 12047 Berlin, Germany, 3 Photos, +4915756529599, Mon - 11:00 am - 8:00 pm, Tue - 11:00 am - 8:00 pm, Wed - 11:00 am - 8:00 pm, ..."
+  },
+  {
+    "title": "Women's Sheepskin Mittens Grey – Retro Gloves Berlin",
+    "snippet": "... Sheepskin Mittens Grey. Retro Gloves Berlin. km. Pickup available, usually ready in 24 hours. Friedelstraße 34 12047 Berlin Germany. +4915756529599. + ..."
+  },
+  {
+    "title": "BLACK PUFFER BAG – B Spritz Berlin",
+    "snippet": "Concept Store B Spritz Berlin. Friedelstraße 34,. 12047 Berlin ... Friedelstraße 34. Wojciechowska & Purevdorj GbR 12047 Berlin Germany. 03091489141. 03091489141."
+  },
+  {
+    "title": "Chicha Berlin: Authentic Peruvian Cuisine & Vibrant Atmosphere",
+    "snippet": ", Germany. Closed. spots/ ... /chicha-0ee350/menu · Overview · Menu · About ... Friedelstraße 34, 12047 Berlin, Germany · 030 62731010. Closed - Opens 6:00 PM."
+  },
+  {
+    "title": "Chicha | Neukölln | Berlin | CREME GUIDES",
+    "snippet": "Nov 14, 2022 ... Address. Chicha Friedelstraße 34 12047 Berlin-Neukölln How to get ... on his passion for South America rather than on gastronomic experience."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Chicha Berlin – Peruvian Restaurant",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** SAVVY Contemporary  
+   **Address:** Reinickendorfer Str. 17, 13347 Berlin, Germany  
+   **Activity:** Visit this cultural center/bookshop hybrid for unique books, exhibitions, and a creative artistic vibe.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "SAVVY Contemporary" is a specific venue, not a non-specific location. Verification is required.
+
+Action: search("Reinickendorfer Str. 17, 13347 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "S A V V Y Contemporary",
+    "snippet": "address Reinickendorfer Straße 17 13347 Berlin OPENING HOURS During exhibitions Thur–Sun 14:00–19:00 and as announced. Social Facebook Instagram Twitter ..."
+  },
+  {
+    "title": "ANGE DAKOUO | SAAVY CONTEMPORARY | BERLIN Ange ...",
+    "snippet": "Nov 26, 2025 ... ... Berlin Conference 13.11.25 - 11.01.26 Savvy Contemporary - Reinickendorfer Str. 17, 13347 Berlin, Germany • @ange_dakouo ..."
+  },
+  {
+    "title": "Legal Notice & Privacy Policy - Federico Albanese",
+    "snippet": "Reinickendorfer Str. 17 13347 Berlin, Germany. VAT-ID: DE287006190. office@vdhaardt.com +49 30 2843 42 00. Privacy Policy. I. Introduction and definitions. 1 ..."
+  },
+  {
+    "title": "The Next Day #124: Berlin Weekend Guide",
+    "snippet": "Oct 29, 2025 ... SAVVY Contemporary, Reinickendorfer Str. 17, 13347 Berlin. Ticket ... A hands-on workshop by Juliana Streva & Viviane Tabach exploring ..."
+  },
+  {
+    "title": "von der haardt",
+    "snippet": "... der haardt is a booking agency for performing arts in Berlin, Germany ... von der haardt GmbH Reinickendorfer Str. 17 13347 Berlin/ Germany office@vdhaardt.com"
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "SAVVY Contemporary",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** GameOn Arcade  
+   **Address:** Karl-Liebknecht-Str. 13, 10178 Berlin, Germany  
+   **Activity:** Dive into a retro and modern arcade for a couple of hours of gaming fun—perfect for groups of friends.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: Both Place and Address fields are present. The address is specific and not a placeholder. "GameOn Arcade" is a specific venue, not a general location. Verification is required.
+
+Action: search("Karl-Liebknecht-Str. 13, 10178 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "BIERMEISTEREI • Contact",
+    "snippet": "BREWERY, BBQ & GRILL. KARL-LIEBKNECHT-STR. 13 13 10178 BERLIN. PHONE: +49 (0)30 30 87 89 89. FAX: + ..."
+  },
+  {
+    "title": "THE BEST 10 PARKING near KARL-LIEBKNECHT-STR. 13, 10178 ...",
+    "snippet": "The Best 10 Parking near Karl-Liebknecht-Str. 13, 10178 Berlin, Germany. All \"Parking\" results near me in Berlin - December 2025. Showing 1 ..."
+  },
+  {
+    "title": "19grams Alex - Berlin, Germany | European Coffee Trip",
+    "snippet": "... Germany. Berlin. 19grams Alex. 19grams Alex. Karl-Liebknecht-Str. 13, 10178 Berlin, Germany. Opening hours. Monday: 08:00-17:00. Tuesday: 08:00-17:00. Wednesday ..."
+  },
+  {
+    "title": "19GRAMS ALEX - Updated November 2025 - 29 Photos - Karl ...",
+    "snippet": "19GRAMS ALEX - Try Our New Menu - Karl-Liebknecht-Str. 13, 10178 Berlin, Germany, 29 Photos, +493029047470, Mon - 8:00 am - 8:00 pm, Tue - 8:00 am - 8:00 pm ..."
+  },
+  {
+    "title": "BIERMEISTEREI BY LEMKE, Berlin - Mitte (Borough) - Menu, Prices ...",
+    "snippet": "Find nearby restaurants, browse menus, and more. Continue in the app. At a glance. Closed now. Karl-Liebknecht-Str. 13, 10178 Berlin Germany. Website. Menu. Map."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Think: The search results for "Karl-Liebknecht-Str. 13, 10178 Berlin, Germany" show businesses such as "BIERMEISTEREI" and "19grams Alex" at this address, but there is no mention of "GameOn Arcade" or any arcade-related venue. The results do not clearly link the address to "GameOn Arcade," nor do they show that the address is associated with a different arcade.
+
+Action: search("GameOn Arcade impressum")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "The iOS version of Carcassonne is being removed from the App ...",
+    "snippet": "Feb 18, 2020 ... https://www.hans-im-glueck.de/impressum.html. It is a german based board game company. You can also, if you like, address the inventor of the ..."
+  },
+  {
+    "title": "Contact us – Atari®",
+    "snippet": "Atari Customer Service is available to help with orders, games, downloads and questions about products and services."
+  },
+  {
+    "title": "My Arcade® Official Site - Best Selling Retro Gaming Devices",
+    "snippet": "Experience the ultimate retro gaming with our premium portable & console devices. Explore our unmatched directory of classic games & relive the nostalgia ..."
+  },
+  {
+    "title": "Game on! Berlin's Electric Social arcade brings the fun factor - The ...",
+    "snippet": "Mar 19, 2025 ... From Pac-Man to virtual darts, Electric Social is the snazzy new arcade offering Berliners a new way to play ... Contact / Impressum · Datenschutz ..."
+  },
+  {
+    "title": "Imprint - Le Bistro Baden-Baden",
+    "snippet": "Game on game · Reservations · Gallery · News · History · Our team · Contact us; English. Deutsch · Français · Home · À la Carte · Game on game · Reservations ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "GameOn Arcade",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": false
+}
+
+============================================================
+
+ROLE: USER
+Here is the itinerary snippet for verification:
+Place:** Monster Ronson’s Ichiban Karaoke  
+   **Address:** Warschauer Str. 34, 10243 Berlin, Germany  
+   **Activity:** Wrap up your day singing your heart out at Berlin’s most famous karaoke bar—reserve a private booth for your group for maximum fun.  
+   **
+
+============================================================
+
+ROLE: ASSISTANT
+Think: 
+- Place is "Monster Ronson’s Ichiban Karaoke".
+- Address is "Warschauer Str. 34, 10243 Berlin, Germany".
+- Address is provided and specific.
+- Place is a specific venue, not a general area.
+- Verification is required.
+
+Action: search("Warschauer Str. 34, 10243 Berlin, Germany")
+
+============================================================
+
+ROLE: USER
+Observation: [
+  {
+    "title": "TOP 10 BEST Pizza near Warschauer Str. 34, 10243 Berlin, Germany",
+    "snippet": "Best Pizza near Warschauer Str. 34, 10243 Berlin, Germany · 1. Toros Pizza · 2. Pomodorino · 3. Zeus Pizzeria · 4. Il Ritrovo-Cucina Casalinga Popolare · 5. L' ..."
+  },
+  {
+    "title": "Monster Ronsons Ichiban Karaoke",
+    "snippet": "The best and the most famous karaoke bar in Germany and the whole of Europe ... Warschauer Straße 34 10243 Berlin Friedrichshain ‍ ☎️ 030 89 75 13 27."
+  },
+  {
+    "title": "THE BEST 10 GUITAR STORES near WARSCHAUER STR. 34 ...",
+    "snippet": "34, 10243 Berlin, Germany. All \"Guitar Stores\" results near me in Berlin - December 2025. Showing 1-80 of 240."
+  },
+  {
+    "title": "Parking – Berlin Warschauer Straße station",
+    "snippet": "On parking facilities without barriers operated by DB BahnPark GmbH, people with a physical disability – or the person accompanying them – may park a car free ..."
+  },
+  {
+    "title": "Luggage Storage Near Warschauer Straße Station in Berlin From ...",
+    "snippet": "Bounce Luggage Storage - Near Warschauer Straße Station. Address: Warschauer Str. 34-36, Berlin 10243, Germany. Phone: +4920149869003. Live Lighter © 2025 ..."
+  }
+]
+
+============================================================
+
+ROLE: ASSISTANT
+Output:
+{
+  "place": "Monster Ronson’s Ichiban Karaoke",
+  "address_provided": true,
+  "non-specific_location": false,
+  "address_match_place": true
+}
+
+============================================================
+

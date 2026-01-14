@@ -1,0 +1,37 @@
+[
+  {
+    "place": "Dussmann das KulturKaufhaus",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Dussmann das KulturKaufhaus  \n- Address: Friedrichstraße 90, 10117 Berlin, Germany  \n- Activity: Explore one of Berlin’s largest and coolest bookstores, offering a great variety of books including art, literature, and international titles. It’s a culturally rich, aesthetically pleasing spot to start the day.  \n- "
+  },
+  {
+    "place": "Prenzlauer Berg neighborhood",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Prenzlauer Berg neighborhood  \n- Address: -  \n- Activity: Stroll around this trendy neighborhood known for its independent bookstores and charming streets. Pop into boutique bookstores like Another Country (Knaackstr. 16) or Glasenapp (Eberswalder Str. 24).  \n- "
+  },
+  {
+    "place": "Maria Bonita",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: Maria Bonita  \n- Address: Linienstr. 44, 10119 Berlin, Germany  \n- Activity: Enjoy authentic South American cuisine with a focus on Mexican and Central American dishes like tacos, ceviche, and margaritas in a lively atmosphere.  \n- "
+  },
+  {
+    "place": "Game Science Center",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: Game Science Center  \n- Address: Karl-Marx-Allee 93a, 10243 Berlin, Germany  \n- Activity: Engage in an extended fun activity at this interactive arcade and VR experience center featuring immersive video games, interactive exhibits, and futuristic fun perfect for groups and friends.  \n- "
+  },
+  {
+    "place": "Monster Ronson’s Ichiban Karaoke",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: Monster Ronson’s Ichiban Karaoke  \n- Address: Revaler Str. 99, 10245 Berlin, Germany  \n- Activity: Wrap up the day with karaoke at one of Berlin’s most popular karaoke bars, known for its energetic vibe and great song selection. Perfect for friends to sing their hearts out.  \n- "
+  }
+]

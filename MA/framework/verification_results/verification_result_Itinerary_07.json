@@ -1,0 +1,30 @@
+[
+  {
+    "place": "Neue Nationalgalerie",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Neue Nationalgalerie  \n   **Address:** Potsdamer Str. 50, 10785 Berlin, Germany  \n   **Activity:** Explore the impressive collection of 20th-century art in a renowned modernist building designed by Mies van der Rohe.  \n   **"
+  },
+  {
+    "place": "Curry 36",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** Curry 36  \n   **Address:** Mehringdamm 36, 10961 Berlin, Germany  \n   **Activity:** Enjoy Berlin’s most famous currywurst at this iconic stand, beloved by locals and visitors alike.  \n   **"
+  },
+  {
+    "place": "KaDeWe (Kaufhaus des Westens)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place:** KaDeWe (Kaufhaus des Westens)  \n   **Address:** Tauentzienstraße 21-24, 10789 Berlin, Germany  \n   **Activity:** Shop for women’s clothing in size 52 at Europe’s largest department store, which offers a wide range of brands and sizes.  \n   **"
+  },
+  {
+    "place": "Kurfürstendamm (Ku’damm)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place:** Kurfürstendamm (Ku’damm)  \n   **Address:** -  \n   **Activity:** Stroll along Berlin’s famous shopping boulevard, where you can find additional boutiques and plus-size fashion stores if you wish to continue shopping.  \n   **"
+  }
+]

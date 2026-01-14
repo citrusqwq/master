@@ -1,0 +1,51 @@
+[
+  {
+    "place": "Dussmann das KulturKaufhaus",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Dussmann das KulturKaufhaus  \n- Address: Friedrichstraße 90, 10117 Berlin  \n- Activity: Explore a large and iconic Berlin bookstore offering a wide selection of books in multiple languages including unique and cultural finds; great for book lovers and a culturally rich start to the day.  \n- "
+  },
+  {
+    "place": "Mitte neighborhood (non-specific location)",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Mitte neighborhood (non-specific location)  \n- Address: -  \n- Activity: Walk around the vibrant Mitte district with several independent and alternative bookstores such as Buchstaben & Zahlen or Another Country bookshop, soaking in Berlin’s creative atmosphere.  \n- "
+  },
+  {
+    "place": "Südamerika Restaurant – Maria Bonita",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": null,
+    "snippet": "Place: Südamerika Restaurant – Maria Bonita  \n- Address: Mariannenstraße 21, 10997 Berlin  \n- Activity: Enjoy authentic South American cuisine, featuring specialties from Brazil, Mexico, Peru, and Argentina in a lively atmosphere perfect for groups.  \n- "
+  },
+  {
+    "place": "Urban Spree",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": true,
+    "snippet": "Place: Urban Spree  \n- Address: Revaler Str. 99, 10245 Berlin  \n- Activity: Visit this cool cultural space with art galleries and a relaxed vibe near the East Side Gallery. You can enjoy street art, exhibitions and have a casual coffee break before moving on to the fun activity.  \n- "
+  },
+  {
+    "place": "Monsterkabinett (Arcade and interactive art)",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": false,
+    "snippet": "Place: Monsterkabinett (Arcade and interactive art)  \n- Address: Warschauer Straße 39-40, 10243 Berlin  \n- Activity: Experience a unique mix of arcade-style fun and interactive monster art displays; a playful and memorable activity with friends.  \n- "
+  },
+  {
+    "place": "Karaoke Bar – Karaoke Box Friedrichshain",
+    "address_provided": true,
+    "non-specific_location": false,
+    "address_match_place": null,
+    "snippet": "Place: Karaoke Bar – Karaoke Box Friedrichshain  \n- Address: Frankfurter Allee 98, 10247 Berlin  \n- Activity: Sing your hearts out in private karaoke rooms with friends, a lively and entertaining way to end the day.  \n- "
+  },
+  {
+    "place": "Optional dinner or drinks nearby in Friedrichshain district",
+    "address_provided": false,
+    "non-specific_location": true,
+    "address_match_place": null,
+    "snippet": "Place: Optional dinner or drinks nearby in Friedrichshain district  \n- Address: -  \n- Activity: Relax and unwind with drinks or light dinner in one of the many bars or lounges close to the karaoke spot before concluding your day.  \n- "
+  }
+]
