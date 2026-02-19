@@ -1,7 +1,7 @@
 import requests
 from utils.cache import load_cache, save_cache
 
-email = "koschei042@gmail.com"
+email = ""
 SEARCH_PLACE_CACHE_NAME = "osm_search_place"
 OPENING_HOUR_CACHE_NAME = "osm_place_tags"
 
